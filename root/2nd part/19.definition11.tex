@@ -1,0 +1,39 @@
+\section{definition11}
+\begin{definition}
+\end{definition}
+
+Suppose we have a braid diagram as follows :
+
+\begin{figure}[H] % Optional: [h] means here, [t] for top, [b] for bottom, [p] for page of floats
+    \centering
+    \includegraphics[width=\linewidth]{diagrams/definition11/1.png} % Adjust the width as needed
+    \caption{Your caption here}
+    \label{fig:your-label}
+\end{figure}
+
+we define MOVE \RN{11} so that the final diagram looks as follows :
+
+\begin{figure}[H] % Optional: [h] means here, [t] for top, [b] for bottom, [p] for page of floats
+    \centering
+    \includegraphics[width=\linewidth]{diagrams/definition11/2.png} % Adjust the width as needed
+    \caption{Your caption here}
+    \label{fig:your-label}
+\end{figure}
+
+We define MOVE \RN{11} inductively as follows : If $m=1$, then MOVE \RN{11} is just MOVE \RN{10}. If $m>1$, then apply MOVE \RN{11} to $B_2 - B_m$ and $R_1, R_2$(this is well-defined by induction hypothesis), we get :
+
+\begin{figure}[H] % Optional: [h] means here, [t] for top, [b] for bottom, [p] for page of floats
+    \centering
+    \includegraphics[width=\linewidth]{diagrams/definition11/3.png} % Adjust the width as needed
+    \caption{Your caption here}
+    \label{fig:your-label}
+\end{figure}
+
+Then apply MOVE \RN{10} to $B_1$ and $R_1,R_2$, we get the final diagram :
+
+\begin{figure}[H] % Optional: [h] means here, [t] for top, [b] for bottom, [p] for page of floats
+    \centering
+    \includegraphics[width=\linewidth]{diagrams/definition11/4.png} % Adjust the width as needed
+    \caption{Your caption here}
+    \label{fig:your-label}
+\end{figure}

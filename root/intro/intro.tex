@@ -1,0 +1,193 @@
+% Title page
+\maketitle
+
+\newpage
+
+% Copyright page
+\thispagestyle{empty}
+\begin{center}
+\null
+\vfill
+\textcopyright 2025 Jee Uhn Kim
+\end{center}
+
+\newpage
+
+% Title and abstract page
+\thispagestyle{empty}
+\begin{center}
+{\bf \thesistitle}\\
+Jee Uhn Kim\\
+Advisor: David Treumann, Ph.D.
+\end{center}
+
+Abstract
+
+\frontmatter % Roman page numbering starts here
+
+% Table of contents
+\thispagestyle{plain}
+\phantomsection
+\addcontentsline{toc}{chapter}{Contents}
+%\chead{}
+\cfoot{\thepage}
+\tableofcontents
+
+\newpage
+
+% List of figures
+\thispagestyle{plain}
+\phantomsection
+\addcontentsline{toc}{chapter}{List of Figures}
+\cfoot{\thepage}
+\listoffigures
+
+\newpage
+
+% Acknowledgments
+\thispagestyle{plain}
+\phantomsection
+\addcontentsline{toc}{chapter}{Acknowledgements}
+\cfoot{\thepage}
+\vspace*{0.75in}
+{\Large\textbf{Acknowledgments}}
+\
+\
+\noindent
+
+Acknowledgements
+
+\newpage
+
+\mainmatter % Standard page numbering starts here
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Introduction}\label{chapter_introduction}
+
+\section{Background and context}\label{sec_background_and_context}
+
+Background and context
+
+\section{Summary of results}\label{sec_summary_of_results}
+
+Summary of results
+
+\subsubsection*{Paper 1}
+
+Paper 1 \cite{Huber}
+
+\subsubsection*{Paper 2}
+
+Paper 2 \cite{Huber_2}
+
+\section{Organization}
+
+Organization
+
+\section*{Conventions and notation}\label{sec_conventions}
+
+Conventions and notation
+
+
+\chapter{Basics on objects}
+In this section, we introduce the objects we study throughout this paper. I copied the parts that are relevant to the topic of this paper from STZ.
+\section{Braids and the associated front projection}                              % Example fonts
+ We write $Br_n$ for the Artin Braid group on $n$ strands, i.e.
+\[Br_n=<s_1^{\pm}, s_2^{\pm}, \cdots , s_{n-1}^{\pm}>/\{s_i s_j =s_j s_i ~ for ~ |i-j|\neq 1, ~ s_i s_{i+1}s_i=s_{i+1} s_i s_{i+1}\} \]
+
+Geometrically we take an element of $Br_n$ to be an isotopy class of the following sort of object : an $n$-tuple of disjoint smooth sections of the projection $[0,1]_x \times \mathbb{R}^2_{y,z} \rightarrow [0,1]_x $ such that the $i^{th}$ section has $z$-coordinate some $1,\cdots ,n$ in a neighborhood of $x=0$ and of $x=1$.\\
+An isotopy allows one to ensure that the images of the sections under projection to the $xz$-plane are immersed and coincide only transversely and in pairs. We may take the sections to have constant $y$ and $z$ coordinates-$y=0$ and $z\in \{1,2,\cdots,n\}$-except for $x$ in a neighborhood of these coincidences; this gives the standard generators of the braid group by half twists. We write $s_i$ for the positive(counterclockwise) half twist between the strands with $z$ coordinate $i$ and $i+1$, and $s_i^{-1}$ for its inverse.\\
+We say a braid $\beta\in Br_n$ is positive if it can be expressed as a product of the $s_i$, and write $Br_n^+$ for the set of positive braids. Taking a geometric description as above of a positive braid, view the projection to the $xz$ plane as a front diagram(there are no vertical tangents since the projection to the $xz$ plane is an immersion). Then the associated Legendrian is isotopic to the original braid, and since the braid relation is a Legendrian Reidemeister \RN{3} move, this construction gives a well-defined Hamiltonian isotopy class of Legendrian.(Define coorientation also!!!)\\
+For each generator $s_i$, we once and for all fix an $n$-tuple of disjoint sections of $[0,1]_x \times \mathbb{R}^2_{y,z} \rightarrow [0,1]_x$ so that the other section except $i^{th}$ and $i+1^{th}$ strands are constant sections and 
+\[
+i^{th}\text{ section := }
+\begin{cases} 
+    (x,0,i) & \text{if }x\leq \frac{1}{3} \\
+    (x,~\frac{1}{2} cos(\pi f(x) - \frac{\pi}{2}),~i + \frac{1}{2} + \frac{1}{2}sin(\pi f(x) - \frac{\pi}{2})) & \text{if }\frac{1}{3} < x \leq \frac{2}{3} \\
+    (x,0,i+1) & \text{if }\frac{2}{3} < x
+\end{cases}
+\]
+\[
+i+1^{th}\text{ section := }
+\begin{cases} 
+    (x,0,i+1) & \text{if }x\leq \frac{1}{3} \\
+    (x,~\frac{1}{2} cos(\pi f(x) + \frac{\pi}{2}), ~i + \frac{1}{2} + \frac{1}{2}sin(\pi f(x) + \frac{\pi}{2})) & \text{if }\frac{1}{3} < x \leq \frac{2}{3} \\
+    (x,0,i) & \text{if }\frac{2}{3} < x
+\end{cases}
+\]
+
+where $f$ is a $C^\infty$ real-valued function on $[0,1]$ such that
+\begin{itemize}
+	\item For $x\leq \frac{1}{3}$, $f(x) = 0$ 
+	\item For $x\geq \frac{2}{3}$, $f(x) = 1$
+	\item f is strictly increasing on $[\frac{1}{3}, \frac{2}{3}]$ 
+\end{itemize}
+Then for each positive braid word $\omega$, we get $n$-sections by concatenating $s_i$'s along $x$-coordinate in the same order as the braid word expression and then suitably scaling by the factor of length$(\omega)^{-1}$ so that $x$-coordinates of the sections to fit into the range $[0,1]_x$. Projecting these sections onto $xz$-plane strip $[0,1]_x\times \mathbb{R}_z$, we get a braid projection. We will call this to be the front projection of the braid word.
+\\
+One obtains a knot from a braid by joining the ends in some way. There are several of these; one we will not consider is the plat closure where, at each end, the first and second; third and fourth; etc., strands are joined together by cusps. In fact, one can see using the Reidemeister \RN{2} move that all Legendrian knots arise as plat closures of positive braids.\\
+We will instead consider the braid closure. Topologically, the braid closure amounts to joining the highest strand on the right to the highest strand on the left, and so on. We will consider two different variants on this. The first, which we call the cylindrical closure, simply identifies the right and left sides of the front diagram, giving a front diagram in the cylinder $S_x^1\times \mathbb{R}_z$ and hence a Legendrian knot in $T^{\infty,-}(S_x^1\times\mathbb{R}_z)$.\\
+\bigskip
+
+\section{Sheaves microsupported along braids}
+We begin by studying the local picture: sheaves microsupported along the braid closure to a rectangle containing all crossings of the braid $\beta$ i.e., a picture as in Figure 6.1.1.\\
+In this context we will be interested in sheaves with acyclic stalks in the connected component of $z\rightarrow -\infty$; we denote this full subcategory by $\bf{Sh^{\bullet}_{\beta}}(\mathbb{R}^2,\Bbbk)_0$, and in the Maslov potential which is identically zero on the braid.
+\begin{proposition}
+Let $\omega$ be a Legendrian whose front diagram is a positive braid word. Fix the Maslov potential which is everywhere zero. Let $\mathcal{F}\in \bf{Sh^{\bullet}_{\omega}}(\mathbb{R}^2,\Bbbk)_0$ be such that $\mu mon(\mathcal{F})$ is concentrated in degree zero, and assume the same for the stalk of $\mathcal{F}$ at a point of $\mathbb{R}^2$. Then $\mathcal{F}$ is quasi-isomorphic to its zeroeth cohomology sheaf.
+\end{proposition}
+
+Combining this with Proposition 3.22 in STZ, we see that objects of $\bf{Sh^{\bullet}_{\omega}}(\mathbb{R}^2,\Bbbk)_0$ can be described by legible diagrams(in the sense of Section 3.4 in STZ), and moreover that every region is assigned a $\Bbbk$-module, rather than a complex of them. That is,
+\begin{proposition}
+Let $\omega$ be a braid word; fix the zero Maslov potential on its front diagram. Let $Q_{\omega}$ be the quiver with one vertex for each region in the front diagram, and one arrow $S\rightarrow N$ for each arc a separating a region $N$ above from a region $S$ below. Then $\bf{Sh^{\bullet}_{\beta}}(\mathbb{R}^2,\Bbbk)_0$ is equivalent to the full subcategory of representations of $Q$ in which
+\begin{itemize}
+\item The vertex corresponding to the connected component of $z\rightarrow -\infty$ is sent to zero.
+\item All maps are injective
+\item If $N,E,S,W$ are the north, east, south, and west regions at a crossing, then the sequence $0\rightarrow F(S)\rightarrow F(E)\oplus F(W)\rightarrow F(N)\rightarrow 0$ is exact.
+\end{itemize}
+\end{proposition}
+For a positive braid word $\omega$, we define $\mathcal{C}(\beta):=\bf{Sh^{\bullet}_{\beta}}(\mathbb{R}^2,k)_0$. We write $\mathcal{C}_r(\beta)$ for the corresponding subcategories of objects of microlocal rank $r$ with respect to the zero Maslov potential.\\
+We write '$\equiv_n$' for the identity braid word with $n$ strands, and we omit the subscript when no confusion will arise. By cutting the front diagram into overlapping vertical strips, each of which contains a single crossing, and such that the overlap contain trivial braids, we find from the sheaf axiom that 
+\begin{align}
+	\mathcal{C}(s_{i_1}\cdots s_{i_w})=\mathcal{C}(s_{i_1})\times_{\mathcal{C}(\equiv)}\mathcal{C}(s_{i_2})\times_{\mathcal{C}(\equiv)}\cdots\times_{\mathcal{C}(\equiv)}\mathcal{C}(s_{i_w})
+\end{align}
+and likewise, for moduli spaces,
+\begin{align}
+	\mathcal{M}_r(s_{i_1}\cdots s_{i_w})=\mathcal{M}_r(s_{i_1})\times_{\mathcal{M}_r(\equiv)}\mathcal{M}_r(s_{i_2})\times_{\mathcal{M}_r(\equiv)}\cdots\times_{\mathcal{M}_r(\equiv)}\mathcal{M}_r(s_{i_w})
+\end{align}
+\begin{remark}
+		The above moduli spaces are Artin stacks, and the fiber products should be understood in the sense of such stacks. For a fixed $r$, it is possible to work equivariantly with schemes instead by framing appropriately.
+\end{remark}
+To calculate the $\mathcal{C}_r$ and $\mathcal{M}_r$ in general, it now suffices to determine these for the trivial braid and one-crossing braids(and to understand the maps between these). As special cases of Proposition 6.2 in STZ, we have:
+\begin{corollary}
+	$\mathcal{C}_r(\equiv_n)$ is the subcategory of representations of the $A_n$ quiver $\bullet\rightarrow\bullet\rightarrow\cdots\rightarrow\bullet$ which take the $k^{th}$ vertex to a $rk$ dimensional vector space, and all arrows to injections. Writing $P_{r,n}\subseteq GL_{rn}$ for the group of $r\times r$ block upper triangular matrices, $\mathcal{M}_r(\equiv_n)=pt/P_{r,n}$.
+\end{corollary}
+\begin{corollary}
+	Let $s_i$ be the interchange of the $i^{st}$ and $i+1^{st}$ strands in $Br_n$. An object of $\mathcal{C}_r(s_i)$ is determined by two flags $L_{\bullet}\Bbbk^{\oplus rn}$ and $R_{\bullet}\Bbbk^{\oplus rn}$ such that $dim_\Bbbk(L_k/L_{k-1})=r=dim_\Bbbk(R_k/R_{k-1})$ and $L_k = R_k$ except possibly for $k=i$. Moreover, for such an object, the following are equivalent:
+	\begin{itemize}
+		\item $L_{i-1}=L_i\cap R_i=R_{i-1}$
+		\item $L_{i+1}=L_i + R_i=R_{i+1}$
+		\item $F\in \mathcal{C}_r(s_i)$
+	\end{itemize}
+\end{corollary}
+Two such pair $(L_{\bullet},R_{\bullet})$ and $(L'_{\bullet},R'_{\bullet})$ are isomorphic if and only if there is a linear automorphism of $k^{rn}$ carrying one to the other, and moreover all isomorphisms arise in this manner.
+\begin{remark}
+	If two braid words are connected by a sequence of Reidemiester moves, their corresponding moduli spaces $\mathcal{M}_n(\omega)$ are canonically isomorphic. Therefore, for a braid $\beta$, $\mathcal{M}_n(\beta)$ is well-defined upto canonical isomorphism. Our moduli spaces $\mathcal{M}_n(\beta)$ appear explicitly in the work of Brou\'{e} and Michel[10], where they are called $\mathcal{B}(\beta)$. They are sometimes called $open~ Bott-Samelson~ varieties$; the spaces $\mathcal{M}_r(\beta)$ are corresponding closed Bott-Samelson varieties. It was shown by Deligne[18] that the association $\beta\mapsto \mathcal{B}(\beta)$ gives a categorical representation of the positive braids.
+	Here we have seen that, in type $A$, these spaces arise as moduli of objects in the Fukaya category which end on the given braid. We note that in our presentation, all the data of a categorical positive braid representation(i.e. the higher homotopies etc.) are automatically present because isotopies of positive braids can be chosen to be Legendrian isotopies, for which all desired categorical data is furnished by(appropriate family versions of) Theorem 4.10. That is, for us, $\beta\mapsto \mathcal{M}_r(\beta)$ was a categorical braid invariant $for~a~priori~geometric~ reasons$, which subsequently we checked combinatorially to be equivalent to a classical construction.
+\end{remark}
+We can similarly calculate the moduli space for the cylindrical closure of a braid:
+\begin{definition}
+	For $\omega$ a positive braid word, we can write $\omega^{\circ}$ for the Legendrian knot in $T^{\infty}(S^1_x \times \mathbb{R}_z)$ whose front diagram in the annulus is obtained by gluing the $x=0$ and $x=1$ boundaries of the front plane.
+\end{definition}
+
+	Note this gluing creates no vertical(i.e. parallel to the $z$-axis) tangents. The gluing data for taking a sheaf on strip to a sheaf on the cylinder is just a choice of isomorphism between the restriction to the right boundary and the restriction to the left. Thus
+\begin{align}
+		\mathcal{C}_r(\omega^{\circ})=\mathcal{C}_r(\omega)\times_{\mathcal{C}_r(\equiv)\times\mathcal{C}_r(\equiv)}\mathcal{C}_r(\equiv)\\
+		\mathcal{M}_r(\omega^{\circ})=\mathcal{M}_r(\omega)\times_{\mathcal{M}_r(\equiv)\times\mathcal{M}_r(\equiv)}\mathcal{M}_r(\equiv)
+\end{align}
+  
+
+\section{Moduli spaces associated to braids}
+
+    braids(1 regular, 1 irregular) on a cylinder, constructible sheaves on a cylinder singular supported along the braid, moduli space of constructible sheaves singular supported along the braid, combinatorial model, open Bott-Samelson type varieties.
+\section{cluster charts}
