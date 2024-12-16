@@ -29,5 +29,3 @@
 27.definition14-3\
 28.theorem14\
 29.theorem15\
-
-![image](https://github.com/user-attachments/assets/1b43e721-5ba8-4ff9-84e4-b630f0876790)
