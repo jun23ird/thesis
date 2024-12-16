@@ -1,7 +1,4 @@
-# thesis
-
-
-2nd part:
+# 2nd part:
 
 1.natural_alternating_diagrams
 2.local_systems_on_as_diagrams
