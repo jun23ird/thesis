@@ -1,31 +1,31 @@
 # 2nd part:
 
-1.natural_alternating_diagrams\
-2.local_systems_on_as_diagrams\
-3.lemma1\
-4.lemma2\
-5.lemma3\
-6.lemma4\
-7.definition5\
-8.lemma5\
-9.definition6\
-10.lemma6\
-11.definition7\
-12.lemma7\
-13.definition8\
-14.lemma8\
-15.definition9\
-16.lemma9\
-17.definition10\
-18.lemma10\
-19.definition11\
-20.lemma11\
-21.definition12\
-22.theorem12\
-23.definition13\
-24.theorem13\
-25.definition14-1\
-26.definition14-2\
-27.definition14-3\
-28.theorem14\
-29.theorem15
+## 1.natural_alternating_diagrams\
+## 2.local_systems_on_as_diagrams\
+## 3.lemma1\
+## 4.lemma2\
+## 5.lemma3\
+## 6.lemma4\
+## 7.definition5\
+## 8.lemma5\
+## 9.definition6\
+## 10.lemma6\
+## 11.definition7\
+## 12.lemma7\
+## 13.definition8\
+## 14.lemma8\
+## 15.definition9\
+## 16.lemma9\
+## 17.definition10\
+## 18.lemma10\
+## 19.definition11\
+## 20.lemma11\
+## 21.definition12\
+## 22.theorem12\
+## 23.definition13\
+## 24.theorem13\
+## 25.definition14-1\
+## 26.definition14-2\
+## 27.definition14-3\
+## 28.theorem14\
+## 29.theorem15
