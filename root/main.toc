@@ -17,31 +17,31 @@
 \contentsline {section}{\numberline {3.4}Examples : wild character varieties of Sibuya type}{27}{section.3.4}%
 \contentsline {chapter}{\numberline {4}Classification of Cluster Coordinates}{59}{chapter.4}%
 \contentsline {section}{\numberline {4.1}natural alternating diagram}{59}{section.4.1}%
-\contentsline {section}{\numberline {4.2}local systems on natural alternating diagrams}{76}{section.4.2}%
-\contentsline {section}{\numberline {4.3}lemma1}{84}{section.4.3}%
-\contentsline {section}{\numberline {4.4}lemma2(core)}{88}{section.4.4}%
-\contentsline {section}{\numberline {4.5}lemma3(core)}{95}{section.4.5}%
-\contentsline {section}{\numberline {4.6}lemma4(core)}{100}{section.4.6}%
-\contentsline {section}{\numberline {4.7}definition5}{102}{section.4.7}%
-\contentsline {section}{\numberline {4.8}lemma5}{104}{section.4.8}%
-\contentsline {section}{\numberline {4.9}definition6}{114}{section.4.9}%
-\contentsline {section}{\numberline {4.10}lemma6}{120}{section.4.10}%
-\contentsline {section}{\numberline {4.11}definition7}{126}{section.4.11}%
-\contentsline {section}{\numberline {4.12}lemma7}{134}{section.4.12}%
-\contentsline {section}{\numberline {4.13}definition8}{147}{section.4.13}%
-\contentsline {section}{\numberline {4.14}lemma8}{149}{section.4.14}%
-\contentsline {section}{\numberline {4.15}definition9}{162}{section.4.15}%
-\contentsline {section}{\numberline {4.16}lemma9}{165}{section.4.16}%
-\contentsline {section}{\numberline {4.17}definition10}{177}{section.4.17}%
-\contentsline {section}{\numberline {4.18}lemma10}{188}{section.4.18}%
-\contentsline {section}{\numberline {4.19}definition11}{205}{section.4.19}%
-\contentsline {section}{\numberline {4.20}lemma11}{209}{section.4.20}%
-\contentsline {section}{\numberline {4.21}definition12(for the main theorem)}{218}{section.4.21}%
-\contentsline {section}{\numberline {4.22}theorem12(the main theorem)}{242}{section.4.22}%
-\contentsline {section}{\numberline {4.23}definition13}{265}{section.4.23}%
-\contentsline {section}{\numberline {4.24}theorem13}{267}{section.4.24}%
-\contentsline {section}{\numberline {4.25}definition14-1(intergenerator diagram)}{270}{section.4.25}%
-\contentsline {section}{\numberline {4.26}definition14-2(intergenerator move)}{274}{section.4.26}%
-\contentsline {section}{\numberline {4.27}definition14-3(intergenerator sheaf)}{279}{section.4.27}%
-\contentsline {section}{\numberline {4.28}theorem14(intergenerator theorem)}{283}{section.4.28}%
-\contentsline {section}{\numberline {4.29}theorem15(the real main theorem)}{287}{section.4.29}%
+\contentsline {section}{\numberline {4.2}local systems on natural alternating diagrams}{77}{section.4.2}%
+\contentsline {section}{\numberline {4.3}lemma1}{85}{section.4.3}%
+\contentsline {section}{\numberline {4.4}lemma2(core)}{90}{section.4.4}%
+\contentsline {section}{\numberline {4.5}lemma3(core)}{97}{section.4.5}%
+\contentsline {section}{\numberline {4.6}lemma4(core)}{102}{section.4.6}%
+\contentsline {section}{\numberline {4.7}definition5}{104}{section.4.7}%
+\contentsline {section}{\numberline {4.8}lemma5}{106}{section.4.8}%
+\contentsline {section}{\numberline {4.9}definition6}{116}{section.4.9}%
+\contentsline {section}{\numberline {4.10}lemma6}{122}{section.4.10}%
+\contentsline {section}{\numberline {4.11}definition7}{128}{section.4.11}%
+\contentsline {section}{\numberline {4.12}lemma7}{136}{section.4.12}%
+\contentsline {section}{\numberline {4.13}definition8}{149}{section.4.13}%
+\contentsline {section}{\numberline {4.14}lemma8}{151}{section.4.14}%
+\contentsline {section}{\numberline {4.15}definition9}{164}{section.4.15}%
+\contentsline {section}{\numberline {4.16}lemma9}{167}{section.4.16}%
+\contentsline {section}{\numberline {4.17}definition10}{179}{section.4.17}%
+\contentsline {section}{\numberline {4.18}lemma10}{190}{section.4.18}%
+\contentsline {section}{\numberline {4.19}definition11}{207}{section.4.19}%
+\contentsline {section}{\numberline {4.20}lemma11}{211}{section.4.20}%
+\contentsline {section}{\numberline {4.21}definition12(for the main theorem)}{220}{section.4.21}%
+\contentsline {section}{\numberline {4.22}theorem12(the main theorem)}{244}{section.4.22}%
+\contentsline {section}{\numberline {4.23}definition13}{267}{section.4.23}%
+\contentsline {section}{\numberline {4.24}theorem13}{269}{section.4.24}%
+\contentsline {section}{\numberline {4.25}definition14-1(intergenerator diagram)}{272}{section.4.25}%
+\contentsline {section}{\numberline {4.26}definition14-2(intergenerator move)}{276}{section.4.26}%
+\contentsline {section}{\numberline {4.27}definition14-3(intergenerator sheaf)}{281}{section.4.27}%
+\contentsline {section}{\numberline {4.28}theorem14(intergenerator theorem)}{285}{section.4.28}%
+\contentsline {section}{\numberline {4.29}theorem15(the real main theorem)}{289}{section.4.29}%
