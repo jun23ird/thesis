@@ -1,0 +1,579 @@
+\section{2nd Sheaf Cobordism}
+In this section, we define $cobord_2$, a compactly supported sheaf cobordism.
+\subsection{Notations}
+%definition of a bump function
+\begin{definition}
+For $t \in [0,1]$, we define $\Psi_t: \R \rightarrow \R$ to be a bump function parametrized by $t$ as follows
+\[\Psi_t(x)=\bigg\{
+\begin{array}{ll}
+    \frac{5}{4}e^{(\frac{4x^2}{4x^2 - 3})}(1-t) - \frac{1}{2} & \text{if } |x| < \frac{\sqrt{3}}{2} \\
+    -\frac{1}{2} & \text{if } |x| \geq \frac{\sqrt{3}}{2} 
+\end{array}
+\bigg.
+\]
+Note that 
+\begin{itemize}
+\item $\Psi_t$ is supported on $[-\frac{\sqrt{3}}{2},\frac{\sqrt{3}}{2}]$
+
+\item $\Psi_t$ passes through $(-\frac{\sqrt{3}}{2},-\frac{1}{2})$, $(\frac{\sqrt{3}}{2},-\frac{1}{2})$, and $(0,-\frac{5}{4}t + \frac{3}{4})$
+\end{itemize}
+\end{definition}
+% definition of a squiggly legible diagram on 2D surface
+\begin{definition}
+Suppose on a $2$ dimensional manifold $M$, we have 
+\begin{itemize}
+\item co-oriented link $\Lambda^0 = (\Phi^0,\xi^0)$
+
+\item co-oriented link $\Lambda^\infty = (\Phi^\infty,\xi^\infty)$
+
+\item a co-oriented lines $\Lambda^{squig} = (\Phi^{squig}, \xi^{squig})$ that refines the stratification induced by $\Lambda^0 \cup \Lambda^\infty$ to a regular cell complex. Let's call the refined stratification as $\mathcal{S}$.
+\end{itemize}
+Then consider the quiver $Q$ where
+\begin{itemize}
+\item there's a one to one correspondence between vertices of the quiver and the $2$ dimensional regions that are connected components of the compliment of $\Lambda^0 \cup \Lambda^\infty \cup \Lambda^{squig}$ in $M$. Also, these regions are exactly the $2$ dimensional strata in $\mathcal{S}$.
+
+\item for each arc in $\mathcal{S}$, there is an arrow between two regions contained in the star of the arc, from the vertex corresponding to the region where the hairs of the arc are pointing at to the other region.
+\end{itemize}
+Suppose $Q$ satisfy the following conditions
+\begin{itemize}
+\item for each point in $\mathcal{S}$, the full subquiver of $Q$ that consists of vertices corresponding to the regions that are contained in the star of the point has initial and terminal vertices.
+
+\item for each point stratum and the subquiver associated with it, all the vertices except the terminal vertex has a unique path from the initial vertex.
+\end{itemize}
+Then we define the squiggly legible diagram of $(M,\Lambda^0,\Lambda^\infty,\Lambda^{squig})$ to be a quiver representation of $Q$.
+\end{definition}
+\begin{definition}
+We define $\rho:\mathcal{S}\rightarrow \{s \in \mathcal{S} ~|~ \text{s is a 2 dimensional stratum}\}$ as follows:
+\begin{itemize}
+\item if $s$ is a $2$ dimensional stratum, then $\rho(s)$ is $s$ itself.
+
+\item if $s$ is a $1$ dimensional stratum, then $\rho(s)$ is the region where the hairs of $s$ are pointing.
+
+\item if $s$ is a $0$ dimensional stratum, then $\rho(s)$ is the region corresponding to the initial vertex of the subquiver associated with $s$.
+\end{itemize}
+\end{definition}
+% S-constructible sheaf associated with a sqiggly legible diagrams
+\begin{definition}
+Suppose we have a squiggly legible diagram $L$, then we define the $\mathcal{S}$-constructible sheaf $F$ associated with it. Recall that by (chapter8?? of Kashiwara-Schapira) $Sh_{\mathcal{S}}(M,\C)$ is quasi-equivalent to $Fun(\mathcal{S},\C)$.
+\begin{itemize}
+\item for $s \in \mathcal{S}$, $F(s)$:= $L(\rho(s))$.
+
+\item for $s_1,s_2 \in \mathcal{S}$, $F(s_1 \rightarrow s_2)$:= the composition $L(a_k)\circ \cdots \circ L(a_1)$ where $(a_1,\cdots,a_k)$ is the unique path from $\rho(s_1)$ to $\rho(s_2)$ in the full subquiver of the quiver underlying $L$ consisting of vertices corresponding to the regions that are contained in the star of $s_1$. Note that if $\rho(s_1)=\rho(s_2)$, then $F(s_1 \rightarrow s_2)$ is defined to be the identity cochain homomorphism.
+\end{itemize}
+\end{definition}
+% definition of a co-chain supported in degree 0 and 1 and maps between them
+\begin{definition} 
+Let $(C^\bullet,\delta^\bullet)$ and $(C'^\bullet,\delta'^\bullet)$ be the cochain complexes $(C^\bullet,\delta^\bullet)$ supported on degree $0$ and $1$ and $\phi^\bullet$ a morphism between $(C^\bullet,\delta^\bullet)$ and $(C'^\bullet,\delta'^\bullet)$, then
+\begin{enumerate}
+\item we denote $(C^\bullet,\delta^\bullet)$ as either 
+\begin{itemize}
+\item $C^0 \xrightarrow{\delta^1} C^1$ \\
+or  
+\item \begin{tikzcd}
+C^1 \\
+C^0 \arrow[u, "\delta^1"]
+\end{tikzcd}
+\end{itemize}
+
+\item we denote $\phi^\bullet$ as 
+\begin{itemize}
+\item \begin{tikzcd}
+C^1 \arrow[r, "\phi^1"]     & C'^1  \\
+C^0 \arrow[r, "\phi^0"]\arrow[u, "\delta^1"] & C'^0 \arrow[u,"\delta'^1"]
+\end{tikzcd}
+\end{itemize}
+We omit coboundary maps or cochain maps if they are either zero map or identity map and could be inferred from the context.
+\end{enumerate}
+\end{definition}
+
+\begin{definition}
+For $i=1,\cdots,14$, we define $Map_i$ to be morphisms between chain complexes of vector spaces over $\C$ supported on degree $0$ and $1$ as follows:
+\begin{itemize}
+\item $Map_1$:
+\begin{tikzcd}
+\C \arrow[r, "\times 1"]     & \C  \\
+0 \arrow[r]\arrow[u] & 0 \arrow[u]
+\end{tikzcd}
+
+\item $Map_2$:
+\begin{tikzcd}
+\C \arrow[r]     & 0  \\
+0 \arrow[r]\arrow[u] & 0 \arrow[u]
+\end{tikzcd}
+
+\item $Map_3$:
+\begin{tikzcd}
+0 \arrow[r]     & 0  \\
+0 \arrow[r]\arrow[u] & 0 \arrow[u]
+\end{tikzcd}
+
+\item $Map_4$:
+\begin{tikzcd}
+0 \arrow[r]     & \C  \\
+0 \arrow[r]\arrow[u,] & \C \arrow[u,"\times a"]
+\end{tikzcd}
+
+\item $Map_5$:
+\begin{tikzcd}
+0 \arrow[r]     & \C  \\
+0 \arrow[r]\arrow[u] & \C \arrow[u,"\times b"]
+\end{tikzcd}
+
+\item $Map_6$:
+\begin{tikzcd}
+\C \arrow[r, "\times 1"]     & \C  \\
+0 \arrow[r]\arrow[u] & \C \arrow[u,"\times a"]
+\end{tikzcd}
+
+\item $Map_7$:
+\begin{tikzcd}
+\C \arrow[r, "\times 1"]     & \C  \\
+0 \arrow[r]\arrow[u] & \C \arrow[u,"\times b"]
+\end{tikzcd}
+
+\item $Map_8$:
+\begin{tikzcd}
+0 \arrow[r]     & 0  \\
+0 \arrow[r]\arrow[u] & \C \arrow[u]
+\end{tikzcd}
+
+\item $Map_9$:
+\begin{tikzcd}
+\C \arrow[r, "\times 1"]     & \C  \\
+\C \arrow[r, "\times 1"]\arrow[u,"\times a"] & \C \arrow[u, "\times a"]
+\end{tikzcd}
+
+\item $Map_{10}$:
+\begin{tikzcd}
+\C \arrow[r, "\times 1"]     & \C  \\
+\C \arrow[r, "\times 1"]\arrow[u,"\times b"] & \C \arrow[u, "\times b"]
+\end{tikzcd}
+
+\item $Map_{11}$:
+\begin{tikzcd}
+\C \arrow[r]     & 0  \\
+\C \arrow[r, "\times 1"]\arrow[u,"\times a"] & \C \arrow[u]
+\end{tikzcd}
+
+\item $Map_{12}$:
+\begin{tikzcd}
+\C \arrow[r]     & 0  \\
+\C \arrow[r, "\times 1"]\arrow[u,"\times b"] & \C \arrow[u]
+\end{tikzcd}
+
+\item $Map_{13}$:
+\begin{tikzcd}
+0 \arrow[r]     & 0  \\
+\C \arrow[r, "\times 1"]\arrow[u] & \C \arrow[u]
+\end{tikzcd}
+
+\item $Map_{14}$:
+\begin{tikzcd}
+0 \arrow[r]     & 0  \\
+\C \arrow[r, "\times ab^{-1}"]\arrow[u] & \C \arrow[u]
+\end{tikzcd}
+
+\end{itemize}
+
+\end{definition}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                            Setting                            %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Setting}
+Suppose on a punctured Riemann sphere $M$ with punctures at $0$ and $\infty$, we have 
+\begin{itemize}
+\item co-oriented link $\Lambda_0^0 = (\Phi_0^0,\xi_0^0)$
+
+\item co-oriented link $\Lambda_0^\infty = (\Phi_0^\infty,\xi_0^\infty)$
+
+\item a co-oriented lines $\Lambda_0^{squig} = (\Phi_0^{squig}, \xi_0^{squig})$ that refines the stratification induced by $\Lambda_0^0 \cup \Lambda_0^\infty$ to a regular cell complex 
+\end{itemize}
+and suppose we have 
+\begin{itemize}
+\item nested regions $U' \subset U \subset M$. $\{U,V\}$ form an open cover of $M$ where $V:= M - \overline{U'}$.
+
+\item a smooth chart from the standard disk $D = \{(x,z)\in \R^2 ~|~ x^2+z^2 < 4 \}$ of radius $2$, say $f: D  \rightarrow U \subset M$
+\end{itemize}
+such that 
+\begin{itemize}
+\item $D' = \{(x,z)\in \R^2 ~|~ x^2+z^2 < 1\}$ is mapped to $U'$ 
+
+\item $\{(x,z)\in D ~|~ z = \Psi_0(x) \}$, co-oriented downward, is mapped to $\Lambda_0^0 |_{U}$
+
+\item $\{(x,z)\in D ~|~ z = \frac{1}{2} \}$, co-oriented upward, is mapped to $\Lambda_0^\infty |_{U}$
+
+\item $\{(x,z)\in D ~|~ z=\frac{1}{2} + \sqrt{\frac{1}{16} - (z+\frac{1}{4})^2}, z > -\frac{5}{3}x^2 + \frac{3}{4} \} \cup \{(x,z)\in D ~|~ z=\frac{1}{2} + \sqrt{\frac{1}{16} - (z-\frac{1}{4})^2}, z > -\frac{5}{3}x^2 + \frac{3}{4} \}$, co-oriented upward, is mapped to $\Lambda_0^{squig} |_{U}$
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                         Initial Sheaf                         %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Sheaf at the Beginning}
+Suppose we have a sheaf $\mathscr{F}_0$ singular supported on $\Lambda_0^0 \cup \Lambda_0^\infty \cup \Lambda_0^{squig}$ such that $f^*\mathscr{F}_0$ is isomorphic to the sheaf described by the squiggly legible diagram $F_0$.
+
+\begin{definition}
+For $i = 1,2,3,4$ and $sgn_i \in \{-,0,+\}$, we define
+\begin{align*}
+s_0(sgn_1,sgn_2,sgn_3,sgn_4):=~ &\{(x,z) \in D ~|~ sgn(z-\Psi_0(x))=sgn_1,~ sgn(\frac{1}{2}-z)=sgn_2,\\ 
+&sgn((x+\frac{1}{4})+(z-\frac{1}{2})^2 - \frac{1}{16})=sgn_3,\\
+&sgn((x-\frac{1}{4})+(z-\frac{1}{2})^2 - \frac{1}{16})=sgn_4 \}
+\end{align*}
+where the $3^{rd}$ and the $4^{th}$ arguments are optional. Also, for $sgn_0 \in \{-,0,+\}$ \[
+s_0^{sgn_0}(sgn_1,sgn_2,sgn_3,sgn_4) := s_0(sgn_1,sgn_2,sgn_3,sgn_4) \cap \{(x,z)\in \R^2 ~|~ sgn(x)=sgn_0 \} 
+\]
+\end{definition}
+
+The above strands and squiggly lines separate $D'$ into $7$ regions
+\[
+	s_0(+,-,+,+),s_0(+,-,-,+),s_0(+,-,+,-),s_0(-,-),s_0^-(+,+),s_0^+(+,+),s_0(-,+)
+\]
+For simplicity, we use the following notations
+\begin{itemize}
+\item $F_0(sgn_1,sgn_2)$:= $F_0(s_0(sgn_1,sgn_2))$
+\item $F_0(sgn_1,sgn_2,sgn_3,sgn_4)$:= $F_0(s_0(sgn_1,sgn_2,sgn_3,sgn_4))$
+\item $F_0^{sgn_0}(sgn_1,sgn_2)$:= $F_0(s_0^{sgn_0}(sgn_1,sgn_2))$
+\item $F_0^{sgn_0}(sgn_1,sgn_2,sgn_3,sgn_4)$:= $F_0(s_0^{sgn_0}(sgn_1,sgn_2,sgn_3,sgn_4))$
+\end{itemize}
+\textbf{Stalks:}
+
+\begin{itemize}
+\item $F_0(+,-,+,+)$ := $0$
+\item $F_0(-,-)$ := $\C[-1]$
+\item $F_0(+,-,-,+)$ := $\C \xrightarrow{\times a} \C $
+\item $F_0(+,-,+,-)$ := $\C \xrightarrow{\times b} \C $
+\item $F_0^-(+,+)$ := $\C$
+\item $F_0^+(+,+)$ := $\C$
+\item $F_0(-,+)$ := $0$
+\end{itemize}
+\textbf{Generization maps:}
+
+\begin{itemize}
+\item $F_0(-,-)\rightarrow F_0(+,-,+,+)$ := $Map_2$
+\item $F_0(+,-,+,+)\rightarrow F_0(+,-,-,+)$ := $Map_4$
+\item $F_0(+,-,+,+)\rightarrow F_0(+,-,+,-)$ := $Map_5$
+\item $F_0(-,-)\rightarrow F_0(+,-,-,+)$ := $Map_6$
+\item $F_0(-,-)\rightarrow F_0(+,-,+,-)$ := $Map_7$
+\item $F_0(+,-,+,+)\rightarrow F_0^-(+,+)$ := $Map_8$
+\item $F_0(+,-,+,+)\rightarrow F_0^+(+,+)$ := $Map_8$
+\item $F_0(+,-,-,+)\rightarrow F_0^-(+,+)$ := $Map_{11}$
+\item $F_0(+,-,+,-)\rightarrow F_0^+(+,+)$ := $Map_{12}$
+\item $F_0(-,-)\rightarrow F_0(-,+)$ := $Map_2$
+\item $F_0(-,+)\rightarrow F_0^-(+,+)$ := $Map_8$
+\item $F_0(-,+)\rightarrow F_0^+(+,+)$ := $Map_8$
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                   Legendrian Cobordism                        %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Legendrian Cobordism}
+Now I will define a Legendrian cobordism $\mathscr{F}_\bullet$ starting from $\mathscr{F}_0$, say $cobord_2$, that is supported on $\overline{U'}$. By Mayer-Vietoris, this equivalent to the following data
+\begin{itemize}
+\item a sheaf on $V\times [0,1]$, say $\mathscr{F}_V$
+
+\item a sheaf on $D\times [0,1]$, say $\mathscr{F}_D$
+
+\item a gluing isomorphsim, i.e. $\gamma_\bullet : (f_*\mathscr{F}_D)|_{(U\cap V)\times [0,1]} \xrightarrow{\sim} \mathscr{F}_V|_{(U\cap V)\times [0,1]}$.
+\end{itemize}
+\subsubsection{A. Sheaf on $V\times [0,1]$}
+First, I will define $\mathscr{F}_V$ to be $pr_1^*(\mathscr{F}_0|_V)$ where $pr_1 : V \times [0,1] \rightarrow V$ is the projection onto the first argument.
+\subsubsection{B. Sheaf on $D\times [0,1]$}
+Next, I will describe $\mathscr{F}_D$ as a functor $F_\bullet \in Fun(\mathcal{S},\C)$ where $\mathcal{S}$ is the stratification of $D\times [0,1]_t$ whose regions are the regions separated by the following hyperplanes corresponding to the world sheets from $\Lambda_0^0$, $\Lambda_0^\infty$, and $\Lambda_0^{squig}$ to $\Lambda_1^0$, $\Lambda_1^\infty$, and $\Lambda_1^{squig}$
+\begin{itemize}
+\item world sheet $\Lambda_\bullet^0$ from $\Lambda_0^0$ to $\Lambda_1^0$: 
+$\{(x,z,t) \in D \times [0,1] ~|~ z= \Psi_t(x)\}$, where hairs are pointing downward. Note that when $t=t_0$, the above set is a bump function passing through $(-\frac{\sqrt{3}}{2}, -\frac{1}{2})$, $(\frac{\sqrt{3}}{2}, -\frac{1}{2})$, and $(0,-\frac{5}{4}t_0 + \frac{3}{4})$.
+
+\item world sheet $\Lambda_\bullet^\infty$ from $\Lambda_0^\infty$ to $\Lambda_1^\infty$: 
+$\{(x,z,t) \in D \times [0,1] ~|~ z=\frac{1}{2} \}$, where hairs are pointing upward.
+
+\item world sheet $\Lambda_\bullet^{squig}$ from $\Lambda_0^{squig}$ to $\Lambda_1^{squig}$:\\
+$\{(x,z,t) \in D \times [0,1] ~|~ z=\frac{1}{2} + \sqrt{\frac{1}{16}-(x+\frac{1}{4})^2}, z>\Psi_t(x)\} \cup \{(x,z,t) \in D \times [0,1] ~|~ z=\frac{1}{2} + \sqrt{\frac{1}{16}-(x-\frac{1}{4})^2},z>\Psi_t(x)\} \cup  \{(x,z,t) \in D \times [0,1] ~|~ x=0,z<\frac{1}{2},z>\Psi_t(x)\}$, where hairs are pointing upward,upward,and to the left respectively.
+\end{itemize}
+\begin{definition}
+For $i=1,2,3,4$ and $sgn_i \in \{-,0,+\}$, we define
+\begin{align*}
+s(sgn_1,sgn_2,sgn_3,sgn_4)&:=~\{(x,z,t) \in D \times [0,1] ~|~\\ &sgn(z-\Psi_t(x))=sgn_1,~ sgn(\frac{1}{2}-z)=sgn_2,\\ 
+&sgn((x+\frac{1}{4})+(z-\frac{1}{2})^2 - \frac{1}{16})=sgn_3,\\
+&sgn((x-\frac{1}{4})+(z-\frac{1}{2})^2 - \frac{1}{16})=sgn_4 \}
+\end{align*}
+where the $3^{rd}$ and the $4^{th}$ arguments are optional. Also, for $sgn_0 \in \{-,0,+\}$
+\[
+s^{sgn_0}(sgn_1,sgn_2,sgn_3,sgn_4) := s(sgn_1,sgn_2,sgn_3,sgn_4) \cap \{(x,z)\in \R^2 ~|~ sgn(x)=sgn_0\}
+\]
+\end{definition}
+The above three world sheets separate $D\times [0,1]$ into $7$ regions
+\[
+	s(+,-,+,+),s(+,-,-,+),s(+,-,+,-),s(-,-),s^-(+,+),s^+(+,+),s(-,+)
+\]
+and we get the following stratification
+\begin{itemize}
+\item $3$ dimensional strata: \\$s(+,-,+,+),s(+,-,-,+),s(+,-,+,-),s(-,-),s^-(+,+),s^+(+,+),s(-,+)$
+
+\item $2$ dimensional strata: \\$s(0,-,+,+),s(+,-,0,+),s(+,-,+,0),s(0,-,-,+),s(0,-,+,-),s^-(+,0,+,+),$\\
+$s^+(+,0,+,+),s(+,0,-,+),s(+,0,+,-),s(-,0),s^-(0,+),s^+(0,+),s^0(+,+)$
+
+\item $1$ dimensional strata: \\$s(0,-,0,+),s(0,-,+,0),s(+,0,0,+),s(+,0,+,0),s^-(0,0),s^+(0,0),s^0(+,0),s^0(0,+)$
+
+\item $0$ dimensional strata: \\ $s(0,0,0,0)$
+\end{itemize}
+Now let's define a sheaf $F$ as a functor from $\mathcal{S}$ to the category of perfect $\C$-modules as follows. For simplicity, we use the following notations
+\begin{itemize}
+\item $F(sgn_1,sgn_2)$:= $F(s(sgn_1,sgn_2))$
+\item $F(sgn_1,sgn_2,sgn_3,sgn_4)$:= $F(s(sgn_1,sgn_2,sgn_3,sgn_4))$
+\item $F^{sgn_0}(sgn_1,sgn_2)$:= $F(s^{sgn_0}(sgn_1,sgn_2))$
+\item $F^{sgn_0}(sgn_1,sgn_2,sgn_3,sgn_4)$:= $F(s^{sgn_0}(sgn_1,sgn_2,sgn_3,sgn_4))$
+\end{itemize}
+\textbf{Stalks:}
+\begin{itemize}
+\item $3$ dimensional strata:
+\begin{itemize}
+\item $F(+,-,+,+)$ := $0$
+\item $F(-,-)$ := $\C[-1]$
+\item $F(+,-,-,+)$ := $\C \xrightarrow{\times a} \C $
+\item $F(+,-,+,-)$ := $\C \xrightarrow{\times b} \C $
+\item $F^-(+,+)$ := $\C$
+\item $F^+(+,+)$ := $\C$
+\item $F(-,+)$ := $0$
+\end{itemize}
+
+\item $2$ dimensional strata:
+\begin{itemize}
+\item $F(0,-,+,+)$ := $\C[-1]$
+\item $F(+,-,0,+)$ := $0$
+\item $F(+,-,+,0)$ := $0$
+\item $F(0,-,-,+)$ := $\C[-1]$
+\item $F(0,-,+,-)$ := $\C[-1]$
+\item $F^-(+,0,+,+)$ := $0$
+\item $F^+(+,0,+,+)$ := $0$
+\item $F(+,0,-,+)$ := $\C \xrightarrow{\times a} \C $
+\item $F(+,0,+,-)$ := $\C \xrightarrow{\times b} \C $
+\item $F(-,0)$ := $\C[-1]$
+\item $F^-(0,+)$ := $0$
+\item $F^+(0,+)$ := $0$
+\item $F^0(+,+)$ := $\C$
+\end{itemize}
+
+\item $1$ dimensional strata:
+\begin{itemize}
+\item $F(0,-,0,+)$ := $\C[-1]$
+\item $F(0,-,+,0)$ := $\C[-1]$
+\item $F(+,0,0,+)$ := $0$
+\item $F(+,0,+,0)$ := $0$
+\item $F^-(0,0)$ := $\C[-1]$
+\item $F^+(0,0)$ := $\C[-1]$
+\item $F^0(+,0)$ := $0$
+\item $F^0(0,+)$ := $0$
+\end{itemize}
+
+\item $0$ dimensional stratum:
+\begin{itemize}
+\item $F(0,0,0,0)$ := $\C[-1]$
+\end{itemize}
+\end{itemize}
+\textbf{Exit path maps:}
+\begin{itemize}
+\item from $0$ to $1$ dimensional strata:
+\begin{itemize}
+\item $F(0,0,0,0)\rightarrow F(0,-,0,+)$ := $Map_1$
+\item $F(0,0,0,0)\rightarrow F(0,-,+,0)$ := $Map_1$
+\item $F(0,0,0,0)\rightarrow F^-(0,0)$ := $Map_1$
+\item $F(0,0,0,0)\rightarrow F^+(0,0)$ := $Map_1$
+\item $F(0,0,0,0)\rightarrow F^0(+,0)$ := $Map_2$
+\item $F(0,0,0,0)\rightarrow F^0(0,+)$ := $Map_2$
+\end{itemize}
+
+\item from $1$ to $2$ dimensional strata:
+\begin{itemize}
+\item $F(0,-,0,+)\rightarrow F(0,-,+,+)$ := $Map_1$
+\item $F(0,-,0,+)\rightarrow F(+,-,0,+)$ := $Map_2$
+\item $F(0,-,0,+)\rightarrow F(0,-,-,+)$ := $Map_1$
+\item $F(0,-,+,0)\rightarrow F(0,-,+,+)$ := $Map_1$
+\item $F(0,-,+,0)\rightarrow F(+,-,+,0)$ := $Map_2$
+\item $F(0,-,+,0)\rightarrow F(0,-,+,-)$ := $Map_1$
+\item $F(+,0,0,+)\rightarrow F(+,-,0,+)$ := $Map_3$
+\item $F(+,0,0,+)\rightarrow F^-(+,0,+,+)$ := $Map_3$
+\item $F(+,0,0,+)\rightarrow F(+,0,-,+)$ := $Map_4$
+\item $F(+,0,+,0)\rightarrow F(+,-,+,0)$ := $Map_3$
+\item $F(+,0,+,0)\rightarrow F^+(+,0,+,+)$ := $Map_3$
+\item $F(+,0,+,0)\rightarrow F(+,0,+,-)$ := $Map_5$
+\item $F^-(0,0)\rightarrow F(0,-,-,+)$ := $Map_1$
+\item $F^-(0,0)\rightarrow F^+(+,0,-,+)$ := $Map_6$
+\item $F^-(0,0)\rightarrow F(-,0)$ := $Map_1$
+\item $F^-(0,0)\rightarrow F^-(0,+)$ := $Map_2$
+\item $F^+(0,0)\rightarrow F(0,-,+,-)$ := $Map_1$
+\item $F^+(0,0)\rightarrow F(+,0,+,-)$ := $Map_7$
+\item $F^+(0,0)\rightarrow F(-,0)$ := $Map_1$
+\item $F^+(0,0)\rightarrow F^+(0,+)$ := $Map_2$
+\item $F^0(+,0)\rightarrow F(+,-,0,+)$ := $Map_3$
+\item $F^0(+,0)\rightarrow F(+,-,+,0)$ := $Map_3$
+\item $F^0(+,0)\rightarrow F(+,0,-,+)$ := $Map_4$
+\item $F^0(+,0)\rightarrow F(+,0,+,-)$ := $Map_5$
+\item $F^0(+,0)\rightarrow F^0(+,+)$ := $Map_8$
+\item $F^0(0,+)\rightarrow F^0(+,+)$ := $Map_8$
+\item $F^0(0,+)\rightarrow F^-(0,+)$ := $Map_3$
+\item $F^0(0,+)\rightarrow F^+(0,+)$ := $Map_3$
+\end{itemize}
+
+\item from $2$ to $3$ dimensional strata:
+\begin{itemize}
+\item $F(0,-,+,+)\rightarrow F(+,-,+,+)$ := $Map_2$
+\item $F(0,-,+,+)\rightarrow F(-,-)$ := $Map_1$
+\item $F(+,-,0,+)\rightarrow F(+,-,+,+)$ := $Map_3$
+\item $F(+,-,0,+)\rightarrow F(+,-,-,+)$ := $Map_4$
+\item $F(+,-,+,0)\rightarrow F(+,-,+,+)$ := $Map_3$
+\item $F(+,-,+,0)\rightarrow F(+,-,+,-)$ := $Map_5$
+\item $F(0,-,-,+)\rightarrow F(+,-,-,+)$ := $Map_6$
+\item $F(0,-,-,+)\rightarrow F(-,-)$ := $Map_1$
+\item $F(0,-,+,-)\rightarrow F(+,-,+,-)$ := $Map_7$
+\item $F(0,-,+,-)\rightarrow F(-,-)$ := $Map_1$
+\item $F^-(+,0,+,+)\rightarrow F(+,-,+,+)$ := $Map_3$
+\item $F^-(+,0,+,+)\rightarrow F^-(+,+)$ := $Map_8$
+\item $F^+(+,0,+,+)\rightarrow F(+,-,+,+)$ := $Map_3$
+\item $F^+(+,0,+,+)\rightarrow F^+(+,+)$ := $Map_8$
+\item $F(+,0,-,+)\rightarrow F(+,-,-,+)$ := $Map_9$
+\item $F(+,0,-,+)\rightarrow F^-(+,+)$ := $Map_{11}$
+\item $F(+,0,+,-)\rightarrow F(+,-,+,-)$ := $Map_{10}$
+\item $F(+,0,+,-)\rightarrow F^+(+,+)$ := $Map_{12}$
+\item $F(-,0)\rightarrow F(-,-)$ := $Map_1$
+\item $F(-,0)\rightarrow F(-,+)$ := $Map_2$
+\item $F^-(0,+)\rightarrow F^-(+,+)$ := $Map_8$
+\item $F^-(0,+)\rightarrow F(-,+)$ := $Map_3$
+\item $F^+(0,+)\rightarrow F^+(+,+)$ := $Map_8$
+\item $F^+(0,+)\rightarrow F(-,+)$ := $Map_3$
+\item $F^0(+,+)\rightarrow F^-(+,+)$ := $Map_{13}$
+\item $F^0(+,+)\rightarrow F^+(+,+)$ := $Map_{14}$
+
+\end{itemize}
+\end{itemize}
+
+\subsubsection{C. Gluing Isomorphism}
+Lastly, I will define a gluing isomorphism $\gamma_\bullet : (f_*\mathscr{F}_D)|_{(U\cap V)\times [0,1]} \xrightarrow{\sim} \mathscr{F}_V|_{(U\cap V)\times [0,1]}$ using the following fact.
+\begin{proposition}
+$(f_*\mathscr{F}_D)|_{(U\cap V)\times[0,1]}$ is isomorphic to $pr_1^*(\mathscr{F}_0|_{U\cap V})$ where $pr_1 : (U\cap V) \times [0,1] \rightarrow (U\cap V)$ is the projection onto the first argument.
+\end{proposition}
+\begin{proof}
+pass
+\end{proof}
+\begin{definition}
+we define $\gamma_\bullet$ to be the composition 
+\[
+(f_*\mathscr{F}_D)|_{(U\cap V)\times [0,1]}\xrightarrow{\sim}pr_1^*(\mathscr{F}_0|_{U\cap V})\xrightarrow{\sim}pr_1^*(\mathscr{F}_0|_{V})|_{(U\cap V)\times [0,1]}=\mathscr{F}_V|_{(U\cap V)\times [0,1]}
+\]
+where
+\begin{itemize}
+\item the first isomorphism is the one mentioned in the above proposition.
+
+\item the second isomorphism from the fact that the following diagram commutes:
+\[
+\begin{tikzcd}
+(U\cap V)\times [0,1] \arrow[hookrightarrow]{r}\arrow[d, "pr_1"]     & V\times [0,1] \arrow[d, "pr_1"] \\
+(U\cap V) \arrow[hookrightarrow]{r} & V 
+\end{tikzcd}
+\]
+\end{itemize}
+\end{definition}
+
+Now we have defined a cobordism $\mathscr{F}_\bullet$, we show that this is a Legendrian cobordism.
+\begin{proposition}
+$\mathscr{F}_\bullet$ is a Legendrian cobodism i.e. $\mathscr{F}_\bullet \in Sh_\Lambda(M,\C)$.
+\end{proposition}
+\begin{proof}
+pass
+\end{proof}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                       Terminal Sheaf                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Sheaf at the End}
+In this subsection, I will describe the sheaf at the end of the $cobord_2$. Suppose on the same punctured Riemann sphere $M$, we have 
+\begin{itemize}
+\item co-oriented link $\Lambda_1^0 = (\Phi_1^0,\xi_1^0)$
+
+\item co-oriented link $\Lambda_1^\infty = (\Phi_1^\infty,\xi _1^\infty)$
+
+\item a co-oriented lines $\Lambda_1^{squig} = (\Phi_1^{squig}, \xi_1^{squig})$ that refines the stratification induced by $\Lambda_1^0 \cup \Lambda_1^\infty$ to a regular cell complex 
+\end{itemize}
+and using the same chart $f$ defined in the above,
+\begin{itemize}
+\item $\{(x,z)\in D ~|~ z = -\frac{1}{2} \}$, co-oriented downward, is mapped to $\Lambda_1^0 |_{U}$
+
+\item $\{(x,z)\in D ~|~ z = \frac{1}{2} \}$, co-oriented upward, is mapped to $\Lambda_1^\infty |_{U}$
+
+\item $\{(x,z)\in D ~|~ z=\frac{1}{2} + \sqrt{\frac{1}{16} - (z+\frac{1}{4})^2} \} \cup \{(x,z)\in D ~|~ z=\frac{1}{2} + \sqrt{\frac{1}{16} - (z-\frac{1}{4})^2}\} \cup \{(x,z)\in D ~|~ -\frac{1}{2}< z < \frac{1}{2}, x = 0 \}$, co-oriented upward,upward,and to the left, is mapped to $\Lambda_1^{squig} |_{U}$
+\end{itemize}
+By Mayer-Vietoris, $\mathscr{F}_1:= \mathscr{F}_\bullet|_{M\times\{1\}}$ on $M \cong M\times\{1\}$ is equivalent to the following data
+\begin{itemize}
+\item a sheaf on $V$, i.e. 
+
+\item a sheaf on $D$, i.e. $f^*\mathscr{F}_1$
+
+\item a gluing isomorphsim, i.e. $\gamma_1 : f_*f^*\mathscr{F}_1|_{U\cap V} \xrightarrow{\sim} g_*g^*\mathscr{F}_1|_{U\cap V}$. $\gamma_1$ is the composition of two natural transformations restricted to $U \cap V$, i.e. the unit map $\epsilon_1:f_*f^*\mathscr{F}_1 \xrightarrow{\sim} \textbf{1}$ and the counit map $\eta_1 : \textbf{1} \xrightarrow{\sim} g_*g^*\mathscr{F}_1$.
+\end{itemize}
+
+\subsubsection{A. Sheaf on $V$}
+First, a sheaf on $V$ is the restriction of $\mathscr{F}_V$ to $V\times \{1\}$, i.e. $\mathscr{F}_V|_{V\times \{1\}}= pr_1^*(\mathscr{F}_0|_V)|_{V\times \{1\}} = \mathscr{F}_0|_V$. In the last equality, we identify $V\times \{1\} \cong V$.
+\subsubsection{B. Sheaf on $D$}
+Next, a sheaf on $D$ is the restriction of $\mathscr{F}_D$ to $D\times \{1\}$, i.e. $\mathscr{F}_D |_{D\times \{1\}}$.I will describe it as a restriction of the squiggly legible diagram $F$ defined in the previous section. We will denote it as $F_1$.
+
+\begin{definition}
+For $i = 1,2,3,4$ and $sgn_i \in \{-,0,+\}$, we define
+\begin{align*}
+s_1(sgn_1,sgn_2,sgn_3,sgn_4):=~ &\{(x,z) \in D ~|~ sgn(z-\Psi_1(x))=sgn_1,~ sgn(\frac{1}{2}-z)=sgn_2,\\ 
+&sgn((x+\frac{1}{4})+(z-\frac{1}{2})^2 - \frac{1}{16})=sgn_3,\\
+&sgn((x-\frac{1}{4})+(z-\frac{1}{2})^2 - \frac{1}{16})=sgn_4 \}
+\end{align*}
+where the $3^{rd}$ and the $4^{th}$ arguments are optional. Also, for $sgn_0 \in \{-,0,+\}$ \[
+s_1^{sgn_0}(sgn_1,sgn_2,sgn_3,sgn_4) := s_1(sgn_1,sgn_2,sgn_3,sgn_4) \cap \{(x,z)\in \R^2 ~|~ sgn(x)=sgn_0 \} 
+\]
+\end{definition}
+The above strands and squiggly lines separate $D'$ into $6$ regions
+\[
+	s_1(+,-,+,+),s_1(+,-,-,+),s_1(+,-,+,-),s_1^-(+,+),s_1^+(+,+),s_1(-,+)
+\]
+For simplicity, we use the following notations
+\begin{itemize}
+\item $F_1(sgn_1,sgn_2)$:= $F_1(s_1(sgn_1,sgn_2))$
+\item $F_1(sgn_1,sgn_2,sgn_3,sgn_4)$:= $F_1(s_1(sgn_1,sgn_2,sgn_3,sgn_4))$
+\item $F_1^{sgn_0}(sgn_1,sgn_2)$:= $F_1(s_1^{sgn_0}(sgn_1,sgn_2))$
+\item $F_1^{sgn_0}(sgn_1,sgn_2,sgn_3,sgn_4)$:= $F_1(s_1^{sgn_0}(sgn_1,sgn_2,sgn_3,sgn_4))$
+\end{itemize}
+\textbf{Stalks:}
+
+\begin{itemize}
+\item $F_1(+,-,+,+)$ := $0$
+\item $F_1(+,-,-,+)$ := $\C \xrightarrow{\times a} \C $
+\item $F_1(+,-,+,-)$ := $\C \xrightarrow{\times b} \C $
+\item $F_1^-(+,+)$ := $\C$
+\item $F_1^+(+,+)$ := $\C$
+\item $F_1(-,+)$ := $0$
+\end{itemize}
+\textbf{Generization maps:}
+
+\begin{itemize}
+\item $F_1(+,-,+,+)\rightarrow F_1(+,-,-,+)$ := $Map_4$
+\item $F_1(+,-,+,+)\rightarrow F_1(+,-,+,-)$ := $Map_5$
+\item $F_1(+,-,+,+)\rightarrow F_1^-(+,+)$ := $Map_8$
+\item $F_1(+,-,+,+)\rightarrow F_1^+(+,+)$ := $Map_8$
+\item $F_1(+,-,-,+)\rightarrow F_1^-(+,+)$ := $Map_{11}$
+\item $F_1(+,-,+,-)\rightarrow F_1^+(+,+)$ := $Map_{12}$
+\item $F_1^-(+,+)\rightarrow F_1^+(+,+)$ := $Map_{14}$
+\item $F_1(-,+)\rightarrow F_1^-(+,+)$ := $Map_8$
+\item $F_1(-,+)\rightarrow F_1^+(+,+)$ := $Map_8$
+\end{itemize}
+
+\subsubsection{C. Gluing Isomorphism}
+Lastly, the gluing isomorphism $\gamma_1 := \gamma_\bullet|_{(U\cap V)\times \{1\}}:  f_*\mathscr{F}_D|_{(U\cap V)\times \{1\}}\xrightarrow{\sim} \mathscr{F}_0|_{U\cap V}$ is described as follows.
+
+\begin{definition}
+we define $\gamma_1$ to be the composition
+\begin{align*}
+&(f_*\mathscr{F}_D)|_{(U\cap V)\times \{1\}}\xrightarrow{\sim}pr_1^*(\mathscr{F}_0|_{U\cap V})|_{(U\cap V)\times \{1\}}\xrightarrow{\sim}\mathscr{F}_0|_{U\cap V}
+\end{align*}
+where
+\begin{itemize}
+\item the first isomorphism follows from the fact that $(f_*\mathscr{F}_D)|_{(U\cap V)\times[0,1]}$ is isomorphic to $pr_1^*(\mathscr{F}_0|_{U\cap V})$.
+
+\item the second isomorphism follows from the fact that the following composition is an identity map:
+\[
+(U\cap V)\xrightarrow{\sim} (U\cap V)\times \{1\} \hookrightarrow (U\cap V)\times [0,1] \twoheadrightarrow (U\cap V)
+\]
+\end{itemize}
+\end{definition}

@@ -1,0 +1,1014 @@
+\section{2nd Sheaf Cobordism}
+In this section, we define $cobord_2$, a compactly supported sheaf cobordism.
+\subsection{Notations}
+%definition of a Riemann sphere with two punctures
+\begin{definition}
+$M$ denotes a Riemann sphere with two punctures at $0$ and $\infty$. Topologically, $M$ is homeomorphic to a cylinder.
+\end{definition}
+%definition of \Phi_t^{symbol}, \Xi_t^{symbol}
+\begin{definition}
+For $t_0\in\{0,1\}$ and $symbol\in\{0,\infty, squig \}$
+\begin{enumerate}
+\item we denote $\Phi_{t_0}^{symbol}$ to be smooth maps
+\begin{align*}
+&\Phi_{t_0}^0 : (S^1)^n \rightarrow M \\
+&\Phi_{t_0}^\infty : (S^1)^m \rightarrow M \\
+&\Phi_{t_0}^{squig} : [0,1]^{k_{t_0}} \rightarrow M
+\end{align*}
+
+\item we denote $\Xi_{t_0}^{symbol}$ a co-orientation of $\Phi_{t_0}^{symbol}$.
+
+\item we denote the pair $(\Phi_{t_0}^{symbol},\Xi_{t_0}^{symbol})$ as $\Lambda_{t_0}^{symbol}$. When $symbol \in \{0,\infty\}$, this could be thought as a front projection of a Legendrian living inside the cocircle bundle of $M$, so we will use $\Lambda_{t_0}^{symbol}$ to denote both
+
+\item we denote the triple $(\Lambda_{t_0}^{0},\Lambda_{t_0}^{\infty},\Lambda_{t_0}^{squig})$ as $\Lambda_{t_0}$ and call it the squiggly diagram at $t_0$. Later in the section, $\Lambda_0$ will be used to denote the squiggly diagram at the beginning of the isotopy underlying $cobord_2$ and $\Lambda_1$ will be used to denote the squiggly diagram at the end of the isotopy underlying $cobord_2$. 
+\end{enumerate}
+\end{definition}
+
+%definition of \Phi_\bullet^{symbol}, \Xi_\bullet^{symbol}
+\begin{definition}
+For $symbol\in\{0,\infty, squig \}$
+\begin{enumerate}
+\item we denote $\Phi_\bullet^{symbol}$ to be smooth maps
+\begin{align*}
+&\Phi_\bullet^0 : (S^1)^n \times [0,1]_t \rightarrow M \times [0,1]_t \\
+&\Phi_\bullet^\infty : (S^1)^m \times [0,1]_t \rightarrow M \times [0,1]_t \\
+&\Phi_\bullet^{squig} : \coprod_{1\leq i \leq k} ([0,1] \times [a_i,b_i]_t) \rightarrow M \times [0,1]_t
+\end{align*}
+where the maps are identity maps on the time coordinates. I added auxiliary subscript '$t$' to distinguish the time coordinates from the space coordinates.
+
+\item we denote $\Xi_\bullet^{symbol}$ a co-orientation of $\Phi_\bullet^{symbol}$.
+
+\item we denote the pair $(\Phi_\bullet^{symbol},\Xi_\bullet^{symbol})$ as $\Lambda_\bullet^{symbol}$. Later in the section, $\Lambda_\bullet^{symbol}$ will be used to denote the an isotopy from $\Lambda_0^{symbol}$ to $\Lambda_1^{symbol}$ underlying $cobord_2$.
+
+\item we denote the triple $(\Lambda_\bullet^{0},\Lambda_\bullet^{\infty},\Lambda_\bullet^{squig})$ as $\Lambda_\bullet$ and call it a squiggly isotopy from $\Lambda_0$ to $\Lambda_1$. Later in the section, $\Lambda_\bullet$ will be used to denote the isotopy between squiggly diagrams starting from $\Lambda_0$ ending at $\Lambda_1$ underlying $cobord_2$.
+\end{enumerate}
+\end{definition}
+
+%definition of a bump function
+\begin{definition}
+For $t \in [0,1]$, we define $\Psi_t: \R \rightarrow \R$ to be a bump function parametrized by $t$ as follows
+\[\Psi_t(x)=\bigg\{
+\begin{array}{ll}
+    \frac{5}{4}e^{(\frac{4x^2}{4x^2 - 3})}(1-t) - \frac{1}{2} & \text{if } |x| < \frac{\sqrt{3}}{2} \\
+    -\frac{1}{2} & \text{if } |x| \geq \frac{\sqrt{3}}{2} 
+\end{array}
+\bigg.
+\]
+Note that 
+\begin{itemize}
+\item $supp(\Psi_t) = [-\frac{\sqrt{3}}{2},\frac{\sqrt{3}}{2}]$
+
+\item $\{(-\frac{\sqrt{3}}{2},-\frac{1}{2})$, $(\frac{\sqrt{3}}{2},-\frac{1}{2}),(0,-\frac{5}{4}t + \frac{3}{4})\} \subset Graph(\Psi_t)$
+\end{itemize}
+\end{definition}
+
+%definition of standard disks
+\begin{definition}
+We denote the standard open disk in $\R^2$ of radius $r_0$ centered at the origin as 
+\[
+D_{r=r_0} := \{(x,z)\rightarrow \R^2 ~|~ x^2+z^2 < r_0^2\}
+\]
+For $t_0 \in [0,1]$, we canonically identify $D_{r=r_0}\times \{t_0\}$ with $D_{r=r_0}$ using the following diffeomorphism
+\begin{align*}
+& D_{r=r_0} \xrightarrow{\sim} D_{r=r_0} \times \{t_0\} \\
+& (x,z) \mapsto (x,z,t_0)
+\end{align*}
+and with abuse of expression say that sheaves on $D_{r=r_0}\times \{t_0\}$ as sheaves on $D_{r=r_0}$.
+\end{definition}
+
+%definition of subsets of D_{r=2}\times \{0\} and their co-orientations
+\begin{definition}
+\begin{enumerate}
+\item We define the following subsets of $D_{r=2} \cong D_{r=2}\times \{0\}$
+\begin{itemize}
+\item $\lambda_0^0 := \{(x,z) \in D_{r=2} ~|~ z = \Psi_0(x)\}$
+
+\item $\lambda_0^\infty := \{(x,z) \in D_{r=2} ~|~ z = 0 \}$
+
+\item $\lambda_0^{squig}$ is the union of the following two components
+\begin{enumerate}[label=(\roman*)]
+\item $\{(x,\frac{1}{2}) \in D_{r=2} ~|~ x \leq 0, \frac{1}{2} \geq \Psi_0(x) \}$
+
+\item $\{(x,\frac{1}{2}) \in D_{r=2} ~|~ x \geq 0,\frac{1}{2} \geq \Psi_0(x) \}$
+\end{enumerate}
+\end{itemize}
+
+\item We define co-orientations $\xi_0^{symbol}$ of $\lambda_0^{symbol}$ as follows
+\begin{itemize}
+\item $\xi_0^0$: hairs are pointing downward direction i.e. coefficients of $dz$ are negative.
+
+\item $\xi_0^\infty$: hairs are pointing upward direction i.e. coefficients of $dz$ are positive.
+
+\item $\xi_0^{squig}$: hairs are pointing downward direction i.e. coefficients of $dz$ are negative.
+\end{itemize}
+\end{enumerate}
+\end{definition}
+
+%definition of subsets of D_{r=2}\times \{1\} and their co-orientations
+\begin{definition}
+\begin{enumerate}
+\item We define the following subsets of $D_{r=2} \cong D_{r=2}\times \{1\}$
+\begin{itemize}
+\item $\lambda_1^0 := \{(x,z) \in D_{r=2} ~|~ z = \Psi_1(x)\} = \{(x,z) \in D_{r=2} ~|~ z = -\frac{1}{2}\}$
+
+\item $\lambda_1^\infty := \{(x,z) \in D_{r=2} ~|~ z = 0 \}$
+
+\item $\lambda_1^{squig}$ is the union of the following three components
+\begin{enumerate}[label=(\roman*)]
+
+\item $\{(x,\frac{1}{2}) \in D_{r=2} \}$
+
+\item $\{(0,z) \in D_{r=2} ~|~ -\frac{1}{2} < z < \frac{1}{2} \}$
+\end{enumerate}
+\end{itemize}
+
+\item We define co-orientations $\xi_1^{symbol}$ of $\lambda_1^{symbol}$ as follows
+\begin{itemize}
+\item $\xi_1^0$: hairs are pointing downward direction i.e. coefficients of $dz$ are negative.
+
+\item $\xi_1^\infty$: hairs are pointing upward direction i.e. coefficients of $dz$ are positive.
+
+\item $\xi_1^{squig}$: 
+\begin{itemize}
+\item for (\rn{1}), hairs are pointing downward direction i.e. coefficients of $dz$ are negative.
+\item for (\rn{2}), hairs are pointing towards the left i.e. coefficients of $dx$ are positive.
+\end{itemize}
+\end{itemize}
+\end{enumerate}
+\end{definition}
+
+%definition of subsets of D_{r=2}\times [0,1] and their co-orientations
+\begin{definition}
+\begin{enumerate}
+\item We define the following subsets of $D_{r=2}\times [0,1]$
+\begin{itemize}
+\item $\lambda_\bullet^0 := \{(x,z,t) \in D_{r=2} \times [0,1] ~|~ z = \Psi_t(x)\}$
+
+\item $\lambda_\bullet^\infty := \{(x,z,t) \in D_{r=2}\times [0,1] ~|~ z = 0 \}$
+
+\item $\lambda_\bullet^{squig}$ is the union of the following two components
+\begin{enumerate}[label=(\roman*)]
+
+\item $\{(x,\frac{1}{2},t) \in D_{r=2}\times [0,1] ~|~ \frac{1}{2} > \Psi_t(x) \}$
+
+\item $\{(0,z,t) \in D_{r=2} \times [0,1] ~|~ \Psi_t(0) < z < \frac{1}{2} \}$
+\end{enumerate}
+\end{itemize}
+
+\item We define co-orientations $\xi_\bullet^{symbol}$ of $\lambda_\bullet^{symbol}$ as follows
+\begin{itemize}
+\item $\xi_\bullet^0$: hairs are pointing downward direction i.e. coefficients of $dz$ are negative.
+
+\item $\xi_\bullet^\infty$: hairs are pointing upward direction i.e. coefficients of $dz$ are positive.
+
+\item $\xi_\bullet^{squig}$: 
+\begin{itemize}
+\item for (\rn{1}), hairs are pointing downward direction i.e. coefficients of $dz$ are negative.
+
+\item for (\rn{2}), hairs are pointing towards the left i.e. coefficients of $dx$ are positive.
+\end{itemize}
+\end{itemize}
+\end{enumerate}
+\end{definition}
+
+% stratifications \mathcal{S}_??
+\begin{definition}
+\begin{enumerate}
+\item Consider a stratification $\mathcal{S}_0$ on $D_{r=2}$ induced by $\lambda_0$ i.e. stratification where $0$ dimensional strata are either crossings or end points of squiggly lines, $1$ dimensional strata are sub-arcs of co-oriented links and squiggly lines that are separated by $0$ dimensional strata, and $2$ dimensional strata are exactly the connected components of $M-\lambda_0$. Note that $1$ dimensional strata has co-orientations inherited from $\lambda_0$.
+
+\item Consider a stratification $\mathcal{S}_1$ on $D_{r=2}$ induced by $\lambda_1$ i.e. stratification where $0$ dimensional strata are either crossings or end points of squiggly lines, $1$ dimensional strata are sub-arcs of co-oriented links and squiggly lines that are separated by $0$ dimensional strata, and $2$ dimensional strata are exactly the connected components of $M-\lambda_1$. Note that $1$ dimensional strata has co-orientations inherited from $\lambda_1$.
+\end{enumerate}
+
+\item Consider a stratification $\mathcal{S}_\bullet$ on $D_{r=2}\times [0,1]$ induced by $\lambda_\bullet$ i.e. strata are non-empty finite intersections of $\lambda_\bullet^0$, $\lambda_\bullet^\infty$, and $\lambda_\bullet^{squig}$. Note that $2$ dimensional strata has co-orientations inherited from $\lambda_\bullet$.
+\end{definition}
+
+Now let's list the strata of $\mathcal{S}_0$, $\mathcal{S}_1$, and $\mathcal{S}_\bullet$ using the following notations:
+%definition of sgn function
+\begin{definition}
+$sgn : \R \rightarrow \{-,0,+ \}$ is defined as 
+\[sgn(x)=\left\{
+\begin{array}{ll}
+    + & \text{if } x > 0 \\
+    0 & \text{if } x = 0 \\
+	- & \text{if } x < 0 \\
+\end{array}
+\right.
+\]
+\end{definition}
+
+% +,0,- notations of strata s_{t_0}
+\begin{definition}
+For $i = 1,2,3,4$ , $t_0 = 0,1$, and $sgn_i \in \{-,0,+\}$,
+\begin{enumerate}
+\item we define
+\begin{align*}
+s_{t_0}(sgn_1,sgn_2,sgn_3,sgn_4):=~ &\{(x,z) \in D_{r=2}\cong D_{r=2}\times \{t_0\} ~| \\
+&sgn(z-\Psi_{t_0}(x))=sgn_1,~ sgn(-z)=sgn_2,\\ 
+&sgn(z-\frac{1}{2})=sgn_3,\\
+&sgn(x)=sgn_4 \}
+\end{align*}
+
+\item we use $*$ as a wild card sign i.e. 
+\[
+s_{t_0}(\cdots,\underset{\underset{i^{th}}{\uparrow}}{*},\cdots):=~ s_{t_0}(\cdots,\underset{\underset{i^{th}}{\uparrow}}{-},\cdots)\cup s_{t_0}(\cdots,\underset{\underset{i^{th}}{\uparrow}}{0},\cdots)\cup s_{t_0}(\cdots,\underset{\underset{i^{th}}{\uparrow}}{+},\cdots)
+\]
+
+\item we omit trailing $*$'s e.g. $s_0(+,-) = s_0(+,-,*,*)$
+
+\item note that we do not oit $*$'s located in between $-,0,+$ e.g. $s_0(+,-,*,-) \neq s_0(+,-,-)$
+
+\end{enumerate}
+\end{definition}
+
+% +,0,- notations of strata s_\bullet
+\begin{definition}
+For $i = 0,1,2,3,4$ and $sgn_i \in \{-,0,+\}$,
+\begin{enumerate}
+\item we define
+\begin{align*}
+s_{\bullet}(sgn_1,sgn_2,sgn_3,sgn_4):=~ &\{(x,z,t) \in D_{r=2}\times [0,1] ~| \\
+&sgn(z-\Psi_{t}(x))=sgn_1,~ sgn(-z)=sgn_2,\\ 
+&sgn(z-\frac{1}{2})=sgn_3,\\
+&sgn(x)=sgn_4 \}
+\end{align*}
+
+\item we use $*$ as a wild card sign i.e. 
+\[
+s_{\bullet}(\cdots,\underset{\underset{i^{th}}{\uparrow}}{*},\cdots):=~ s_{\bullet}(\cdots,\underset{\underset{i^{th}}{\uparrow}}{-},\cdots)\cup s_{\bullet}(\cdots,\underset{\underset{i^{th}}{\uparrow}}{0},\cdots)\cup s_{\bullet}(\cdots,\underset{\underset{i^{th}}{\uparrow}}{+},\cdots)
+\]
+
+
+\item we omit trailing $*$'s e.g. $s_\bullet(+,-) = s_\bullet(+,-,*,*)$
+
+\item note that we do not oit $*$'s located in between $-,0,+$ e.g. $s_\bullet(+,-,*,-) \neq s_\bullet(+,-,-)$
+\end{enumerate}
+\end{definition}
+
+
+\begin{definition}
+Now I will describe $\mathcal{S}_0$, $\mathcal{S}_1$, and $\mathcal{S}_\bullet$ using the above notations:
+\begin{enumerate}
+\item $\mathcal{S}_0$:
+\begin{itemize}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/1.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\item $2$ dimensional strata: \\
+$s_0(-,-)$, $s_0(+,-,-,-)$, $s_0(+,-,-,+)$, $s_0(+,-,+)$, $s_0(+,+,*,-)$, $s_0(+,+,*,-)$
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/2.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\item $1$ dimensional strata: \\
+$s_0(0,+,*,-)$, $s_0(0,-,-,-)$, $s_0(0,-,+)$, $s_0(0,-,-,+)$, $s_0(0,+,*,+)$, $s_0(+,0,*,-)$, $s_0(-,0)$, $s_0(+,0,*,+)$, $s_0(+,*,0,-)$, $s_0(+,*,0,+)$
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/3.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\item $0$ dimensional strata: \\
+$s_0(0,0,-,-)$, $s_0(0,-,0,-)$, $s_0(0,-,0,+)$, $s_0(0,0,-,+)$
+\end{itemize}
+
+\item $\mathcal{S}_1$:
+\begin{itemize}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/4.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\item $2$ dimensional strata: \\
+$s_1(-,+)$, $s_1(+,-,-,-)$, $s_1(+,-,-,+)$, $s_1(+,-,+)$, $s_1(+,+,*,-)$, $s_1(+,+,*,+)$
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/5.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\item $1$ dimensional strata: \\
+$s_1(0,+,*,-)$, $s_1(0,+,*,+)$, $s_1(+,0,*,-)$, $s_1(+,0,*,+)$, $s_1(+,*,0,-)$, $s_1(+,*,0,+)$, $s_1(+,-,-,0)$, $s_1(+,+,*,0)$
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/6.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\item $0$ dimensional strata: \\
+$s_1(+,-,0,0)$, $s_1(-,0,-,0)$, $s_1(0,+,-,0)$
+\end{itemize}
+
+\item $\mathcal{S}_\bullet$:
+\begin{itemize}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/7.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/8.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/9.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/10.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/11.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\item $3$ dimensional strata: \\
+$s_\bullet(-,-)$, $s_\bullet(-,+)$, $s_\bullet(+,-,-,-)$, $s_\bullet(+,-,-,+)$, $s_\bullet(+,-,+)$, $s_\bullet(+,+,*,-)$, $s_\bullet(+,+,*,+)$
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/12.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/13.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/14.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/15.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/16.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\item $2$ dimensional strata: \\
+$s_\bullet(0,+,*,-)$, $s_\bullet(0,-,-,-)$, $s_\bullet(0,-,+)$, $s_\bullet(0,-,-,+)$, $s_\bullet(0,+,*,+)$, $s_\bullet(+,0,*,-)$, $s_\bullet(-,0)$, $s_\bullet(+,0,*,+)$, $s_\bullet(+,*,0,-)$, $s_\bullet(+,*,0,+)$, $s_\bullet(+,-,-,0)$, $s_\bullet(+,+,*,0)$
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/17.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/18.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/19.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/20.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/21.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\item $1$ dimensional strata: \\
+$s_\bullet(0,0,-,-)$, $s_\bullet(0,-,0,-)$, $s_\bullet(0,-,0,+)$, $s_\bullet(0,0,-,+)$, $s_\bullet(+,-,0,0)$, $s_\bullet(0,-,-,0)$, $s_\bullet(-,0,-,0)$, $s_\bullet(0,+,-,0)$
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/22.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/23.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/24.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/25.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/26.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\item $0$ dimensional strata: \\
+$s_\bullet(0,-,0,0)$, $s_\bullet(0,0,-,0)$
+\end{itemize}
+\end{enumerate}
+\end{definition}
+
+% definition of the quiver associated to a squiggly diagram
+\begin{definition}
+Suppose we have a manifold $R$ with stratification $\mathcal{S}$ such that
+\begin{itemize}
+\item for each codimension $1$ stratum $s\in \mathcal{S}$, there are exactly two regions(= codimension $0$ strata) contained in $star(s)$.
+
+\item each codimension $1$ stratum is equipped with a co-orientation.
+\end{itemize}
+then we define the quiver associated to $\mathcal{S}$, say $Q_{\mathcal{S}}$, to be a quiver
+\begin{itemize}
+\item whose vertices corresponds to codimension $0$ strata of $\mathcal{S}$.
+
+\item whose arrows corresponds to codimension $1$ strata of $\mathcal{S}$.
+
+\item the source of an arrow corresponding to $s\in \mathcal{S}$ is  vertex corresponding to the region where the hairs of $s$ are pointing at and the target is the other region contained in the $star(s)$.
+\end{itemize}
+\end{definition}
+
+% definition of the subquiver associated to a stratum
+\begin{definition}
+Suppose we have a manifold $R$ with stratification $\mathcal{S}$ such that
+\begin{itemize}
+\item for each codimension $1$ stratum $s\in \mathcal{S}$, there are exactly two regions(= codimension $0$ strata) contained in $star(s)$.
+
+\item each codimension $1$ stratum is equipped with a co-orientation.
+\end{itemize}
+then for each $s\in \mathcal{S}$, we define the subquiver of $Q_{\mathcal{S}}$ associated to $s$, say $Q_{\mathcal{S},s}$, to be the full subquiver whose vertices are the ones that corresponds to the regions contained in the star of $s$.
+\end{definition}
+
+% definition of legible stratification, quiver
+\begin{definition}
+Suppose we have a manifold $R$ with stratification $\mathcal{S}$ such that
+\begin{itemize}
+\item for each codimension $1$ stratum $s\in \mathcal{S}$, there are exactly two regions(= codimension $0$ strata) contained in $star(s)$.
+
+\item each codimension $1$ stratum is equipped with a co-orientation.
+\end{itemize}
+then $\mathcal{S}$ is a legible stratification if for all $s\in\mathcal{S}$, $Q_{\mathcal{S},s}$ has the initial vertex. We say the quiver $Q_{\mathcal{S}}$ associated to $\mathcal{S}$ is legible if $\mathcal{S}$ is.
+\end{definition}
+
+% definition of legible representation
+\begin{definition}
+Suppose we have a manifold $R$ with stratification $\mathcal{S}$ such that
+\begin{itemize}
+\item for each codimension $1$ stratum $s\in \mathcal{S}$, there are exactly two regions(= codimension $0$ strata) contained in $star(s)$.
+
+\item each codimension $1$ stratum is equipped with a co-orientation.
+\end{itemize}
+then we say the quiver representation $F_{\mathcal{S}}$ of $Q_{\mathcal{S}}$ is a legible representation if
+\begin{itemize}
+\item $\mathcal{S}$ is legible.
+
+\item for any $v,v' \in Vert(Q_{\mathcal{S}})$ and any paths $(a_1,a_2,\cdots,a_k)$,$(a'_1,a'_2,\cdots,a'_{k'})$ from $v$ to $v'$, $F_{\mathcal{S}}(a_k)\circ \cdots F_{\mathcal{S}}(a_1) = F_{\mathcal{S}}(a'_{k'})\circ \cdots F_{\mathcal{S}}(a'_1) $ i.e. the composition is path independent.
+\end{itemize}
+\end{definition}
+
+% definition of \rho
+\begin{definition}
+Suppose we have a manifold $R$ with stratification $\mathcal{S}$ such that
+\begin{itemize}
+\item for each codimension $1$ stratum $s\in \mathcal{S}$, there are exactly two regions(= codimension $0$ strata) contained in $star(s)$.
+
+\item each codimension $1$ stratum is equipped with a co-orientation.
+\end{itemize}
+Supoose $\mathcal{S}$ is legible, then we define $\rho:\mathcal{S}\rightarrow \{s\in \mathcal{S} ~|~ codim(s)=0 \}$ as
+\[
+\rho(s):=\text{the codimension $0$ stratum corresponding to the initial vertex of $Q_{\mathcal{S},s}$}
+\]
+\end{definition}
+
+% definition of the sheaf associated to a legible diagram
+\begin{definition}
+Suppose we have a manifold $R$ with stratification $\mathcal{S}$ such that
+\begin{itemize}
+\item for each codimension $1$ stratum $s\in \mathcal{S}$, there are exactly two regions(= codimension $0$ strata) contained in $star(s)$.
+
+\item each codimension $1$ stratum is equipped with a co-orientation.
+\end{itemize}
+Suppose the quiver representation $F_\mathcal{S}$ of $Q_\mathcal{S}$ is legible, then we define the associated functor $\overline{F_\mathcal{S}}\in Obj(Fun(\mathcal{S}, \C))$ as follows:
+\begin{itemize}
+\item for $s\in \mathcal{S}$, $\overline{F_\mathcal{S}} := F_\mathcal{S}(\rho(s))$.
+
+\item for $s_1,s_2 \in \mathcal{S}$ where $s_2 \subset start(s_1)$, then $\overline{F_\mathcal{S}}(s_1 \rightarrow s_2)$ is defined as follows: choose a path from the vertex corresponding to $\rho(s_1)$ to $\rho(s_2)$ in $Q_\mathcal{S}$, say $(a_1,\cdots,a_k)$, then 
+\[
+\overline{F_\mathcal{S}}(s_1 \rightarrow s_2) := F_\mathcal{S}(a_k)\circ\cdots F_\mathcal{S}(a_1)
+\] 
+This is well-defined because $F_\mathcal{S}$ is legible.
+\end{itemize}
+\end{definition}
+
+% definition of a co-chain supported in degree 0 and 1 and maps between them
+\begin{definition} 
+Let $(C^\bullet,\delta^\bullet)$ and $(C'^\bullet,\delta'^\bullet)$ be the cochain complexes $(C^\bullet,\delta^\bullet)$ supported on degree $0$ and $1$ and $\phi^\bullet$ a morphism between $(C^\bullet,\delta^\bullet)$ and $(C'^\bullet,\delta'^\bullet)$, then
+\begin{enumerate}
+\item we denote $(C^\bullet,\delta^\bullet)$ as either 
+\begin{itemize}
+\item $C^0 \xrightarrow{\delta^1} C^1$ \\
+or  
+\item \begin{tikzcd}
+C^1 \\
+C^0 \arrow[u, "\delta^1"]
+\end{tikzcd}
+\end{itemize}
+
+\item we denote $\phi^\bullet$ as 
+\begin{itemize}
+\item \begin{tikzcd}
+C^1 \arrow[r, "\phi^1"]     & C'^1  \\
+C^0 \arrow[r, "\phi^0"]\arrow[u, "\delta^1"] & C'^0 \arrow[u,"\delta'^1"]
+\end{tikzcd}
+\end{itemize}
+We omit coboundary maps or cochain maps if they are either zero map or identity map and could be inferred from the context.
+\end{enumerate}
+\end{definition}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                            Setting                            %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Setting}
+Suppose on $M$, we have
+\begin{itemize}
+\item  a squiggly diagram $\Lambda_0$ on $M$
+
+\item nested regions $U' \subset U \subset M$. Note that if we define $V:= M - \overline{U'}$, $\{U,V\}$ form an open cover of $M$.
+
+\item a smooth chart from $D_{r=2}$, say $f: D  \rightarrow U \subset M$
+\end{itemize}
+such that 
+\begin{itemize}
+\item $D_{r=1}$ is mapped to $U'$ 
+
+\item $\lambda_0^0$ is mapped to $\Lambda_0^0 |_{U}$
+
+\item $\lambda_0^\infty$ is mapped to $\Lambda_0^\infty |_{U}$
+
+\item $\lambda_0^{squig}$ is mapped to $\Lambda_0^{squig} |_{U}$
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                         Initial Sheaf                         %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Sheaf at the Beginning}
+Suppose we have a sheaf $\mathscr{F}_0$ singular supported on $\Lambda_0$ such that $f^*\mathscr{F}_0$ is isomorphic to the sheaf described by the following squiggly legible diagram $F_0$.
+
+For simplicity, we use the following notations
+\[
+F_0(sgn_1,sgn_2,sgn_3,sgn_4):=F_0(s_0(sgn_1,sgn_2,sgn_3,sgn_4))
+\]
+\textbf{Stalks:}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/27.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/28.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\begin{itemize}
+\item $F_0(-,-)$ := $\C[-1]$
+\item $F_0(-,+)$ := $0$
+\item $F_0(+,-,-,-)$ := $\C \xrightarrow{\times a} \C $
+\item $F_0(+,-,-,+)$ := $\C \xrightarrow{\times b} \C $
+\item $F_0(+,-,+)$ := $0$
+\item $F_0(+,+,*,-)$ := $\C$
+\item $F_0(+,+,*,+)$ := $\C$
+\end{itemize}
+
+\textbf{Generization maps:}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/29.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\begin{enumerate}[label = (\arabic*)]
+\item \begin{tikzcd}
+\C \arrow[r]     & 0  \\
+0 \arrow[r]\arrow[u] & 0 \arrow[u]
+\end{tikzcd}
+
+\item \begin{tikzcd}
+\C \arrow[r, "\times 1"]     & \C  \\
+0 \arrow[r]\arrow[u] & \C \arrow[u,"\times a"]
+\end{tikzcd}
+
+\item \begin{tikzcd}
+\C \arrow[r, "\times 1"]     & \C  \\
+0 \arrow[r]\arrow[u] & \C \arrow[u,"\times b"]
+\end{tikzcd}
+
+\item \begin{tikzcd}
+\C \arrow[r]     & 0  \\
+0 \arrow[r]\arrow[u] & 0 \arrow[u]
+\end{tikzcd}
+
+\item \begin{tikzcd}
+0 \arrow[r]     & 0  \\
+0 \arrow[r]\arrow[u] & \C \arrow[u]
+\end{tikzcd}
+
+\item \begin{tikzcd}
+0 \arrow[r]     & 0  \\
+0 \arrow[r]\arrow[u] & \C \arrow[u]
+\end{tikzcd}
+
+\item \begin{tikzcd}
+\C \arrow[r]     & 0  \\
+\C \arrow[r]\arrow[u,"\times a"] & 0 \arrow[u]
+\end{tikzcd}
+
+
+\item \begin{tikzcd}
+\C \arrow[r]     & 0  \\
+\C \arrow[r, "\times 1"]\arrow[u,"\times a"] & \C \arrow[u]
+\end{tikzcd}
+
+\item \begin{tikzcd}
+\C \arrow[r]     & 0  \\
+\C \arrow[r]\arrow[u,"\times b"] & 0 \arrow[u]
+\end{tikzcd}
+
+
+\item \begin{tikzcd}
+\C \arrow[r]     & 0  \\
+\C \arrow[r, "\times 1"]\arrow[u,"\times b"] & \C \arrow[u]
+\end{tikzcd}
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                   Legendrian Cobordism                        %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Legendrian Cobordism}
+Then define a Legendrian cobordism $\mathscr{F}_\bullet$ starting from $\mathscr{F}_0$, say $cobord_2$, that is supported on $\overline{U'}$ as follows:\\
+
+By Mayer-Vietoris, this equivalent to the following data
+\begin{itemize}
+\item a sheaf on $V\times [0,1]$, say $\mathscr{F}_{V\times [0,1]}$
+
+\item a sheaf on $D_{r=2}\times [0,1]$, say $\mathscr{F}_{D_{r=2}\times [0,1]}$
+
+\item a gluing isomorphsim, i.e. $\gamma_\bullet : (f_*\mathscr{F}_{D_{r=2}\times [0,1]})|_{(U\cap V)\times [0,1]} \xrightarrow{\sim} \mathscr{F}_{V\times [0,1]}|_{(U\cap V)\times [0,1]}$.
+\end{itemize}
+\subsubsection{A. Sheaf on $V\times [0,1]$}
+First, I will define $\mathscr{F}_{V\times [0,1]}$ to be $pr_1^*(\mathscr{F}_0|_V)$ where $pr_1 : V \times [0,1] \rightarrow V$ is the projection onto the first argument.
+\subsubsection{B. Sheaf on $D_{r=2}\times [0,1]$}
+Next, I will describe $\mathscr{F}_{D_{r=2}\times [0,1]}$ as $F_\bullet \in Fun(\mathcal{S}_\bullet,\C)$ i.e. a functor from $\mathcal{S}_\bullet$ to the category of perfect $\C$-modules as follows: 
+
+For simplicity, we use the following notations
+\[
+F_\bullet(sgn_1,sgn_2,sgn_3,sgn_4):=F_\bullet(s_\bullet(sgn_1,sgn_2,sgn_3,sgn_4))
+\]
+\textbf{Stalks:}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/30.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/31.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/32.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/33.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/34.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/35.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/36.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/37.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/38.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/39.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\begin{itemize}
+\item $F_\bullet(-,-)$ := $\C[-1]$
+\item $F_\bullet(-,+)$ := $0$
+\item $F_\bullet(+,-,-,-)$ := $\C \xrightarrow{\times a} \C $
+\item $F_\bullet(+,-,-,+)$ := $\C \xrightarrow{\times b} \C $
+\item $F_\bullet(+,-,+)$ := $0$
+\item $F_\bullet(+,+,*,-)$ := $\C$
+\item $F_\bullet(+,+,*,+)$ := $\C$
+\end{itemize}
+
+\textbf{Generization maps:}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/40.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/41.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/42.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/43.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/44.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\begin{enumerate}[label = (\arabic*)]
+\item \begin{tikzcd}
+\C \arrow[r]     & 0  \\
+0 \arrow[r]\arrow[u] & 0 \arrow[u]
+\end{tikzcd}
+
+\item \begin{tikzcd}
+\C \arrow[r, "\times 1"]     & \C  \\
+0 \arrow[r]\arrow[u] & \C \arrow[u,"\times a"]
+\end{tikzcd}
+
+\item \begin{tikzcd}
+\C \arrow[r, "\times 1"]     & \C  \\
+0 \arrow[r]\arrow[u] & \C \arrow[u,"\times b"]
+\end{tikzcd}
+
+\item \begin{tikzcd}
+\C \arrow[r]     & 0  \\
+0 \arrow[r]\arrow[u] & 0 \arrow[u]
+\end{tikzcd}
+
+\item \begin{tikzcd}
+0 \arrow[r]     & 0  \\
+0 \arrow[r]\arrow[u] & \C \arrow[u]
+\end{tikzcd}
+
+\item \begin{tikzcd}
+0 \arrow[r]     & 0  \\
+0 \arrow[r]\arrow[u] & \C \arrow[u]
+\end{tikzcd}
+
+\item \begin{tikzcd}
+\C \arrow[r]     & 0  \\
+\C \arrow[r]\arrow[u,"\times a"] & 0 \arrow[u]
+\end{tikzcd}
+
+
+\item \begin{tikzcd}
+\C \arrow[r]     & 0  \\
+\C \arrow[r, "\times 1"]\arrow[u,"\times a"] & \C \arrow[u]
+\end{tikzcd}
+
+\item \begin{tikzcd}
+\C \arrow[r]     & 0  \\
+\C \arrow[r]\arrow[u,"\times b"] & 0 \arrow[u]
+\end{tikzcd}
+
+
+\item \begin{tikzcd}
+\C \arrow[r]     & 0  \\
+\C \arrow[r, "\times 1"]\arrow[u,"\times b"] & \C \arrow[u]
+\end{tikzcd}
+
+\item \begin{tikzcd}
+\C \arrow[r, "\times 1"]     & \C  \\
+\C \arrow[r, "\times ab^{-1}"]\arrow[u,"\times a"] & \C \arrow[u, "\times b"]
+\end{tikzcd}
+
+\item \begin{tikzcd}
+0 \arrow[r]     & 0  \\
+\C \arrow[r, "\times ab^{-1}"]\arrow[u] & \C \arrow[u]
+\end{tikzcd}
+\end{enumerate}
+
+\subsubsection{C. Gluing Isomorphism}
+Lastly, I will define a gluing isomorphism $\gamma_\bullet : (f_*\mathscr{F}_{D_{r=2}\times [0,1]})|_{(U\cap V)\times [0,1]} \xrightarrow{\sim} \mathscr{F}_{V\times [0,1]}|_{(U\cap V)\times [0,1]}$ using the following fact.
+\begin{proposition}
+$(f_*\mathscr{F}_{D_{r=2}\times [0,1]})|_{(U\cap V)\times[0,1]}$ is isomorphic to $pr_1^*(\mathscr{F}_0|_{U\cap V})$ where $pr_1 : (U\cap V) \times [0,1] \rightarrow (U\cap V)$ is the projection onto the first argument.
+\end{proposition}
+\begin{proof}
+pass
+\end{proof}
+\begin{definition}
+we define $\gamma_\bullet$ to be the composition 
+\[
+(f_*\mathscr{F}_{D_{r=2}\times [0,1]})|_{(U\cap V)\times [0,1]}\xrightarrow{\sim}pr_1^*(\mathscr{F}_0|_{U\cap V})\xrightarrow{\sim}pr_1^*(\mathscr{F}_0|_{V})|_{(U\cap V)\times [0,1]}=\mathscr{F}_{V\times [0,1]}|_{(U\cap V)\times [0,1]}
+\]
+where
+\begin{itemize}
+\item the first isomorphism is the one mentioned in the above proposition.
+
+\item the second isomorphism from the fact that the following diagram commutes:
+\[
+\begin{tikzcd}
+(U\cap V)\times [0,1] \arrow[hookrightarrow]{r}\arrow[d, "pr_1"]     & V\times [0,1] \arrow[d, "pr_1"] \\
+(U\cap V) \arrow[hookrightarrow]{r} & V 
+\end{tikzcd}
+\]
+\end{itemize}
+\end{definition}
+
+Now we have defined a cobordism $\mathscr{F}_\bullet$, we show that this is a Legendrian cobordism.
+\begin{proposition}
+$\mathscr{F}_\bullet$ is a Legendrian cobordism i.e. $\mathscr{F}_\bullet \in Sh_\Lambda(M \times [0,1],\C)$.
+\end{proposition}
+\begin{proof}
+There is no critical point for the cobordism. Nothing to prove.
+\end{proof}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                       Terminal Sheaf                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Sheaf at the End}
+In this subsection, I will describe the sheaf $\mathscr{F}_1$ at the end of the $cobord_2$. By Mayer-Vietoris, $\mathscr{F}_1:= \mathscr{F}_\bullet|_{M\times\{1\}}$ on $M \cong M\times\{1\}$ is equivalent to the following data
+\begin{itemize}
+\item a sheaf on $V$, say $\mathscr{F}_{V}$
+
+\item a sheaf on $D_{r=2}$, say $\mathscr{F}_{D_{r=2}}$
+
+\item a gluing isomorphsim $\gamma_1 : f_*\mathscr{F}_{D_{r=2}}|_{U\cap V} \xrightarrow{\sim} \mathscr{F}_{V}|_{U\cap V}$.
+\end{itemize}
+
+\subsubsection{A. Sheaf on $V$}
+First, a sheaf on $V\cong V\times\{1\}$ is the restriction of $\mathscr{F}_{V\times [0,1]}$ to $V\times \{1\}$, i.e. $\mathscr{F}_{V\times [0,1]}|_{V\times \{1\}}= pr_1^*(\mathscr{F}_0|_V)|_{V\times \{1\}} = \mathscr{F}_0|_V$.
+\subsubsection{B. Sheaf on $D_{r=2}$}
+Next, a sheaf on $D_{r=2}\cong D_{r=2}\times \{1\}$ is the restriction of $\mathscr{F}_{D_{r=2}\times [0,1]}$ to $D_{r=2}\times \{1\}$, i.e. $\mathscr{F}_{D_{r=2}\times [0,1]} |_{D_{r=2}\times \{1\}}$. I will describe it as a squiggly legible diagram $F_1$ which is the restriction of $F_\bullet$ defined in the previous section.
+
+For simplicity, we use the following notations
+\[
+F_1(sgn_1,sgn_2,sgn_3,sgn_4):= F_1(s_1(sgn_1,sgn_2,sgn_3,sgn_4))
+\]
+\textbf{Stalks:}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/45.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/46.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\begin{itemize}
+\item $F_1(-,+)$ := $0$
+\item $F_1(+,-,-,-)$ := $\C \xrightarrow{\times a} \C $
+\item $F_1(+,-,-,+)$ := $\C \xrightarrow{\times b} \C $
+\item $F_1(+,-,+)$ := $0$
+\item $F_1(+,+,*,-)$ := $\C$
+\item $F_1(+,+,*,+)$ := $\C$
+\end{itemize}
+\textbf{Generization maps:}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/47.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\begin{enumerate}[label = (\arabic*)]
+\item \begin{tikzcd}
+0 \arrow[r]     & 0  \\
+0 \arrow[r]\arrow[u] & \C \arrow[u]
+\end{tikzcd}
+
+\item \begin{tikzcd}
+0 \arrow[r]     & 0  \\
+0 \arrow[r]\arrow[u] & \C \arrow[u]
+\end{tikzcd}
+
+\item \begin{tikzcd}
+\C \arrow[r, "\times 1"]     & \C  \\
+\C \arrow[r, "\times ab^{-1}"]\arrow[u,"\times a"] & \C \arrow[u, "\times b"]
+\end{tikzcd}
+
+\item \begin{tikzcd}
+\C \arrow[r]     & 0  \\
+\C \arrow[r]\arrow[u,"\times a"] & 0 \arrow[u]
+\end{tikzcd}
+
+\item \begin{tikzcd}
+\C \arrow[r]     & 0  \\
+\C \arrow[r]\arrow[u,"\times b"] & 0 \arrow[u]
+\end{tikzcd}
+
+
+\item \begin{tikzcd}
+\C \arrow[r]     & 0  \\
+\C \arrow[r, "\times 1"]\arrow[u,"\times a"] & \C \arrow[u]
+\end{tikzcd}
+
+\item \begin{tikzcd}
+\C \arrow[r]     & 0  \\
+\C \arrow[r, "\times 1"]\arrow[u,"\times b"] & \C \arrow[u]
+\end{tikzcd}
+
+\item \begin{tikzcd}
+0 \arrow[r]     & 0  \\
+\C \arrow[r, "\times ab^{-1}"]\arrow[u] & \C \arrow[u]
+\end{tikzcd}
+\end{enumerate}
+
+\subsubsection{C. Gluing Isomorphism}
+Lastly, the gluing isomorphism $\gamma_1 := \gamma_\bullet|_{(U\cap V)\times \{1\}}:  f_*\mathscr{F}_{D_{r=2}}|_{(U\cap V)\times \{1\}}\xrightarrow{\sim} \mathscr{F}_0|_{U\cap V}$ is described as follows.
+
+\begin{definition}
+we define $\gamma_1$ to be the composition
+\begin{align*}
+&(f_*\mathscr{F}_{D_{r=2}})|_{(U\cap V)\times \{1\}}\xrightarrow{\sim}pr_1^*(\mathscr{F}_0|_{U\cap V})|_{(U\cap V)\times \{1\}}\xrightarrow{\sim}\mathscr{F}_0|_{U\cap V}
+\end{align*}
+where
+\begin{itemize}
+\item the first isomorphism follows from the fact that $(f_*\mathscr{F}_{D_{r=2}\times [0,1]})|_{(U\cap V)\times[0,1]}$ is isomorphic to $pr_1^*(\mathscr{F}_0|_{U\cap V})$.
+
+\item the second isomorphism follows from the fact that the following composition is an identity map:
+\[
+(U\cap V)\xrightarrow{\sim} (U\cap V)\times \{1\} \hookrightarrow (U\cap V)\times [0,1] \twoheadrightarrow (U\cap V)
+\]
+\end{itemize}
+\end{definition}

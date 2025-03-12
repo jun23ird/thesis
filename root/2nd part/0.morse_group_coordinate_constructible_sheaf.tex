@@ -1,0 +1,433 @@
+\section{Local Morse Group Computation}
+In this section, we compute the local Morse groups of a cochain complex of coordinate-constructible sheaves.
+\subsection{Definitions and Notations}
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+%definition of sgn function
+\begin{definition}
+We define $sgn : \R \rightarrow \{-1,0,1\}$ such that
+\[
+sgn(x)=
+\begin{cases}
+    1 & \text{if } x>0\\
+    0 & \text{if } x=0\\
+    -1 & \text{if } x<0\\
+\end{cases}
+\]
+\end{definition}
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+% notation [n]
+\begin{definition}
+We define $[n]$ to be a set of integers from $1$ to $n$ i.e.
+\[
+[n] := \{k \in \Z \mid 1\leq k \leq n\}
+\]
+\end{definition}
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+% power set notation
+\begin{definition}
+Let $X$ be a set, then we denote the power set of $X$ as $\mathcal{P}(X)$.
+\end{definition}
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+% standard basis notation
+\begin{definition}
+We denote the $i^{th}$ standard basis of $\R^n$ to be $e^n_i$.
+\end{definition}
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+% notation for stratum
+\begin{definition}
+Let
+\[
+s^n(sgn_1,\cdots,sgn_n):= \{(x_1,\cdots,x_n)\in \R^n ~|~ \text{for }k=1,\cdots,n, sgn(x_k)=sgn_k\}
+\]
+To simplify the notation, we use $+$ instead o $+1$ and $-$ instead of $-1$. For example, $s^n(+,-,0):= s^n(1,-1,0)$.
+\end{definition}
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+%definition of coordinate stratification on \R^n
+\begin{definition}
+\begin{enumerate}
+\item We define a coordinate stratification $\mathcal{S}^n$ on $\R^n$ to be 
+\[
+\{s^n(sgn_1,\cdots, sgn_n) ~|~ sgn_k \in \{-,0,+\}\text{ for }k=1,\cdots,n\}
+\]
+
+\item There is a nautral poset structure of $\mathcal{S}^n$ such that $s^n(sgn_1,\cdots, sgn_n)\leq s^n(sgn'_1,\cdots, sgn'_n)$ if and only if $s^n(sgn'_1,\cdots, sgn'_n) \subset star(s^n(sgn_1,\cdots, sgn_n))$. This is equivalent to saying that $|sgn_i| \leq |sgn'_i|$ for all $i\in [n]$.
+
+\item There is also a natural poset structure on $n$-dimensional strata of $\mathcal{S}^n$, where $s^n(sgn_1,\cdots, sgn_n)\leq s^n(sgn'_1,\cdots, sgn'_n)$ if and only if $sgn_i \leq sgn'_i$ for all $i\in [n]$. Note that this is not the poset structure that is inherited from the poset structure mentioned above.
+
+\item We give co-orientations to $(n-1)$-dimensional stratum as follows: Note that codimension $1$ strata can be expressed as $s^n(sgn_1,\cdots,sgn_n)$ where only one of arguments is zero, say $sgn_i$. Then we define the co-orientation of $s^n(sgn_1,\cdots,sgn_n)$ to be $-dx_i$ i.e. hairs are pointing the region $s^n(sgn_1,\cdots,\underset{i^{th}}{\underset{\uparrow}{-}},\cdots,sgn_n)$
+
+\item Let $x\in \R^n$, then $s^n_x$ is defined as the stratum in $\mathcal{S}^n$ containing $x$.
+\end{enumerate}
+\end{definition}
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+Suppose we have 
+$\mathscr{F}^\bullet$ a complex of constructible sheaves on $\R^n$ constructible with respect to the coordinate stratification. In this section, we will compute local Morse groups of $\mathscr{F}^\bullet$ when given $(x,\xi)\in T^*\R^n$ i.e. we will compute the stalk of the microlocalization of $\mathscr{F}^\bullet(=\mu \mathscr{F}^\bullet)$ on $T^*\R^n$.
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+(Fact) The singular support of $\mathscr{F}^\bullet$, $SS(\mathscr{F}^\bullet)$, is contained in the union of $2^n$ Lagrangian subspaces that are conormals of strata in $\mathcal{S}^n$ i.e. $\Lambda_{\mathcal{S}^n} = \underset{s\in \mathcal{S}^n}{\cup} N^*s \subset T^*\R^n$. These Lagrangians intersect with each other so union of them form a singular Lagrangian and it has smooth part in it, say $\Lambda_{\mathcal{S}^n}^{smooth}\subset \Lambda_{\mathcal{S}^n}$.
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+(Question) How do we know $\mu \mathscr{F}^{\bullet}$ vanishes on $\Lambda_{\mathcal{S}^n}^{singular}$ i.e. singlar locus of $\Lambda_{\mathcal{S}^n}$?
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+Now we know that the singular support $SS(\mathscr{F}^\bullet):= supp(\mu \mathscr{F}^\bullet) \subset \Lambda_{\mathcal{S}^n}^{smooth}$ and $\mu\mathcal{F}^\bullet$ is constant on each component of $\Lambda_{
+\mathcal{S}^n}^{smooth}$, we define the local Morse group of a component of $\Lambda_{\mathcal{S}^n}^{smooth}$ with coefficient $\mathscr{F}^\bullet$ to be the local Morse group of a point in the component with coefficient $\mathscr{F}^\bullet$. We will see later that the components are contractible so this is well-defined upto unique isomorphism.
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+Note that $\Lambda_{\mathcal{S}^n}^{smooth}$ has $2^{2n}$ components which are labelled by $\mathcal{P}([n])\times \mathcal{P}([n])$. More precisely, for each $(I,J)\in \mathcal{P}([n])\times \mathcal{P}([n])$, we have a component $comp^n_{(I,J)}\subset \Lambda_{\mathcal{S}^n}^{smooth}$ that is the image of 
+\[
+\iota^n_{(I,J)}:\R^n_{>0} \hookrightarrow \R^n\times \R^n
+\]
+where $(x_1,\cdots,x_n)^T$ is mapped to 
+\[((\delta_I(1)sgn_J(1)x_1,\cdots,\delta_I(n)sgn_J(n)x_n)^T,((1-\delta_I(1))sgn_J(1)x_1,\cdots,(1-\delta_I(n))sgn_J(n)x_n)^T)
+\]
+where
+\begin{itemize}
+\item $\delta_I : [n] \rightarrow \{0,1\}$
+\[\delta_I(k)=\bigg\{
+\begin{array}{ll}
+    1 & \text{if } k\in I \\
+    0 & \text{if } k\not\in I
+\end{array}
+\bigg.
+\]
+
+\item $sgn_J : [n] \rightarrow \{-1,1\}$
+\[sgn_J(k)=\bigg\{
+\begin{array}{ll}
+    1 & \text{if } k\in J \\
+    -1 & \text{if } k\not\in J
+\end{array}
+\bigg.
+\]
+\end{itemize}
+
+I will choose the representative of the $comp^n_{(I,J)}$ to be 
+\[
+(x_{(I,J)},\xi_{(I,J)}) := \iota^n_{(I,J)}((1,\cdots,1)^T)
+\]
+
+Also, we define $G_{(I,J)}(\mathscr{F}^\bullet)$ to be the local Morse group of $comp^n_{(I,J)}$ with coefficient $\mathscr{F}^\bullet$ i.e.
+\[
+H^*(N_x,N_x\cap \xi^{-1}((-\infty,c-\epsilon]);\mathscr{F}^\bullet)
+\]
+where $(x,\xi)\in comp^n_{(I,J)}$
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+\begin{definition}
+$Q^n$:= the quiver associated to $\mathcal{S}^n$. We have one vertex for each $n$-dimensional stratum and one arrow for each $(n-1)$-dimensional stratum where the direction goes against the co-orientation.
+\end{definition}
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+\begin{definition}
+$F^\bullet$:= the quiver representation associated to $\mathscr{F}^\bullet$: describe the correspondence between $F^\bullet$ on $Q^n$, $F^\bullet$ on $\mathcal{S}^n$, $\mathscr{F}^\bullet$
+\end{definition}
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+\begin{definition}
+$Q_s^n$:= full suquiver of $Q^n$ spanned by vertices whose corresponding strata are contained in the star of $s\in \mathcal{S}^n$.
+\end{definition}
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+\begin{definition}
+\begin{enumerate}
+\item $s^n_{(I,J)}:= s^n_{x_{(I,J)}}$
+
+\item For $k\not\in I$, $s^n_{(I,J)}(k):= s^n_{(x_{(I,J)} - sgn_J(k)\cdot e^n_k)}$ 
+\end{enumerate}
+\end{definition}
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+\begin{lemma}
+Suppose we have a cochain complex of $\mathcal{S}^n$-constructible sheaf $\mathscr{F}^\bullet$ on $\R^n$ that could be described by a leggible diagram $F^\bullet$ on $Q^n$, then
+\[G_{(I,J)}(\mathscr{F}^\bullet)=\bigg\{
+\begin{array}{ll}
+    0 & \text{if } I^c \not\in J \\
+	Tot(F^\bullet|_{Q^n_{s_{(I,J)}}}) & \text{if } k\in J \\
+\end{array}
+\bigg.
+\]
+(need more explanation on what the total complex of a quiver representation means)
+\end{lemma}
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+\begin{proof}
+We prove the Lemma by induction on $n$.
+(skipped the proof of the base case)
+(i) suppose $I$ is not empty i.e. $x_{(I,J)} \neq 0$. We want to compute $G_{(I,J)}(\mathscr{F}^\bullet) = H^*(N_{x_{(I,J)}}, N_{x_{(I,J)}} \cap \xi_{(I,J)}^{-1}((-\infty,c-\epsilon]); \mathscr{F}^\bullet)$ where $N_{x_{(I,J)}}$ is a regular neighborhood of $x_{(I,J)}$, $c = \xi_{(I,J)}(x_{(I,J)})$(for this expression to make sense we need to fix an isomorphism $T^*\R^n \cong \R^n \times \R^n$), and $\epsilon$ a small positive real number. Once and for all fix $i\in I$, consider the following linear map
+\[
+\operatorname{Lin}_i : \R^{n-1} \hookrightarrow \R^n
+\]
+where
+\[\operatorname{Lin}_i(e_j)=\bigg\{
+\begin{array}{ll}
+    e_j & \text{if } j < i \\
+	e_{j+1} & \text{if } j \geq i \\
+\end{array}
+\bigg.
+\] 
+and let $\operatorname{Aff}_i := \operatorname{Lin}_i + e^n_i$ be the affine inclusion map. Define 
+\begin{itemize}
+\item $I' = \{k\in I \mid k<i\} \cup \{k-1 \mid k>i, k\in I\}$
+\item $J' = \{k\in J \mid k<i\} \cup \{k-1 \mid k>i, k\in J\}$
+\end{itemize}
+and $(x_{(I',J')}, \xi_{(I',J')}) = \iota^{n-1}_{(I',J')}((1,\cdots,1)^T)$, then $x_{(I,J)} \in Im(\operatorname{Aff}_i)$ and $\alpha_i^{-1}(x_{(I,J)})=x_{(I',J')} $ and $\xi_{(I,J)} \circ \operatorname{Aff}_i$. We let the regular neighborhood of $x_{(I,J)}$, $N_{x_{(I,J)}}$, to be $star(s^{n-1}_{(I,J)})$ and the regular neighborhood of $x_{(I',J')}$, $N_{x_{(I',J')}}$, to be $star(s^{n-1}_{(I',J')})$, $c = \xi_{(I,J)}(x_{(I,J)})$, and $c' = \xi_{(I',J')}(x_{(I',J')})$\\
+(claim) $H^*(N_{x_{(I,J)}}, N_{x_{(I,J)}}\cap \xi_{(I,J)}^{-1}((-\infty, c-\epsilon]); \mathscr{F}^\bullet) \cong H^*(N_{x_{(I',J')}}, N_{x_{(I',J')}}\cap \xi_{(I',J')}^{-1}((-\infty, c'-\epsilon]); \operatorname{Aff}_i^*\mathscr{F}^\bullet)$\\
+(proof) Note that when we have a stratified spaces $(M,\mathcal)$ and $N$, a subspace of $M$, we have an induced stratification $\mathcal{S}_N$ on $N$. Then we can identify poset $\mathcal{S}_N$ as the subposet of $\mathcal{S}_M$ via $(N\hookrightarrow M)_*$.\\
+Now consider the following cartesian diagram of inclusion maps
+\[
+\begin{tikzcd}
+N_{x_{(I,J)}}   & N_{x_{(I,J)}} \cap \xi_{(I,J)}^{-1}((-\infty,c-\epsilon])\arrow[l, hook] \\
+N_{x_{(I',J')}} \arrow[u, hook, "\operatorname{Aff}_i"]& N_{x_{(I',J')}}\cap \xi_{(I',J')}^{-1}((-\infty,c'-\epsilon])\arrow[l, hook]\arrow[u, hook] 
+\end{tikzcd}
+\]
+Note that $\operatorname{Aff}_i$ induces a poset isomorphism from the poset $\mathcal{S}_{N_{x_{(I',J')}}}$ to the poset $\mathcal{S}_{N_{x_{(I,J)}}}$ where via this isomorphism the subposet $\mathcal{S}_{N_{x_{(I',J')}}\cap \xi_{(I',J')}^{-1}((-\infty,c'-\epsilon])}$ gets identified with $\mathcal{S}_{N_{x_{(I,J)}}\cap \xi_{(I,J)}^{-1}((-\infty,c-\epsilon])}$. Furthermore, the representation of the poset $\mathcal{S}_{N_{x_{(I',J')}}}$ that gives rise to the sheaf $\operatorname{Aff}_i^* \mathscr{F}^\bullet$ is exactly the representation of the poset $\mathcal{S}_{N_{x_{(I,J)}}}$ that gives rise to the sheaf $\mathscr{F}^\bullet$ under the poset isomorphism $(\operatorname{Aff}_i)_*$ and the relative cohomology is completely determined by the poset, subpost structures and their representations. Therefore, the claim is proved.\\
+Therefore, $G_{(I,J)}(\mathscr{F}^\bullet) \cong H^*(N_{x_{(I',J')}}, N_{x_{(I',J')}}\cap \xi_{(I',J')}^{-1}((-\infty, c'-\epsilon]); \operatorname{Aff}_i^*\mathscr{F}^\bullet)$. By the induction hypothesis if $I'^c \not\subset J'^c$, this is $0$ and if $I'^c \subset J'^c$, this is equal to $Tot(\operatorname{Aff}_i^*(F^\bullet |_{\mathcal{S}_{N_{x_{(I',J')}}}})) = Tot(F^\bullet |_{\mathcal{S}_{N_{x_{(I,J)}}}}) = Tot(F^\bullet |_{Q^n_{s_{(I,J)}}})$. Because $I^c\subset J^c$ if and only if $I'^c\subset J'^c$, we proved the case when $I\neq \phi$.\\
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+(ii)now consider the case where $I = \phi$.\\
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+(case1) $I^c \not\subset J^c$ i.e. $J = \phi$, then we want to prove that $G_{(I,J)}(\mathscr{F}^\bullet)=0$. Equivalently, we want to prove that the mapping cone of the following restriction map is acyclic.
+\[
+R\Gamma(N_{x_{(I,J)}};\mathscr{F}^\bullet) \rightarrow R\Gamma(N_{x_{(I,J)}} \cap \xi^{-1}((\infty,c-\epsilon]);\mathscr{F}^\bullet)
+\]
+First, let's compute $R\Gamma(N_{x_{(I,J)}};\mathscr{F}^\bullet)$. We can use a singleton \v{C}ech cover $\{N_{x_{(I,J)}} = star(s^n_{(I,J)})\}$. Therefore, $R\Gamma(N_{x_{(I,J)}};\mathscr{F}^\bullet) \cong Tot(F^\bullet(N_{x_{(I,J)}}))$.\\
+Next, let's compute $R\Gamma(N_{x_{(I,J)}} \cap \xi^{-1}((\infty,c-\epsilon]);\mathscr{F}^\bullet)$. We can use the following \v{C}ech cover
+\[
+\mathcal{U}=\{U_k\}_{k\in [n]}
+\]
+where 
+\[
+U_k := star(s^n_{x_{(I,J)}}(k)) = star(s^n(0,\cdots,0,\underset{k^{th}}{\underset{\uparrow}{(-1)^{\delta_J(k)}}},0,\cdots,0))
+\]
+We define
+\[
+U_{i_0 \cdots i_p} := N_{x_{(I,J)}} \cap U_{i_0} \cap \cdots \cap U_{i_p}
+\]
+Note that 
+\begin{itemize}
+\item if the index set in the subscript is empty, then $U= N_{x_{I,J}} = \R^n$
+
+\item $U_{i_0\cdots i_p} = star(s^n(sgn_1,\cdots, sgn_n))$ where
+\[
+sgn_k=
+\begin{cases}
+    (-1)^{\delta_J(k)} & \text{if } k\in \{i_0,\cdots,i_p\}\\
+    0 & \text{otherwise}\\
+\end{cases}
+\]
+\end{itemize}
+Since $J\neq \phi$, without loss of generality assume $1\in J$(we can always relabel coordinates). Note that for all $1\leq i_0 <\cdots<i_p\leq n$
+\[
+F^\bullet(U_{i_0\cdots i_p}) = F^\bullet(U_{1i_0\cdots i_p})
+\]
+because $F^\bullet$ a poset representation obtained from a legible diagram.\\
+From the above \v{C}ech cover we get a \v{C}ech double complex
+\[
+C^{p,q} = \underset{1\leq i_0<\cdots < i_p \leq n}{\oplus} F^q(U_{i_0\cdots i_p})
+\]
+where horizontal maps are \v{C}ech differentials($\delta$) and vertical maps are cochain differentials($d$).\\
+The mapping cone of 
+\[R\Gamma(N_{x_{(I,J)}};\mathscr{F}^\bullet) \rightarrow R\Gamma(N_{x_{(I,J)}} \cap \xi^{-1}((\infty,c-\epsilon]);\mathscr{F}^\bullet)
+\]
+is the total complex of the following double complex
+\[
+C_{ext}^{p,q}=
+\begin{cases}
+    C^{p,q} & \text{if } p\geq 0\\
+    F^q(N_{x_{(I,J)}}) = F^q(\R^n) & \text{if } p=-1\\
+    0 & \text{otherwise}\\
+\end{cases}
+\]
+where $\delta^{-1,q}$ is just a restriction map.\\
+Now I will define a homotopy $h^{\bullet,\bullet} : C_{ext}^{\bullet,\bullet} \rightarrow C_{ext}^{\bullet -1,\bullet}$ on the \v{C}ech double complex that induces homotopy $h$ on the total complex of $C_{ext}^{\bullet,\bullet}$.
+Let $c\in C^{p,q}:= \underset{1\leq i_0 < \cdots< i_p \leq n}{\oplus} F^q(U_{i_0\cdots i_p})$, then we define $hc \in C^{p-1,q}$ so that 
+\[
+(hc)_{i_0\cdots i_p} = c_{1i_0\cdots i_p}
+\]
+Here we are using the fact that if $1 \not\in \{[i_0,\cdots,i_p\}$ 
+\[
+F^q(U_{i_0\cdots i_p}) = F^q(U_{1i_0\cdots i_p})
+\]
+Note that if one of $i_0,\cdots, i_p$ is $1$, then $(hc)_{i_0\cdots i_p}=0$. Also note that $h^{p,q-1} d^{p,q} = d^{p-1,q} h^{p,q}$.
+Now let's compute $h D_{Tot} + D_{Tot}h$ where $D_{Tot}$ is the total differential. Suppose $c\in C_{ext}^{-1,q}$, then
+\begin{itemize}
+\item $(hD_{Tot}c) = (h(-d+\delta)c) = -(hdc) + (h\delta c)$. Because $hdc$ lands on degree $p=-2$, $(hdc)=0$ and $(hD_{Tot}c)=(h\delta c) = c|_{U_1}=c$. Here, we use the identity map between $F^q(N_{x_{(I,J)}}) = F^q(U_1)$ and think of $c|_{U_1}$ as an element of $F^q(N_{x_{(I,J)}})$ that uniquely extends $c|_{U_1}$, which is $c$ itself.
+
+\item $(D_{Tot}hc) = D_{Tot}0=0$ because $hc$ lands on degree $p=-2$.
+\end{itemize}
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+Suppose $c\in C_{ext}^{p,q}$ $(p\geq 0)$,
+\begin{itemize}
+\item $hD_{Tot} = h((-1)^p d+\delta) = (-1)^p hd + h\delta$
+
+\item $D_{Tot}h = ((-1)^{p-1}d + \delta)h = (-1)^{p-1}dh + \delta h$
+\end{itemize}
+Therefore, $hD_{Tot}+D_{Tot}h = h\delta + \delta h$ and 
+\begin{align*}
+(h\delta c + \delta hc)_{i_0 \cdots i_p} &= (h\delta c)_{i_0 \cdots i_p} + (\delta hc)_{i_0 \cdots i_p}\\
+&= (\delta c)_{1i_0 \cdots i_p} + \overset{p}{\underset{j=0}{\sum}}
+(-1)^j (hc)_{i_0 \cdots \hat{i}_j \cdots i_p}\\
+&= [ c_{i_0 \cdots i_p} + \overset{p}{\underset{j=0}{\sum}}
+(-1)^{j+1} c_{1i_0 \cdots \hat{i}_j \cdots i_p}] +  \overset{p}{\underset{j=0}{\sum}}
+(-1)^j (hc)_{i_0 \cdots \hat{i}_j \cdots i_p}\\
+&= c_{i_0 \cdots i_p}
+\end{align*}
+Therefore, $h$ is a homotopy between identity cochain map on $\operatorname{Tot}(C_{ext}^{\bullet,\bullet})$ and a zero map. Therefore, we conclude that $\operatorname{Tot}(C_{ext}^{\bullet,\bullet})$ is acyclic.
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+%%
+(case2)$I^c \subset J^c$ i.e. $J=\phi$, then use the same \v{C}ech cover $\mathcal{U}$ as in (case1). Then again the mapping cone of
+\[R\Gamma(N_{x_{(I,J)}};\mathscr{F}^\bullet) \rightarrow R\Gamma(N_{x_{(I,J)}} \cap \xi^{-1}((\infty,c-\epsilon]);\mathscr{F}^\bullet)
+\]
+is the total complex of the following double complex up to a shift
+\[
+F^\bullet (N_{x_{(I,J)}})\rightarrow \oplus F^\bullet(U_{i_0}) \rightarrow \oplus F^\bullet(U_{i_0 i_1}) \rightarrow \cdots
+\]
+which is equal to 
+\begin{align*}
+&F^\bullet (star(s^n(0,\cdots,0)))\rightarrow \oplus F^\bullet(star(s^n(sgn_{i_0} = +,\text{else }0))) \rightarrow \\
+&\oplus F^\bullet(star(s^n(sgn_{i_0}=sgn_{i_1} = +,\text{else }0))) \rightarrow \cdots
+\end{align*}
+which is equal to 
+\begin{align*}
+&F^\bullet (star(s^n(-,\cdots,-)))\rightarrow\oplus F^\bullet(star(s^n(sgn_{i_0} = +,\text{else }-))) \rightarrow \\
+&\oplus F^\bullet(star(s^n(sgn_{i_0}=sgn_{i_1} = +,\text{else }-))) \rightarrow \cdots
+\end{align*}
+whose total complex is the total complex of $F^\bullet$ restricted to $Q^n$. Because $Q^n = Q^n_{s^n(-,\cdots,-)}$ the proof is complete.
+\end{proof}

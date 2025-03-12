@@ -1,0 +1,112 @@
+\begin{thebibliography}{STWZ19}
+
+\bibitem[Boa15]{boalch2015wild}
+Philip Boalch.
+\newblock Wild character varieties, points on the riemann sphere and calabi’s
+  examples.
+\newblock {\em arXiv preprint arXiv:1501.00930}, 2015.
+
+\bibitem[Dri04]{drinfeld2004dg}
+Vladimir Drinfeld.
+\newblock Dg quotients of dg categories.
+\newblock {\em Journal of Algebra}, 272(2):643--691, 2004.
+
+\bibitem[Etn05]{etnyre2005legendrian}
+John~B Etnyre.
+\newblock Legendrian and transversal knots.
+\newblock In {\em Handbook of knot theory}, pages 105--185. Elsevier, 2005.
+
+\bibitem[Gei08]{geiges2008introduction}
+Hansj{\"o}rg Geiges.
+\newblock {\em An introduction to contact topology}, volume 109.
+\newblock Cambridge University Press, 2008.
+
+\bibitem[GKS12]{guillermou2012sheaf}
+St{\'e}phane Guillermou, Masaki Kashiwara, and Pierre Schapira.
+\newblock Sheaf quantization of hamiltonian isotopies and applications to
+  nondisplaceability problems.
+\newblock 2012.
+
+\bibitem[GM83]{goresky1983stratified}
+Mark Goresky and Robert MacPherson.
+\newblock Stratified morse theory.
+\newblock {\em Singularities}, pages 517--533, 1983.
+
+\bibitem[Kas84]{kashiwara1984riemann}
+Masaki Kashiwara.
+\newblock The riemann-hilbert problem for holonomic systems.
+\newblock {\em Publications of the Research Institute for Mathematical
+  Sciences}, 20(2):319--365, 1984.
+
+\bibitem[KS13]{kashiwara2013sheaves}
+Masaki Kashiwara and Pierre Schapira.
+\newblock {\em Sheaves on Manifolds: With a Short History. Les débuts de la
+  théorie des faisceaux}, volume 292.
+\newblock Springer Science \& Business Media, 2013.
+
+\bibitem[Lur04]{lurie2004derived}
+Jacob Lurie.
+\newblock {\em Derived algebraic geometry}.
+\newblock PhD thesis, Massachusetts Institute of Technology, 2004.
+
+\bibitem[Nad09]{nadler2009microlocal}
+David Nadler.
+\newblock Microlocal branes are constructible sheaves.
+\newblock {\em Selecta Mathematica}, 15(4):563--619, 2009.
+
+\bibitem[Sch12]{schurmann2012topology}
+J{\"o}rg Sch{\"u}rmann.
+\newblock {\em Topology of singular spaces and constructible sheaves},
+  volume~63.
+\newblock Birkh{\"a}user, 2012.
+
+\bibitem[She85]{shepard1985cellular}
+Allen~Dudley Shepard.
+\newblock {\em A cellular description of the derived category of a stratified
+  space}.
+\newblock Brown University, 1985.
+
+\bibitem[Sib75]{sibuya1975global}
+Yasutaka Sibuya.
+\newblock {\em Global theory of a second order linear ordinary differential
+  equation with a polynomial coefficient}, volume~18.
+\newblock Elsevier, 1975.
+
+\bibitem[STWZ19]{shende2019cluster}
+Vivek Shende, David Treumann, Harold Williams, and Eric Zaslow.
+\newblock Cluster varieties from legendrian knots.
+\newblock 2019.
+
+\bibitem[STZ17]{shende2017legendrian}
+Vivek Shende, David Treumann, and Eric Zaslow.
+\newblock Legendrian knots and constructible sheaves.
+\newblock {\em Inventiones mathematicae}, 207(3):1031--1133, 2017.
+
+\bibitem[To{\"e}09]{toen2009higher}
+Bertrand To{\"e}n.
+\newblock Higher and derived stacks: a global overview.
+\newblock {\em Algebraic geometry—Seattle 2005. Part}, 1:435--487, 2009.
+
+\bibitem[To{\"e}14]{toen2014derived}
+Bertrand To{\"e}n.
+\newblock Derived algebraic geometry.
+\newblock {\em EMS Surveys in Mathematical Sciences}, 1(2):153--240, 2014.
+
+\bibitem[TV04]{toen2004hag}
+Bertrand To{\"e}n and Gabriele Vezzosi.
+\newblock From hag to dag: derived moduli stacks.
+\newblock In {\em Axiomatic, enriched and motivic homotopy theory}, pages
+  173--216. Springer, 2004.
+
+\bibitem[TV05]{toen2005homotopical}
+Bertrand To{\"e}n and Gabriele Vezzosi.
+\newblock Homotopical algebraic geometry i: Topos theory.
+\newblock {\em Advances in mathematics}, 193(2):257--372, 2005.
+
+\bibitem[TV08]{toen2008homotopical}
+Bertrand To{\"e}n and Gabriele Vezzosi.
+\newblock {\em Homotopical Algebraic Geometry II: Geometric Stacks and
+  Applications: Geometric Stacks and Applications}, volume~2.
+\newblock American Mathematical Soc., 2008.
+
+\end{thebibliography}
