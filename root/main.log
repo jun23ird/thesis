@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.18)  12 MAR 2025 10:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.18)  12 MAR 2025 22:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1008,13 +1008,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--116
  []
 
 [3] [4] [5]
-<diagrams/intro/1.png, id=156, 444.66125pt x 444.66125pt>
+<diagrams/intro/1.png, id=182, 444.66125pt x 444.66125pt>
 File: diagrams/intro/1.png Graphic file (type png)
 <use diagrams/intro/1.png>
 Package pdftex.def Info: diagrams/intro/1.png  used on input line 163.
 (pdftex.def)             Requested size: 422.42578pt x 422.42578pt.
  [6] [7 <./diagrams/intro/1.png>] [8]
-<diagrams/intro/2.png, id=177, 440.64626pt x 444.66125pt>
+<diagrams/intro/2.png, id=202, 440.64626pt x 444.66125pt>
 File: diagrams/intro/2.png Graphic file (type png)
 <use diagrams/intro/2.png>
 Package pdftex.def Info: diagrams/intro/2.png  used on input line 220.
@@ -1026,23 +1026,23 @@ romy of sheaves following[[],
  []
 
 [11]
-<diagrams/intro/3.png, id=200, 443.15562pt x 444.66125pt>
+<diagrams/intro/3.png, id=225, 443.15562pt x 444.66125pt>
 File: diagrams/intro/3.png Graphic file (type png)
 <use diagrams/intro/3.png>
 Package pdftex.def Info: diagrams/intro/3.png  used on input line 256.
 (pdftex.def)             Requested size: 420.99544pt x 422.42578pt.
  [12 <./diagrams/intro/3.png>]
-<diagrams/intro/4.png, id=206, 445.665pt x 449.17813pt>
+<diagrams/intro/4.png, id=231, 445.665pt x 449.17813pt>
 File: diagrams/intro/4.png Graphic file (type png)
 <use diagrams/intro/4.png>
 Package pdftex.def Info: diagrams/intro/4.png  used on input line 269.
 (pdftex.def)             Requested size: 423.37935pt x 426.7168pt.
-<diagrams/intro/5.png, id=207, 439.14063pt x 440.64626pt>
+<diagrams/intro/5.png, id=232, 439.14063pt x 440.64626pt>
 File: diagrams/intro/5.png Graphic file (type png)
 <use diagrams/intro/5.png>
 Package pdftex.def Info: diagrams/intro/5.png  used on input line 275.
 (pdftex.def)             Requested size: 417.18121pt x 418.61156pt.
-<diagrams/intro/6.png, id=208, 441.65pt x 438.63875pt>
+<diagrams/intro/6.png, id=233, 441.65pt x 438.63875pt>
 File: diagrams/intro/6.png Graphic file (type png)
 <use diagrams/intro/6.png>
 Package pdftex.def Info: diagrams/intro/6.png  used on input line 281.
@@ -1055,7 +1055,7 @@ o pos-i-tive braids following[[],
  []
 
 [16] [17] [18]
-<diagrams/intro/7.png, id=267, 494.84875pt x 345.29pt>
+<diagrams/intro/7.png, id=292, 494.84875pt x 345.29pt>
 File: diagrams/intro/7.png Graphic file (type png)
 <use diagrams/intro/7.png>
 Package pdftex.def Info: diagrams/intro/7.png  used on input line 376.
@@ -1075,7 +1075,7 @@ OT1/cmr/m/n/12 ^^C[]\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 f\OML/cmm/m/it/12 ^^[[]
  []
 
 [19]
-<diagrams/intro/8.png, id=277, 488.32437pt x 330.23375pt>
+<diagrams/intro/8.png, id=302, 488.32437pt x 330.23375pt>
 File: diagrams/intro/8.png Graphic file (type png)
 <use diagrams/intro/8.png>
 Package pdftex.def Info: diagrams/intro/8.png  used on input line 383.
@@ -1086,12 +1086,12 @@ Overfull \hbox (30.28549pt too wide) in paragraph at lines 383--384
  []
 
 [20 <./diagrams/intro/7.png>] [21 <./diagrams/intro/8.png>]
-<diagrams/intro/9.png, id=288, 441.14813pt x 440.64626pt>
+<diagrams/intro/9.png, id=314, 441.14813pt x 440.64626pt>
 File: diagrams/intro/9.png Graphic file (type png)
 <use diagrams/intro/9.png>
 Package pdftex.def Info: diagrams/intro/9.png  used on input line 404.
 (pdftex.def)             Requested size: 419.08835pt x 418.61156pt.
-<diagrams/intro/10.png, id=289, 440.14438pt x 439.6425pt>
+<diagrams/intro/10.png, id=315, 440.14438pt x 439.6425pt>
 File: diagrams/intro/10.png Graphic file (type png)
 <use diagrams/intro/10.png>
 Package pdftex.def Info: diagrams/intro/10.png  used on input line 410.
@@ -1109,22 +1109,16 @@ or-re-sponds to al-ter-nat-ing sheaves in $\OML/cmm/m/it/12 M[]\OT1/cmr/m/n/12
 Chapter 2.
 [28
 
-] [29] [30] [31] [32] [33]
-Overfull \hbox (125.43884pt too wide) detected at line 146
-[]
- []
-
-[34] [35] [36]
-Overfull \hbox (5.5682pt too wide) in paragraph at lines 199--202
-\OT1/cmr/m/n/12 To prove (ii), note that $\OML/cmm/m/it/12 dim[]\OT1/cmr/m/n/12
- ([][] \OML/cmm/m/it/12 g[] \OMS/cmsy/m/n/12 ^^A \OML/cmm/m/it/12 z[]\OT1/cmr/m
-/n/12 ) = \OML/cmm/m/it/12 height\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 u\OT1/cmr/m/
-n/12 )$ be-cause $((\OML/cmm/m/it/12 z[]\OT1/cmr/m/n/12 )[]\OML/cmm/m/it/12 ; g
-\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 2
+] [29] [30] [31] [32] [33] [34] [35] [36]
+Overfull \hbox (3.13742pt too wide) in paragraph at lines 192--195
+\OT1/cmr/m/n/12 To prove (ii), note that $[][]([][] \OML/cmm/m/it/12 g[] \OMS/c
+msy/m/n/12 ^^A \OML/cmm/m/it/12 z[]\OT1/cmr/m/n/12 ) = [](\OML/cmm/m/it/12 u\OT
+1/cmr/m/n/12 )$ be-cause $((\OML/cmm/m/it/12 z[]\OT1/cmr/m/n/12 )[]\OML/cmm/m/i
+t/12 ; g\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 2
  []
 
 
-Overfull \hbox (17.82785pt too wide) in paragraph at lines 214--216
+Overfull \hbox (17.82785pt too wide) in paragraph at lines 207--209
 \OT1/cmr/m/n/12 Since there are ar-rows from $\OML/cmm/m/it/12 S[]$ \OT1/cmr/m/
 n/12 to $\OML/cmm/m/it/12 E[]$\OT1/cmr/m/n/12 , $\OML/cmm/m/it/12 W[]$ \OT1/cmr
 /m/n/12 and from $\OML/cmm/m/it/12 E[]$\OT1/cmr/m/n/12 , $\OML/cmm/m/it/12 W[]$
@@ -1136,132 +1130,94 @@ y/m/n/12 ^^Z
  []
 
 [37] [38] [39] [40] [41]
-Overfull \hbox (18.66354pt too wide) detected at line 339
-\OMS/cmsy/m/n/12 8\OML/cmm/m/it/12 c \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 Cross\
-OT1/cmr/m/n/12 (\OML/cmm/m/it/12 !\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^Z \OML/c
-mm/m/it/12 Cross\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ![]\OT1/cmr/m/n/12 )[]\OML/cm
-m/m/it/12 height\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 N[]\OT1/cmr/m/n/12 ) = \OML/c
-mm/m/it/12 n;  []dim[]\OT1/cmr/m/n/12 ([] \OML/cmm/m/it/12 g[] \OMS/cmsy/m/n/12
- ^^A \OML/cmm/m/it/12 z[]\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 n
+Overfull \hbox (13.4169pt too wide) detected at line 307
+\OMS/cmsy/m/n/12 8\OML/cmm/m/it/12 c \OMS/cmsy/m/n/12 2 []\OT1/cmr/m/n/12 (\OML
+/cmm/m/it/12 !\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^Z []\OT1/cmr/m/n/12 (\OML/cm
+m/m/it/12 ![]\OT1/cmr/m/n/12 )[] [](\OML/cmm/m/it/12 N[]\OT1/cmr/m/n/12 ) = \OM
+L/cmm/m/it/12 n;  [] [][]\OT1/cmr/m/n/12 ([] \OML/cmm/m/it/12 g[] \OMS/cmsy/m/n
+/12 ^^A \OML/cmm/m/it/12 z[]\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 n
  []
 
 
-Overfull \hbox (0.6392pt too wide) in paragraph at lines 347--350
-[]$\OMS/cmsy/m/n/12 8\OML/cmm/m/it/12 c \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 Cro
-ss\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 !\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^Z \OM
-L/cmm/m/it/12 Cross\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ![]\OT1/cmr/m/n/12 )[]\OML
-/cmm/m/it/12 height\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 N[]\OT1/cmr/m/n/12 ) = \OM
-L/cmm/m/it/12 n;  []dim[]\OT1/cmr/m/n/12 ([][] \OML/cmm/m/it/12 g[] \OMS/cmsy/m
-/n/12 ^^A
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 347--350
+Underfull \hbox (badness 10000) in paragraph at lines 315--318
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 347--350
-
- []
-
-[42]
-Overfull \hbox (25.31221pt too wide) detected at line 356
-\OMS/cmsy/m/n/12 8\OML/cmm/m/it/12 c \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 Cross\
-OT1/cmr/m/n/12 (\OML/cmm/m/it/12 !\OT1/cmr/m/n/12 )[]\OML/cmm/m/it/12 height\OT
-1/cmr/m/n/12 (\OML/cmm/m/it/12 N[]\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 n;  []\O
-MS/cmsy/m/n/12 f\OML/cmm/m/it/12 g[] \OMS/cmsy/m/n/12 ^^A \OML/cmm/m/it/12 z[]\
-OMS/cmsy/m/n/12 g[][]
- []
-
-
-Overfull \hbox (2.65639pt too wide) in paragraph at lines 367--371
-\OT1/cmr/m/n/12 Now let's show that $((\OML/cmm/m/it/12 z[]\OT1/cmr/m/n/12 )[]\
-OML/cmm/m/it/12 ; g\OT1/cmr/m/n/12 )$ sat-isfy (iii). Sup-pose $\OML/cmm/m/it/1
-2 c \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 Cross\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 
-![]\OT1/cmr/m/n/12 )$. If $\OML/cmm/m/it/12 height\OT1/cmr/m/n/12 (\OML/cmm/m/i
-t/12 N[]\OT1/cmr/m/n/12 ) =
- []
-
-[43] [44] [45]
-Overfull \hbox (62.8421pt too wide) detected at line 487
-[]
- []
-
-[46] [47]
-Overfull \hbox (12.35548pt too wide) in paragraph at lines 504--505
-\OT1/cmr/m/n/12 braid word that the num-ber of $\OML/cmm/m/it/12 s[]$ \OT1/cmr/
-m/n/12 in the ex-pres-sion is less than $(\OML/cmm/m/it/12 the []number []of []
-strands\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^@
- []
-
-
-Overfull \hbox (99.09192pt too wide) detected at line 547
-[]
- []
-
-[48] [49]
-Underfull \hbox (badness 10000) in paragraph at lines 574--578
+Underfull \hbox (badness 10000) in paragraph at lines 315--318
 
  []
 
 
-Overfull \hbox (39.52092pt too wide) detected at line 608
-[]
+Overfull \hbox (22.28194pt too wide) detected at line 324
+\OMS/cmsy/m/n/12 8\OML/cmm/m/it/12 c \OMS/cmsy/m/n/12 2 []\OT1/cmr/m/n/12 (\OML
+/cmm/m/it/12 !\OT1/cmr/m/n/12 )[] [](\OML/cmm/m/it/12 N[]\OT1/cmr/m/n/12 ) = \O
+ML/cmm/m/it/12 n;  []\OMS/cmsy/m/n/12 f\OML/cmm/m/it/12 g[] \OMS/cmsy/m/n/12 ^^
+A \OML/cmm/m/it/12 z[]\OMS/cmsy/m/n/12 g[][]
  []
 
-[50]
-Overfull \hbox (51.15916pt too wide) detected at line 648
+[42] [43] [44] [45]
+Overfull \hbox (65.36705pt too wide) detected at line 447
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 648--650
+Underfull \hbox (badness 10000) in paragraph at lines 459--460
 
  []
 
-[51]
-Overfull \hbox (37.94112pt too wide) detected at line 677
+[46]
+Overfull \hbox (67.49174pt too wide) detected at line 498
 []
  []
 
-[52] [53] [54]
-Overfull \hbox (118.09123pt too wide) detected at line 882
-\OML/cmm/m/it/12 a[] \OMS/cmsy/m/n/12 ^^A \OT1/cmr/m/n/12 (1\OML/cmm/m/it/12 ; 
-\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; []  ; \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; b
-[]\OT1/cmr/m/n/12 ) + \OML/cmm/m/it/12 a[] \OMS/cmsy/m/n/12 ^^A \OT1/cmr/m/n/12
- (0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0\OML
-/cmm/m/it/12 ; []  ; \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; b[]\OT1/cmr/m/n/12 ) +
- [] + \OML/cmm/m/it/12 a[] \OMS/cmsy/m/n/12 ^^A \OT1/cmr/m/n/12 (0\OML/cmm/m/it
-/12 ; []  ; \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 1\OML/cmm/m/it/
-12 ; b[]\OT1/cmr/m/n/12 ) + \OML/cmm/m/it/12 a[] \OMS/cmsy/m/n/12 ^^A \OT1/cmr/
-m/n/12 (1\OML/cmm/m/it/12 ; []  ; \OT1/cmr/m/n/12 1) = (0\OML/cmm/m/it/12 ; \OM
-S/cmsy/m/n/12 ^^A\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; []; \OT
-1/cmr/m/n/12 0\OML/cmm/m/it/12 ; []  ; \OT1/cmr/m/n/12 0)
- []
-
-[55]
-Underfull \hbox (badness 10000) in paragraph at lines 910--914
-
- []
-
-[56]
-Overfull \hbox (14.60355pt too wide) detected at line 994
+[47]
+Overfull \hbox (40.57088pt too wide) detected at line 552
 []
  []
 
-[57]
-Overfull \hbox (12.83977pt too wide) detected at line 1111
+
+Overfull \hbox (46.9453pt too wide) detected at line 590
 []
  []
 
-[58] [59]
-Overfull \hbox (17.33774pt too wide) detected at line 1221
+[48]
+Underfull \hbox (badness 10000) in paragraph at lines 590--592
+
+ []
+
+
+Overfull \hbox (38.4661pt too wide) detected at line 619
 []
  []
 
-[60] [61]
-Overfull \hbox (6.54353pt too wide) detected at line 1297
+[49] [50] [51]
+Overfull \hbox (49.32076pt too wide) detected at line 822
+[]
+ []
+
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 850--854
+
+ []
+
+[53]
+Overfull \hbox (19.65344pt too wide) detected at line 934
+[]
+ []
+
+[54]
+Overfull \hbox (17.88966pt too wide) detected at line 1049
+[]
+ []
+
+[55] [56]
+Overfull \hbox (22.38763pt too wide) detected at line 1159
+[]
+ []
+
+[57] [58]
+Overfull \hbox (6.54353pt too wide) detected at line 1231
 \OML/cmm/m/it/12 i\OT1/cmr/m/n/12 (\OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 (\OML/cmm/
 m/it/12 b; c\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 2 \U/msb/m/n/12 A[] []\OMS/cmsy/
 m/n/12 j []\OML/cmm/m/it/12 c \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 b[] \OMS/cm
@@ -1274,71 +1230,47 @@ sy/m/n/12 6\OT1/cmr/m/n/12 = 0\OMS/cmsy/m/n/12 g\OT1/cmr/m/n/12 ) = \OMS/cmsy/m
  []
 
 
-Overfull \hbox (8.27129pt too wide) detected at line 1304
+Overfull \hbox (8.27129pt too wide) detected at line 1238
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1304--1309
+Underfull \hbox (badness 10000) in paragraph at lines 1238--1243
 
  []
 
-[62]
-Overfull \hbox (94.96837pt too wide) detected at line 1370
-\OMS/cmsy/m/n/12 M[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 ([\OML
-/cmm/m/it/12 x \OT1/cmr/m/n/12 : \OML/cmm/m/it/12 y\OT1/cmr/m/n/12 ]\OML/cmm/m/
-it/12 ; \OT1/cmr/m/n/12 [\OML/cmm/m/it/12 z \OT1/cmr/m/n/12 : \OML/cmm/m/it/12 
-w\OT1/cmr/m/n/12 ]\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 [\OML/cmm/m/it/12 a \OT1/c
-mr/m/n/12 : \OML/cmm/m/it/12 b\OT1/cmr/m/n/12 ]) \OMS/cmsy/m/n/12 2 \U/msb/m/n/
-12 P[] \OMS/cmsy/m/n/12 ^^B \U/msb/m/n/12 P[] \OMS/cmsy/m/n/12 ^^B \U/msb/m/n/1
-2 P[] []\OMS/cmsy/m/n/12 j []\OML/cmm/m/it/12 det [] \OMS/cmsy/m/n/12 6\OT1/cmr
-/m/n/12 = 0\OML/cmm/m/it/12 ;  []det [] \OMS/cmsy/m/n/12 6\OT1/cmr/m/n/12 = 0\O
-ML/cmm/m/it/12 ;  []det [] \OMS/cmsy/m/n/12 6\OT1/cmr/m/n/12 = 0\OMS/cmsy/m/n/1
-2 g
- []
-
-[63] [64]
-Overfull \hbox (77.76459pt too wide) detected at line 1513
+[59] [60] [61]
+Overfull \hbox (85.33943pt too wide) detected at line 1445
 []
  []
 
-[65] [66]
-Overfull \hbox (92.42767pt too wide) detected at line 1644
+[62] [63]
+Overfull \hbox (85.00267pt too wide) detected at line 1576
 []
  []
 
-[67] [68] [69]
-Underfull \hbox (badness 10000) in paragraph at lines 1762--1768
-
+[64] [65] [66]
+Overfull \hbox (40.84781pt too wide) detected at line 1729
+\OML/cmm/m/it/12 C \OT1/cmr/m/n/12 := [][] = \OMS/cmsy/m/n/12 f[] 2 [][]\OT1/cm
+r/m/n/12 (\U/msb/m/n/12 C\OT1/cmr/m/n/12 ) []\OMS/cmsy/m/n/12 j []\OML/cmm/m/it
+/12 [] \OMS/cmsy/m/n/12 2 []\OML/cmm/m/it/12 ;  [][] \OMS/cmsy/m/n/12 2 \U/ms
+b/m/n/12 C []\OML/cmm/m/it/12 for []i \OT1/cmr/m/n/12 = 2\OML/cmm/m/it/12 ; [] 
+ ; n\OMS/cmsy/m/n/12 g
  []
 
-[70]
-Overfull \hbox (41.89738pt too wide) detected at line 1796
-\OML/cmm/m/it/12 C \OT1/cmr/m/n/12 := \OML/cmm/m/it/12 C[] \OT1/cmr/m/n/12 = \O
-MS/cmsy/m/n/12 f[] 2 \OML/cmm/m/it/12 GL[]\OT1/cmr/m/n/12 (\U/msb/m/n/12 C\OT1/
-cmr/m/n/12 ) []\OMS/cmsy/m/n/12 j []\OML/cmm/m/it/12 [] \OMS/cmsy/m/n/12 2 []\
-OML/cmm/m/it/12 ;  [][] \OMS/cmsy/m/n/12 2 \U/msb/m/n/12 C []\OML/cmm/m/it/12 
-for []i \OT1/cmr/m/n/12 = 2\OML/cmm/m/it/12 ; []  ; n\OMS/cmsy/m/n/12 g
- []
-
-[71]
-Overfull \hbox (87.36267pt too wide) detected at line 1892
+[67]
+Overfull \hbox (87.36267pt too wide) detected at line 1825
 []
  []
 
-[72]
-Underfull \hbox (badness 10000) in paragraph at lines 1892--1897
-
- []
-
-[73] [74]
-Overfull \hbox (19.24211pt too wide) detected at line 1959
+[68] [69] [70]
+Overfull \hbox (19.24211pt too wide) detected at line 1892
 []
  []
 
-[75]) [76]
+[71]) [72]
 Chapter 3.
-(./2nd part/0.morse_group_coordinate_constructible_sheaf.tex [77
+(./2nd part/0.morse_group_coordinate_constructible_sheaf.tex [73
 
 ]
 Overfull \hbox (52.8118pt too wide) in paragraph at lines 95--96
@@ -1355,7 +1287,7 @@ Overfull \hbox (17.1383pt too wide) in paragraph at lines 99--100
 (\OML/cmm/m/it/12 sgn[]; []  ; sgn[]\OT1/cmr/m/n/12 )$
  []
 
-[78]
+[74]
 Overfull \hbox (28.31148pt too wide) detected at line 156
 \OT1/cmr/m/n/12 ((\OML/cmm/m/it/12 ^^N[]\OT1/cmr/m/n/12 (1)\OML/cmm/m/it/12 sgn
 []\OT1/cmr/m/n/12 (1)\OML/cmm/m/it/12 x[]; []  ; ^^N[]\OT1/cmr/m/n/12 (\OML/cmm
@@ -1368,7 +1300,7 @@ cmm/m/it/12 n\OT1/cmr/m/n/12 ))\OML/cmm/m/it/12 sgn[]\OT1/cmr/m/n/12 (\OML/cmm/
 m/it/12 n\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 x[]\OT1/cmr/m/n/12 )[])
  []
 
-[79] [80]
+[75] [76]
 Overfull \hbox (22.04619pt too wide) in paragraph at lines 283--287
 \OT1/cmr/m/n/12 (claim) $\OML/cmm/m/it/12 H[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 
 N[]; N[] \OMS/cmsy/m/n/12 \ \OML/cmm/m/it/12 ^^X[]\OT1/cmr/m/n/12 ((\OMS/cmsy/m
@@ -1379,71 +1311,71 @@ T1/cmr/m/n/12 ((\OMS/cmsy/m/n/12 ^^@1\OML/cmm/m/it/12 ; c[] \OMS/cmsy/m/n/12 ^^
 @
  []
 
-[81] [82]
+[77] [78]
 Overfull \hbox (34.03482pt too wide) in paragraph at lines 350--353
 \OT1/cmr/m/n/12 where hor-i-zon-tal maps are []Cech differentials($\OML/cmm/m/i
 t/12 ^^N$\OT1/cmr/m/n/12 ) and ver-ti-cal maps are cochain differentials($\OML/
 cmm/m/it/12 d$\OT1/cmr/m/n/12 ). 
  []
 
-[83] [84] [85]) (./2nd part/1.natural_alternating_diagrams.tex
-<diagrams/natural_alternating_diagrams/1.png, id=643, 298.11375pt x 300.12125pt
+[79] [80] [81]) (./2nd part/1.natural_alternating_diagrams.tex
+<diagrams/natural_alternating_diagrams/1.png, id=652, 298.11375pt x 300.12125pt
 >
 File: diagrams/natural_alternating_diagrams/1.png Graphic file (type png)
 <use diagrams/natural_alternating_diagrams/1.png>
 Package pdftex.def Info: diagrams/natural_alternating_diagrams/1.png  used on i
 nput line 7.
 (pdftex.def)             Requested size: 283.20645pt x 285.11357pt.
- [86]
-<diagrams/natural_alternating_diagrams/2.png, id=649, 299.1175pt x 306.14375pt>
+ [82]
+<diagrams/natural_alternating_diagrams/2.png, id=658, 299.1175pt x 306.14375pt>
 
 File: diagrams/natural_alternating_diagrams/2.png Graphic file (type png)
 <use diagrams/natural_alternating_diagrams/2.png>
 Package pdftex.def Info: diagrams/natural_alternating_diagrams/2.png  used on i
 nput line 19.
 (pdftex.def)             Requested size: 284.16pt x 290.8349pt.
- [87 <./diagrams/natural_alternating_diagrams/1.png>]
-<diagrams/natural_alternating_diagrams/3.png, id=656, 310.15875pt x 298.61563pt
+ [83 <./diagrams/natural_alternating_diagrams/1.png>]
+<diagrams/natural_alternating_diagrams/3.png, id=665, 310.15875pt x 298.61563pt
 >
 File: diagrams/natural_alternating_diagrams/3.png Graphic file (type png)
 <use diagrams/natural_alternating_diagrams/3.png>
 Package pdftex.def Info: diagrams/natural_alternating_diagrams/3.png  used on i
 nput line 28.
 (pdftex.def)             Requested size: 294.64914pt x 283.68323pt.
- [88 <./diagrams/natural_alternating_diagrams/2.png>]
-<diagrams/natural_alternating_diagrams/4-1.png, id=663, 309.65688pt x 520.94624
+ [84 <./diagrams/natural_alternating_diagrams/2.png>]
+<diagrams/natural_alternating_diagrams/4-1.png, id=672, 309.65688pt x 520.94624
 pt>
 File: diagrams/natural_alternating_diagrams/4-1.png Graphic file (type png)
 <use diagrams/natural_alternating_diagrams/4-1.png>
 Package pdftex.def Info: diagrams/natural_alternating_diagrams/4-1.png  used on
  input line 42.
 (pdftex.def)             Requested size: 294.17235pt x 494.89613pt.
- [89 <./diagrams/natural_alternating_diagrams/3.png>]
-<diagrams/natural_alternating_diagrams/4-2.png, id=672, 338.26375pt x 518.43687
+ [85 <./diagrams/natural_alternating_diagrams/3.png>]
+<diagrams/natural_alternating_diagrams/4-2.png, id=682, 338.26375pt x 518.43687
 pt>
 File: diagrams/natural_alternating_diagrams/4-2.png Graphic file (type png)
 <use diagrams/natural_alternating_diagrams/4-2.png>
 Package pdftex.def Info: diagrams/natural_alternating_diagrams/4-2.png  used on
  input line 49.
 (pdftex.def)             Requested size: 321.34872pt x 492.51222pt.
- [90 <./diagrams/natural_alternating_diagrams/4-1.png>] [91 <./diagrams/natural
+ [86 <./diagrams/natural_alternating_diagrams/4-1.png>] [87 <./diagrams/natural
 _alternating_diagrams/4-2.png>]
-<diagrams/natural_alternating_diagrams/5.png, id=686, 322.20375pt x 517.43312pt
+<diagrams/natural_alternating_diagrams/5.png, id=695, 322.20375pt x 517.43312pt
 >
 File: diagrams/natural_alternating_diagrams/5.png Graphic file (type png)
 <use diagrams/natural_alternating_diagrams/5.png>
 Package pdftex.def Info: diagrams/natural_alternating_diagrams/5.png  used on i
 nput line 75.
 (pdftex.def)             Requested size: 306.09181pt x 491.55865pt.
- [92] [93 <./diagrams/natural_alternating_diagrams/5.png>]
-<diagrams/natural_alternating_diagrams/6-1.png, id=698, 299.61937pt x 302.63063
+ [88] [89 <./diagrams/natural_alternating_diagrams/5.png>]
+<diagrams/natural_alternating_diagrams/6-1.png, id=708, 299.61937pt x 302.63063
 pt>
 File: diagrams/natural_alternating_diagrams/6-1.png Graphic file (type png)
 <use diagrams/natural_alternating_diagrams/6-1.png>
 Package pdftex.def Info: diagrams/natural_alternating_diagrams/6-1.png  used on
  input line 90.
 (pdftex.def)             Requested size: 284.63678pt x 287.49745pt.
-<diagrams/natural_alternating_diagrams/6-2.png, id=699, 298.61563pt x 299.1175p
+<diagrams/natural_alternating_diagrams/6-2.png, id=709, 298.61563pt x 299.1175p
 t>
 File: diagrams/natural_alternating_diagrams/6-2.png Graphic file (type png)
 <use diagrams/natural_alternating_diagrams/6-2.png>
@@ -1451,178 +1383,178 @@ Package pdftex.def Info: diagrams/natural_alternating_diagrams/6-2.png  used on
  input line 99.
 (pdftex.def)             Requested size: 283.68323pt x 284.16pt.
 
-[94 <./diagrams/natural_alternating_diagrams/6-1.png>]
-<diagrams/natural_alternating_diagrams/7-1.png, id=706, 297.11pt x 300.12125pt>
+[90 <./diagrams/natural_alternating_diagrams/6-1.png>]
+<diagrams/natural_alternating_diagrams/7-1.png, id=716, 297.11pt x 300.12125pt>
 
 File: diagrams/natural_alternating_diagrams/7-1.png Graphic file (type png)
 <use diagrams/natural_alternating_diagrams/7-1.png>
 Package pdftex.def Info: diagrams/natural_alternating_diagrams/7-1.png  used on
  input line 118.
 (pdftex.def)             Requested size: 282.25288pt x 285.11357pt.
- [95 <./diagrams/natural_alternating_diagrams/6-2.png>]
-<diagrams/natural_alternating_diagrams/7-2.png, id=715, 301.125pt x 297.61188pt
+ [91 <./diagrams/natural_alternating_diagrams/6-2.png>]
+<diagrams/natural_alternating_diagrams/7-2.png, id=725, 301.125pt x 297.61188pt
 >
 File: diagrams/natural_alternating_diagrams/7-2.png Graphic file (type png)
 <use diagrams/natural_alternating_diagrams/7-2.png>
 Package pdftex.def Info: diagrams/natural_alternating_diagrams/7-2.png  used on
  input line 127.
 (pdftex.def)             Requested size: 286.06711pt x 282.72968pt.
- [96 <./diagrams/natural_alternating_diagrams/7-1.png>]
-<diagrams/natural_alternating_diagrams/8.png, id=722, 295.60437pt x 522.95375pt
+ [92 <./diagrams/natural_alternating_diagrams/7-1.png>]
+<diagrams/natural_alternating_diagrams/8.png, id=732, 295.60437pt x 522.95375pt
 >
 File: diagrams/natural_alternating_diagrams/8.png Graphic file (type png)
 <use diagrams/natural_alternating_diagrams/8.png>
 Package pdftex.def Info: diagrams/natural_alternating_diagrams/8.png  used on i
 nput line 138.
 (pdftex.def)             Requested size: 280.82254pt x 496.80324pt.
- [97 <./diagrams/natural_alternating_diagrams/7-2.png>] [98 <./diagrams/natural
+ [93 <./diagrams/natural_alternating_diagrams/7-2.png>] [94 <./diagrams/natural
 _alternating_diagrams/8.png>]
-<diagrams/natural_alternating_diagrams/9.png, id=736, 279.0425pt x 501.875pt>
+<diagrams/natural_alternating_diagrams/9.png, id=745, 279.0425pt x 501.875pt>
 File: diagrams/natural_alternating_diagrams/9.png Graphic file (type png)
 <use diagrams/natural_alternating_diagrams/9.png>
 Package pdftex.def Info: diagrams/natural_alternating_diagrams/9.png  used on i
 nput line 163.
 (pdftex.def)             Requested size: 265.08885pt x 476.77853pt.
- [99]
-<diagrams/natural_alternating_diagrams/10.png, id=741, 279.54437pt x 282.05376p
+ [95]
+<diagrams/natural_alternating_diagrams/10.png, id=750, 279.54437pt x 282.05376p
 t>
 File: diagrams/natural_alternating_diagrams/10.png Graphic file (type png)
 <use diagrams/natural_alternating_diagrams/10.png>
 Package pdftex.def Info: diagrams/natural_alternating_diagrams/10.png  used on 
 input line 174.
 (pdftex.def)             Requested size: 265.56563pt x 267.94954pt.
- [100 <./diagrams/natural_alternating_diagrams/9.png>]
-<diagrams/natural_alternating_diagrams/11.png, id=748, 277.035pt x 498.86375pt>
+ [96 <./diagrams/natural_alternating_diagrams/9.png>]
+<diagrams/natural_alternating_diagrams/11.png, id=757, 277.035pt x 498.86375pt>
 
 File: diagrams/natural_alternating_diagrams/11.png Graphic file (type png)
 <use diagrams/natural_alternating_diagrams/11.png>
 Package pdftex.def Info: diagrams/natural_alternating_diagrams/11.png  used on 
 input line 196.
 (pdftex.def)             Requested size: 263.18175pt x 473.91788pt.
- [101 <./diagrams/natural_alternating_diagrams/10.png>]
-<diagrams/natural_alternating_diagrams/12.png, id=756, 295.60437pt x 519.9425pt
+ [97 <./diagrams/natural_alternating_diagrams/10.png>]
+<diagrams/natural_alternating_diagrams/12.png, id=766, 295.60437pt x 519.9425pt
 >
 File: diagrams/natural_alternating_diagrams/12.png Graphic file (type png)
 <use diagrams/natural_alternating_diagrams/12.png>
 Package pdftex.def Info: diagrams/natural_alternating_diagrams/12.png  used on 
 input line 205.
 (pdftex.def)             Requested size: 280.82254pt x 493.94258pt.
- [102 <./diagrams/natural_alternating_diagrams/11.png>])
-(./2nd part/2.local_systems_on_as_diagrams.tex [103 <./diagrams/natural_alterna
-ting_diagrams/12.png>]
-<diagrams/local_systems_on_as_diagrams/1.png, id=770, 277.035pt x 495.8525pt>
+ [98 <./diagrams/natural_alternating_diagrams/11.png>])
+(./2nd part/2.local_systems_on_as_diagrams.tex [99 <./diagrams/natural_alternat
+ing_diagrams/12.png>]
+<diagrams/local_systems_on_as_diagrams/1.png, id=779, 277.035pt x 495.8525pt>
 File: diagrams/local_systems_on_as_diagrams/1.png Graphic file (type png)
 <use diagrams/local_systems_on_as_diagrams/1.png>
 Package pdftex.def Info: diagrams/local_systems_on_as_diagrams/1.png  used on i
 nput line 16.
 (pdftex.def)             Requested size: 263.18175pt x 471.0572pt.
- [104]
-<diagrams/local_systems_on_as_diagrams/2.png, id=776, 278.03876pt x 497.86pt>
+ [100]
+<diagrams/local_systems_on_as_diagrams/2.png, id=785, 278.03876pt x 497.86pt>
 File: diagrams/local_systems_on_as_diagrams/2.png Graphic file (type png)
 <use diagrams/local_systems_on_as_diagrams/2.png>
 Package pdftex.def Info: diagrams/local_systems_on_as_diagrams/2.png  used on i
 nput line 25.
 (pdftex.def)             Requested size: 264.13531pt x 472.96431pt.
- [105 <./diagrams/local_systems_on_as_diagrams/1.png>] [106 <./diagrams/local_s
+ [101 <./diagrams/local_systems_on_as_diagrams/1.png>] [102 <./diagrams/local_s
 ystems_on_as_diagrams/2.png>]
-<diagrams/local_systems_on_as_diagrams/3.png, id=789, 338.76563pt x 339.2675pt>
+<diagrams/local_systems_on_as_diagrams/3.png, id=798, 338.76563pt x 339.2675pt>
 
 File: diagrams/local_systems_on_as_diagrams/3.png Graphic file (type png)
 <use diagrams/local_systems_on_as_diagrams/3.png>
 Package pdftex.def Info: diagrams/local_systems_on_as_diagrams/3.png  used on i
 nput line 55.
 (pdftex.def)             Requested size: 321.8255pt x 322.30229pt.
- [107]
-<diagrams/local_systems_on_as_diagrams/4.png, id=796, 336.25626pt x 333.245pt>
+ [103]
+<diagrams/local_systems_on_as_diagrams/4.png, id=806, 336.25626pt x 333.245pt>
 File: diagrams/local_systems_on_as_diagrams/4.png Graphic file (type png)
 <use diagrams/local_systems_on_as_diagrams/4.png>
 Package pdftex.def Info: diagrams/local_systems_on_as_diagrams/4.png  used on i
 nput line 62.
 (pdftex.def)             Requested size: 319.44162pt x 316.58093pt.
- [108 <./diagrams/local_systems_on_as_diagrams/3.png>]
-<diagrams/local_systems_on_as_diagrams/5.png, id=803, 337.26pt x 338.76563pt>
+ [104 <./diagrams/local_systems_on_as_diagrams/3.png>]
+<diagrams/local_systems_on_as_diagrams/5.png, id=813, 337.26pt x 338.76563pt>
 File: diagrams/local_systems_on_as_diagrams/5.png Graphic file (type png)
 <use diagrams/local_systems_on_as_diagrams/5.png>
 Package pdftex.def Info: diagrams/local_systems_on_as_diagrams/5.png  used on i
 nput line 69.
 (pdftex.def)             Requested size: 320.39517pt x 321.8255pt.
- [109 <./diagrams/local_systems_on_as_diagrams/4.png>]
-<diagrams/local_systems_on_as_diagrams/6.png, id=811, 337.76187pt x 337.76187pt
+ [105 <./diagrams/local_systems_on_as_diagrams/4.png>]
+<diagrams/local_systems_on_as_diagrams/6.png, id=820, 337.76187pt x 337.76187pt
 >
 File: diagrams/local_systems_on_as_diagrams/6.png Graphic file (type png)
 <use diagrams/local_systems_on_as_diagrams/6.png>
 Package pdftex.def Info: diagrams/local_systems_on_as_diagrams/6.png  used on i
 nput line 77.
 (pdftex.def)             Requested size: 320.87196pt x 320.87196pt.
- [110 <./diagrams/local_systems_on_as_diagrams/5.png>]
-<diagrams/local_systems_on_as_diagrams/7.png, id=818, 338.26375pt x 337.26pt>
+ [106 <./diagrams/local_systems_on_as_diagrams/5.png>]
+<diagrams/local_systems_on_as_diagrams/7.png, id=827, 338.26375pt x 337.26pt>
 File: diagrams/local_systems_on_as_diagrams/7.png Graphic file (type png)
 <use diagrams/local_systems_on_as_diagrams/7.png>
 Package pdftex.def Info: diagrams/local_systems_on_as_diagrams/7.png  used on i
 nput line 84.
 (pdftex.def)             Requested size: 321.34872pt x 320.39517pt.
- [111 <./diagrams/local_systems_on_as_diagrams/6.png>]
-<diagrams/local_systems_on_as_diagrams/8.png, id=825, 337.26pt x 336.25626pt>
+ [107 <./diagrams/local_systems_on_as_diagrams/6.png>]
+<diagrams/local_systems_on_as_diagrams/8.png, id=834, 337.26pt x 336.25626pt>
 File: diagrams/local_systems_on_as_diagrams/8.png Graphic file (type png)
 <use diagrams/local_systems_on_as_diagrams/8.png>
 Package pdftex.def Info: diagrams/local_systems_on_as_diagrams/8.png  used on i
 nput line 91.
 (pdftex.def)             Requested size: 320.39517pt x 319.44162pt.
- [112 <./diagrams/local_systems_on_as_diagrams/7.png>]
-<diagrams/local_systems_on_as_diagrams/9.png, id=832, 336.25626pt x 333.245pt>
+ [108 <./diagrams/local_systems_on_as_diagrams/7.png>]
+<diagrams/local_systems_on_as_diagrams/9.png, id=841, 336.25626pt x 333.245pt>
 File: diagrams/local_systems_on_as_diagrams/9.png Graphic file (type png)
 <use diagrams/local_systems_on_as_diagrams/9.png>
 Package pdftex.def Info: diagrams/local_systems_on_as_diagrams/9.png  used on i
 nput line 100.
 (pdftex.def)             Requested size: 319.44162pt x 316.58093pt.
- [113 <./diagrams/local_systems_on_as_diagrams/8.png>]
-<diagrams/local_systems_on_as_diagrams/10.png, id=840, 336.75812pt x 337.26pt>
+ [109 <./diagrams/local_systems_on_as_diagrams/8.png>]
+<diagrams/local_systems_on_as_diagrams/10.png, id=850, 336.75812pt x 337.26pt>
 File: diagrams/local_systems_on_as_diagrams/10.png Graphic file (type png)
 <use diagrams/local_systems_on_as_diagrams/10.png>
 Package pdftex.def Info: diagrams/local_systems_on_as_diagrams/10.png  used on 
 input line 107.
 (pdftex.def)             Requested size: 319.9184pt x 320.39517pt.
-
-[114 <./diagrams/local_systems_on_as_diagrams/9.png>]
-<diagrams/local_systems_on_as_diagrams/11.png, id=847, 333.245pt x 332.24126pt>
+ [110 <./diagrams/local_systems_on_as_diagrams/9.png>]
+<diagrams/local_systems_on_as_diagrams/11.png, id=857, 333.245pt x 332.24126pt>
 
 File: diagrams/local_systems_on_as_diagrams/11.png Graphic file (type png)
 <use diagrams/local_systems_on_as_diagrams/11.png>
 Package pdftex.def Info: diagrams/local_systems_on_as_diagrams/11.png  used on 
 input line 114.
 (pdftex.def)             Requested size: 316.58093pt x 315.6274pt.
- [115 <./diagrams/local_systems_on_as_diagrams/10.png>]
-<diagrams/local_systems_on_as_diagrams/12.png, id=855, 277.035pt x 495.8525pt>
+ [111 <./diagrams/local_systems_on_as_diagrams/10.png>]
+<diagrams/local_systems_on_as_diagrams/12.png, id=864, 277.035pt x 495.8525pt>
 File: diagrams/local_systems_on_as_diagrams/12.png Graphic file (type png)
 <use diagrams/local_systems_on_as_diagrams/12.png>
 Package pdftex.def Info: diagrams/local_systems_on_as_diagrams/12.png  used on 
 input line 124.
 (pdftex.def)             Requested size: 263.18175pt x 471.0572pt.
- [116 <./diagrams/local_systems_on_as_diagrams/11.png>]
-<diagrams/local_systems_on_as_diagrams/13.png, id=862, 280.04625pt x 499.8675pt
+ [112 <./diagrams/local_systems_on_as_diagrams/11.png>]
+<diagrams/local_systems_on_as_diagrams/13.png, id=871, 280.04625pt x 499.8675pt
 >
 File: diagrams/local_systems_on_as_diagrams/13.png Graphic file (type png)
 <use diagrams/local_systems_on_as_diagrams/13.png>
 Package pdftex.def Info: diagrams/local_systems_on_as_diagrams/13.png  used on 
 input line 133.
 (pdftex.def)             Requested size: 266.0424pt x 474.87143pt.
- [117 <./diagrams/local_systems_on_as_diagrams/12.png>]
-<diagrams/local_systems_on_as_diagrams/14.png, id=869, 280.04625pt x 495.8525pt
+
+[113 <./diagrams/local_systems_on_as_diagrams/12.png>]
+<diagrams/local_systems_on_as_diagrams/14.png, id=879, 280.04625pt x 495.8525pt
 >
 File: diagrams/local_systems_on_as_diagrams/14.png Graphic file (type png)
 <use diagrams/local_systems_on_as_diagrams/14.png>
 Package pdftex.def Info: diagrams/local_systems_on_as_diagrams/14.png  used on 
 input line 141.
 (pdftex.def)             Requested size: 266.0424pt x 471.0572pt.
- [118 <./diagrams/local_systems_on_as_diagrams/13.png>]
-<diagrams/local_systems_on_as_diagrams/15.png, id=876, 278.03876pt x 498.36188p
+ [114 <./diagrams/local_systems_on_as_diagrams/13.png>]
+<diagrams/local_systems_on_as_diagrams/15.png, id=886, 278.03876pt x 498.36188p
 t>
 File: diagrams/local_systems_on_as_diagrams/15.png Graphic file (type png)
 <use diagrams/local_systems_on_as_diagrams/15.png>
 Package pdftex.def Info: diagrams/local_systems_on_as_diagrams/15.png  used on 
 input line 149.
 (pdftex.def)             Requested size: 264.13531pt x 473.4411pt.
- [119 <./diagrams/local_systems_on_as_diagrams/14.png>] [120 <./diagrams/local_
+ [115 <./diagrams/local_systems_on_as_diagrams/14.png>] [116 <./diagrams/local_
 systems_on_as_diagrams/15.png>])
 (./2nd part/3.cobord1.tex
 Overfull \hbox (55.28851pt too wide) in paragraph at lines 191--1
@@ -1633,8 +1565,8 @@ m/n/12 ^^C[]\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 ^^C[]\OML/cmm/m/it/12 ; \OT1/cmr
 /m/n/12 ^^C[]))$
  []
 
-[121] [122] [123] [124] [125]
-<diagrams/lemma1/1.png, id=940, 469.755pt x 467.7475pt>
+[117] [118] [119] [120] [121]
+<diagrams/lemma1/1.png, id=950, 469.755pt x 467.7475pt>
 File: diagrams/lemma1/1.png Graphic file (type png)
 <use diagrams/lemma1/1.png>
 Package pdftex.def Info: diagrams/lemma1/1.png  used on input line 201.
@@ -1644,8 +1576,8 @@ Overfull \hbox (12.64471pt too wide) in paragraph at lines 201--202
  [][] 
  []
 
-[126]
-<diagrams/lemma1/2.png, id=950, 501.875pt x 497.86pt>
+[122]
+<diagrams/lemma1/2.png, id=960, 501.875pt x 497.86pt>
 File: diagrams/lemma1/2.png Graphic file (type png)
 <use diagrams/lemma1/2.png>
 Package pdftex.def Info: diagrams/lemma1/2.png  used on input line 211.
@@ -1655,7 +1587,7 @@ Overfull \hbox (43.15852pt too wide) in paragraph at lines 211--212
  [][] 
  []
 
-[127 <./diagrams/lemma1/1.png>]
+[123 <./diagrams/lemma1/1.png>]
 Overfull \hbox (21.85915pt too wide) in paragraph at lines 215--217
 \OML/cmm/m/it/12 s[]\OT1/cmr/m/n/12 (0\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^@\O
 ML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 )$,$\OML/cmm/m/it/12 s[]\O
@@ -1671,7 +1603,7 @@ t/12 ; \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 +)$,$\OML/cmm/m/it/1
 cmsy/m/n/12 ^^@\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 +)$ 
  []
 
-<diagrams/lemma1/3.png, id=958, 509.905pt x 506.89375pt>
+<diagrams/lemma1/3.png, id=967, 509.905pt x 506.89375pt>
 File: diagrams/lemma1/3.png Graphic file (type png)
 <use diagrams/lemma1/3.png>
 Package pdftex.def Info: diagrams/lemma1/3.png  used on input line 220.
@@ -1681,8 +1613,8 @@ Overfull \hbox (50.78699pt too wide) in paragraph at lines 220--221
  [][] 
  []
 
-[128 <./diagrams/lemma1/2.png>]
-<diagrams/lemma1/4.png, id=965, 510.40688pt x 505.89pt>
+[124 <./diagrams/lemma1/2.png>]
+<diagrams/lemma1/4.png, id=974, 510.40688pt x 505.89pt>
 File: diagrams/lemma1/4.png Graphic file (type png)
 <use diagrams/lemma1/4.png>
 Package pdftex.def Info: diagrams/lemma1/4.png  used on input line 232.
@@ -1692,8 +1624,8 @@ Overfull \hbox (51.26376pt too wide) in paragraph at lines 232--233
  [][] 
  []
 
-[129 <./diagrams/lemma1/3.png>]
-<diagrams/lemma1/5.png, id=973, 506.39188pt x 503.8825pt>
+[125 <./diagrams/lemma1/3.png>]
+<diagrams/lemma1/5.png, id=982, 506.39188pt x 503.8825pt>
 File: diagrams/lemma1/5.png Graphic file (type png)
 <use diagrams/lemma1/5.png>
 Package pdftex.def Info: diagrams/lemma1/5.png  used on input line 241.
@@ -1703,7 +1635,7 @@ Overfull \hbox (47.44952pt too wide) in paragraph at lines 241--242
  [][] 
  []
 
-[130 <./diagrams/lemma1/4.png>]
+[126 <./diagrams/lemma1/4.png>]
 Overfull \hbox (43.95818pt too wide) in paragraph at lines 245--247
 \OMS/cmsy/m/n/12 f^^@\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 +\OMS/cmsy/m/n/12 g[]g 
 [ f\OML/cmm/m/it/12 s[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 sgn[]; sgn[]; \OT1/cmr
@@ -1713,7 +1645,7 @@ T1/cmr/m/n/12 (\OMS/cmsy/m/n/12 ^^@\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^@\OML/
 cmm/m/it/12 ; \OT1/cmr/m/n/12 0)\OMS/cmsy/m/n/12 g$ 
  []
 
-<diagrams/lemma1/6.png, id=980, 500.36937pt x 498.86375pt>
+<diagrams/lemma1/6.png, id=989, 500.36937pt x 498.86375pt>
 File: diagrams/lemma1/6.png Graphic file (type png)
 <use diagrams/lemma1/6.png>
 Package pdftex.def Info: diagrams/lemma1/6.png  used on input line 250.
@@ -1723,8 +1655,8 @@ Overfull \hbox (41.7282pt too wide) in paragraph at lines 250--251
  [][] 
  []
 
-[131 <./diagrams/lemma1/5.png>]
-<diagrams/lemma1/7.png, id=987, 486.31688pt x 486.81876pt>
+[127 <./diagrams/lemma1/5.png>]
+<diagrams/lemma1/7.png, id=997, 486.31688pt x 486.81876pt>
 File: diagrams/lemma1/7.png Graphic file (type png)
 <use diagrams/lemma1/7.png>
 Package pdftex.def Info: diagrams/lemma1/7.png  used on input line 262.
@@ -1734,7 +1666,7 @@ Overfull \hbox (28.3784pt too wide) in paragraph at lines 262--263
  [][] 
  []
 
-<diagrams/lemma1/8.png, id=988, 497.35812pt x 495.8525pt>
+<diagrams/lemma1/8.png, id=998, 497.35812pt x 495.8525pt>
 File: diagrams/lemma1/8.png Graphic file (type png)
 <use diagrams/lemma1/8.png>
 Package pdftex.def Info: diagrams/lemma1/8.png  used on input line 268.
@@ -1744,8 +1676,8 @@ Overfull \hbox (38.86752pt too wide) in paragraph at lines 268--269
  [][] 
  []
 
-[132 <./diagrams/lemma1/6.png>]
-<diagrams/lemma1/9.png, id=996, 498.86375pt x 501.875pt>
+[128 <./diagrams/lemma1/6.png>]
+<diagrams/lemma1/9.png, id=1006, 498.86375pt x 501.875pt>
 File: diagrams/lemma1/9.png Graphic file (type png)
 <use diagrams/lemma1/9.png>
 Package pdftex.def Info: diagrams/lemma1/9.png  used on input line 274.
@@ -1755,8 +1687,8 @@ Overfull \hbox (40.29787pt too wide) in paragraph at lines 274--275
  [][] 
  []
 
-[133 <./diagrams/lemma1/7.png>] [134 <./diagrams/lemma1/8.png>]
-<diagrams/lemma1/10.png, id=1010, 503.8825pt x 499.8675pt>
+[129 <./diagrams/lemma1/7.png>] [130 <./diagrams/lemma1/8.png>]
+<diagrams/lemma1/10.png, id=1020, 503.8825pt x 499.8675pt>
 File: diagrams/lemma1/10.png Graphic file (type png)
 <use diagrams/lemma1/10.png>
 Package pdftex.def Info: diagrams/lemma1/10.png  used on input line 283.
@@ -1766,7 +1698,7 @@ Overfull \hbox (45.06566pt too wide) in paragraph at lines 283--284
  [][] 
  []
 
-<diagrams/lemma1/11.png, id=1011, 491.8375pt x 492.84125pt>
+<diagrams/lemma1/11.png, id=1021, 491.8375pt x 492.84125pt>
 File: diagrams/lemma1/11.png Graphic file (type png)
 <use diagrams/lemma1/11.png>
 Package pdftex.def Info: diagrams/lemma1/11.png  used on input line 289.
@@ -1776,8 +1708,8 @@ Overfull \hbox (33.62296pt too wide) in paragraph at lines 289--290
  [][] 
  []
 
-[135 <./diagrams/lemma1/9.png>]
-<diagrams/lemma1/12.png, id=1018, 488.32437pt x 486.81876pt>
+[131 <./diagrams/lemma1/9.png>]
+<diagrams/lemma1/12.png, id=1028, 488.32437pt x 486.81876pt>
 File: diagrams/lemma1/12.png Graphic file (type png)
 <use diagrams/lemma1/12.png>
 Package pdftex.def Info: diagrams/lemma1/12.png  used on input line 295.
@@ -1787,8 +1719,8 @@ Overfull \hbox (30.28549pt too wide) in paragraph at lines 295--296
  [][] 
  []
 
-[136 <./diagrams/lemma1/10.png>] [137 <./diagrams/lemma1/11.png>]
-<diagrams/lemma1/13.png, id=1032, 503.8825pt x 502.87875pt>
+[132 <./diagrams/lemma1/10.png>] [133 <./diagrams/lemma1/11.png>]
+<diagrams/lemma1/13.png, id=1042, 503.8825pt x 502.87875pt>
 File: diagrams/lemma1/13.png Graphic file (type png)
 <use diagrams/lemma1/13.png>
 Package pdftex.def Info: diagrams/lemma1/13.png  used on input line 304.
@@ -1798,7 +1730,7 @@ Overfull \hbox (45.06566pt too wide) in paragraph at lines 304--305
  [][] 
  []
 
-<diagrams/lemma1/14.png, id=1033, 509.40312pt x 509.905pt>
+<diagrams/lemma1/14.png, id=1043, 509.40312pt x 509.905pt>
 File: diagrams/lemma1/14.png Graphic file (type png)
 <use diagrams/lemma1/14.png>
 Package pdftex.def Info: diagrams/lemma1/14.png  used on input line 310.
@@ -1808,8 +1740,8 @@ Overfull \hbox (50.31021pt too wide) in paragraph at lines 310--311
  [][] 
  []
 
-[138 <./diagrams/lemma1/12.png>]
-<diagrams/lemma1/15.png, id=1040, 509.40312pt x 505.89pt>
+[134 <./diagrams/lemma1/12.png>]
+<diagrams/lemma1/15.png, id=1050, 509.40312pt x 505.89pt>
 File: diagrams/lemma1/15.png Graphic file (type png)
 <use diagrams/lemma1/15.png>
 Package pdftex.def Info: diagrams/lemma1/15.png  used on input line 316.
@@ -1819,8 +1751,8 @@ Overfull \hbox (50.31021pt too wide) in paragraph at lines 316--317
  [][] 
  []
 
-[139 <./diagrams/lemma1/13.png>] [140 <./diagrams/lemma1/14.png>]
-<diagrams/lemma1/16.png, id=1054, 512.91624pt x 510.40688pt>
+[135 <./diagrams/lemma1/13.png>] [136 <./diagrams/lemma1/14.png>]
+<diagrams/lemma1/16.png, id=1063, 512.91624pt x 510.40688pt>
 File: diagrams/lemma1/16.png Graphic file (type png)
 <use diagrams/lemma1/16.png>
 Package pdftex.def Info: diagrams/lemma1/16.png  used on input line 325.
@@ -1830,7 +1762,7 @@ Overfull \hbox (53.64766pt too wide) in paragraph at lines 325--326
  [][] 
  []
 
-<diagrams/lemma1/17.png, id=1055, 510.90875pt x 511.9125pt>
+<diagrams/lemma1/17.png, id=1064, 510.90875pt x 511.9125pt>
 File: diagrams/lemma1/17.png Graphic file (type png)
 <use diagrams/lemma1/17.png>
 Package pdftex.def Info: diagrams/lemma1/17.png  used on input line 331.
@@ -1840,8 +1772,8 @@ Overfull \hbox (51.74055pt too wide) in paragraph at lines 331--332
  [][] 
  []
 
-[141 <./diagrams/lemma1/15.png>]
-<diagrams/lemma1/18.png, id=1062, 500.87125pt x 499.36563pt>
+[137 <./diagrams/lemma1/15.png>]
+<diagrams/lemma1/18.png, id=1071, 500.87125pt x 499.36563pt>
 File: diagrams/lemma1/18.png Graphic file (type png)
 <use diagrams/lemma1/18.png>
 Package pdftex.def Info: diagrams/lemma1/18.png  used on input line 337.
@@ -1851,9 +1783,9 @@ Overfull \hbox (42.20496pt too wide) in paragraph at lines 337--338
  [][] 
  []
 
-[142 <./diagrams/lemma1/16.png>] [143 <./diagrams/lemma1/17.png>] [144 <./diagr
-ams/lemma1/18.png>] [145] [146] [147]
-<diagrams/lemma1/19.png, id=1104, 501.875pt x 498.86375pt>
+[138 <./diagrams/lemma1/16.png>] [139 <./diagrams/lemma1/17.png>] [140 <./diagr
+ams/lemma1/18.png>] [141] [142] [143]
+<diagrams/lemma1/19.png, id=1113, 501.875pt x 498.86375pt>
 File: diagrams/lemma1/19.png Graphic file (type png)
 <use diagrams/lemma1/19.png>
 Package pdftex.def Info: diagrams/lemma1/19.png  used on input line 499.
@@ -1863,7 +1795,7 @@ Overfull \hbox (43.15852pt too wide) in paragraph at lines 499--500
  [][] 
  []
 
-<diagrams/lemma1/20.png, id=1105, 505.38812pt x 499.8675pt>
+<diagrams/lemma1/20.png, id=1114, 505.38812pt x 499.8675pt>
 File: diagrams/lemma1/20.png Graphic file (type png)
 <use diagrams/lemma1/20.png>
 Package pdftex.def Info: diagrams/lemma1/20.png  used on input line 505.
@@ -1873,8 +1805,8 @@ Overfull \hbox (46.49597pt too wide) in paragraph at lines 505--506
  [][] 
  []
 
-[148] [149 <./diagrams/lemma1/19.png>] [150 <./diagrams/lemma1/20.png>]
-<diagrams/lemma1/21.png, id=1123, 511.9125pt x 498.86375pt>
+[144] [145 <./diagrams/lemma1/19.png>] [146 <./diagrams/lemma1/20.png>]
+<diagrams/lemma1/21.png, id=1133, 511.9125pt x 498.86375pt>
 File: diagrams/lemma1/21.png Graphic file (type png)
 <use diagrams/lemma1/21.png>
 Package pdftex.def Info: diagrams/lemma1/21.png  used on input line 521.
@@ -1884,13 +1816,13 @@ Overfull \hbox (52.6941pt too wide) in paragraph at lines 521--522
  [][] 
  []
 
-[151 <./diagrams/lemma1/21.png>]
+[147 <./diagrams/lemma1/21.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 546--547
 
  []
 
-[152]
-<diagrams/lemma1/22.png, id=1145, 501.37312pt x 495.8525pt>
+[148]
+<diagrams/lemma1/22.png, id=1154, 501.37312pt x 495.8525pt>
 File: diagrams/lemma1/22.png Graphic file (type png)
 <use diagrams/lemma1/22.png>
 Package pdftex.def Info: diagrams/lemma1/22.png  used on input line 569.
@@ -1900,7 +1832,7 @@ Overfull \hbox (42.68175pt too wide) in paragraph at lines 569--570
  [][] 
  []
 
-<diagrams/lemma1/23.png, id=1146, 495.8525pt x 499.8675pt>
+<diagrams/lemma1/23.png, id=1155, 495.8525pt x 499.8675pt>
 File: diagrams/lemma1/23.png Graphic file (type png)
 <use diagrams/lemma1/23.png>
 Package pdftex.def Info: diagrams/lemma1/23.png  used on input line 575.
@@ -1910,7 +1842,7 @@ Overfull \hbox (37.4372pt too wide) in paragraph at lines 575--576
  [][] 
  []
 
-<diagrams/lemma1/24.png, id=1147, 496.85625pt x 493.845pt>
+<diagrams/lemma1/24.png, id=1156, 496.85625pt x 493.845pt>
 File: diagrams/lemma1/24.png Graphic file (type png)
 <use diagrams/lemma1/24.png>
 Package pdftex.def Info: diagrams/lemma1/24.png  used on input line 581.
@@ -1920,8 +1852,8 @@ Overfull \hbox (38.39075pt too wide) in paragraph at lines 581--582
  [][] 
  []
 
-[153 <./diagrams/lemma1/22.png>]
-<diagrams/lemma1/25.png, id=1154, 510.90875pt x 507.8975pt>
+[149 <./diagrams/lemma1/22.png>]
+<diagrams/lemma1/25.png, id=1163, 510.90875pt x 507.8975pt>
 File: diagrams/lemma1/25.png Graphic file (type png)
 <use diagrams/lemma1/25.png>
 Package pdftex.def Info: diagrams/lemma1/25.png  used on input line 587.
@@ -1931,8 +1863,8 @@ Overfull \hbox (51.74055pt too wide) in paragraph at lines 587--588
  [][] 
  []
 
-[154 <./diagrams/lemma1/23.png>]
-<diagrams/lemma1/26.png, id=1161, 505.38812pt x 500.87125pt>
+[150 <./diagrams/lemma1/23.png>]
+<diagrams/lemma1/26.png, id=1170, 505.38812pt x 500.87125pt>
 File: diagrams/lemma1/26.png Graphic file (type png)
 <use diagrams/lemma1/26.png>
 Package pdftex.def Info: diagrams/lemma1/26.png  used on input line 593.
@@ -1942,8 +1874,8 @@ Overfull \hbox (46.49597pt too wide) in paragraph at lines 593--594
  [][] 
  []
 
-[155 <./diagrams/lemma1/24.png>]
-<diagrams/lemma1/27.png, id=1168, 496.85625pt x 494.84875pt>
+[151 <./diagrams/lemma1/24.png>]
+<diagrams/lemma1/27.png, id=1179, 496.85625pt x 494.84875pt>
 File: diagrams/lemma1/27.png Graphic file (type png)
 <use diagrams/lemma1/27.png>
 Package pdftex.def Info: diagrams/lemma1/27.png  used on input line 599.
@@ -1953,9 +1885,9 @@ Overfull \hbox (38.39075pt too wide) in paragraph at lines 599--600
  [][] 
  []
 
-[156 <./diagrams/lemma1/25.png>] [157 <./diagrams/lemma1/26.png>] [158 <./diagr
+[152 <./diagrams/lemma1/25.png>] [153 <./diagrams/lemma1/26.png>] [154 <./diagr
 ams/lemma1/27.png>]
-<diagrams/lemma1/28.png, id=1189, 499.36563pt x 499.8675pt>
+<diagrams/lemma1/28.png, id=1198, 499.36563pt x 499.8675pt>
 File: diagrams/lemma1/28.png Graphic file (type png)
 <use diagrams/lemma1/28.png>
 Package pdftex.def Info: diagrams/lemma1/28.png  used on input line 617.
@@ -1965,7 +1897,7 @@ Overfull \hbox (40.77464pt too wide) in paragraph at lines 617--618
  [][] 
  []
 
-<diagrams/lemma1/29.png, id=1190, 509.40312pt x 508.90125pt>
+<diagrams/lemma1/29.png, id=1199, 509.40312pt x 508.90125pt>
 File: diagrams/lemma1/29.png Graphic file (type png)
 <use diagrams/lemma1/29.png>
 Package pdftex.def Info: diagrams/lemma1/29.png  used on input line 623.
@@ -1975,7 +1907,7 @@ Overfull \hbox (50.31021pt too wide) in paragraph at lines 623--624
  [][] 
  []
 
-<diagrams/lemma1/30.png, id=1191, 498.36188pt x 495.8525pt>
+<diagrams/lemma1/30.png, id=1200, 498.36188pt x 495.8525pt>
 File: diagrams/lemma1/30.png Graphic file (type png)
 <use diagrams/lemma1/30.png>
 Package pdftex.def Info: diagrams/lemma1/30.png  used on input line 629.
@@ -1985,7 +1917,7 @@ Overfull \hbox (39.82109pt too wide) in paragraph at lines 629--630
  [][] 
  []
 
-[159 <./diagrams/lemma1/28.png>] [160 <./diagrams/lemma1/29.png>] [161 <./diagr
+[155 <./diagrams/lemma1/28.png>] [156 <./diagrams/lemma1/29.png>] [157 <./diagr
 ams/lemma1/30.png>]
 Overfull \hbox (31.57823pt too wide) in paragraph at lines 660--661
 \OT1/cmr/m/n/12 Lastly, I will de-fine a glu-ing iso-mor-phism $\OML/cmm/m/it/1
@@ -2002,12 +1934,12 @@ s/m/n/12 F[]\OMS/cmsy/m/n/12 j[]\OT1/cmr/m/n/12 )\OMS/cmsy/m/n/12 j[] \OT1/cmr/
 m/n/12 = \U/rsfs/m/n/12 F[]\OMS/cmsy/m/n/12 j[]
  []
 
-[162] [163] [164]
+[158] [159] [160]
 Overfull \hbox (26.4016pt too wide) in paragraph at lines 796--811
 [] 
  []
 
-[165]
+[161]
 Overfull \hbox (11.67407pt too wide) in paragraph at lines 829--830
 \OT1/cmr/m/n/12 First, a sheaf on $\OML/cmm/m/it/12 V [] V \OMS/cmsy/m/n/12 ^^B
  f\OT1/cmr/m/n/12 1\OMS/cmsy/m/n/12 g$ \OT1/cmr/m/n/12 is the re-stric-tion of 
@@ -2016,8 +1948,8 @@ B f\OT1/cmr/m/n/12 1\OMS/cmsy/m/n/12 g$\OT1/cmr/m/n/12 , i.e. $\U/rsfs/m/n/12 F
 []\OMS/cmsy/m/n/12 j[] \OT1/cmr/m/n/12 =
  []
 
-[166]
-<diagrams/lemma1/31.png, id=1256, 505.38812pt x 505.89pt>
+[162]
+<diagrams/lemma1/31.png, id=1265, 505.38812pt x 505.89pt>
 File: diagrams/lemma1/31.png Graphic file (type png)
 <use diagrams/lemma1/31.png>
 Package pdftex.def Info: diagrams/lemma1/31.png  used on input line 840.
@@ -2027,7 +1959,7 @@ Overfull \hbox (46.49597pt too wide) in paragraph at lines 840--841
  [][] 
  []
 
-<diagrams/lemma1/32.png, id=1257, 504.38437pt x 496.85625pt>
+<diagrams/lemma1/32.png, id=1266, 504.38437pt x 496.85625pt>
 File: diagrams/lemma1/32.png Graphic file (type png)
 <use diagrams/lemma1/32.png>
 Package pdftex.def Info: diagrams/lemma1/32.png  used on input line 846.
@@ -2037,8 +1969,8 @@ Overfull \hbox (45.54242pt too wide) in paragraph at lines 846--847
  [][] 
  []
 
-[167] [168 <./diagrams/lemma1/31.png>] [169 <./diagrams/lemma1/32.png>]
-<diagrams/lemma1/33.png, id=1276, 498.86375pt x 503.38063pt>
+[163] [164 <./diagrams/lemma1/31.png>] [165 <./diagrams/lemma1/32.png>]
+<diagrams/lemma1/33.png, id=1285, 498.86375pt x 503.38063pt>
 File: diagrams/lemma1/33.png Graphic file (type png)
 <use diagrams/lemma1/33.png>
 Package pdftex.def Info: diagrams/lemma1/33.png  used on input line 864.
@@ -2048,9 +1980,9 @@ Overfull \hbox (40.29787pt too wide) in paragraph at lines 864--865
  [][] 
  []
 
-[170] [171 <./diagrams/lemma1/33.png>]) (./2nd part/4.cobord2.tex [172]
-[173] [174] [175] [176] [177] [178]
-<diagrams/lemma2/1.png, id=1368, 511.41063pt x 503.8825pt>
+[166] [167 <./diagrams/lemma1/33.png>]) (./2nd part/4.cobord2.tex [168]
+[169] [170] [171] [172] [173] [174]
+<diagrams/lemma2/1.png, id=1377, 511.41063pt x 503.8825pt>
 File: diagrams/lemma2/1.png Graphic file (type png)
 <use diagrams/lemma2/1.png>
 Package pdftex.def Info: diagrams/lemma2/1.png  used on input line 255.
@@ -2075,8 +2007,8 @@ mm/m/it/12 s[]\OT1/cmr/m/n/12 (+\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^@\OML/cmm
 t/12 ; \OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 )$,
  []
 
-[179 <./diagrams/lemma2/1.png>]
-<diagrams/lemma2/2.png, id=1379, 499.8675pt x 500.87125pt>
+[175 <./diagrams/lemma2/1.png>]
+<diagrams/lemma2/2.png, id=1389, 499.8675pt x 500.87125pt>
 File: diagrams/lemma2/2.png Graphic file (type png)
 <use diagrams/lemma2/2.png>
 Package pdftex.def Info: diagrams/lemma2/2.png  used on input line 264.
@@ -2103,7 +2035,7 @@ t/12 s[]\OT1/cmr/m/n/12 (+\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0\OML/cmm/m/it/12
 ,
  []
 
-<diagrams/lemma2/3.png, id=1380, 503.38063pt x 502.87875pt>
+<diagrams/lemma2/3.png, id=1390, 503.38063pt x 502.87875pt>
 File: diagrams/lemma2/3.png Graphic file (type png)
 <use diagrams/lemma2/3.png>
 Package pdftex.def Info: diagrams/lemma2/3.png  used on input line 273.
@@ -2113,8 +2045,8 @@ Overfull \hbox (44.58887pt too wide) in paragraph at lines 273--274
  [][] 
  []
 
-[180 <./diagrams/lemma2/2.png>]
-<diagrams/lemma2/4.png, id=1387, 485.815pt x 485.815pt>
+[176 <./diagrams/lemma2/2.png>]
+<diagrams/lemma2/4.png, id=1397, 485.815pt x 485.815pt>
 File: diagrams/lemma2/4.png Graphic file (type png)
 <use diagrams/lemma2/4.png>
 Package pdftex.def Info: diagrams/lemma2/4.png  used on input line 285.
@@ -2124,7 +2056,7 @@ Overfull \hbox (27.90163pt too wide) in paragraph at lines 285--286
  [][] 
  []
 
-[181 <./diagrams/lemma2/3.png>]
+[177 <./diagrams/lemma2/3.png>]
 Overfull \hbox (34.97684pt too wide) in paragraph at lines 289--291
 \OML/cmm/m/it/12 s[]\OT1/cmr/m/n/12 (\OMS/cmsy/m/n/12 ^^@\OML/cmm/m/it/12 ; \OT
 1/cmr/m/n/12 +)$, $\OML/cmm/m/it/12 s[]\OT1/cmr/m/n/12 (+\OML/cmm/m/it/12 ; \OM
@@ -2140,7 +2072,7 @@ n/12 +\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^C\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12
  +)$ 
  []
 
-<diagrams/lemma2/5.png, id=1396, 491.8375pt x 488.82625pt>
+<diagrams/lemma2/5.png, id=1405, 491.8375pt x 488.82625pt>
 File: diagrams/lemma2/5.png Graphic file (type png)
 <use diagrams/lemma2/5.png>
 Package pdftex.def Info: diagrams/lemma2/5.png  used on input line 294.
@@ -2150,7 +2082,7 @@ Overfull \hbox (33.62296pt too wide) in paragraph at lines 294--295
  [][] 
  []
 
-[182 <./diagrams/lemma2/4.png>]
+[178 <./diagrams/lemma2/4.png>]
 Overfull \hbox (48.33748pt too wide) in paragraph at lines 298--300
 \OML/cmm/m/it/12 s[]\OT1/cmr/m/n/12 (0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 +\OML/
 cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^C\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^@\OT1/c
@@ -2167,7 +2099,7 @@ n/12 0\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^C\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/1
 /m/it/12 ; \OT1/cmr/m/n/12 +)$,
  []
 
-<diagrams/lemma2/6.png, id=1403, 504.88625pt x 503.38063pt>
+<diagrams/lemma2/6.png, id=1412, 504.88625pt x 503.38063pt>
 File: diagrams/lemma2/6.png Graphic file (type png)
 <use diagrams/lemma2/6.png>
 Package pdftex.def Info: diagrams/lemma2/6.png  used on input line 303.
@@ -2177,8 +2109,8 @@ Overfull \hbox (46.01918pt too wide) in paragraph at lines 303--304
  [][] 
  []
 
-[183 <./diagrams/lemma2/5.png>]
-<diagrams/lemma2/7.png, id=1410, 494.84875pt x 498.36188pt>
+[179 <./diagrams/lemma2/5.png>]
+<diagrams/lemma2/7.png, id=1419, 494.84875pt x 498.36188pt>
 File: diagrams/lemma2/7.png Graphic file (type png)
 <use diagrams/lemma2/7.png>
 Package pdftex.def Info: diagrams/lemma2/7.png  used on input line 315.
@@ -2188,7 +2120,7 @@ Overfull \hbox (36.48364pt too wide) in paragraph at lines 315--316
  [][] 
  []
 
-<diagrams/lemma2/8.png, id=1411, 509.905pt x 510.90875pt>
+<diagrams/lemma2/8.png, id=1420, 509.905pt x 510.90875pt>
 File: diagrams/lemma2/8.png Graphic file (type png)
 <use diagrams/lemma2/8.png>
 Package pdftex.def Info: diagrams/lemma2/8.png  used on input line 321.
@@ -2198,8 +2130,8 @@ Overfull \hbox (50.78699pt too wide) in paragraph at lines 321--322
  [][] 
  []
 
-[184 <./diagrams/lemma2/6.png>]
-<diagrams/lemma2/9.png, id=1419, 499.8675pt x 496.85625pt>
+[180 <./diagrams/lemma2/6.png>]
+<diagrams/lemma2/9.png, id=1428, 499.8675pt x 496.85625pt>
 File: diagrams/lemma2/9.png Graphic file (type png)
 <use diagrams/lemma2/9.png>
 Package pdftex.def Info: diagrams/lemma2/9.png  used on input line 327.
@@ -2209,8 +2141,8 @@ Overfull \hbox (41.25142pt too wide) in paragraph at lines 327--328
  [][] 
  []
 
-[185 <./diagrams/lemma2/7.png>]
-<diagrams/lemma2/10.png, id=1426, 490.83376pt x 493.34312pt>
+[181 <./diagrams/lemma2/7.png>]
+<diagrams/lemma2/10.png, id=1436, 490.83376pt x 493.34312pt>
 File: diagrams/lemma2/10.png Graphic file (type png)
 <use diagrams/lemma2/10.png>
 Package pdftex.def Info: diagrams/lemma2/10.png  used on input line 333.
@@ -2220,8 +2152,8 @@ Overfull \hbox (32.6694pt too wide) in paragraph at lines 333--334
  [][] 
  []
 
-[186 <./diagrams/lemma2/8.png>]
-<diagrams/lemma2/11.png, id=1433, 485.815pt x 484.81125pt>
+[182 <./diagrams/lemma2/8.png>]
+<diagrams/lemma2/11.png, id=1443, 485.815pt x 484.81125pt>
 File: diagrams/lemma2/11.png Graphic file (type png)
 <use diagrams/lemma2/11.png>
 Package pdftex.def Info: diagrams/lemma2/11.png  used on input line 339.
@@ -2231,8 +2163,8 @@ Overfull \hbox (27.90163pt too wide) in paragraph at lines 339--340
  [][] 
  []
 
-[187 <./diagrams/lemma2/9.png>] [188 <./diagrams/lemma2/10.png>]
-<diagrams/lemma2/12.png, id=1447, 504.38437pt x 500.87125pt>
+[183 <./diagrams/lemma2/9.png>] [184 <./diagrams/lemma2/10.png>]
+<diagrams/lemma2/12.png, id=1457, 504.38437pt x 500.87125pt>
 File: diagrams/lemma2/12.png Graphic file (type png)
 <use diagrams/lemma2/12.png>
 Package pdftex.def Info: diagrams/lemma2/12.png  used on input line 348.
@@ -2242,7 +2174,7 @@ Overfull \hbox (45.54242pt too wide) in paragraph at lines 348--349
  [][] 
  []
 
-<diagrams/lemma2/13.png, id=1448, 494.84875pt x 493.845pt>
+<diagrams/lemma2/13.png, id=1458, 494.84875pt x 493.845pt>
 File: diagrams/lemma2/13.png Graphic file (type png)
 <use diagrams/lemma2/13.png>
 Package pdftex.def Info: diagrams/lemma2/13.png  used on input line 354.
@@ -2252,8 +2184,8 @@ Overfull \hbox (36.48364pt too wide) in paragraph at lines 354--355
  [][] 
  []
 
-[189 <./diagrams/lemma2/11.png>]
-<diagrams/lemma2/14.png, id=1455, 495.8525pt x 491.8375pt>
+[185 <./diagrams/lemma2/11.png>]
+<diagrams/lemma2/14.png, id=1465, 495.8525pt x 491.8375pt>
 File: diagrams/lemma2/14.png Graphic file (type png)
 <use diagrams/lemma2/14.png>
 Package pdftex.def Info: diagrams/lemma2/14.png  used on input line 360.
@@ -2263,8 +2195,8 @@ Overfull \hbox (37.4372pt too wide) in paragraph at lines 360--361
  [][] 
  []
 
-[190 <./diagrams/lemma2/12.png>]
-<diagrams/lemma2/15.png, id=1463, 502.87875pt x 502.37688pt>
+[186 <./diagrams/lemma2/12.png>]
+<diagrams/lemma2/15.png, id=1472, 502.87875pt x 502.37688pt>
 File: diagrams/lemma2/15.png Graphic file (type png)
 <use diagrams/lemma2/15.png>
 Package pdftex.def Info: diagrams/lemma2/15.png  used on input line 366.
@@ -2274,8 +2206,8 @@ Overfull \hbox (44.11209pt too wide) in paragraph at lines 366--367
  [][] 
  []
 
-[191 <./diagrams/lemma2/13.png>]
-<diagrams/lemma2/16.png, id=1470, 493.34312pt x 490.83376pt>
+[187 <./diagrams/lemma2/13.png>]
+<diagrams/lemma2/16.png, id=1480, 493.34312pt x 490.83376pt>
 File: diagrams/lemma2/16.png Graphic file (type png)
 <use diagrams/lemma2/16.png>
 Package pdftex.def Info: diagrams/lemma2/16.png  used on input line 372.
@@ -2285,7 +2217,7 @@ Overfull \hbox (35.05328pt too wide) in paragraph at lines 372--373
  [][] 
  []
 
-[192 <./diagrams/lemma2/14.png>] [193 <./diagrams/lemma2/15.png>]
+[188 <./diagrams/lemma2/14.png>] [189 <./diagrams/lemma2/15.png>]
 Overfull \hbox (44.32402pt too wide) in paragraph at lines 376--378
 \OML/cmm/m/it/12 s[]\OT1/cmr/m/n/12 (0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 +\OML/
 cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^C\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^@\OT1/c
@@ -2318,7 +2250,7 @@ it/12 ; \OMS/cmsy/m/n/12 ^^C\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0\OML/cmm/m/it/1
 OT1/cmr/m/n/12 0)$ 
  []
 
-<diagrams/lemma2/17.png, id=1484, 502.37688pt x 499.8675pt>
+<diagrams/lemma2/17.png, id=1493, 502.37688pt x 499.8675pt>
 File: diagrams/lemma2/17.png Graphic file (type png)
 <use diagrams/lemma2/17.png>
 Package pdftex.def Info: diagrams/lemma2/17.png  used on input line 381.
@@ -2328,7 +2260,7 @@ Overfull \hbox (43.63531pt too wide) in paragraph at lines 381--382
  [][] 
  []
 
-<diagrams/lemma2/18.png, id=1485, 505.38812pt x 506.89375pt>
+<diagrams/lemma2/18.png, id=1494, 505.38812pt x 506.89375pt>
 File: diagrams/lemma2/18.png Graphic file (type png)
 <use diagrams/lemma2/18.png>
 Package pdftex.def Info: diagrams/lemma2/18.png  used on input line 387.
@@ -2338,8 +2270,8 @@ Overfull \hbox (46.49597pt too wide) in paragraph at lines 387--388
  [][] 
  []
 
-[194 <./diagrams/lemma2/16.png>]
-<diagrams/lemma2/19.png, id=1492, 507.39563pt x 510.90875pt>
+[190 <./diagrams/lemma2/16.png>]
+<diagrams/lemma2/19.png, id=1501, 507.39563pt x 510.90875pt>
 File: diagrams/lemma2/19.png Graphic file (type png)
 <use diagrams/lemma2/19.png>
 Package pdftex.def Info: diagrams/lemma2/19.png  used on input line 393.
@@ -2349,8 +2281,8 @@ Overfull \hbox (48.4031pt too wide) in paragraph at lines 393--394
  [][] 
  []
 
-[195 <./diagrams/lemma2/17.png>]
-<diagrams/lemma2/20.png, id=1499, 497.35812pt x 493.845pt>
+[191 <./diagrams/lemma2/17.png>]
+<diagrams/lemma2/20.png, id=1508, 497.35812pt x 493.845pt>
 File: diagrams/lemma2/20.png Graphic file (type png)
 <use diagrams/lemma2/20.png>
 Package pdftex.def Info: diagrams/lemma2/20.png  used on input line 399.
@@ -2360,8 +2292,8 @@ Overfull \hbox (38.86752pt too wide) in paragraph at lines 399--400
  [][] 
  []
 
-[196 <./diagrams/lemma2/18.png>]
-<diagrams/lemma2/21.png, id=1506, 499.8675pt x 495.35063pt>
+[192 <./diagrams/lemma2/18.png>]
+<diagrams/lemma2/21.png, id=1515, 499.8675pt x 495.35063pt>
 File: diagrams/lemma2/21.png Graphic file (type png)
 <use diagrams/lemma2/21.png>
 Package pdftex.def Info: diagrams/lemma2/21.png  used on input line 405.
@@ -2371,7 +2303,7 @@ Overfull \hbox (41.25142pt too wide) in paragraph at lines 405--406
  [][] 
  []
 
-[197 <./diagrams/lemma2/19.png>] [198 <./diagrams/lemma2/20.png>]
+[193 <./diagrams/lemma2/19.png>] [194 <./diagrams/lemma2/20.png>]
 Overfull \hbox (48.75441pt too wide) in paragraph at lines 409--411
 \OML/cmm/m/it/12 s[]\OT1/cmr/m/n/12 (0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0\OML/
 cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^@\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^@\OT1/c
@@ -2388,7 +2320,7 @@ it/12 ; \OMS/cmsy/m/n/12 ^^@\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0\OML/cmm/m/it/1
 cmr/m/n/12 0)$,
  []
 
-<diagrams/lemma2/22.png, id=1519, 487.8225pt x 485.31313pt>
+<diagrams/lemma2/22.png, id=1529, 487.8225pt x 485.31313pt>
 File: diagrams/lemma2/22.png Graphic file (type png)
 <use diagrams/lemma2/22.png>
 Package pdftex.def Info: diagrams/lemma2/22.png  used on input line 414.
@@ -2398,7 +2330,7 @@ Overfull \hbox (29.80873pt too wide) in paragraph at lines 414--415
  [][] 
  []
 
-<diagrams/lemma2/23.png, id=1520, 488.82625pt x 488.82625pt>
+<diagrams/lemma2/23.png, id=1530, 488.82625pt x 488.82625pt>
 File: diagrams/lemma2/23.png Graphic file (type png)
 <use diagrams/lemma2/23.png>
 Package pdftex.def Info: diagrams/lemma2/23.png  used on input line 420.
@@ -2408,8 +2340,8 @@ Overfull \hbox (30.76228pt too wide) in paragraph at lines 420--421
  [][] 
  []
 
-[199 <./diagrams/lemma2/21.png>]
-<diagrams/lemma2/24.png, id=1528, 506.39188pt x 502.37688pt>
+[195 <./diagrams/lemma2/21.png>]
+<diagrams/lemma2/24.png, id=1537, 506.39188pt x 502.37688pt>
 File: diagrams/lemma2/24.png Graphic file (type png)
 <use diagrams/lemma2/24.png>
 Package pdftex.def Info: diagrams/lemma2/24.png  used on input line 426.
@@ -2419,8 +2351,8 @@ Overfull \hbox (47.44952pt too wide) in paragraph at lines 426--427
  [][] 
  []
 
-[200 <./diagrams/lemma2/22.png>]
-<diagrams/lemma2/25.png, id=1535, 513.92pt x 509.905pt>
+[196 <./diagrams/lemma2/22.png>]
+<diagrams/lemma2/25.png, id=1544, 513.92pt x 509.905pt>
 File: diagrams/lemma2/25.png Graphic file (type png)
 <use diagrams/lemma2/25.png>
 Package pdftex.def Info: diagrams/lemma2/25.png  used on input line 432.
@@ -2430,8 +2362,8 @@ Overfull \hbox (54.60121pt too wide) in paragraph at lines 432--433
  [][] 
  []
 
-[201 <./diagrams/lemma2/23.png>]
-<diagrams/lemma2/26.png, id=1542, 503.8825pt x 489.32813pt>
+[197 <./diagrams/lemma2/23.png>]
+<diagrams/lemma2/26.png, id=1551, 503.8825pt x 489.32813pt>
 File: diagrams/lemma2/26.png Graphic file (type png)
 <use diagrams/lemma2/26.png>
 Package pdftex.def Info: diagrams/lemma2/26.png  used on input line 438.
@@ -2441,9 +2373,9 @@ Overfull \hbox (45.06566pt too wide) in paragraph at lines 438--439
  [][] 
  []
 
-[202 <./diagrams/lemma2/24.png>] [203 <./diagrams/lemma2/25.png>] [204 <./diagr
-ams/lemma2/26.png>] [205] [206] [207]
-<diagrams/lemma2/27.png, id=1584, 491.8375pt x 491.33563pt>
+[198 <./diagrams/lemma2/24.png>] [199 <./diagrams/lemma2/25.png>] [200 <./diagr
+ams/lemma2/26.png>] [201] [202] [203]
+<diagrams/lemma2/27.png, id=1593, 491.8375pt x 491.33563pt>
 File: diagrams/lemma2/27.png Graphic file (type png)
 <use diagrams/lemma2/27.png>
 Package pdftex.def Info: diagrams/lemma2/27.png  used on input line 599.
@@ -2453,7 +2385,7 @@ Overfull \hbox (33.62296pt too wide) in paragraph at lines 599--600
  [][] 
  []
 
-<diagrams/lemma2/28.png, id=1585, 481.8pt x 480.79625pt>
+<diagrams/lemma2/28.png, id=1594, 481.8pt x 480.79625pt>
 File: diagrams/lemma2/28.png Graphic file (type png)
 <use diagrams/lemma2/28.png>
 Package pdftex.def Info: diagrams/lemma2/28.png  used on input line 605.
@@ -2463,8 +2395,8 @@ Overfull \hbox (24.08739pt too wide) in paragraph at lines 605--606
  [][] 
  []
 
-[208] [209 <./diagrams/lemma2/27.png>] [210 <./diagrams/lemma2/28.png>]
-<diagrams/lemma2/29.png, id=1603, 483.30562pt x 476.78125pt>
+[204] [205 <./diagrams/lemma2/27.png>] [206 <./diagrams/lemma2/28.png>]
+<diagrams/lemma2/29.png, id=1613, 483.30562pt x 476.78125pt>
 File: diagrams/lemma2/29.png Graphic file (type png)
 <use diagrams/lemma2/29.png>
 Package pdftex.def Info: diagrams/lemma2/29.png  used on input line 622.
@@ -2474,13 +2406,13 @@ Overfull \hbox (25.51773pt too wide) in paragraph at lines 622--623
  [][] 
  []
 
-[211 <./diagrams/lemma2/29.png>]
+[207 <./diagrams/lemma2/29.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 684--685
 
  []
 
-[212]
-<diagrams/lemma2/30.png, id=1626, 493.34312pt x 505.89pt>
+[208]
+<diagrams/lemma2/30.png, id=1635, 493.34312pt x 505.89pt>
 File: diagrams/lemma2/30.png Graphic file (type png)
 <use diagrams/lemma2/30.png>
 Package pdftex.def Info: diagrams/lemma2/30.png  used on input line 706.
@@ -2490,7 +2422,7 @@ Overfull \hbox (35.05328pt too wide) in paragraph at lines 706--707
  [][] 
  []
 
-<diagrams/lemma2/31.png, id=1627, 478.78876pt x 483.8075pt>
+<diagrams/lemma2/31.png, id=1636, 478.78876pt x 483.8075pt>
 File: diagrams/lemma2/31.png Graphic file (type png)
 <use diagrams/lemma2/31.png>
 Package pdftex.def Info: diagrams/lemma2/31.png  used on input line 712.
@@ -2500,8 +2432,8 @@ Overfull \hbox (21.22673pt too wide) in paragraph at lines 712--713
  [][] 
  []
 
-[213]
-<diagrams/lemma2/32.png, id=1635, 504.88625pt x 504.88625pt>
+[209]
+<diagrams/lemma2/32.png, id=1644, 504.88625pt x 504.88625pt>
 File: diagrams/lemma2/32.png Graphic file (type png)
 <use diagrams/lemma2/32.png>
 Package pdftex.def Info: diagrams/lemma2/32.png  used on input line 718.
@@ -2511,8 +2443,8 @@ Overfull \hbox (46.01918pt too wide) in paragraph at lines 718--719
  [][] 
  []
 
-[214 <./diagrams/lemma2/30.png>]
-<diagrams/lemma2/33.png, id=1642, 488.32437pt x 486.81876pt>
+[210 <./diagrams/lemma2/30.png>]
+<diagrams/lemma2/33.png, id=1651, 488.32437pt x 486.81876pt>
 File: diagrams/lemma2/33.png Graphic file (type png)
 <use diagrams/lemma2/33.png>
 Package pdftex.def Info: diagrams/lemma2/33.png  used on input line 724.
@@ -2522,14 +2454,14 @@ Overfull \hbox (30.28549pt too wide) in paragraph at lines 724--725
  [][] 
  []
 
-[215 <./diagrams/lemma2/31.png>]
-<diagrams/lemma2/34.png, id=1649, 456.70625pt x 461.725pt>
+[211 <./diagrams/lemma2/31.png>]
+<diagrams/lemma2/34.png, id=1659, 456.70625pt x 461.725pt>
 File: diagrams/lemma2/34.png Graphic file (type png)
 <use diagrams/lemma2/34.png>
 Package pdftex.def Info: diagrams/lemma2/34.png  used on input line 730.
 (pdftex.def)             Requested size: 433.86847pt x 438.63626pt.
- [216 <./diagrams/lemma2/32.png>]
-<diagrams/lemma2/35.png, id=1656, 500.87125pt x 501.875pt>
+ [212 <./diagrams/lemma2/32.png>]
+<diagrams/lemma2/35.png, id=1666, 500.87125pt x 501.875pt>
 File: diagrams/lemma2/35.png Graphic file (type png)
 <use diagrams/lemma2/35.png>
 Package pdftex.def Info: diagrams/lemma2/35.png  used on input line 736.
@@ -2539,8 +2471,8 @@ Overfull \hbox (42.20496pt too wide) in paragraph at lines 736--737
  [][] 
  []
 
-[217 <./diagrams/lemma2/33.png>]
-<diagrams/lemma2/36.png, id=1664, 500.87125pt x 495.35063pt>
+[213 <./diagrams/lemma2/33.png>]
+<diagrams/lemma2/36.png, id=1673, 500.87125pt x 495.35063pt>
 File: diagrams/lemma2/36.png Graphic file (type png)
 <use diagrams/lemma2/36.png>
 Package pdftex.def Info: diagrams/lemma2/36.png  used on input line 742.
@@ -2550,8 +2482,8 @@ Overfull \hbox (42.20496pt too wide) in paragraph at lines 742--743
  [][] 
  []
 
-[218 <./diagrams/lemma2/34.png>]
-<diagrams/lemma2/37.png, id=1671, 494.84875pt x 497.35812pt>
+[214 <./diagrams/lemma2/34.png>]
+<diagrams/lemma2/37.png, id=1680, 494.84875pt x 497.35812pt>
 File: diagrams/lemma2/37.png Graphic file (type png)
 <use diagrams/lemma2/37.png>
 Package pdftex.def Info: diagrams/lemma2/37.png  used on input line 748.
@@ -2561,8 +2493,8 @@ Overfull \hbox (36.48364pt too wide) in paragraph at lines 748--749
  [][] 
  []
 
-[219 <./diagrams/lemma2/35.png>]
-<diagrams/lemma2/38.png, id=1678, 489.83pt x 490.33188pt>
+[215 <./diagrams/lemma2/35.png>]
+<diagrams/lemma2/38.png, id=1687, 489.83pt x 490.33188pt>
 File: diagrams/lemma2/38.png Graphic file (type png)
 <use diagrams/lemma2/38.png>
 Package pdftex.def Info: diagrams/lemma2/38.png  used on input line 754.
@@ -2572,8 +2504,8 @@ Overfull \hbox (31.71585pt too wide) in paragraph at lines 754--755
  [][] 
  []
 
-[220 <./diagrams/lemma2/36.png>]
-<diagrams/lemma2/39.png, id=1685, 473.77pt x 478.78876pt>
+[216 <./diagrams/lemma2/36.png>]
+<diagrams/lemma2/39.png, id=1694, 473.77pt x 478.78876pt>
 File: diagrams/lemma2/39.png Graphic file (type png)
 <use diagrams/lemma2/39.png>
 Package pdftex.def Info: diagrams/lemma2/39.png  used on input line 760.
@@ -2583,9 +2515,9 @@ Overfull \hbox (16.45894pt too wide) in paragraph at lines 760--761
  [][] 
  []
 
-[221 <./diagrams/lemma2/37.png>] [222 <./diagrams/lemma2/38.png>] [223 <./diagr
+[217 <./diagrams/lemma2/37.png>] [218 <./diagrams/lemma2/38.png>] [219 <./diagr
 ams/lemma2/39.png>]
-<diagrams/lemma2/40.png, id=1705, 481.29813pt x 483.8075pt>
+<diagrams/lemma2/40.png, id=1714, 481.29813pt x 483.8075pt>
 File: diagrams/lemma2/40.png Graphic file (type png)
 <use diagrams/lemma2/40.png>
 Package pdftex.def Info: diagrams/lemma2/40.png  used on input line 777.
@@ -2595,7 +2527,7 @@ Overfull \hbox (23.6106pt too wide) in paragraph at lines 777--778
  [][] 
  []
 
-<diagrams/lemma2/41.png, id=1706, 487.8225pt x 487.8225pt>
+<diagrams/lemma2/41.png, id=1715, 487.8225pt x 487.8225pt>
 File: diagrams/lemma2/41.png Graphic file (type png)
 <use diagrams/lemma2/41.png>
 Package pdftex.def Info: diagrams/lemma2/41.png  used on input line 783.
@@ -2605,7 +2537,7 @@ Overfull \hbox (29.80873pt too wide) in paragraph at lines 783--784
  [][] 
  []
 
-<diagrams/lemma2/42.png, id=1707, 499.8675pt x 498.36188pt>
+<diagrams/lemma2/42.png, id=1716, 499.8675pt x 498.36188pt>
 File: diagrams/lemma2/42.png Graphic file (type png)
 <use diagrams/lemma2/42.png>
 Package pdftex.def Info: diagrams/lemma2/42.png  used on input line 789.
@@ -2615,8 +2547,8 @@ Overfull \hbox (41.25142pt too wide) in paragraph at lines 789--790
  [][] 
  []
 
-[224 <./diagrams/lemma2/40.png>]
-<diagrams/lemma2/43.png, id=1714, 495.8525pt x 496.85625pt>
+[220 <./diagrams/lemma2/40.png>]
+<diagrams/lemma2/43.png, id=1723, 495.8525pt x 496.85625pt>
 File: diagrams/lemma2/43.png Graphic file (type png)
 <use diagrams/lemma2/43.png>
 Package pdftex.def Info: diagrams/lemma2/43.png  used on input line 795.
@@ -2626,8 +2558,8 @@ Overfull \hbox (37.4372pt too wide) in paragraph at lines 795--796
  [][] 
  []
 
-[225 <./diagrams/lemma2/41.png>]
-<diagrams/lemma2/44.png, id=1721, 473.26813pt x 478.78876pt>
+[221 <./diagrams/lemma2/41.png>]
+<diagrams/lemma2/44.png, id=1730, 473.26813pt x 478.78876pt>
 File: diagrams/lemma2/44.png Graphic file (type png)
 <use diagrams/lemma2/44.png>
 Package pdftex.def Info: diagrams/lemma2/44.png  used on input line 801.
@@ -2637,7 +2569,7 @@ Overfull \hbox (15.98216pt too wide) in paragraph at lines 801--802
  [][] 
  []
 
-[226 <./diagrams/lemma2/42.png>] [227 <./diagrams/lemma2/43.png>] [228 <./diagr
+[222 <./diagrams/lemma2/42.png>] [223 <./diagrams/lemma2/43.png>] [224 <./diagr
 ams/lemma2/44.png>]
 Overfull \hbox (31.57823pt too wide) in paragraph at lines 870--871
 \OT1/cmr/m/n/12 Lastly, I will de-fine a glu-ing iso-mor-phism $\OML/cmm/m/it/1
@@ -2645,7 +2577,7 @@ Overfull \hbox (31.57823pt too wide) in paragraph at lines 870--871
 2 )\OMS/cmsy/m/n/12 j[] [] \U/rsfs/m/n/12 F[]\OMS/cmsy/m/n/12 j[]$
  []
 
-[229]
+[225]
 Overfull \hbox (6.45013pt too wide) detected at line 881
 \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 f[]\U/rsfs/m/n/12 F[]\OT1/cmr/m/n/12 )\OMS/cm
 sy/m/n/12 j[] [] \OML/cmm/m/it/12 pr[]\OT1/cmr/m/n/12 (\U/rsfs/m/n/12 F[]\OMS/c
@@ -2654,17 +2586,17 @@ s/m/n/12 F[]\OMS/cmsy/m/n/12 j[]\OT1/cmr/m/n/12 )\OMS/cmsy/m/n/12 j[] \OT1/cmr/
 m/n/12 = \U/rsfs/m/n/12 F[]\OMS/cmsy/m/n/12 j[]
  []
 
-[230] [231] [232] [233]
+[226] [227] [228] [229]
 Overfull \hbox (26.4016pt too wide) in paragraph at lines 1076--1091
 [] 
  []
 
-[234] [235] [236] [237]
+[230] [231] [232] [233]
 Overfull \hbox (26.4016pt too wide) in paragraph at lines 1263--1278
 [] 
  []
 
-[238] [239]
+[234] [235]
 Overfull \hbox (11.67407pt too wide) in paragraph at lines 1296--1297
 \OT1/cmr/m/n/12 First, a sheaf on $\OML/cmm/m/it/12 V [] V \OMS/cmsy/m/n/12 ^^B
  f\OT1/cmr/m/n/12 1\OMS/cmsy/m/n/12 g$ \OT1/cmr/m/n/12 is the re-stric-tion of 
@@ -2673,7 +2605,7 @@ B f\OT1/cmr/m/n/12 1\OMS/cmsy/m/n/12 g$\OT1/cmr/m/n/12 , i.e. $\U/rsfs/m/n/12 F
 []\OMS/cmsy/m/n/12 j[] \OT1/cmr/m/n/12 =
  []
 
-<diagrams/lemma2/45.png, id=1841, 486.81876pt x 487.32062pt>
+<diagrams/lemma2/45.png, id=1851, 486.81876pt x 487.32062pt>
 File: diagrams/lemma2/45.png Graphic file (type png)
 <use diagrams/lemma2/45.png>
 Package pdftex.def Info: diagrams/lemma2/45.png  used on input line 1307.
@@ -2683,7 +2615,7 @@ Overfull \hbox (28.85518pt too wide) in paragraph at lines 1307--1308
  [][] 
  []
 
-<diagrams/lemma2/46.png, id=1842, 476.78125pt x 477.785pt>
+<diagrams/lemma2/46.png, id=1852, 476.78125pt x 477.785pt>
 File: diagrams/lemma2/46.png Graphic file (type png)
 <use diagrams/lemma2/46.png>
 Package pdftex.def Info: diagrams/lemma2/46.png  used on input line 1313.
@@ -2693,8 +2625,8 @@ Overfull \hbox (19.3196pt too wide) in paragraph at lines 1313--1314
  [][] 
  []
 
-[240] [241 <./diagrams/lemma2/45.png>] [242 <./diagrams/lemma2/46.png>]
-<diagrams/lemma2/47.png, id=1863, 477.28313pt x 481.8pt>
+[236] [237 <./diagrams/lemma2/45.png>] [238 <./diagrams/lemma2/46.png>]
+<diagrams/lemma2/47.png, id=1872, 477.28313pt x 481.8pt>
 File: diagrams/lemma2/47.png Graphic file (type png)
 <use diagrams/lemma2/47.png>
 Package pdftex.def Info: diagrams/lemma2/47.png  used on input line 1328.
@@ -2704,9 +2636,9 @@ Overfull \hbox (19.79639pt too wide) in paragraph at lines 1328--1329
  [][] 
  []
 
-[243 <./diagrams/lemma2/47.png>] [244]) (./2nd part/4.cobord'2.tex [245]
-[246] [247] [248] [249] [250]
-<diagrams/cobord'2/1.png, id=1947, 505.38812pt x 502.87875pt>
+[239 <./diagrams/lemma2/47.png>] [240]) (./2nd part/4.cobord'2.tex [241]
+[242] [243] [244] [245] [246]
+<diagrams/cobord'2/1.png, id=1956, 505.38812pt x 502.87875pt>
 File: diagrams/cobord'2/1.png Graphic file (type png)
 <use diagrams/cobord'2/1.png>
 Package pdftex.def Info: diagrams/cobord'2/1.png  used on input line 257.
@@ -2716,7 +2648,7 @@ Overfull \hbox (46.49597pt too wide) in paragraph at lines 257--258
  [][] 
  []
 
-[251]
+[247]
 Overfull \hbox (76.67699pt too wide) in paragraph at lines 261--263
 \OML/cmm/m/it/12 s[]\OT1/cmr/m/n/12 (\OMS/cmsy/m/n/12 ^^@\OML/cmm/m/it/12 ; \OM
 S/cmsy/m/n/12 ^^@\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^C\OML/cmm/m/it/12 ; \OMS
@@ -2734,7 +2666,7 @@ m/it/12 ; \OMS/cmsy/m/n/12 ^^@\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 +)$, $\OML/cmm
 
  []
 
-<diagrams/cobord'2/2.png, id=1958, 502.87875pt x 502.37688pt>
+<diagrams/cobord'2/2.png, id=1968, 502.87875pt x 502.37688pt>
 File: diagrams/cobord'2/2.png Graphic file (type png)
 <use diagrams/cobord'2/2.png>
 Package pdftex.def Info: diagrams/cobord'2/2.png  used on input line 266.
@@ -2744,8 +2676,8 @@ Overfull \hbox (44.11209pt too wide) in paragraph at lines 266--267
  [][] 
  []
 
-[252 <./diagrams/cobord'2/1.png>]
-<diagrams/cobord'2/3.png, id=1965, 502.87875pt x 502.37688pt>
+[248 <./diagrams/cobord'2/1.png>]
+<diagrams/cobord'2/3.png, id=1975, 502.87875pt x 502.37688pt>
 File: diagrams/cobord'2/3.png Graphic file (type png)
 <use diagrams/cobord'2/3.png>
 Package pdftex.def Info: diagrams/cobord'2/3.png  used on input line 275.
@@ -2772,7 +2704,7 @@ cmsy/m/n/12 ^^C\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 +)$, $\OML/cmm/m/it/12 s[]\OT
 mr/m/n/12 0\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 )$,
  []
 
-[253 <./diagrams/cobord'2/2.png>]
+[249 <./diagrams/cobord'2/2.png>]
 Overfull \hbox (48.94897pt too wide) in paragraph at lines 279--281
 \OML/cmm/m/it/12 s[]\OT1/cmr/m/n/12 (0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0\OML/
 cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^@\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^@\OT1/c
@@ -2789,7 +2721,7 @@ cmsy/m/n/12 ^^@\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; \OMS/cmsy
 /m/n/12 ^^@\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0)$ 
  []
 
-<diagrams/cobord'2/4.png, id=1973, 481.8pt x 481.8pt>
+<diagrams/cobord'2/4.png, id=1982, 481.8pt x 481.8pt>
 File: diagrams/cobord'2/4.png Graphic file (type png)
 <use diagrams/cobord'2/4.png>
 Package pdftex.def Info: diagrams/cobord'2/4.png  used on input line 287.
@@ -2799,7 +2731,7 @@ Overfull \hbox (24.08739pt too wide) in paragraph at lines 287--288
  [][] 
  []
 
-[254 <./diagrams/cobord'2/3.png>]
+[250 <./diagrams/cobord'2/3.png>]
 Overfull \hbox (3.93144pt too wide) in paragraph at lines 291--293
 \OML/cmm/m/it/12 s[]\OT1/cmr/m/n/12 (\OMS/cmsy/m/n/12 ^^@\OML/cmm/m/it/12 ; \OT
 1/cmr/m/n/12 +\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^C\OML/cmm/m/it/12 ; \OMS/cm
@@ -2815,7 +2747,7 @@ t/12 s[]\OT1/cmr/m/n/12 (+\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^@\OML/cmm/m/it/
 
  []
 
-<diagrams/cobord'2/5.png, id=1981, 493.845pt x 489.83pt>
+<diagrams/cobord'2/5.png, id=1990, 493.845pt x 489.83pt>
 File: diagrams/cobord'2/5.png Graphic file (type png)
 <use diagrams/cobord'2/5.png>
 Package pdftex.def Info: diagrams/cobord'2/5.png  used on input line 296.
@@ -2825,7 +2757,7 @@ Overfull \hbox (35.53006pt too wide) in paragraph at lines 296--297
  [][] 
  []
 
-[255 <./diagrams/cobord'2/4.png>]
+[251 <./diagrams/cobord'2/4.png>]
 Overfull \hbox (48.33748pt too wide) in paragraph at lines 300--302
 \OML/cmm/m/it/12 s[]\OT1/cmr/m/n/12 (0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 +\OML/
 cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^C\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^@\OT1/c
@@ -2842,7 +2774,7 @@ n/12 0\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^C\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/1
 /m/it/12 ; \OT1/cmr/m/n/12 +)$,
  []
 
-<diagrams/cobord'2/6.png, id=1988, 506.89375pt x 506.39188pt>
+<diagrams/cobord'2/6.png, id=1997, 506.89375pt x 506.39188pt>
 File: diagrams/cobord'2/6.png Graphic file (type png)
 <use diagrams/cobord'2/6.png>
 Package pdftex.def Info: diagrams/cobord'2/6.png  used on input line 305.
@@ -2852,8 +2784,8 @@ Overfull \hbox (47.92633pt too wide) in paragraph at lines 305--306
  [][] 
  []
 
-[256 <./diagrams/cobord'2/5.png>]
-<diagrams/cobord'2/7.png, id=1995, 492.84125pt x 492.84125pt>
+[252 <./diagrams/cobord'2/5.png>]
+<diagrams/cobord'2/7.png, id=2004, 492.84125pt x 492.84125pt>
 File: diagrams/cobord'2/7.png Graphic file (type png)
 <use diagrams/cobord'2/7.png>
 Package pdftex.def Info: diagrams/cobord'2/7.png  used on input line 317.
@@ -2863,7 +2795,7 @@ Overfull \hbox (34.5765pt too wide) in paragraph at lines 317--318
  [][] 
  []
 
-<diagrams/cobord'2/8.png, id=1996, 508.90125pt x 505.89pt>
+<diagrams/cobord'2/8.png, id=2005, 508.90125pt x 505.89pt>
 File: diagrams/cobord'2/8.png Graphic file (type png)
 <use diagrams/cobord'2/8.png>
 Package pdftex.def Info: diagrams/cobord'2/8.png  used on input line 323.
@@ -2873,8 +2805,8 @@ Overfull \hbox (49.83344pt too wide) in paragraph at lines 323--324
  [][] 
  []
 
-[257 <./diagrams/cobord'2/6.png>]
-<diagrams/cobord'2/9.png, id=2004, 502.87875pt x 500.36937pt>
+[253 <./diagrams/cobord'2/6.png>]
+<diagrams/cobord'2/9.png, id=2014, 502.87875pt x 500.36937pt>
 File: diagrams/cobord'2/9.png Graphic file (type png)
 <use diagrams/cobord'2/9.png>
 Package pdftex.def Info: diagrams/cobord'2/9.png  used on input line 329.
@@ -2884,8 +2816,8 @@ Overfull \hbox (44.11209pt too wide) in paragraph at lines 329--330
  [][] 
  []
 
-[258 <./diagrams/cobord'2/7.png>]
-<diagrams/cobord'2/10.png, id=2011, 492.33937pt x 491.33563pt>
+[254 <./diagrams/cobord'2/7.png>]
+<diagrams/cobord'2/10.png, id=2021, 492.33937pt x 491.33563pt>
 File: diagrams/cobord'2/10.png Graphic file (type png)
 <use diagrams/cobord'2/10.png>
 Package pdftex.def Info: diagrams/cobord'2/10.png  used on input line 335.
@@ -2895,8 +2827,8 @@ Overfull \hbox (34.09972pt too wide) in paragraph at lines 335--336
  [][] 
  []
 
-[259 <./diagrams/cobord'2/8.png>]
-<diagrams/cobord'2/11.png, id=2019, 482.80376pt x 482.80376pt>
+[255 <./diagrams/cobord'2/8.png>]
+<diagrams/cobord'2/11.png, id=2028, 482.80376pt x 482.80376pt>
 File: diagrams/cobord'2/11.png Graphic file (type png)
 <use diagrams/cobord'2/11.png>
 Package pdftex.def Info: diagrams/cobord'2/11.png  used on input line 341.
@@ -2906,7 +2838,7 @@ Overfull \hbox (25.04095pt too wide) in paragraph at lines 341--342
  [][] 
  []
 
-[260 <./diagrams/cobord'2/9.png>] [261 <./diagrams/cobord'2/10.png>]
+[256 <./diagrams/cobord'2/9.png>] [257 <./diagrams/cobord'2/10.png>]
 Overfull \hbox (47.14401pt too wide) in paragraph at lines 345--347
 \OML/cmm/m/it/12 s[]\OT1/cmr/m/n/12 (\OMS/cmsy/m/n/12 ^^@\OML/cmm/m/it/12 ; \OT
 1/cmr/m/n/12 +\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^C\OML/cmm/m/it/12 ; \OMS/cm
@@ -2923,7 +2855,7 @@ n/12 ^^C\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 +)$, $\OML/cmm/m/it/12 s[]\OT1/cmr/m
 ^@\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 )$,
  []
 
-<diagrams/cobord'2/12.png, id=2032, 508.39937pt x 503.8825pt>
+<diagrams/cobord'2/12.png, id=2042, 508.39937pt x 503.8825pt>
 File: diagrams/cobord'2/12.png Graphic file (type png)
 <use diagrams/cobord'2/12.png>
 Package pdftex.def Info: diagrams/cobord'2/12.png  used on input line 350.
@@ -2933,7 +2865,7 @@ Overfull \hbox (49.35666pt too wide) in paragraph at lines 350--351
  [][] 
  []
 
-<diagrams/cobord'2/13.png, id=2033, 495.8525pt x 489.32813pt>
+<diagrams/cobord'2/13.png, id=2043, 495.8525pt x 489.32813pt>
 File: diagrams/cobord'2/13.png Graphic file (type png)
 <use diagrams/cobord'2/13.png>
 Package pdftex.def Info: diagrams/cobord'2/13.png  used on input line 356.
@@ -2943,8 +2875,8 @@ Overfull \hbox (37.4372pt too wide) in paragraph at lines 356--357
  [][] 
  []
 
-[262 <./diagrams/cobord'2/11.png>]
-<diagrams/cobord'2/14.png, id=2040, 491.33563pt x 494.34688pt>
+[258 <./diagrams/cobord'2/11.png>]
+<diagrams/cobord'2/14.png, id=2050, 491.33563pt x 494.34688pt>
 File: diagrams/cobord'2/14.png Graphic file (type png)
 <use diagrams/cobord'2/14.png>
 Package pdftex.def Info: diagrams/cobord'2/14.png  used on input line 362.
@@ -2954,8 +2886,8 @@ Overfull \hbox (33.1462pt too wide) in paragraph at lines 362--363
  [][] 
  []
 
-[263 <./diagrams/cobord'2/12.png>]
-<diagrams/cobord'2/15.png, id=2048, 500.87125pt x 502.87875pt>
+[259 <./diagrams/cobord'2/12.png>]
+<diagrams/cobord'2/15.png, id=2058, 500.87125pt x 502.87875pt>
 File: diagrams/cobord'2/15.png Graphic file (type png)
 <use diagrams/cobord'2/15.png>
 Package pdftex.def Info: diagrams/cobord'2/15.png  used on input line 368.
@@ -2965,8 +2897,8 @@ Overfull \hbox (42.20496pt too wide) in paragraph at lines 368--369
  [][] 
  []
 
-[264 <./diagrams/cobord'2/13.png>]
-<diagrams/cobord'2/16.png, id=2055, 492.84125pt x 491.8375pt>
+[260 <./diagrams/cobord'2/13.png>]
+<diagrams/cobord'2/16.png, id=2065, 492.84125pt x 491.8375pt>
 File: diagrams/cobord'2/16.png Graphic file (type png)
 <use diagrams/cobord'2/16.png>
 Package pdftex.def Info: diagrams/cobord'2/16.png  used on input line 374.
@@ -2976,7 +2908,7 @@ Overfull \hbox (34.5765pt too wide) in paragraph at lines 374--375
  [][] 
  []
 
-[265 <./diagrams/cobord'2/14.png>] [266 <./diagrams/cobord'2/15.png>]
+[261 <./diagrams/cobord'2/14.png>] [262 <./diagrams/cobord'2/15.png>]
 Overfull \hbox (50.9907pt too wide) in paragraph at lines 378--380
 \OML/cmm/m/it/12 s[]\OT1/cmr/m/n/12 (0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 +\OML/
 cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^C\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^@\OT1/c
@@ -3027,7 +2959,7 @@ OMS/cmsy/m/n/12 ^^@\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^C\OML/cmm/m/it/12 ; \O
 T1/cmr/m/n/12 0)$ 
  []
 
-<diagrams/cobord'2/17.png, id=2069, 500.87125pt x 498.86375pt>
+<diagrams/cobord'2/17.png, id=2078, 500.87125pt x 498.86375pt>
 File: diagrams/cobord'2/17.png Graphic file (type png)
 <use diagrams/cobord'2/17.png>
 Package pdftex.def Info: diagrams/cobord'2/17.png  used on input line 383.
@@ -3037,7 +2969,7 @@ Overfull \hbox (42.20496pt too wide) in paragraph at lines 383--384
  [][] 
  []
 
-<diagrams/cobord'2/18.png, id=2070, 508.90125pt x 507.8975pt>
+<diagrams/cobord'2/18.png, id=2079, 508.90125pt x 507.8975pt>
 File: diagrams/cobord'2/18.png Graphic file (type png)
 <use diagrams/cobord'2/18.png>
 Package pdftex.def Info: diagrams/cobord'2/18.png  used on input line 389.
@@ -3047,8 +2979,8 @@ Overfull \hbox (49.83344pt too wide) in paragraph at lines 389--390
  [][] 
  []
 
-[267 <./diagrams/cobord'2/16.png>]
-<diagrams/cobord'2/19.png, id=2077, 509.40312pt x 509.905pt>
+[263 <./diagrams/cobord'2/16.png>]
+<diagrams/cobord'2/19.png, id=2086, 509.40312pt x 509.905pt>
 File: diagrams/cobord'2/19.png Graphic file (type png)
 <use diagrams/cobord'2/19.png>
 Package pdftex.def Info: diagrams/cobord'2/19.png  used on input line 395.
@@ -3058,8 +2990,8 @@ Overfull \hbox (50.31021pt too wide) in paragraph at lines 395--396
  [][] 
  []
 
-[268 <./diagrams/cobord'2/17.png>]
-<diagrams/cobord'2/20.png, id=2084, 497.35812pt x 497.86pt>
+[264 <./diagrams/cobord'2/17.png>]
+<diagrams/cobord'2/20.png, id=2093, 497.35812pt x 497.86pt>
 File: diagrams/cobord'2/20.png Graphic file (type png)
 <use diagrams/cobord'2/20.png>
 Package pdftex.def Info: diagrams/cobord'2/20.png  used on input line 401.
@@ -3069,8 +3001,8 @@ Overfull \hbox (38.86752pt too wide) in paragraph at lines 401--402
  [][] 
  []
 
-[269 <./diagrams/cobord'2/18.png>]
-<diagrams/cobord'2/21.png, id=2091, 493.845pt x 492.33937pt>
+[265 <./diagrams/cobord'2/18.png>]
+<diagrams/cobord'2/21.png, id=2101, 493.845pt x 492.33937pt>
 File: diagrams/cobord'2/21.png Graphic file (type png)
 <use diagrams/cobord'2/21.png>
 Package pdftex.def Info: diagrams/cobord'2/21.png  used on input line 407.
@@ -3080,7 +3012,7 @@ Overfull \hbox (35.53006pt too wide) in paragraph at lines 407--408
  [][] 
  []
 
-[270 <./diagrams/cobord'2/19.png>] [271 <./diagrams/cobord'2/20.png>]
+[266 <./diagrams/cobord'2/19.png>] [267 <./diagrams/cobord'2/20.png>]
 Overfull \hbox (48.75441pt too wide) in paragraph at lines 411--413
 \OML/cmm/m/it/12 s[]\OT1/cmr/m/n/12 (0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0\OML/
 cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^@\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^@\OT1/c
@@ -3097,7 +3029,7 @@ it/12 ; \OMS/cmsy/m/n/12 ^^@\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0\OML/cmm/m/it/1
 cmr/m/n/12 0)$,
  []
 
-<diagrams/cobord'2/22.png, id=2105, 481.8pt x 486.81876pt>
+<diagrams/cobord'2/22.png, id=2114, 481.8pt x 486.81876pt>
 File: diagrams/cobord'2/22.png Graphic file (type png)
 <use diagrams/cobord'2/22.png>
 Package pdftex.def Info: diagrams/cobord'2/22.png  used on input line 416.
@@ -3107,7 +3039,7 @@ Overfull \hbox (24.08739pt too wide) in paragraph at lines 416--417
  [][] 
  []
 
-<diagrams/cobord'2/23.png, id=2106, 486.81876pt x 490.33188pt>
+<diagrams/cobord'2/23.png, id=2115, 486.81876pt x 490.33188pt>
 File: diagrams/cobord'2/23.png Graphic file (type png)
 <use diagrams/cobord'2/23.png>
 Package pdftex.def Info: diagrams/cobord'2/23.png  used on input line 422.
@@ -3117,8 +3049,8 @@ Overfull \hbox (28.85518pt too wide) in paragraph at lines 422--423
  [][] 
  []
 
-[272 <./diagrams/cobord'2/21.png>]
-<diagrams/cobord'2/24.png, id=2113, 504.88625pt x 503.8825pt>
+[268 <./diagrams/cobord'2/21.png>]
+<diagrams/cobord'2/24.png, id=2122, 504.88625pt x 503.8825pt>
 File: diagrams/cobord'2/24.png Graphic file (type png)
 <use diagrams/cobord'2/24.png>
 Package pdftex.def Info: diagrams/cobord'2/24.png  used on input line 428.
@@ -3128,8 +3060,8 @@ Overfull \hbox (46.01918pt too wide) in paragraph at lines 428--429
  [][] 
  []
 
-[273 <./diagrams/cobord'2/22.png>]
-<diagrams/cobord'2/25.png, id=2120, 517.43312pt x 510.40688pt>
+[269 <./diagrams/cobord'2/22.png>]
+<diagrams/cobord'2/25.png, id=2129, 517.43312pt x 510.40688pt>
 File: diagrams/cobord'2/25.png Graphic file (type png)
 <use diagrams/cobord'2/25.png>
 Package pdftex.def Info: diagrams/cobord'2/25.png  used on input line 434.
@@ -3139,8 +3071,8 @@ Overfull \hbox (57.93864pt too wide) in paragraph at lines 434--435
  [][] 
  []
 
-[274 <./diagrams/cobord'2/23.png>]
-<diagrams/cobord'2/26.png, id=2127, 492.33937pt x 495.35063pt>
+[270 <./diagrams/cobord'2/23.png>]
+<diagrams/cobord'2/26.png, id=2136, 492.33937pt x 495.35063pt>
 File: diagrams/cobord'2/26.png Graphic file (type png)
 <use diagrams/cobord'2/26.png>
 Package pdftex.def Info: diagrams/cobord'2/26.png  used on input line 440.
@@ -3150,9 +3082,9 @@ Overfull \hbox (34.09972pt too wide) in paragraph at lines 440--441
  [][] 
  []
 
-[275 <./diagrams/cobord'2/24.png>] [276 <./diagrams/cobord'2/25.png>] [277 <./d
-iagrams/cobord'2/26.png>] [278] [279] [280]
-<diagrams/cobord'2/27.png, id=2169, 492.84125pt x 490.83376pt>
+[271 <./diagrams/cobord'2/24.png>] [272 <./diagrams/cobord'2/25.png>] [273 <./d
+iagrams/cobord'2/26.png>] [274] [275] [276]
+<diagrams/cobord'2/27.png, id=2178, 492.84125pt x 490.83376pt>
 File: diagrams/cobord'2/27.png Graphic file (type png)
 <use diagrams/cobord'2/27.png>
 Package pdftex.def Info: diagrams/cobord'2/27.png  used on input line 601.
@@ -3162,7 +3094,7 @@ Overfull \hbox (34.5765pt too wide) in paragraph at lines 601--602
  [][] 
  []
 
-<diagrams/cobord'2/28.png, id=2170, 479.29062pt x 477.28313pt>
+<diagrams/cobord'2/28.png, id=2179, 479.29062pt x 477.28313pt>
 File: diagrams/cobord'2/28.png Graphic file (type png)
 <use diagrams/cobord'2/28.png>
 Package pdftex.def Info: diagrams/cobord'2/28.png  used on input line 607.
@@ -3172,8 +3104,8 @@ Overfull \hbox (21.70349pt too wide) in paragraph at lines 607--608
  [][] 
  []
 
-[281] [282 <./diagrams/cobord'2/27.png>] [283 <./diagrams/cobord'2/28.png>]
-<diagrams/cobord'2/29.png, id=2189, 479.7925pt x 479.29062pt>
+[277] [278 <./diagrams/cobord'2/27.png>] [279 <./diagrams/cobord'2/28.png>]
+<diagrams/cobord'2/29.png, id=2198, 479.7925pt x 479.29062pt>
 File: diagrams/cobord'2/29.png Graphic file (type png)
 <use diagrams/cobord'2/29.png>
 Package pdftex.def Info: diagrams/cobord'2/29.png  used on input line 627.
@@ -3183,13 +3115,13 @@ Overfull \hbox (22.18025pt too wide) in paragraph at lines 627--628
  [][] 
  []
 
-[284] [285 <./diagrams/cobord'2/29.png>] [286]
+[280] [281 <./diagrams/cobord'2/29.png>] [282]
 Underfull \hbox (badness 10000) in paragraph at lines 714--715
 
  []
 
-[287]
-<diagrams/cobord'2/30.png, id=2227, 490.33188pt x 489.32813pt>
+[283]
+<diagrams/cobord'2/30.png, id=2237, 490.33188pt x 489.32813pt>
 File: diagrams/cobord'2/30.png Graphic file (type png)
 <use diagrams/cobord'2/30.png>
 Package pdftex.def Info: diagrams/cobord'2/30.png  used on input line 736.
@@ -3199,7 +3131,7 @@ Overfull \hbox (32.19263pt too wide) in paragraph at lines 736--737
  [][] 
  []
 
-<diagrams/cobord'2/31.png, id=2228, 478.28688pt x 477.785pt>
+<diagrams/cobord'2/31.png, id=2238, 478.28688pt x 477.785pt>
 File: diagrams/cobord'2/31.png Graphic file (type png)
 <use diagrams/cobord'2/31.png>
 Package pdftex.def Info: diagrams/cobord'2/31.png  used on input line 742.
@@ -3209,7 +3141,7 @@ Overfull \hbox (20.74994pt too wide) in paragraph at lines 742--743
  [][] 
  []
 
-<diagrams/cobord'2/32.png, id=2229, 504.38437pt x 503.38063pt>
+<diagrams/cobord'2/32.png, id=2239, 504.38437pt x 503.38063pt>
 File: diagrams/cobord'2/32.png Graphic file (type png)
 <use diagrams/cobord'2/32.png>
 Package pdftex.def Info: diagrams/cobord'2/32.png  used on input line 748.
@@ -3219,8 +3151,8 @@ Overfull \hbox (45.54242pt too wide) in paragraph at lines 748--749
  [][] 
  []
 
-[288 <./diagrams/cobord'2/30.png>]
-<diagrams/cobord'2/33.png, id=2236, 487.32062pt x 485.815pt>
+[284 <./diagrams/cobord'2/30.png>]
+<diagrams/cobord'2/33.png, id=2246, 487.32062pt x 485.815pt>
 File: diagrams/cobord'2/33.png Graphic file (type png)
 <use diagrams/cobord'2/33.png>
 Package pdftex.def Info: diagrams/cobord'2/33.png  used on input line 754.
@@ -3230,8 +3162,8 @@ Overfull \hbox (29.33195pt too wide) in paragraph at lines 754--755
  [][] 
  []
 
-[289 <./diagrams/cobord'2/31.png>]
-<diagrams/cobord'2/34.png, id=2244, 502.87875pt x 498.86375pt>
+[285 <./diagrams/cobord'2/31.png>]
+<diagrams/cobord'2/34.png, id=2253, 502.87875pt x 498.86375pt>
 File: diagrams/cobord'2/34.png Graphic file (type png)
 <use diagrams/cobord'2/34.png>
 Package pdftex.def Info: diagrams/cobord'2/34.png  used on input line 760.
@@ -3241,8 +3173,8 @@ Overfull \hbox (44.11209pt too wide) in paragraph at lines 760--761
  [][] 
  []
 
-[290 <./diagrams/cobord'2/32.png>]
-<diagrams/cobord'2/35.png, id=2251, 500.36937pt x 494.84875pt>
+[286 <./diagrams/cobord'2/32.png>]
+<diagrams/cobord'2/35.png, id=2260, 500.36937pt x 494.84875pt>
 File: diagrams/cobord'2/35.png Graphic file (type png)
 <use diagrams/cobord'2/35.png>
 Package pdftex.def Info: diagrams/cobord'2/35.png  used on input line 766.
@@ -3252,8 +3184,8 @@ Overfull \hbox (41.7282pt too wide) in paragraph at lines 766--767
  [][] 
  []
 
-[291 <./diagrams/cobord'2/33.png>]
-<diagrams/cobord'2/36.png, id=2258, 492.33937pt x 491.8375pt>
+[287 <./diagrams/cobord'2/33.png>]
+<diagrams/cobord'2/36.png, id=2267, 492.33937pt x 491.8375pt>
 File: diagrams/cobord'2/36.png Graphic file (type png)
 <use diagrams/cobord'2/36.png>
 Package pdftex.def Info: diagrams/cobord'2/36.png  used on input line 772.
@@ -3263,8 +3195,8 @@ Overfull \hbox (34.09972pt too wide) in paragraph at lines 772--773
  [][] 
  []
 
-[292 <./diagrams/cobord'2/34.png>]
-<diagrams/cobord'2/37.png, id=2265, 492.84125pt x 494.34688pt>
+[288 <./diagrams/cobord'2/34.png>]
+<diagrams/cobord'2/37.png, id=2274, 492.84125pt x 494.34688pt>
 File: diagrams/cobord'2/37.png Graphic file (type png)
 <use diagrams/cobord'2/37.png>
 Package pdftex.def Info: diagrams/cobord'2/37.png  used on input line 778.
@@ -3274,8 +3206,8 @@ Overfull \hbox (34.5765pt too wide) in paragraph at lines 778--779
  [][] 
  []
 
-[293 <./diagrams/cobord'2/35.png>]
-<diagrams/cobord'2/38.png, id=2272, 482.80376pt x 482.30188pt>
+[289 <./diagrams/cobord'2/35.png>]
+<diagrams/cobord'2/38.png, id=2282, 482.80376pt x 482.30188pt>
 File: diagrams/cobord'2/38.png Graphic file (type png)
 <use diagrams/cobord'2/38.png>
 Package pdftex.def Info: diagrams/cobord'2/38.png  used on input line 784.
@@ -3285,8 +3217,8 @@ Overfull \hbox (25.04095pt too wide) in paragraph at lines 784--785
  [][] 
  []
 
-[294 <./diagrams/cobord'2/36.png>]
-<diagrams/cobord'2/39.png, id=2279, 476.27937pt x 484.81125pt>
+[290 <./diagrams/cobord'2/36.png>]
+<diagrams/cobord'2/39.png, id=2289, 476.27937pt x 484.81125pt>
 File: diagrams/cobord'2/39.png Graphic file (type png)
 <use diagrams/cobord'2/39.png>
 Package pdftex.def Info: diagrams/cobord'2/39.png  used on input line 790.
@@ -3296,9 +3228,9 @@ Overfull \hbox (18.84282pt too wide) in paragraph at lines 790--791
  [][] 
  []
 
-[295 <./diagrams/cobord'2/37.png>] [296 <./diagrams/cobord'2/38.png>] [297 <./d
+[291 <./diagrams/cobord'2/37.png>] [292 <./diagrams/cobord'2/38.png>] [293 <./d
 iagrams/cobord'2/39.png>]
-<diagrams/cobord'2/40.png, id=2299, 479.29062pt x 476.78125pt>
+<diagrams/cobord'2/40.png, id=2308, 479.29062pt x 476.78125pt>
 File: diagrams/cobord'2/40.png Graphic file (type png)
 <use diagrams/cobord'2/40.png>
 Package pdftex.def Info: diagrams/cobord'2/40.png  used on input line 810.
@@ -3308,7 +3240,7 @@ Overfull \hbox (21.70349pt too wide) in paragraph at lines 810--811
  [][] 
  []
 
-<diagrams/cobord'2/41.png, id=2300, 491.8375pt x 483.8075pt>
+<diagrams/cobord'2/41.png, id=2309, 491.8375pt x 483.8075pt>
 File: diagrams/cobord'2/41.png Graphic file (type png)
 <use diagrams/cobord'2/41.png>
 Package pdftex.def Info: diagrams/cobord'2/41.png  used on input line 816.
@@ -3318,8 +3250,8 @@ Overfull \hbox (33.62296pt too wide) in paragraph at lines 816--817
  [][] 
  []
 
-[298]
-<diagrams/cobord'2/42.png, id=2305, 497.86pt x 498.86375pt>
+[294]
+<diagrams/cobord'2/42.png, id=2314, 497.86pt x 498.86375pt>
 File: diagrams/cobord'2/42.png Graphic file (type png)
 <use diagrams/cobord'2/42.png>
 Package pdftex.def Info: diagrams/cobord'2/42.png  used on input line 822.
@@ -3329,8 +3261,8 @@ Overfull \hbox (39.3443pt too wide) in paragraph at lines 822--823
  [][] 
  []
 
-[299 <./diagrams/cobord'2/40.png>]
-<diagrams/cobord'2/43.png, id=2312, 493.34312pt x 493.845pt>
+[295 <./diagrams/cobord'2/40.png>]
+<diagrams/cobord'2/43.png, id=2322, 493.34312pt x 493.845pt>
 File: diagrams/cobord'2/43.png Graphic file (type png)
 <use diagrams/cobord'2/43.png>
 Package pdftex.def Info: diagrams/cobord'2/43.png  used on input line 828.
@@ -3340,8 +3272,8 @@ Overfull \hbox (35.05328pt too wide) in paragraph at lines 828--829
  [][] 
  []
 
-[300 <./diagrams/cobord'2/41.png>]
-<diagrams/cobord'2/44.png, id=2319, 474.77374pt x 474.27188pt>
+[296 <./diagrams/cobord'2/41.png>]
+<diagrams/cobord'2/44.png, id=2329, 474.77374pt x 474.27188pt>
 File: diagrams/cobord'2/44.png Graphic file (type png)
 <use diagrams/cobord'2/44.png>
 Package pdftex.def Info: diagrams/cobord'2/44.png  used on input line 834.
@@ -3351,8 +3283,8 @@ Overfull \hbox (17.41249pt too wide) in paragraph at lines 834--835
  [][] 
  []
 
-[301 <./diagrams/cobord'2/42.png>] [302 <./diagrams/cobord'2/43.png>] [303 <./d
-iagrams/cobord'2/44.png>] [304]
+[297 <./diagrams/cobord'2/42.png>] [298 <./diagrams/cobord'2/43.png>] [299 <./d
+iagrams/cobord'2/44.png>] [300]
 Overfull \hbox (31.57823pt too wide) in paragraph at lines 928--929
 \OT1/cmr/m/n/12 Lastly, I will de-fine a glu-ing iso-mor-phism $\OML/cmm/m/it/1
 2 ^^M[] \OT1/cmr/m/n/12 : (\OML/cmm/m/it/12 f[]\U/rsfs/m/n/12 F[]\OT1/cmr/m/n/1
@@ -3368,12 +3300,12 @@ s/m/n/12 F[]\OMS/cmsy/m/n/12 j[]\OT1/cmr/m/n/12 )\OMS/cmsy/m/n/12 j[] \OT1/cmr/
 m/n/12 = \U/rsfs/m/n/12 F[]\OMS/cmsy/m/n/12 j[]
  []
 
-[305] [306] [307] [308]
+[301] [302] [303] [304]
 Overfull \hbox (26.4016pt too wide) in paragraph at lines 1134--1149
 [] 
  []
 
-[309] [310] [311] [312] [313]
+[305] [306] [307] [308] [309]
 Overfull \hbox (26.4016pt too wide) in paragraph at lines 1321--1336
 [] 
  []
@@ -3389,7 +3321,7 @@ Overfull \hbox (4.6722pt too wide) in paragraph at lines 1321--1336
  quasi-isomorphism
  []
 
-[314]
+[310]
 Overfull \hbox (11.67407pt too wide) in paragraph at lines 1354--1355
 \OT1/cmr/m/n/12 First, a sheaf on $\OML/cmm/m/it/12 V [] V \OMS/cmsy/m/n/12 ^^B
  f\OT1/cmr/m/n/12 1\OMS/cmsy/m/n/12 g$ \OT1/cmr/m/n/12 is the re-stric-tion of 
@@ -3398,8 +3330,8 @@ B f\OT1/cmr/m/n/12 1\OMS/cmsy/m/n/12 g$\OT1/cmr/m/n/12 , i.e. $\U/rsfs/m/n/12 F
 []\OMS/cmsy/m/n/12 j[] \OT1/cmr/m/n/12 =
  []
 
-[315]
-<diagrams/cobord'2/45.png, id=2450, 481.8pt x 487.8225pt>
+[311]
+<diagrams/cobord'2/45.png, id=2459, 481.8pt x 487.8225pt>
 File: diagrams/cobord'2/45.png Graphic file (type png)
 <use diagrams/cobord'2/45.png>
 Package pdftex.def Info: diagrams/cobord'2/45.png  used on input line 1365.
@@ -3409,7 +3341,7 @@ Overfull \hbox (24.08739pt too wide) in paragraph at lines 1365--1366
  [][] 
  []
 
-<diagrams/cobord'2/46.png, id=2451, 473.77pt x 472.26437pt>
+<diagrams/cobord'2/46.png, id=2460, 473.77pt x 472.26437pt>
 File: diagrams/cobord'2/46.png Graphic file (type png)
 <use diagrams/cobord'2/46.png>
 Package pdftex.def Info: diagrams/cobord'2/46.png  used on input line 1371.
@@ -3419,8 +3351,8 @@ Overfull \hbox (16.45894pt too wide) in paragraph at lines 1371--1372
  [][] 
  []
 
-[316] [317 <./diagrams/cobord'2/45.png>] [318 <./diagrams/cobord'2/46.png>]
-<diagrams/cobord'2/47.png, id=2470, 475.7775pt x 476.27937pt>
+[312] [313 <./diagrams/cobord'2/45.png>] [314 <./diagrams/cobord'2/46.png>]
+<diagrams/cobord'2/47.png, id=2481, 475.7775pt x 476.27937pt>
 File: diagrams/cobord'2/47.png Graphic file (type png)
 <use diagrams/cobord'2/47.png>
 Package pdftex.def Info: diagrams/cobord'2/47.png  used on input line 1388.
@@ -3430,9 +3362,9 @@ Overfull \hbox (18.36603pt too wide) in paragraph at lines 1388--1389
  [][] 
  []
 
-[319 <./diagrams/cobord'2/47.png>] [320]) (./2nd part/5.cobord3.tex [321]
-[322] [323] [324] [325]
-<diagrams/lemma3/1.png, id=2539, 516.93124pt x 511.9125pt>
+[315 <./diagrams/cobord'2/47.png>] [316]) (./2nd part/5.cobord3.tex [317]
+[318] [319] [320] [321]
+<diagrams/lemma3/1.png, id=2548, 516.93124pt x 511.9125pt>
 File: diagrams/lemma3/1.png Graphic file (type png)
 <use diagrams/lemma3/1.png>
 Package pdftex.def Info: diagrams/lemma3/1.png  used on input line 201.
@@ -3442,8 +3374,8 @@ Overfull \hbox (57.46188pt too wide) in paragraph at lines 201--202
  [][] 
  []
 
-[326]
-<diagrams/lemma3/2.png, id=2548, 490.33188pt x 495.8525pt>
+[322]
+<diagrams/lemma3/2.png, id=2557, 490.33188pt x 495.8525pt>
 File: diagrams/lemma3/2.png Graphic file (type png)
 <use diagrams/lemma3/2.png>
 Package pdftex.def Info: diagrams/lemma3/2.png  used on input line 210.
@@ -3453,7 +3385,7 @@ Overfull \hbox (32.19263pt too wide) in paragraph at lines 210--211
  [][] 
  []
 
-[327 <./diagrams/lemma3/1.png>]
+[323 <./diagrams/lemma3/1.png>]
 Overfull \hbox (43.56905pt too wide) in paragraph at lines 214--216
 \OMS/cmsy/m/n/12 f^^@\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 +\OMS/cmsy/m/n/12 g[]g 
 [ f\OML/cmm/m/it/12 s[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 sgn[]; sgn[]; \OT1/cmr
@@ -3463,7 +3395,7 @@ T1/cmr/m/n/12 (+\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 +\OML/cmm/m/it/12 ; \OT1/cmr
 /m/n/12 0)\OMS/cmsy/m/n/12 g$ 
  []
 
-<diagrams/lemma3/3.png, id=2555, 498.86375pt x 496.85625pt>
+<diagrams/lemma3/3.png, id=2564, 498.86375pt x 496.85625pt>
 File: diagrams/lemma3/3.png Graphic file (type png)
 <use diagrams/lemma3/3.png>
 Package pdftex.def Info: diagrams/lemma3/3.png  used on input line 219.
@@ -3473,8 +3405,8 @@ Overfull \hbox (40.29787pt too wide) in paragraph at lines 219--220
  [][] 
  []
 
-[328 <./diagrams/lemma3/2.png>]
-<diagrams/lemma3/4.png, id=2562, 496.85625pt x 497.35812pt>
+[324 <./diagrams/lemma3/2.png>]
+<diagrams/lemma3/4.png, id=2571, 496.85625pt x 497.35812pt>
 File: diagrams/lemma3/4.png Graphic file (type png)
 <use diagrams/lemma3/4.png>
 Package pdftex.def Info: diagrams/lemma3/4.png  used on input line 231.
@@ -3484,8 +3416,8 @@ Overfull \hbox (38.39075pt too wide) in paragraph at lines 231--232
  [][] 
  []
 
-[329 <./diagrams/lemma3/3.png>]
-<diagrams/lemma3/5.png, id=2570, 484.81125pt x 484.81125pt>
+[325 <./diagrams/lemma3/3.png>]
+<diagrams/lemma3/5.png, id=2580, 484.81125pt x 484.81125pt>
 File: diagrams/lemma3/5.png Graphic file (type png)
 <use diagrams/lemma3/5.png>
 Package pdftex.def Info: diagrams/lemma3/5.png  used on input line 240.
@@ -3495,7 +3427,7 @@ Overfull \hbox (26.94806pt too wide) in paragraph at lines 240--241
  [][] 
  []
 
-[330 <./diagrams/lemma3/4.png>]
+[326 <./diagrams/lemma3/4.png>]
 Overfull \hbox (20.69176pt too wide) in paragraph at lines 244--246
 \OML/cmm/m/it/12 s[]\OT1/cmr/m/n/12 (0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 +\OML/
 cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 )$,$\OML/cmm/m/it/12 s[]\OT1/
@@ -3510,7 +3442,7 @@ r/m/n/12 0)$,$\OML/cmm/m/it/12 s[]\OT1/cmr/m/n/12 (\OMS/cmsy/m/n/12 ^^@\OML/cmm
 /m/it/12 ; \OT1/cmr/m/n/12 +\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0)$ 
  []
 
-<diagrams/lemma3/6.png, id=2577, 460.72125pt x 462.72874pt>
+<diagrams/lemma3/6.png, id=2587, 460.72125pt x 462.72874pt>
 File: diagrams/lemma3/6.png Graphic file (type png)
 <use diagrams/lemma3/6.png>
 Package pdftex.def Info: diagrams/lemma3/6.png  used on input line 249.
@@ -3520,8 +3452,8 @@ Overfull \hbox (4.0627pt too wide) in paragraph at lines 249--250
  [][] 
  []
 
-[331 <./diagrams/lemma3/5.png>]
-<diagrams/lemma3/7.png, id=2585, 472.76625pt x 468.75125pt>
+[327 <./diagrams/lemma3/5.png>]
+<diagrams/lemma3/7.png, id=2594, 472.76625pt x 468.75125pt>
 File: diagrams/lemma3/7.png Graphic file (type png)
 <use diagrams/lemma3/7.png>
 Package pdftex.def Info: diagrams/lemma3/7.png  used on input line 261.
@@ -3531,7 +3463,7 @@ Overfull \hbox (15.50537pt too wide) in paragraph at lines 261--262
  [][] 
  []
 
-<diagrams/lemma3/8.png, id=2586, 464.73625pt x 467.24562pt>
+<diagrams/lemma3/8.png, id=2595, 464.73625pt x 467.24562pt>
 File: diagrams/lemma3/8.png Graphic file (type png)
 <use diagrams/lemma3/8.png>
 Package pdftex.def Info: diagrams/lemma3/8.png  used on input line 267.
@@ -3541,8 +3473,8 @@ Overfull \hbox (7.87692pt too wide) in paragraph at lines 267--268
  [][] 
  []
 
-[332 <./diagrams/lemma3/6.png>]
-<diagrams/lemma3/9.png, id=2594, 490.33188pt x 490.83376pt>
+[328 <./diagrams/lemma3/6.png>]
+<diagrams/lemma3/9.png, id=2603, 490.33188pt x 490.83376pt>
 File: diagrams/lemma3/9.png Graphic file (type png)
 <use diagrams/lemma3/9.png>
 Package pdftex.def Info: diagrams/lemma3/9.png  used on input line 273.
@@ -3552,8 +3484,8 @@ Overfull \hbox (32.19263pt too wide) in paragraph at lines 273--274
  [][] 
  []
 
-[333 <./diagrams/lemma3/7.png>] [334 <./diagrams/lemma3/8.png>]
-<diagrams/lemma3/10.png, id=2607, 487.32062pt x 482.80376pt>
+[329 <./diagrams/lemma3/7.png>] [330 <./diagrams/lemma3/8.png>]
+<diagrams/lemma3/10.png, id=2616, 487.32062pt x 482.80376pt>
 File: diagrams/lemma3/10.png Graphic file (type png)
 <use diagrams/lemma3/10.png>
 Package pdftex.def Info: diagrams/lemma3/10.png  used on input line 282.
@@ -3563,7 +3495,7 @@ Overfull \hbox (29.33195pt too wide) in paragraph at lines 282--283
  [][] 
  []
 
-<diagrams/lemma3/11.png, id=2608, 476.78125pt x 479.29062pt>
+<diagrams/lemma3/11.png, id=2617, 476.78125pt x 479.29062pt>
 File: diagrams/lemma3/11.png Graphic file (type png)
 <use diagrams/lemma3/11.png>
 Package pdftex.def Info: diagrams/lemma3/11.png  used on input line 288.
@@ -3573,8 +3505,8 @@ Overfull \hbox (19.3196pt too wide) in paragraph at lines 288--289
  [][] 
  []
 
-[335 <./diagrams/lemma3/9.png>]
-<diagrams/lemma3/12.png, id=2615, 474.77374pt x 478.28688pt>
+[331 <./diagrams/lemma3/9.png>]
+<diagrams/lemma3/12.png, id=2626, 474.77374pt x 478.28688pt>
 File: diagrams/lemma3/12.png Graphic file (type png)
 <use diagrams/lemma3/12.png>
 Package pdftex.def Info: diagrams/lemma3/12.png  used on input line 294.
@@ -3584,8 +3516,8 @@ Overfull \hbox (17.41249pt too wide) in paragraph at lines 294--295
  [][] 
  []
 
-[336 <./diagrams/lemma3/10.png>] [337 <./diagrams/lemma3/11.png>]
-<diagrams/lemma3/13.png, id=2630, 495.35063pt x 496.85625pt>
+[332 <./diagrams/lemma3/10.png>] [333 <./diagrams/lemma3/11.png>]
+<diagrams/lemma3/13.png, id=2639, 495.35063pt x 496.85625pt>
 File: diagrams/lemma3/13.png Graphic file (type png)
 <use diagrams/lemma3/13.png>
 Package pdftex.def Info: diagrams/lemma3/13.png  used on input line 303.
@@ -3595,7 +3527,7 @@ Overfull \hbox (36.96042pt too wide) in paragraph at lines 303--304
  [][] 
  []
 
-<diagrams/lemma3/14.png, id=2631, 474.77374pt x 471.7625pt>
+<diagrams/lemma3/14.png, id=2640, 474.77374pt x 471.7625pt>
 File: diagrams/lemma3/14.png Graphic file (type png)
 <use diagrams/lemma3/14.png>
 Package pdftex.def Info: diagrams/lemma3/14.png  used on input line 309.
@@ -3605,8 +3537,8 @@ Overfull \hbox (17.41249pt too wide) in paragraph at lines 309--310
  [][] 
  []
 
-[338 <./diagrams/lemma3/12.png>]
-<diagrams/lemma3/15.png, id=2638, 493.845pt x 501.37312pt>
+[334 <./diagrams/lemma3/12.png>]
+<diagrams/lemma3/15.png, id=2647, 493.845pt x 501.37312pt>
 File: diagrams/lemma3/15.png Graphic file (type png)
 <use diagrams/lemma3/15.png>
 Package pdftex.def Info: diagrams/lemma3/15.png  used on input line 315.
@@ -3616,8 +3548,8 @@ Overfull \hbox (35.53006pt too wide) in paragraph at lines 315--316
  [][] 
  []
 
-[339 <./diagrams/lemma3/13.png>] [340 <./diagrams/lemma3/14.png>]
-<diagrams/lemma3/16.png, id=2651, 483.30562pt x 492.84125pt>
+[335 <./diagrams/lemma3/13.png>] [336 <./diagrams/lemma3/14.png>]
+<diagrams/lemma3/16.png, id=2660, 483.30562pt x 492.84125pt>
 File: diagrams/lemma3/16.png Graphic file (type png)
 <use diagrams/lemma3/16.png>
 Package pdftex.def Info: diagrams/lemma3/16.png  used on input line 324.
@@ -3627,7 +3559,7 @@ Overfull \hbox (25.51773pt too wide) in paragraph at lines 324--325
  [][] 
  []
 
-<diagrams/lemma3/17.png, id=2652, 481.8pt x 487.32062pt>
+<diagrams/lemma3/17.png, id=2661, 481.8pt x 487.32062pt>
 File: diagrams/lemma3/17.png Graphic file (type png)
 <use diagrams/lemma3/17.png>
 Package pdftex.def Info: diagrams/lemma3/17.png  used on input line 330.
@@ -3637,8 +3569,8 @@ Overfull \hbox (24.08739pt too wide) in paragraph at lines 330--331
  [][] 
  []
 
-[341 <./diagrams/lemma3/15.png>]
-<diagrams/lemma3/18.png, id=2659, 477.785pt x 483.8075pt>
+[337 <./diagrams/lemma3/15.png>]
+<diagrams/lemma3/18.png, id=2669, 477.785pt x 483.8075pt>
 File: diagrams/lemma3/18.png Graphic file (type png)
 <use diagrams/lemma3/18.png>
 Package pdftex.def Info: diagrams/lemma3/18.png  used on input line 336.
@@ -3648,9 +3580,9 @@ Overfull \hbox (20.27316pt too wide) in paragraph at lines 336--337
  [][] 
  []
 
-[342 <./diagrams/lemma3/16.png>] [343 <./diagrams/lemma3/17.png>] [344 <./diagr
-ams/lemma3/18.png>] [345] [346] [347]
-<diagrams/lemma3/19.png, id=2701, 479.7925pt x 478.28688pt>
+[338 <./diagrams/lemma3/16.png>] [339 <./diagrams/lemma3/17.png>] [340 <./diagr
+ams/lemma3/18.png>] [341] [342] [343]
+<diagrams/lemma3/19.png, id=2711, 479.7925pt x 478.28688pt>
 File: diagrams/lemma3/19.png Graphic file (type png)
 <use diagrams/lemma3/19.png>
 Package pdftex.def Info: diagrams/lemma3/19.png  used on input line 498.
@@ -3660,7 +3592,7 @@ Overfull \hbox (22.18025pt too wide) in paragraph at lines 498--499
  [][] 
  []
 
-<diagrams/lemma3/20.png, id=2702, 466.24188pt x 476.78125pt>
+<diagrams/lemma3/20.png, id=2712, 466.24188pt x 476.78125pt>
 File: diagrams/lemma3/20.png Graphic file (type png)
 <use diagrams/lemma3/20.png>
 Package pdftex.def Info: diagrams/lemma3/20.png  used on input line 504.
@@ -3670,8 +3602,8 @@ Overfull \hbox (9.30727pt too wide) in paragraph at lines 504--505
  [][] 
  []
 
-[348] [349 <./diagrams/lemma3/19.png>] [350 <./diagrams/lemma3/20.png>]
-<diagrams/lemma3/21.png, id=2721, 473.26813pt x 473.77pt>
+[344] [345 <./diagrams/lemma3/19.png>] [346 <./diagrams/lemma3/20.png>]
+<diagrams/lemma3/21.png, id=2730, 473.26813pt x 473.77pt>
 File: diagrams/lemma3/21.png Graphic file (type png)
 <use diagrams/lemma3/21.png>
 Package pdftex.def Info: diagrams/lemma3/21.png  used on input line 521.
@@ -3681,13 +3613,13 @@ Overfull \hbox (15.98216pt too wide) in paragraph at lines 521--522
  [][] 
  []
 
-[351 <./diagrams/lemma3/21.png>]
+[347 <./diagrams/lemma3/21.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 553--554
 
  []
 
-[352]
-<diagrams/lemma3/22.png, id=2745, 478.28688pt x 477.785pt>
+[348]
+<diagrams/lemma3/22.png, id=2754, 478.28688pt x 477.785pt>
 File: diagrams/lemma3/22.png Graphic file (type png)
 <use diagrams/lemma3/22.png>
 Package pdftex.def Info: diagrams/lemma3/22.png  used on input line 576.
@@ -3697,7 +3629,7 @@ Overfull \hbox (20.74994pt too wide) in paragraph at lines 576--577
  [][] 
  []
 
-<diagrams/lemma3/23.png, id=2746, 474.27188pt x 475.27562pt>
+<diagrams/lemma3/23.png, id=2755, 474.27188pt x 475.27562pt>
 File: diagrams/lemma3/23.png Graphic file (type png)
 <use diagrams/lemma3/23.png>
 Package pdftex.def Info: diagrams/lemma3/23.png  used on input line 582.
@@ -3707,8 +3639,8 @@ Overfull \hbox (16.93571pt too wide) in paragraph at lines 582--583
  [][] 
  []
 
-[353]
-<diagrams/lemma3/24.png, id=2752, 473.26813pt x 477.28313pt>
+[349]
+<diagrams/lemma3/24.png, id=2762, 473.26813pt x 477.28313pt>
 File: diagrams/lemma3/24.png Graphic file (type png)
 <use diagrams/lemma3/24.png>
 Package pdftex.def Info: diagrams/lemma3/24.png  used on input line 588.
@@ -3718,8 +3650,8 @@ Overfull \hbox (15.98216pt too wide) in paragraph at lines 588--589
  [][] 
  []
 
-[354 <./diagrams/lemma3/22.png>]
-<diagrams/lemma3/25.png, id=2759, 475.7775pt x 484.30937pt>
+[350 <./diagrams/lemma3/22.png>]
+<diagrams/lemma3/25.png, id=2769, 475.7775pt x 484.30937pt>
 File: diagrams/lemma3/25.png Graphic file (type png)
 <use diagrams/lemma3/25.png>
 Package pdftex.def Info: diagrams/lemma3/25.png  used on input line 594.
@@ -3729,8 +3661,8 @@ Overfull \hbox (18.36603pt too wide) in paragraph at lines 594--595
  [][] 
  []
 
-[355 <./diagrams/lemma3/23.png>]
-<diagrams/lemma3/26.png, id=2767, 483.8075pt x 488.82625pt>
+[351 <./diagrams/lemma3/23.png>]
+<diagrams/lemma3/26.png, id=2777, 483.8075pt x 488.82625pt>
 File: diagrams/lemma3/26.png Graphic file (type png)
 <use diagrams/lemma3/26.png>
 Package pdftex.def Info: diagrams/lemma3/26.png  used on input line 600.
@@ -3740,8 +3672,8 @@ Overfull \hbox (25.9945pt too wide) in paragraph at lines 600--601
  [][] 
  []
 
-[356 <./diagrams/lemma3/24.png>]
-<diagrams/lemma3/27.png, id=2774, 487.32062pt x 484.81125pt>
+[352 <./diagrams/lemma3/24.png>]
+<diagrams/lemma3/27.png, id=2784, 487.32062pt x 484.81125pt>
 File: diagrams/lemma3/27.png Graphic file (type png)
 <use diagrams/lemma3/27.png>
 Package pdftex.def Info: diagrams/lemma3/27.png  used on input line 606.
@@ -3751,9 +3683,9 @@ Overfull \hbox (29.33195pt too wide) in paragraph at lines 606--607
  [][] 
  []
 
-[357 <./diagrams/lemma3/25.png>] [358 <./diagrams/lemma3/26.png>] [359 <./diagr
+[353 <./diagrams/lemma3/25.png>] [354 <./diagrams/lemma3/26.png>] [355 <./diagr
 ams/lemma3/27.png>]
-<diagrams/lemma3/28.png, id=2794, 468.75125pt x 484.81125pt>
+<diagrams/lemma3/28.png, id=2804, 468.75125pt x 484.81125pt>
 File: diagrams/lemma3/28.png Graphic file (type png)
 <use diagrams/lemma3/28.png>
 Package pdftex.def Info: diagrams/lemma3/28.png  used on input line 624.
@@ -3763,7 +3695,7 @@ Overfull \hbox (11.69113pt too wide) in paragraph at lines 624--625
  [][] 
  []
 
-<diagrams/lemma3/29.png, id=2795, 474.27188pt x 479.7925pt>
+<diagrams/lemma3/29.png, id=2805, 474.27188pt x 479.7925pt>
 File: diagrams/lemma3/29.png Graphic file (type png)
 <use diagrams/lemma3/29.png>
 Package pdftex.def Info: diagrams/lemma3/29.png  used on input line 630.
@@ -3773,7 +3705,7 @@ Overfull \hbox (16.93571pt too wide) in paragraph at lines 630--631
  [][] 
  []
 
-<diagrams/lemma3/30.png, id=2796, 485.815pt x 488.32437pt>
+<diagrams/lemma3/30.png, id=2806, 485.815pt x 488.32437pt>
 File: diagrams/lemma3/30.png Graphic file (type png)
 <use diagrams/lemma3/30.png>
 Package pdftex.def Info: diagrams/lemma3/30.png  used on input line 636.
@@ -3783,7 +3715,7 @@ Overfull \hbox (27.90163pt too wide) in paragraph at lines 636--637
  [][] 
  []
 
-[360 <./diagrams/lemma3/28.png>] [361 <./diagrams/lemma3/29.png>] [362 <./diagr
+[356 <./diagrams/lemma3/28.png>] [357 <./diagrams/lemma3/29.png>] [358 <./diagr
 ams/lemma3/30.png>]
 Overfull \hbox (31.57823pt too wide) in paragraph at lines 672--673
 \OT1/cmr/m/n/12 Lastly, I will de-fine a glu-ing iso-mor-phism $\OML/cmm/m/it/1
@@ -3800,7 +3732,7 @@ s/m/n/12 F[]\OMS/cmsy/m/n/12 j[]\OT1/cmr/m/n/12 )\OMS/cmsy/m/n/12 j[] \OT1/cmr/
 m/n/12 = \U/rsfs/m/n/12 F[]\OMS/cmsy/m/n/12 j[]
  []
 
-[363] [364]
+[359] [360]
 Overfull \hbox (15.22786pt too wide) in paragraph at lines 726--728
 []$\OML/cmm/m/it/12 F[]\OT1/cmr/m/n/12 (\OMS/cmsy/m/n/12 ^^@\OML/cmm/m/it/12 ; 
 sgn[]; sgn[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ! \OML/cmm/m/it/12 F[]\OT1/cmr/m
@@ -3823,12 +3755,12 @@ t $\OML/cmm/m/it/12 F[]\OMS/cmsy/m/n/12 ^^@\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12
 cmm/m/it/12 ; \OT1/cmr/m/n/12 +)$:=$\OML/cmm/m/it/12 ^^R[]$
  []
 
-[365]
+[361]
 Overfull \hbox (26.4016pt too wide) in paragraph at lines 812--827
 [] 
  []
 
-[366]
+[362]
 Overfull \hbox (11.67407pt too wide) in paragraph at lines 844--845
 \OT1/cmr/m/n/12 First, a sheaf on $\OML/cmm/m/it/12 V [] V \OMS/cmsy/m/n/12 ^^B
  f\OT1/cmr/m/n/12 1\OMS/cmsy/m/n/12 g$ \OT1/cmr/m/n/12 is the re-stric-tion of 
@@ -3837,8 +3769,8 @@ B f\OT1/cmr/m/n/12 1\OMS/cmsy/m/n/12 g$\OT1/cmr/m/n/12 , i.e. $\U/rsfs/m/n/12 F
 []\OMS/cmsy/m/n/12 j[] \OT1/cmr/m/n/12 =
  []
 
-[367]
-<diagrams/lemma3/31.png, id=2862, 483.8075pt x 487.8225pt>
+[363]
+<diagrams/lemma3/31.png, id=2871, 483.8075pt x 487.8225pt>
 File: diagrams/lemma3/31.png Graphic file (type png)
 <use diagrams/lemma3/31.png>
 Package pdftex.def Info: diagrams/lemma3/31.png  used on input line 855.
@@ -3848,7 +3780,7 @@ Overfull \hbox (25.9945pt too wide) in paragraph at lines 855--856
  [][] 
  []
 
-<diagrams/lemma3/32.png, id=2863, 484.30937pt x 487.32062pt>
+<diagrams/lemma3/32.png, id=2872, 484.30937pt x 487.32062pt>
 File: diagrams/lemma3/32.png Graphic file (type png)
 <use diagrams/lemma3/32.png>
 Package pdftex.def Info: diagrams/lemma3/32.png  used on input line 861.
@@ -3858,8 +3790,8 @@ Overfull \hbox (26.47128pt too wide) in paragraph at lines 861--862
  [][] 
  []
 
-[368] [369 <./diagrams/lemma3/31.png>] [370 <./diagrams/lemma3/32.png>]
-<diagrams/lemma3/33.png, id=2881, 480.79625pt x 482.80376pt>
+[364] [365 <./diagrams/lemma3/31.png>] [366 <./diagrams/lemma3/32.png>]
+<diagrams/lemma3/33.png, id=2890, 480.79625pt x 482.80376pt>
 File: diagrams/lemma3/33.png Graphic file (type png)
 <use diagrams/lemma3/33.png>
 Package pdftex.def Info: diagrams/lemma3/33.png  used on input line 877.
@@ -3869,9 +3801,9 @@ Overfull \hbox (23.13382pt too wide) in paragraph at lines 877--878
  [][] 
  []
 
-[371 <./diagrams/lemma3/33.png>]) (./2nd part/6.cobord4.tex [372] [373]
-[374] [375] [376]
-<diagrams/lemma4/1.png, id=2948, 506.89375pt x 503.38063pt>
+[367 <./diagrams/lemma3/33.png>]) (./2nd part/6.cobord4.tex [368] [369]
+[370] [371] [372]
+<diagrams/lemma4/1.png, id=2957, 506.89375pt x 503.38063pt>
 File: diagrams/lemma4/1.png Graphic file (type png)
 <use diagrams/lemma4/1.png>
 Package pdftex.def Info: diagrams/lemma4/1.png  used on input line 204.
@@ -3881,8 +3813,8 @@ Overfull \hbox (47.92633pt too wide) in paragraph at lines 204--205
  [][] 
  []
 
-[377]
-<diagrams/lemma4/2.png, id=2958, 460.21938pt x 461.725pt>
+[373]
+<diagrams/lemma4/2.png, id=2968, 460.21938pt x 461.725pt>
 File: diagrams/lemma4/2.png Graphic file (type png)
 <use diagrams/lemma4/2.png>
 Package pdftex.def Info: diagrams/lemma4/2.png  used on input line 213.
@@ -3892,7 +3824,7 @@ Overfull \hbox (3.5859pt too wide) in paragraph at lines 213--214
  [][] 
  []
 
-[378 <./diagrams/lemma4/1.png>]
+[374 <./diagrams/lemma4/1.png>]
 Overfull \hbox (83.16853pt too wide) in paragraph at lines 217--219
 \OMS/cmsy/m/n/12 f\OML/cmm/m/it/12 s[]\OT1/cmr/m/n/12 (0\OML/cmm/m/it/12 ; sgn[
 ]; sgn[]\OT1/cmr/m/n/12 ) []\OMS/cmsy/m/n/12 j []\OML/cmm/m/it/12 sgn[] \OMS/cm
@@ -3915,7 +3847,7 @@ j []\OML/cmm/m/it/12 sgn[] \OMS/cmsy/m/n/12 2 f^^@\OML/cmm/m/it/12 ; \OT1/cmr/m
 g$ 
  []
 
-<diagrams/lemma4/3.png, id=2965, 484.30937pt x 483.30562pt>
+<diagrams/lemma4/3.png, id=2975, 484.30937pt x 483.30562pt>
 File: diagrams/lemma4/3.png Graphic file (type png)
 <use diagrams/lemma4/3.png>
 Package pdftex.def Info: diagrams/lemma4/3.png  used on input line 222.
@@ -3925,8 +3857,8 @@ Overfull \hbox (26.47128pt too wide) in paragraph at lines 222--223
  [][] 
  []
 
-[379 <./diagrams/lemma4/2.png>]
-<diagrams/lemma4/4.png, id=2973, 492.84125pt x 491.8375pt>
+[375 <./diagrams/lemma4/2.png>]
+<diagrams/lemma4/4.png, id=2982, 492.84125pt x 491.8375pt>
 File: diagrams/lemma4/4.png Graphic file (type png)
 <use diagrams/lemma4/4.png>
 Package pdftex.def Info: diagrams/lemma4/4.png  used on input line 234.
@@ -3936,8 +3868,8 @@ Overfull \hbox (34.5765pt too wide) in paragraph at lines 234--235
  [][] 
  []
 
-[380 <./diagrams/lemma4/3.png>]
-<diagrams/lemma4/5.png, id=2981, 476.78125pt x 481.8pt>
+[376 <./diagrams/lemma4/3.png>]
+<diagrams/lemma4/5.png, id=2990, 476.78125pt x 481.8pt>
 File: diagrams/lemma4/5.png Graphic file (type png)
 <use diagrams/lemma4/5.png>
 Package pdftex.def Info: diagrams/lemma4/5.png  used on input line 243.
@@ -3947,7 +3879,7 @@ Overfull \hbox (19.3196pt too wide) in paragraph at lines 243--244
  [][] 
  []
 
-[381 <./diagrams/lemma4/4.png>]
+[377 <./diagrams/lemma4/4.png>]
 Overfull \hbox (83.16853pt too wide) in paragraph at lines 247--249
 \OMS/cmsy/m/n/12 f\OML/cmm/m/it/12 s[]\OT1/cmr/m/n/12 (0\OML/cmm/m/it/12 ; sgn[
 ]; sgn[]\OT1/cmr/m/n/12 ) []\OMS/cmsy/m/n/12 j []\OML/cmm/m/it/12 sgn[] \OMS/cm
@@ -3971,7 +3903,7 @@ cmr/m/n/12 0\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 )\OMS/cmsy/m
 \OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0)\OMS/cmsy/m/n/12 g$ 
  []
 
-<diagrams/lemma4/6.png, id=2988, 464.73625pt x 462.72874pt>
+<diagrams/lemma4/6.png, id=2997, 464.73625pt x 462.72874pt>
 File: diagrams/lemma4/6.png Graphic file (type png)
 <use diagrams/lemma4/6.png>
 Package pdftex.def Info: diagrams/lemma4/6.png  used on input line 252.
@@ -3981,8 +3913,8 @@ Overfull \hbox (7.87692pt too wide) in paragraph at lines 252--253
  [][] 
  []
 
-[382 <./diagrams/lemma4/5.png>]
-<diagrams/lemma4/7.png, id=2995, 503.8825pt x 499.8675pt>
+[378 <./diagrams/lemma4/5.png>]
+<diagrams/lemma4/7.png, id=3004, 503.8825pt x 499.8675pt>
 File: diagrams/lemma4/7.png Graphic file (type png)
 <use diagrams/lemma4/7.png>
 Package pdftex.def Info: diagrams/lemma4/7.png  used on input line 264.
@@ -3992,7 +3924,7 @@ Overfull \hbox (45.06566pt too wide) in paragraph at lines 264--265
  [][] 
  []
 
-<diagrams/lemma4/8.png, id=2996, 472.76625pt x 469.25313pt>
+<diagrams/lemma4/8.png, id=3005, 472.76625pt x 469.25313pt>
 File: diagrams/lemma4/8.png Graphic file (type png)
 <use diagrams/lemma4/8.png>
 Package pdftex.def Info: diagrams/lemma4/8.png  used on input line 270.
@@ -4002,8 +3934,8 @@ Overfull \hbox (15.50537pt too wide) in paragraph at lines 270--271
  [][] 
  []
 
-[383 <./diagrams/lemma4/6.png>]
-<diagrams/lemma4/9.png, id=3004, 490.83376pt x 489.32813pt>
+[379 <./diagrams/lemma4/6.png>]
+<diagrams/lemma4/9.png, id=3014, 490.83376pt x 489.32813pt>
 File: diagrams/lemma4/9.png Graphic file (type png)
 <use diagrams/lemma4/9.png>
 Package pdftex.def Info: diagrams/lemma4/9.png  used on input line 276.
@@ -4013,8 +3945,8 @@ Overfull \hbox (32.6694pt too wide) in paragraph at lines 276--277
  [][] 
  []
 
-[384 <./diagrams/lemma4/7.png>] [385 <./diagrams/lemma4/8.png>]
-<diagrams/lemma4/10.png, id=3018, 468.24937pt x 466.74374pt>
+[380 <./diagrams/lemma4/7.png>] [381 <./diagrams/lemma4/8.png>]
+<diagrams/lemma4/10.png, id=3027, 468.24937pt x 466.74374pt>
 File: diagrams/lemma4/10.png Graphic file (type png)
 <use diagrams/lemma4/10.png>
 Package pdftex.def Info: diagrams/lemma4/10.png  used on input line 285.
@@ -4024,7 +3956,7 @@ Overfull \hbox (11.21436pt too wide) in paragraph at lines 285--286
  [][] 
  []
 
-<diagrams/lemma4/11.png, id=3019, 475.27562pt x 473.77pt>
+<diagrams/lemma4/11.png, id=3028, 475.27562pt x 473.77pt>
 File: diagrams/lemma4/11.png Graphic file (type png)
 <use diagrams/lemma4/11.png>
 Package pdftex.def Info: diagrams/lemma4/11.png  used on input line 291.
@@ -4034,8 +3966,8 @@ Overfull \hbox (17.88927pt too wide) in paragraph at lines 291--292
  [][] 
  []
 
-[386 <./diagrams/lemma4/9.png>]
-<diagrams/lemma4/12.png, id=3026, 479.7925pt x 479.29062pt>
+[382 <./diagrams/lemma4/9.png>]
+<diagrams/lemma4/12.png, id=3035, 479.7925pt x 479.29062pt>
 File: diagrams/lemma4/12.png Graphic file (type png)
 <use diagrams/lemma4/12.png>
 Package pdftex.def Info: diagrams/lemma4/12.png  used on input line 297.
@@ -4045,8 +3977,8 @@ Overfull \hbox (22.18025pt too wide) in paragraph at lines 297--298
  [][] 
  []
 
-[387 <./diagrams/lemma4/10.png>] [388 <./diagrams/lemma4/11.png>]
-<diagrams/lemma4/13.png, id=3039, 487.32062pt x 481.8pt>
+[383 <./diagrams/lemma4/10.png>] [384 <./diagrams/lemma4/11.png>]
+<diagrams/lemma4/13.png, id=3048, 487.32062pt x 481.8pt>
 File: diagrams/lemma4/13.png Graphic file (type png)
 <use diagrams/lemma4/13.png>
 Package pdftex.def Info: diagrams/lemma4/13.png  used on input line 306.
@@ -4056,7 +3988,7 @@ Overfull \hbox (29.33195pt too wide) in paragraph at lines 306--307
  [][] 
  []
 
-<diagrams/lemma4/14.png, id=3040, 483.30562pt x 482.30188pt>
+<diagrams/lemma4/14.png, id=3049, 483.30562pt x 482.30188pt>
 File: diagrams/lemma4/14.png Graphic file (type png)
 <use diagrams/lemma4/14.png>
 Package pdftex.def Info: diagrams/lemma4/14.png  used on input line 312.
@@ -4066,8 +3998,8 @@ Overfull \hbox (25.51773pt too wide) in paragraph at lines 312--313
  [][] 
  []
 
-[389 <./diagrams/lemma4/12.png>]
-<diagrams/lemma4/15.png, id=3047, 463.23062pt x 463.23062pt>
+[385 <./diagrams/lemma4/12.png>]
+<diagrams/lemma4/15.png, id=3057, 463.23062pt x 463.23062pt>
 File: diagrams/lemma4/15.png Graphic file (type png)
 <use diagrams/lemma4/15.png>
 Package pdftex.def Info: diagrams/lemma4/15.png  used on input line 318.
@@ -4077,8 +4009,8 @@ Overfull \hbox (6.44658pt too wide) in paragraph at lines 318--319
  [][] 
  []
 
-[390 <./diagrams/lemma4/13.png>] [391 <./diagrams/lemma4/14.png>]
-<diagrams/lemma4/16.png, id=3061, 457.71pt x 460.21938pt>
+[386 <./diagrams/lemma4/13.png>] [387 <./diagrams/lemma4/14.png>]
+<diagrams/lemma4/16.png, id=3071, 457.71pt x 460.21938pt>
 File: diagrams/lemma4/16.png Graphic file (type png)
 <use diagrams/lemma4/16.png>
 Package pdftex.def Info: diagrams/lemma4/16.png  used on input line 327.
@@ -4088,7 +4020,7 @@ Overfull \hbox (1.20203pt too wide) in paragraph at lines 327--328
  [][] 
  []
 
-<diagrams/lemma4/17.png, id=3062, 479.29062pt x 479.7925pt>
+<diagrams/lemma4/17.png, id=3072, 479.29062pt x 479.7925pt>
 File: diagrams/lemma4/17.png Graphic file (type png)
 <use diagrams/lemma4/17.png>
 Package pdftex.def Info: diagrams/lemma4/17.png  used on input line 333.
@@ -4098,8 +4030,8 @@ Overfull \hbox (21.70349pt too wide) in paragraph at lines 333--334
  [][] 
  []
 
-[392 <./diagrams/lemma4/15.png>]
-<diagrams/lemma4/18.png, id=3070, 467.24562pt x 465.23813pt>
+[388 <./diagrams/lemma4/15.png>]
+<diagrams/lemma4/18.png, id=3079, 467.24562pt x 465.23813pt>
 File: diagrams/lemma4/18.png Graphic file (type png)
 <use diagrams/lemma4/18.png>
 Package pdftex.def Info: diagrams/lemma4/18.png  used on input line 339.
@@ -4109,9 +4041,9 @@ Overfull \hbox (10.26079pt too wide) in paragraph at lines 339--340
  [][] 
  []
 
-[393 <./diagrams/lemma4/16.png>] [394 <./diagrams/lemma4/17.png>] [395 <./diagr
-ams/lemma4/18.png>] [396] [397] [398]
-<diagrams/lemma4/19.png, id=3112, 511.41063pt x 502.37688pt>
+[389 <./diagrams/lemma4/16.png>] [390 <./diagrams/lemma4/17.png>] [391 <./diagr
+ams/lemma4/18.png>] [392] [393] [394]
+<diagrams/lemma4/19.png, id=3121, 511.41063pt x 502.37688pt>
 File: diagrams/lemma4/19.png Graphic file (type png)
 <use diagrams/lemma4/19.png>
 Package pdftex.def Info: diagrams/lemma4/19.png  used on input line 501.
@@ -4121,7 +4053,7 @@ Overfull \hbox (52.21733pt too wide) in paragraph at lines 501--502
  [][] 
  []
 
-<diagrams/lemma4/20.png, id=3113, 472.76625pt x 466.24188pt>
+<diagrams/lemma4/20.png, id=3122, 472.76625pt x 466.24188pt>
 File: diagrams/lemma4/20.png Graphic file (type png)
 <use diagrams/lemma4/20.png>
 Package pdftex.def Info: diagrams/lemma4/20.png  used on input line 507.
@@ -4131,8 +4063,8 @@ Overfull \hbox (15.50537pt too wide) in paragraph at lines 507--508
  [][] 
  []
 
-[399] [400 <./diagrams/lemma4/19.png>] [401 <./diagrams/lemma4/20.png>]
-<diagrams/lemma4/21.png, id=3131, 471.26062pt x 465.74pt>
+[395] [396 <./diagrams/lemma4/19.png>] [397 <./diagrams/lemma4/20.png>]
+<diagrams/lemma4/21.png, id=3141, 471.26062pt x 465.74pt>
 File: diagrams/lemma4/21.png Graphic file (type png)
 <use diagrams/lemma4/21.png>
 Package pdftex.def Info: diagrams/lemma4/21.png  used on input line 523.
@@ -4142,13 +4074,13 @@ Overfull \hbox (14.07504pt too wide) in paragraph at lines 523--524
  [][] 
  []
 
-[402 <./diagrams/lemma4/21.png>]
+[398 <./diagrams/lemma4/21.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 579--580
 
  []
 
-[403]
-<diagrams/lemma4/22.png, id=3153, 509.40312pt x 502.37688pt>
+[399]
+<diagrams/lemma4/22.png, id=3162, 509.40312pt x 502.37688pt>
 File: diagrams/lemma4/22.png Graphic file (type png)
 <use diagrams/lemma4/22.png>
 Package pdftex.def Info: diagrams/lemma4/22.png  used on input line 602.
@@ -4158,7 +4090,7 @@ Overfull \hbox (50.31021pt too wide) in paragraph at lines 602--603
  [][] 
  []
 
-<diagrams/lemma4/23.png, id=3154, 467.7475pt x 466.74374pt>
+<diagrams/lemma4/23.png, id=3163, 467.7475pt x 466.74374pt>
 File: diagrams/lemma4/23.png Graphic file (type png)
 <use diagrams/lemma4/23.png>
 Package pdftex.def Info: diagrams/lemma4/23.png  used on input line 608.
@@ -4168,8 +4100,8 @@ Overfull \hbox (10.73758pt too wide) in paragraph at lines 608--609
  [][] 
  []
 
-[404]
-<diagrams/lemma4/24.png, id=3161, 472.26437pt x 468.75125pt>
+[400]
+<diagrams/lemma4/24.png, id=3170, 472.26437pt x 468.75125pt>
 File: diagrams/lemma4/24.png Graphic file (type png)
 <use diagrams/lemma4/24.png>
 Package pdftex.def Info: diagrams/lemma4/24.png  used on input line 614.
@@ -4179,8 +4111,8 @@ Overfull \hbox (15.0286pt too wide) in paragraph at lines 614--615
  [][] 
  []
 
-[405 <./diagrams/lemma4/22.png>]
-<diagrams/lemma4/25.png, id=3168, 469.25313pt x 470.75874pt>
+[401 <./diagrams/lemma4/22.png>]
+<diagrams/lemma4/25.png, id=3177, 469.25313pt x 470.75874pt>
 File: diagrams/lemma4/25.png Graphic file (type png)
 <use diagrams/lemma4/25.png>
 Package pdftex.def Info: diagrams/lemma4/25.png  used on input line 620.
@@ -4190,8 +4122,8 @@ Overfull \hbox (12.16792pt too wide) in paragraph at lines 620--621
  [][] 
  []
 
-[406 <./diagrams/lemma4/23.png>]
-<diagrams/lemma4/26.png, id=3175, 493.34312pt x 491.33563pt>
+[402 <./diagrams/lemma4/23.png>]
+<diagrams/lemma4/26.png, id=3184, 493.34312pt x 491.33563pt>
 File: diagrams/lemma4/26.png Graphic file (type png)
 <use diagrams/lemma4/26.png>
 Package pdftex.def Info: diagrams/lemma4/26.png  used on input line 626.
@@ -4201,8 +4133,8 @@ Overfull \hbox (35.05328pt too wide) in paragraph at lines 626--627
  [][] 
  []
 
-[407 <./diagrams/lemma4/24.png>]
-<diagrams/lemma4/27.png, id=3182, 499.8675pt x 496.85625pt>
+[403 <./diagrams/lemma4/24.png>]
+<diagrams/lemma4/27.png, id=3192, 499.8675pt x 496.85625pt>
 File: diagrams/lemma4/27.png Graphic file (type png)
 <use diagrams/lemma4/27.png>
 Package pdftex.def Info: diagrams/lemma4/27.png  used on input line 632.
@@ -4212,9 +4144,9 @@ Overfull \hbox (41.25142pt too wide) in paragraph at lines 632--633
  [][] 
  []
 
-[408 <./diagrams/lemma4/25.png>] [409 <./diagrams/lemma4/26.png>] [410 <./diagr
+[404 <./diagrams/lemma4/25.png>] [405 <./diagrams/lemma4/26.png>] [406 <./diagr
 ams/lemma4/27.png>]
-<diagrams/lemma4/28.png, id=3202, 462.72874pt x 463.23062pt>
+<diagrams/lemma4/28.png, id=3211, 462.72874pt x 463.23062pt>
 File: diagrams/lemma4/28.png Graphic file (type png)
 <use diagrams/lemma4/28.png>
 Package pdftex.def Info: diagrams/lemma4/28.png  used on input line 650.
@@ -4224,7 +4156,7 @@ Overfull \hbox (5.9698pt too wide) in paragraph at lines 650--651
  [][] 
  []
 
-<diagrams/lemma4/29.png, id=3203, 474.77374pt x 477.28313pt>
+<diagrams/lemma4/29.png, id=3212, 474.77374pt x 477.28313pt>
 File: diagrams/lemma4/29.png Graphic file (type png)
 <use diagrams/lemma4/29.png>
 Package pdftex.def Info: diagrams/lemma4/29.png  used on input line 656.
@@ -4234,7 +4166,7 @@ Overfull \hbox (17.41249pt too wide) in paragraph at lines 656--657
  [][] 
  []
 
-<diagrams/lemma4/30.png, id=3204, 494.84875pt x 494.34688pt>
+<diagrams/lemma4/30.png, id=3213, 494.84875pt x 494.34688pt>
 File: diagrams/lemma4/30.png Graphic file (type png)
 <use diagrams/lemma4/30.png>
 Package pdftex.def Info: diagrams/lemma4/30.png  used on input line 662.
@@ -4244,7 +4176,7 @@ Overfull \hbox (36.48364pt too wide) in paragraph at lines 662--663
  [][] 
  []
 
-[411 <./diagrams/lemma4/28.png>] [412 <./diagrams/lemma4/29.png>] [413 <./diagr
+[407 <./diagrams/lemma4/28.png>] [408 <./diagrams/lemma4/29.png>] [409 <./diagr
 ams/lemma4/30.png>]
 Overfull \hbox (31.57823pt too wide) in paragraph at lines 730--731
 \OT1/cmr/m/n/12 Lastly, I will de-fine a glu-ing iso-mor-phism $\OML/cmm/m/it/1
@@ -4252,7 +4184,7 @@ Overfull \hbox (31.57823pt too wide) in paragraph at lines 730--731
 2 )\OMS/cmsy/m/n/12 j[] [] \U/rsfs/m/n/12 F[]\OMS/cmsy/m/n/12 j[]$
  []
 
-[414]
+[410]
 Overfull \hbox (6.45013pt too wide) detected at line 741
 \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 f[]\U/rsfs/m/n/12 F[]\OT1/cmr/m/n/12 )\OMS/cm
 sy/m/n/12 j[] [] \OML/cmm/m/it/12 pr[]\OT1/cmr/m/n/12 (\U/rsfs/m/n/12 F[]\OMS/c
@@ -4261,12 +4193,12 @@ s/m/n/12 F[]\OMS/cmsy/m/n/12 j[]\OT1/cmr/m/n/12 )\OMS/cmsy/m/n/12 j[] \OT1/cmr/
 m/n/12 = \U/rsfs/m/n/12 F[]\OMS/cmsy/m/n/12 j[]
  []
 
-[415] [416] [417] [418]
+[411] [412] [413] [414]
 Overfull \hbox (26.4016pt too wide) in paragraph at lines 932--947
 [] 
  []
 
-[419] [420] [421]
+[415] [416] [417]
 Overfull \hbox (11.67407pt too wide) in paragraph at lines 1068--1069
 \OT1/cmr/m/n/12 First, a sheaf on $\OML/cmm/m/it/12 V [] V \OMS/cmsy/m/n/12 ^^B
  f\OT1/cmr/m/n/12 1\OMS/cmsy/m/n/12 g$ \OT1/cmr/m/n/12 is the re-stric-tion of 
@@ -4275,8 +4207,8 @@ B f\OT1/cmr/m/n/12 1\OMS/cmsy/m/n/12 g$\OT1/cmr/m/n/12 , i.e. $\U/rsfs/m/n/12 F
 []\OMS/cmsy/m/n/12 j[] \OT1/cmr/m/n/12 =
  []
 
-[422]
-<diagrams/lemma4/31.png, id=3298, 498.36188pt x 499.36563pt>
+[418]
+<diagrams/lemma4/31.png, id=3307, 498.36188pt x 499.36563pt>
 File: diagrams/lemma4/31.png Graphic file (type png)
 <use diagrams/lemma4/31.png>
 Package pdftex.def Info: diagrams/lemma4/31.png  used on input line 1079.
@@ -4286,7 +4218,7 @@ Overfull \hbox (39.82109pt too wide) in paragraph at lines 1079--1080
  [][] 
  []
 
-<diagrams/lemma4/32.png, id=3299, 490.83376pt x 491.8375pt>
+<diagrams/lemma4/32.png, id=3308, 490.83376pt x 491.8375pt>
 File: diagrams/lemma4/32.png Graphic file (type png)
 <use diagrams/lemma4/32.png>
 Package pdftex.def Info: diagrams/lemma4/32.png  used on input line 1085.
@@ -4296,8 +4228,8 @@ Overfull \hbox (32.6694pt too wide) in paragraph at lines 1085--1086
  [][] 
  []
 
-[423] [424 <./diagrams/lemma4/31.png>] [425 <./diagrams/lemma4/32.png>]
-<diagrams/lemma4/33.png, id=3318, 494.84875pt x 497.35812pt>
+[419] [420 <./diagrams/lemma4/31.png>] [421 <./diagrams/lemma4/32.png>]
+<diagrams/lemma4/33.png, id=3328, 494.84875pt x 497.35812pt>
 File: diagrams/lemma4/33.png Graphic file (type png)
 <use diagrams/lemma4/33.png>
 Package pdftex.def Info: diagrams/lemma4/33.png  used on input line 1101.
@@ -4307,8 +4239,8 @@ Overfull \hbox (36.48364pt too wide) in paragraph at lines 1101--1102
  [][] 
  []
 
-[426 <./diagrams/lemma4/33.png>] [427]) (./2nd part/6.cobord'4.tex [428]
-[429] [430] [431] [432]
+[422 <./diagrams/lemma4/33.png>] [423]) (./2nd part/6.cobord'4.tex [424]
+[425] [426] [427] [428]
 File: diagrams/lemma4/1.png Graphic file (type png)
 <use diagrams/lemma4/1.png>
 Package pdftex.def Info: diagrams/lemma4/1.png  used on input line 204.
@@ -4318,7 +4250,7 @@ Overfull \hbox (47.92633pt too wide) in paragraph at lines 204--205
  [][] 
  []
 
-[433]
+[429]
 File: diagrams/lemma4/2.png Graphic file (type png)
 <use diagrams/lemma4/2.png>
 Package pdftex.def Info: diagrams/lemma4/2.png  used on input line 213.
@@ -4328,7 +4260,7 @@ Overfull \hbox (3.5859pt too wide) in paragraph at lines 213--214
  [][] 
  []
 
-[434]
+[430]
 Overfull \hbox (83.16853pt too wide) in paragraph at lines 217--219
 \OMS/cmsy/m/n/12 f\OML/cmm/m/it/12 s[]\OT1/cmr/m/n/12 (0\OML/cmm/m/it/12 ; sgn[
 ]; sgn[]\OT1/cmr/m/n/12 ) []\OMS/cmsy/m/n/12 j []\OML/cmm/m/it/12 sgn[] \OMS/cm
@@ -4360,7 +4292,7 @@ Overfull \hbox (26.47128pt too wide) in paragraph at lines 222--223
  [][] 
  []
 
-[435]
+[431]
 File: diagrams/lemma4/4.png Graphic file (type png)
 <use diagrams/lemma4/4.png>
 Package pdftex.def Info: diagrams/lemma4/4.png  used on input line 234.
@@ -4370,7 +4302,7 @@ Overfull \hbox (34.5765pt too wide) in paragraph at lines 234--235
  [][] 
  []
 
-[436]
+[432]
 File: diagrams/lemma4/5.png Graphic file (type png)
 <use diagrams/lemma4/5.png>
 Package pdftex.def Info: diagrams/lemma4/5.png  used on input line 243.
@@ -4380,7 +4312,7 @@ Overfull \hbox (19.3196pt too wide) in paragraph at lines 243--244
  [][] 
  []
 
-[437]
+[433]
 Overfull \hbox (83.16853pt too wide) in paragraph at lines 247--249
 \OMS/cmsy/m/n/12 f\OML/cmm/m/it/12 s[]\OT1/cmr/m/n/12 (0\OML/cmm/m/it/12 ; sgn[
 ]; sgn[]\OT1/cmr/m/n/12 ) []\OMS/cmsy/m/n/12 j []\OML/cmm/m/it/12 sgn[] \OMS/cm
@@ -4413,7 +4345,7 @@ Overfull \hbox (7.87692pt too wide) in paragraph at lines 252--253
  [][] 
  []
 
-[438]
+[434]
 File: diagrams/lemma4/7.png Graphic file (type png)
 <use diagrams/lemma4/7.png>
 Package pdftex.def Info: diagrams/lemma4/7.png  used on input line 264.
@@ -4432,7 +4364,7 @@ Overfull \hbox (15.50537pt too wide) in paragraph at lines 270--271
  [][] 
  []
 
-[439]
+[435]
 File: diagrams/lemma4/9.png Graphic file (type png)
 <use diagrams/lemma4/9.png>
 Package pdftex.def Info: diagrams/lemma4/9.png  used on input line 276.
@@ -4442,7 +4374,7 @@ Overfull \hbox (32.6694pt too wide) in paragraph at lines 276--277
  [][] 
  []
 
-[440] [441]
+[436] [437]
 File: diagrams/lemma4/10.png Graphic file (type png)
 <use diagrams/lemma4/10.png>
 Package pdftex.def Info: diagrams/lemma4/10.png  used on input line 285.
@@ -4461,7 +4393,7 @@ Overfull \hbox (17.88927pt too wide) in paragraph at lines 291--292
  [][] 
  []
 
-[442]
+[438]
 File: diagrams/lemma4/12.png Graphic file (type png)
 <use diagrams/lemma4/12.png>
 Package pdftex.def Info: diagrams/lemma4/12.png  used on input line 297.
@@ -4471,7 +4403,7 @@ Overfull \hbox (22.18025pt too wide) in paragraph at lines 297--298
  [][] 
  []
 
-[443] [444]
+[439] [440]
 File: diagrams/lemma4/13.png Graphic file (type png)
 <use diagrams/lemma4/13.png>
 Package pdftex.def Info: diagrams/lemma4/13.png  used on input line 306.
@@ -4490,7 +4422,7 @@ Overfull \hbox (25.51773pt too wide) in paragraph at lines 312--313
  [][] 
  []
 
-[445]
+[441]
 File: diagrams/lemma4/15.png Graphic file (type png)
 <use diagrams/lemma4/15.png>
 Package pdftex.def Info: diagrams/lemma4/15.png  used on input line 318.
@@ -4500,7 +4432,7 @@ Overfull \hbox (6.44658pt too wide) in paragraph at lines 318--319
  [][] 
  []
 
-[446] [447]
+[442] [443]
 File: diagrams/lemma4/16.png Graphic file (type png)
 <use diagrams/lemma4/16.png>
 Package pdftex.def Info: diagrams/lemma4/16.png  used on input line 327.
@@ -4519,7 +4451,7 @@ Overfull \hbox (21.70349pt too wide) in paragraph at lines 333--334
  [][] 
  []
 
-[448]
+[444]
 File: diagrams/lemma4/18.png Graphic file (type png)
 <use diagrams/lemma4/18.png>
 Package pdftex.def Info: diagrams/lemma4/18.png  used on input line 339.
@@ -4529,7 +4461,7 @@ Overfull \hbox (10.26079pt too wide) in paragraph at lines 339--340
  [][] 
  []
 
-[449] [450] [451] [452] [453] [454]
+[445] [446] [447] [448] [449] [450]
 File: diagrams/lemma4/19.png Graphic file (type png)
 <use diagrams/lemma4/19.png>
 Package pdftex.def Info: diagrams/lemma4/19.png  used on input line 501.
@@ -4539,7 +4471,7 @@ Overfull \hbox (52.21733pt too wide) in paragraph at lines 501--502
  [][] 
  []
 
-<diagrams/cobord'4/20.png, id=3519, 498.86375pt x 492.33937pt>
+<diagrams/cobord'4/20.png, id=3528, 498.86375pt x 492.33937pt>
 File: diagrams/cobord'4/20.png Graphic file (type png)
 <use diagrams/cobord'4/20.png>
 Package pdftex.def Info: diagrams/cobord'4/20.png  used on input line 507.
@@ -4549,8 +4481,8 @@ Overfull \hbox (40.29787pt too wide) in paragraph at lines 507--508
  [][] 
  []
 
-[455] [456] [457 <./diagrams/cobord'4/20.png>]
-<diagrams/cobord'4/21.png, id=3537, 499.8675pt x 494.84875pt>
+[451] [452] [453 <./diagrams/cobord'4/20.png>]
+<diagrams/cobord'4/21.png, id=3546, 499.8675pt x 494.84875pt>
 File: diagrams/cobord'4/21.png Graphic file (type png)
 <use diagrams/cobord'4/21.png>
 Package pdftex.def Info: diagrams/cobord'4/21.png  used on input line 523.
@@ -4560,12 +4492,12 @@ Overfull \hbox (41.25142pt too wide) in paragraph at lines 523--524
  [][] 
  []
 
-[458 <./diagrams/cobord'4/21.png>]
+[454 <./diagrams/cobord'4/21.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 551--552
 
  []
 
-[459]
+[455]
 File: diagrams/lemma4/22.png Graphic file (type png)
 <use diagrams/lemma4/22.png>
 Package pdftex.def Info: diagrams/lemma4/22.png  used on input line 574.
@@ -4575,7 +4507,7 @@ Overfull \hbox (50.31021pt too wide) in paragraph at lines 574--575
  [][] 
  []
 
-<diagrams/cobord'4/23.png, id=3559, 498.36188pt x 496.85625pt>
+<diagrams/cobord'4/23.png, id=3568, 498.36188pt x 496.85625pt>
 File: diagrams/cobord'4/23.png Graphic file (type png)
 <use diagrams/cobord'4/23.png>
 Package pdftex.def Info: diagrams/cobord'4/23.png  used on input line 580.
@@ -4585,7 +4517,7 @@ Overfull \hbox (39.82109pt too wide) in paragraph at lines 580--581
  [][] 
  []
 
-[460]
+[456]
 File: diagrams/lemma4/24.png Graphic file (type png)
 <use diagrams/lemma4/24.png>
 Package pdftex.def Info: diagrams/lemma4/24.png  used on input line 586.
@@ -4595,8 +4527,8 @@ Overfull \hbox (15.0286pt too wide) in paragraph at lines 586--587
  [][] 
  []
 
-[461]
-<diagrams/cobord'4/25.png, id=3570, 503.8825pt x 499.36563pt>
+[457]
+<diagrams/cobord'4/25.png, id=3580, 503.8825pt x 499.36563pt>
 File: diagrams/cobord'4/25.png Graphic file (type png)
 <use diagrams/cobord'4/25.png>
 Package pdftex.def Info: diagrams/cobord'4/25.png  used on input line 592.
@@ -4606,7 +4538,7 @@ Overfull \hbox (45.06566pt too wide) in paragraph at lines 592--593
  [][] 
  []
 
-[462 <./diagrams/cobord'4/23.png>]
+[458 <./diagrams/cobord'4/23.png>]
 File: diagrams/lemma4/26.png Graphic file (type png)
 <use diagrams/lemma4/26.png>
 Package pdftex.def Info: diagrams/lemma4/26.png  used on input line 598.
@@ -4616,8 +4548,8 @@ Overfull \hbox (35.05328pt too wide) in paragraph at lines 598--599
  [][] 
  []
 
-[463]
-<diagrams/cobord'4/27.png, id=3583, 495.35063pt x 496.35437pt>
+[459]
+<diagrams/cobord'4/27.png, id=3592, 495.35063pt x 496.35437pt>
 File: diagrams/cobord'4/27.png Graphic file (type png)
 <use diagrams/cobord'4/27.png>
 Package pdftex.def Info: diagrams/cobord'4/27.png  used on input line 604.
@@ -4627,8 +4559,8 @@ Overfull \hbox (36.96042pt too wide) in paragraph at lines 604--605
  [][] 
  []
 
-[464 <./diagrams/cobord'4/25.png>] [465] [466 <./diagrams/cobord'4/27.png>]
-<diagrams/cobord'4/28.png, id=3601, 494.34688pt x 491.8375pt>
+[460 <./diagrams/cobord'4/25.png>] [461] [462 <./diagrams/cobord'4/27.png>]
+<diagrams/cobord'4/28.png, id=3611, 494.34688pt x 491.8375pt>
 File: diagrams/cobord'4/28.png Graphic file (type png)
 <use diagrams/cobord'4/28.png>
 Package pdftex.def Info: diagrams/cobord'4/28.png  used on input line 622.
@@ -4638,7 +4570,7 @@ Overfull \hbox (36.00687pt too wide) in paragraph at lines 622--623
  [][] 
  []
 
-<diagrams/cobord'4/29.png, id=3602, 496.35437pt x 495.35063pt>
+<diagrams/cobord'4/29.png, id=3612, 496.35437pt x 495.35063pt>
 File: diagrams/cobord'4/29.png Graphic file (type png)
 <use diagrams/cobord'4/29.png>
 Package pdftex.def Info: diagrams/cobord'4/29.png  used on input line 628.
@@ -4648,7 +4580,7 @@ Overfull \hbox (37.91397pt too wide) in paragraph at lines 628--629
  [][] 
  []
 
-<diagrams/cobord'4/30.png, id=3603, 490.33188pt x 491.8375pt>
+<diagrams/cobord'4/30.png, id=3613, 490.33188pt x 491.8375pt>
 File: diagrams/cobord'4/30.png Graphic file (type png)
 <use diagrams/cobord'4/30.png>
 Package pdftex.def Info: diagrams/cobord'4/30.png  used on input line 634.
@@ -4658,7 +4590,7 @@ Overfull \hbox (32.19263pt too wide) in paragraph at lines 634--635
  [][] 
  []
 
-[467 <./diagrams/cobord'4/28.png>] [468 <./diagrams/cobord'4/29.png>] [469 <./d
+[463 <./diagrams/cobord'4/28.png>] [464 <./diagrams/cobord'4/29.png>] [465 <./d
 iagrams/cobord'4/30.png>]
 Overfull \hbox (31.57823pt too wide) in paragraph at lines 666--667
 \OT1/cmr/m/n/12 Lastly, I will de-fine a glu-ing iso-mor-phism $\OML/cmm/m/it/1
@@ -4675,12 +4607,12 @@ s/m/n/12 F[]\OMS/cmsy/m/n/12 j[]\OT1/cmr/m/n/12 )\OMS/cmsy/m/n/12 j[] \OT1/cmr/
 m/n/12 = \U/rsfs/m/n/12 F[]\OMS/cmsy/m/n/12 j[]
  []
 
-[470] [471] [472]
+[466] [467] [468]
 Overfull \hbox (26.4016pt too wide) in paragraph at lines 825--841
 [] 
  []
 
-[473] [474]
+[469] [470]
 Overfull \hbox (11.67407pt too wide) in paragraph at lines 863--864
 \OT1/cmr/m/n/12 First, a sheaf on $\OML/cmm/m/it/12 V [] V \OMS/cmsy/m/n/12 ^^B
  f\OT1/cmr/m/n/12 1\OMS/cmsy/m/n/12 g$ \OT1/cmr/m/n/12 is the re-stric-tion of 
@@ -4698,7 +4630,7 @@ Overfull \hbox (39.82109pt too wide) in paragraph at lines 874--875
  [][] 
  []
 
-<diagrams/cobord'4/32.png, id=3679, 495.8525pt x 495.35063pt>
+<diagrams/cobord'4/32.png, id=3689, 495.8525pt x 495.35063pt>
 File: diagrams/cobord'4/32.png Graphic file (type png)
 <use diagrams/cobord'4/32.png>
 Package pdftex.def Info: diagrams/cobord'4/32.png  used on input line 880.
@@ -4708,8 +4640,8 @@ Overfull \hbox (37.4372pt too wide) in paragraph at lines 880--881
  [][] 
  []
 
-[475] [476] [477 <./diagrams/cobord'4/32.png>]
-<diagrams/cobord'4/33.png, id=3699, 493.845pt x 493.34312pt>
+[471] [472] [473 <./diagrams/cobord'4/32.png>]
+<diagrams/cobord'4/33.png, id=3708, 493.845pt x 493.34312pt>
 File: diagrams/cobord'4/33.png Graphic file (type png)
 <use diagrams/cobord'4/33.png>
 Package pdftex.def Info: diagrams/cobord'4/33.png  used on input line 896.
@@ -4719,227 +4651,227 @@ Overfull \hbox (35.53006pt too wide) in paragraph at lines 896--897
  [][] 
  []
 
-[478 <./diagrams/cobord'4/33.png>]) (./2nd part/8.cobord5.tex [479]
+[474 <./diagrams/cobord'4/33.png>]) (./2nd part/8.cobord5.tex [475]
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
-<diagrams/cobord5/1.png, id=3721, 388.95313pt x 492.33937pt>
+<diagrams/cobord5/1.png, id=3732, 388.95313pt x 492.33937pt>
 File: diagrams/cobord5/1.png Graphic file (type png)
 <use diagrams/cobord5/1.png>
 Package pdftex.def Info: diagrams/cobord5/1.png  used on input line 14.
 (pdftex.def)             Requested size: 369.50336pt x 467.71973pt.
-[480]
-<diagrams/cobord5/7.png, id=3727, 393.97188pt x 503.8825pt>
+[476]
+<diagrams/cobord5/7.png, id=3738, 393.97188pt x 503.8825pt>
 File: diagrams/cobord5/7.png Graphic file (type png)
 <use diagrams/cobord5/7.png>
 Package pdftex.def Info: diagrams/cobord5/7.png  used on input line 23.
 (pdftex.def)             Requested size: 374.27115pt x 478.68567pt.
- [481 <./diagrams/cobord5/1.png>]
-<diagrams/cobord5/2.png, id=3736, 388.95313pt x 300.12125pt>
+ [477 <./diagrams/cobord5/1.png>]
+<diagrams/cobord5/2.png, id=3745, 388.95313pt x 300.12125pt>
 File: diagrams/cobord5/2.png Graphic file (type png)
 <use diagrams/cobord5/2.png>
 Package pdftex.def Info: diagrams/cobord5/2.png  used on input line 33.
 (pdftex.def)             Requested size: 311.1629pt x 240.09732pt.
- [482 <./diagrams/cobord5/7.png>]
-<diagrams/cobord5/3.png, id=3744, 498.86375pt x 382.42876pt>
+ [478 <./diagrams/cobord5/7.png>]
+<diagrams/cobord5/3.png, id=3753, 498.86375pt x 382.42876pt>
 File: diagrams/cobord5/3.png Graphic file (type png)
 <use diagrams/cobord5/3.png>
 Package pdftex.def Info: diagrams/cobord5/3.png  used on input line 40.
 (pdftex.def)             Requested size: 299.32056pt x 229.45901pt.
-<diagrams/cobord5/4.png, id=3745, 385.44pt x 490.33188pt>
+<diagrams/cobord5/4.png, id=3754, 385.44pt x 490.33188pt>
 File: diagrams/cobord5/4.png Graphic file (type png)
 <use diagrams/cobord5/4.png>
 Package pdftex.def Info: diagrams/cobord5/4.png  used on input line 51.
 (pdftex.def)             Requested size: 366.16592pt x 465.81264pt.
 
-[483 <./diagrams/cobord5/2.png> <./diagrams/cobord5/3.png>]
-<diagrams/cobord5/5.png, id=3756, 405.515pt x 503.8825pt>
+[479 <./diagrams/cobord5/2.png> <./diagrams/cobord5/3.png>]
+<diagrams/cobord5/5.png, id=3765, 405.515pt x 503.8825pt>
 File: diagrams/cobord5/5.png Graphic file (type png)
 <use diagrams/cobord5/5.png>
 Package pdftex.def Info: diagrams/cobord5/5.png  used on input line 60.
 (pdftex.def)             Requested size: 385.23705pt x 478.68567pt.
- [484 <./diagrams/cobord5/4.png>]
-<diagrams/cobord5/6.png, id=3763, 395.4775pt x 502.87875pt>
+ [480 <./diagrams/cobord5/4.png>]
+<diagrams/cobord5/6.png, id=3772, 395.4775pt x 502.87875pt>
 File: diagrams/cobord5/6.png Graphic file (type png)
 <use diagrams/cobord5/6.png>
 Package pdftex.def Info: diagrams/cobord5/6.png  used on input line 69.
 (pdftex.def)             Requested size: 375.70149pt x 477.7321pt.
- [485 <./diagrams/cobord5/5.png>]
+ [481 <./diagrams/cobord5/5.png>]
 File: diagrams/cobord5/7.png Graphic file (type png)
 <use diagrams/cobord5/7.png>
 Package pdftex.def Info: diagrams/cobord5/7.png  used on input line 78.
 (pdftex.def)             Requested size: 374.27115pt x 478.68567pt.
- [486 <./diagrams/cobord5/6.png>]) (./2nd part/9.cobord6.tex [487]
+ [482 <./diagrams/cobord5/6.png>]) (./2nd part/9.cobord6.tex [483]
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
-<diagrams/cobord6/1.png, id=3784, 396.48125pt x 501.875pt>
+<diagrams/cobord6/1.png, id=3793, 396.48125pt x 501.875pt>
 File: diagrams/cobord6/1.png Graphic file (type png)
 <use diagrams/cobord6/1.png>
 Package pdftex.def Info: diagrams/cobord6/1.png  used on input line 14.
 (pdftex.def)             Requested size: 376.65504pt x 476.77853pt.
-[488]
-<diagrams/cobord6/7.png, id=3789, 389.455pt x 501.875pt>
+[484]
+<diagrams/cobord6/7.png, id=3798, 389.455pt x 501.875pt>
 File: diagrams/cobord6/7.png Graphic file (type png)
 <use diagrams/cobord6/7.png>
 Package pdftex.def Info: diagrams/cobord6/7.png  used on input line 27.
 (pdftex.def)             Requested size: 369.98015pt x 476.77853pt.
- [489 <./diagrams/cobord6/1.png>]
-<diagrams/cobord6/2.png, id=3796, 394.47375pt x 298.61563pt>
+ [485 <./diagrams/cobord6/1.png>]
+<diagrams/cobord6/2.png, id=3805, 394.47375pt x 298.61563pt>
 File: diagrams/cobord6/2.png Graphic file (type png)
 <use diagrams/cobord6/2.png>
 Package pdftex.def Info: diagrams/cobord6/2.png  used on input line 37.
 (pdftex.def)             Requested size: 374.74792pt x 283.68323pt.
- [490 <./diagrams/cobord6/7.png>]
-<diagrams/cobord6/3.png, id=3804, 390.96063pt x 296.10625pt>
+ [486 <./diagrams/cobord6/7.png>]
+<diagrams/cobord6/3.png, id=3813, 390.96063pt x 296.10625pt>
 File: diagrams/cobord6/3.png Graphic file (type png)
 <use diagrams/cobord6/3.png>
 Package pdftex.def Info: diagrams/cobord6/3.png  used on input line 44.
 (pdftex.def)             Requested size: 371.41049pt x 281.29933pt.
 
-[491 <./diagrams/cobord6/2.png>]
-<diagrams/cobord6/4.png, id=3811, 390.96063pt x 503.8825pt>
+[487 <./diagrams/cobord6/2.png>]
+<diagrams/cobord6/4.png, id=3821, 390.96063pt x 503.8825pt>
 File: diagrams/cobord6/4.png Graphic file (type png)
 <use diagrams/cobord6/4.png>
 Package pdftex.def Info: diagrams/cobord6/4.png  used on input line 55.
 (pdftex.def)             Requested size: 371.41049pt x 478.68567pt.
- [492 <./diagrams/cobord6/3.png>]
-<diagrams/cobord6/5.png, id=3820, 392.46625pt x 502.87875pt>
+ [488 <./diagrams/cobord6/3.png>]
+<diagrams/cobord6/5.png, id=3830, 392.46625pt x 502.87875pt>
 File: diagrams/cobord6/5.png Graphic file (type png)
 <use diagrams/cobord6/5.png>
 Package pdftex.def Info: diagrams/cobord6/5.png  used on input line 64.
 (pdftex.def)             Requested size: 372.8408pt x 477.7321pt.
- [493 <./diagrams/cobord6/4.png>]
-<diagrams/cobord6/6.png, id=3828, 391.96437pt x 500.87125pt>
+ [489 <./diagrams/cobord6/4.png>]
+<diagrams/cobord6/6.png, id=3837, 391.96437pt x 500.87125pt>
 File: diagrams/cobord6/6.png Graphic file (type png)
 <use diagrams/cobord6/6.png>
 Package pdftex.def Info: diagrams/cobord6/6.png  used on input line 73.
 (pdftex.def)             Requested size: 372.36403pt x 475.82497pt.
- [494 <./diagrams/cobord6/5.png>]
+ [490 <./diagrams/cobord6/5.png>]
 File: diagrams/cobord6/7.png Graphic file (type png)
 <use diagrams/cobord6/7.png>
 Package pdftex.def Info: diagrams/cobord6/7.png  used on input line 82.
 (pdftex.def)             Requested size: 369.98015pt x 476.77853pt.
- [495 <./diagrams/cobord6/6.png>]) (./2nd part/10.cobord7.tex [496]
+ [491 <./diagrams/cobord6/6.png>]) (./2nd part/10.cobord7.tex [492]
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
-<diagrams/cobord7/1.png, id=3848, 412.03937pt x 470.75874pt>
+<diagrams/cobord7/1.png, id=3857, 412.03937pt x 470.75874pt>
 File: diagrams/cobord7/1.png Graphic file (type png)
 <use diagrams/cobord7/1.png>
 Package pdftex.def Info: diagrams/cobord7/1.png  used on input line 14.
 (pdftex.def)             Requested size: 391.43518pt x 447.21828pt.
-[497]
-<diagrams/cobord7/7.png, id=3853, 413.545pt x 461.725pt>
+[493]
+<diagrams/cobord7/7.png, id=3863, 413.545pt x 461.725pt>
 File: diagrams/cobord7/7.png Graphic file (type png)
 <use diagrams/cobord7/7.png>
 Package pdftex.def Info: diagrams/cobord7/7.png  used on input line 22.
 (pdftex.def)             Requested size: 392.86551pt x 438.63626pt.
- [498 <./diagrams/cobord7/1.png>]
-<diagrams/cobord7/2.png, id=3860, 419.06563pt x 321.70187pt>
+ [494 <./diagrams/cobord7/1.png>]
+<diagrams/cobord7/2.png, id=3870, 419.06563pt x 321.70187pt>
 File: diagrams/cobord7/2.png Graphic file (type png)
 <use diagrams/cobord7/2.png>
 Package pdftex.def Info: diagrams/cobord7/2.png  used on input line 32.
 (pdftex.def)             Requested size: 398.11008pt x 305.61504pt.
- [499 <./diagrams/cobord7/7.png>]
-<diagrams/cobord7/3.png, id=3869, 415.5525pt x 315.1775pt>
+ [495 <./diagrams/cobord7/7.png>]
+<diagrams/cobord7/3.png, id=3878, 415.5525pt x 315.1775pt>
 File: diagrams/cobord7/3.png Graphic file (type png)
 <use diagrams/cobord7/3.png>
 Package pdftex.def Info: diagrams/cobord7/3.png  used on input line 39.
 (pdftex.def)             Requested size: 394.77263pt x 299.41692pt.
 
-[500 <./diagrams/cobord7/2.png>]
-<diagrams/cobord7/4.png, id=3876, 414.54875pt x 461.725pt>
+[496 <./diagrams/cobord7/2.png>]
+<diagrams/cobord7/4.png, id=3885, 414.54875pt x 461.725pt>
 File: diagrams/cobord7/4.png Graphic file (type png)
 <use diagrams/cobord7/4.png>
 Package pdftex.def Info: diagrams/cobord7/4.png  used on input line 50.
 (pdftex.def)             Requested size: 393.81908pt x 438.63626pt.
- [501 <./diagrams/cobord7/3.png>]
-<diagrams/cobord7/5.png, id=3885, 416.05438pt x 464.73625pt>
+ [497 <./diagrams/cobord7/3.png>]
+<diagrams/cobord7/5.png, id=3895, 416.05438pt x 464.73625pt>
 File: diagrams/cobord7/5.png Graphic file (type png)
 <use diagrams/cobord7/5.png>
 Package pdftex.def Info: diagrams/cobord7/5.png  used on input line 59.
 (pdftex.def)             Requested size: 395.24942pt x 441.49693pt.
- [502 <./diagrams/cobord7/4.png>]
-<diagrams/cobord7/6.png, id=3892, 412.54124pt x 466.24188pt>
+ [498 <./diagrams/cobord7/4.png>]
+<diagrams/cobord7/6.png, id=3902, 412.54124pt x 466.24188pt>
 File: diagrams/cobord7/6.png Graphic file (type png)
 <use diagrams/cobord7/6.png>
 Package pdftex.def Info: diagrams/cobord7/6.png  used on input line 68.
 (pdftex.def)             Requested size: 391.91196pt x 442.92728pt.
- [503 <./diagrams/cobord7/5.png>]
+ [499 <./diagrams/cobord7/5.png>]
 File: diagrams/cobord7/7.png Graphic file (type png)
 <use diagrams/cobord7/7.png>
 Package pdftex.def Info: diagrams/cobord7/7.png  used on input line 77.
 (pdftex.def)             Requested size: 392.86551pt x 438.63626pt.
- [504 <./diagrams/cobord7/6.png>]) (./2nd part/11.cobord8.tex [505]
+ [500 <./diagrams/cobord7/6.png>]) (./2nd part/11.cobord8.tex [501]
 Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
-<diagrams/cobord8/1.png, id=3915, 398.99063pt x 509.905pt>
+<diagrams/cobord8/1.png, id=3924, 398.99063pt x 509.905pt>
 File: diagrams/cobord8/1.png Graphic file (type png)
 <use diagrams/cobord8/1.png>
 Package pdftex.def Info: diagrams/cobord8/1.png  used on input line 29.
 (pdftex.def)             Requested size: 379.03894pt x 484.407pt.
-[506]
-<diagrams/cobord8/11.png, id=3920, 401.5pt x 514.92375pt>
+[502]
+<diagrams/cobord8/11.png, id=3929, 401.5pt x 514.92375pt>
 File: diagrams/cobord8/11.png Graphic file (type png)
 <use diagrams/cobord8/11.png>
 Package pdftex.def Info: diagrams/cobord8/11.png  used on input line 38.
 (pdftex.def)             Requested size: 381.42282pt x 489.17479pt.
- [507 <./diagrams/cobord8/1.png>] [508 <./diagrams/cobord8/11.png>]
-<diagrams/cobord8/2.png, id=3935, 396.48125pt x 506.39188pt>
+ [503 <./diagrams/cobord8/1.png>] [504 <./diagrams/cobord8/11.png>]
+<diagrams/cobord8/2.png, id=3944, 396.48125pt x 506.39188pt>
 File: diagrams/cobord8/2.png Graphic file (type png)
 <use diagrams/cobord8/2.png>
 Package pdftex.def Info: diagrams/cobord8/2.png  used on input line 64.
 (pdftex.def)             Requested size: 376.65504pt x 481.06953pt.
-<diagrams/cobord8/3.png, id=3936, 399.4925pt x 515.9275pt>
+<diagrams/cobord8/3.png, id=3945, 399.4925pt x 515.9275pt>
 File: diagrams/cobord8/3.png Graphic file (type png)
 <use diagrams/cobord8/3.png>
 Package pdftex.def Info: diagrams/cobord8/3.png  used on input line 73.
 (pdftex.def)             Requested size: 379.51572pt x 490.12834pt.
 
-[509 <./diagrams/cobord8/2.png>]
-<diagrams/cobord8/4.png, id=3945, 397.98688pt x 511.9125pt>
+[505 <./diagrams/cobord8/2.png>]
+<diagrams/cobord8/4.png, id=3955, 397.98688pt x 511.9125pt>
 File: diagrams/cobord8/4.png Graphic file (type png)
 <use diagrams/cobord8/4.png>
 Package pdftex.def Info: diagrams/cobord8/4.png  used on input line 82.
 (pdftex.def)             Requested size: 378.08539pt x 486.31412pt.
- [510 <./diagrams/cobord8/3.png>]
-<diagrams/cobord8/5.png, id=3953, 398.99063pt x 507.8975pt>
+ [506 <./diagrams/cobord8/3.png>]
+<diagrams/cobord8/5.png, id=3963, 398.99063pt x 507.8975pt>
 File: diagrams/cobord8/5.png Graphic file (type png)
 <use diagrams/cobord8/5.png>
 Package pdftex.def Info: diagrams/cobord8/5.png  used on input line 91.
 (pdftex.def)             Requested size: 379.03894pt x 482.4999pt.
- [511 <./diagrams/cobord8/4.png>] [512 <./diagrams/cobord8/5.png>]
-<diagrams/cobord8/6.png, id=3968, 394.97563pt x 510.90875pt>
+ [507 <./diagrams/cobord8/4.png>] [508 <./diagrams/cobord8/5.png>]
+<diagrams/cobord8/6.png, id=3977, 394.97563pt x 510.90875pt>
 File: diagrams/cobord8/6.png Graphic file (type png)
 <use diagrams/cobord8/6.png>
 Package pdftex.def Info: diagrams/cobord8/6.png  used on input line 120.
 (pdftex.def)             Requested size: 375.22472pt x 485.36057pt.
- [513]
-<diagrams/cobord8/7.png, id=3976, 399.4925pt x 511.9125pt>
+ [509]
+<diagrams/cobord8/7.png, id=3985, 399.4925pt x 511.9125pt>
 File: diagrams/cobord8/7.png Graphic file (type png)
 <use diagrams/cobord8/7.png>
 Package pdftex.def Info: diagrams/cobord8/7.png  used on input line 127.
 (pdftex.def)             Requested size: 379.51572pt x 486.31412pt.
- [514 <./diagrams/cobord8/6.png>] [515 <./diagrams/cobord8/7.png>]
-<diagrams/cobord8/8.png, id=3990, 399.4925pt x 510.90875pt>
+ [510 <./diagrams/cobord8/6.png>] [511 <./diagrams/cobord8/7.png>]
+<diagrams/cobord8/8.png, id=4000, 399.4925pt x 510.90875pt>
 File: diagrams/cobord8/8.png Graphic file (type png)
 <use diagrams/cobord8/8.png>
 Package pdftex.def Info: diagrams/cobord8/8.png  used on input line 176.
 (pdftex.def)             Requested size: 379.51572pt x 485.36057pt.
- [516]
-<diagrams/cobord8/9.png, id=3999, 396.98312pt x 508.90125pt>
+ [512]
+<diagrams/cobord8/9.png, id=4009, 396.98312pt x 508.90125pt>
 File: diagrams/cobord8/9.png Graphic file (type png)
 <use diagrams/cobord8/9.png>
 Package pdftex.def Info: diagrams/cobord8/9.png  used on input line 193.
 (pdftex.def)             Requested size: 377.13182pt x 483.45345pt.
- [517 <./diagrams/cobord8/8.png>] [518 <./diagrams/cobord8/9.png>]
-<diagrams/cobord8/10.png, id=4016, 397.98688pt x 514.42188pt>
+ [513 <./diagrams/cobord8/8.png>] [514 <./diagrams/cobord8/9.png>]
+<diagrams/cobord8/10.png, id=4025, 397.98688pt x 514.42188pt>
 File: diagrams/cobord8/10.png Graphic file (type png)
 <use diagrams/cobord8/10.png>
 Package pdftex.def Info: diagrams/cobord8/10.png  used on input line 211.
@@ -4948,217 +4880,217 @@ File: diagrams/cobord8/11.png Graphic file (type png)
 <use diagrams/cobord8/11.png>
 Package pdftex.def Info: diagrams/cobord8/11.png  used on input line 220.
 (pdftex.def)             Requested size: 381.42282pt x 489.17479pt.
- [519 <./diagrams/cobord8/10.png>]
-[520]) (./2nd part/12.cobord'8.tex
+ [515 <./diagrams/cobord8/10.png>]
+[516]) (./2nd part/12.cobord'8.tex
 Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
-<diagrams/cobord'8/1.png, id=4032, 398.48875pt x 507.8975pt>
+<diagrams/cobord'8/1.png, id=4041, 398.48875pt x 507.8975pt>
 File: diagrams/cobord'8/1.png Graphic file (type png)
 <use diagrams/cobord'8/1.png>
 Package pdftex.def Info: diagrams/cobord'8/1.png  used on input line 28.
 (pdftex.def)             Requested size: 378.56216pt x 482.4999pt.
-[521]
-<diagrams/cobord'8/10.png, id=4040, 402.00188pt x 508.90125pt>
+[517]
+<diagrams/cobord'8/10.png, id=4051, 402.00188pt x 508.90125pt>
 File: diagrams/cobord'8/10.png Graphic file (type png)
 <use diagrams/cobord'8/10.png>
 Package pdftex.def Info: diagrams/cobord'8/10.png  used on input line 41.
 (pdftex.def)             Requested size: 381.89961pt x 483.45345pt.
- [522 <./diagrams/cobord'8/1.png>] [523 <./diagrams/cobord'8/10.png>]
-<diagrams/cobord'8/2.png, id=4059, 399.4925pt x 510.40688pt>
+ [518 <./diagrams/cobord'8/1.png>] [519 <./diagrams/cobord'8/10.png>]
+<diagrams/cobord'8/2.png, id=4068, 399.4925pt x 510.40688pt>
 File: diagrams/cobord'8/2.png Graphic file (type png)
 <use diagrams/cobord'8/2.png>
 Package pdftex.def Info: diagrams/cobord'8/2.png  used on input line 57.
 (pdftex.def)             Requested size: 379.51572pt x 484.88377pt.
-<diagrams/cobord'8/3.png, id=4060, 401.5pt x 509.905pt>
+<diagrams/cobord'8/3.png, id=4069, 401.5pt x 509.905pt>
 File: diagrams/cobord'8/3.png Graphic file (type png)
 <use diagrams/cobord'8/3.png>
 Package pdftex.def Info: diagrams/cobord'8/3.png  used on input line 66.
 (pdftex.def)             Requested size: 381.42282pt x 484.407pt.
 
-[524 <./diagrams/cobord'8/2.png>]
-<diagrams/cobord'8/4.png, id=4069, 395.97937pt x 508.90125pt>
+[520 <./diagrams/cobord'8/2.png>]
+<diagrams/cobord'8/4.png, id=4078, 395.97937pt x 508.90125pt>
 File: diagrams/cobord'8/4.png Graphic file (type png)
 <use diagrams/cobord'8/4.png>
 Package pdftex.def Info: diagrams/cobord'8/4.png  used on input line 81.
 (pdftex.def)             Requested size: 376.17827pt x 483.45345pt.
- [525 <./diagrams/cobord'8/3.png>]
-<diagrams/cobord'8/5.png, id=4079, 400.49625pt x 508.90125pt>
+ [521 <./diagrams/cobord'8/3.png>]
+<diagrams/cobord'8/5.png, id=4088, 400.49625pt x 508.90125pt>
 File: diagrams/cobord'8/5.png Graphic file (type png)
 <use diagrams/cobord'8/5.png>
 Package pdftex.def Info: diagrams/cobord'8/5.png  used on input line 90.
 (pdftex.def)             Requested size: 380.46928pt x 483.45345pt.
- [526 <./diagrams/cobord'8/4.png>] [527 <./diagrams/cobord'8/5.png>]
-<diagrams/cobord'8/6.png, id=4096, 396.48125pt x 511.9125pt>
+ [522 <./diagrams/cobord'8/4.png>] [523 <./diagrams/cobord'8/5.png>]
+<diagrams/cobord'8/6.png, id=4106, 396.48125pt x 511.9125pt>
 File: diagrams/cobord'8/6.png Graphic file (type png)
 <use diagrams/cobord'8/6.png>
 Package pdftex.def Info: diagrams/cobord'8/6.png  used on input line 106.
 (pdftex.def)             Requested size: 376.65504pt x 486.31412pt.
-<diagrams/cobord'8/7.png, id=4097, 390.96063pt x 499.8675pt>
+<diagrams/cobord'8/7.png, id=4107, 390.96063pt x 499.8675pt>
 File: diagrams/cobord'8/7.png Graphic file (type png)
 <use diagrams/cobord'8/7.png>
 Package pdftex.def Info: diagrams/cobord'8/7.png  used on input line 115.
 (pdftex.def)             Requested size: 371.41049pt x 474.87143pt.
- [528 <./diagrams/cobord'8/6.png>]
-<diagrams/cobord'8/8.png, id=4106, 393.47pt x 501.37312pt>
+ [524 <./diagrams/cobord'8/6.png>]
+<diagrams/cobord'8/8.png, id=4116, 393.47pt x 501.37312pt>
 File: diagrams/cobord'8/8.png Graphic file (type png)
 <use diagrams/cobord'8/8.png>
 Package pdftex.def Info: diagrams/cobord'8/8.png  used on input line 131.
 (pdftex.def)             Requested size: 373.79437pt x 476.30176pt.
- [529 <./diagrams/cobord'8/7.png>]
+ [525 <./diagrams/cobord'8/7.png>]
 File: diagrams/cobord'8/10.png Graphic file (type png)
 <use diagrams/cobord'8/10.png>
 Package pdftex.def Info: diagrams/cobord'8/10.png  used on input line 140.
 (pdftex.def)             Requested size: 381.89961pt x 483.45345pt.
- [530 <./diagrams/cobord'8/8.png>]) (./2nd part/13.cobord_gen.tex [531]
+ [526 <./diagrams/cobord'8/8.png>]) (./2nd part/13.cobord_gen.tex [527]
 Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
-<diagrams/cobord_gen/1.png, id=4132, 399.99437pt x 508.90125pt>
+<diagrams/cobord_gen/1.png, id=4141, 399.99437pt x 508.90125pt>
 File: diagrams/cobord_gen/1.png Graphic file (type png)
 <use diagrams/cobord_gen/1.png>
 Package pdftex.def Info: diagrams/cobord_gen/1.png  used on input line 28.
 (pdftex.def)             Requested size: 379.9925pt x 483.45345pt.
-[532]
-<diagrams/cobord_gen/15.png, id=4139, 397.98688pt x 507.8975pt>
+[528]
+<diagrams/cobord_gen/15.png, id=4148, 397.98688pt x 507.8975pt>
 File: diagrams/cobord_gen/15.png Graphic file (type png)
 <use diagrams/cobord_gen/15.png>
 Package pdftex.def Info: diagrams/cobord_gen/15.png  used on input line 36.
 (pdftex.def)             Requested size: 378.08539pt x 482.4999pt.
- [533 <./diagrams/cobord_gen/1.png>] [534 <./diagrams/cobord_gen/15.png>]
-<diagrams/cobord_gen/base_1.png, id=4155, 394.97563pt x 502.87875pt>
+ [529 <./diagrams/cobord_gen/1.png>] [530 <./diagrams/cobord_gen/15.png>]
+<diagrams/cobord_gen/base_1.png, id=4165, 394.97563pt x 502.87875pt>
 File: diagrams/cobord_gen/base_1.png Graphic file (type png)
 <use diagrams/cobord_gen/base_1.png>
 Package pdftex.def Info: diagrams/cobord_gen/base_1.png  used on input line 59.
 
 (pdftex.def)             Requested size: 375.22472pt x 477.7321pt.
 
-[535]
-<diagrams/cobord_gen/base_2.png, id=4162, 395.97937pt x 505.89pt>
+[531]
+<diagrams/cobord_gen/base_2.png, id=4171, 395.97937pt x 505.89pt>
 File: diagrams/cobord_gen/base_2.png Graphic file (type png)
 <use diagrams/cobord_gen/base_2.png>
 Package pdftex.def Info: diagrams/cobord_gen/base_2.png  used on input line 68.
 
 (pdftex.def)             Requested size: 376.17827pt x 480.59276pt.
- [536 <./diagrams/cobord_gen/base_1.png>]
-<diagrams/cobord_gen/base_3.png, id=4170, 391.96437pt x 499.8675pt>
+ [532 <./diagrams/cobord_gen/base_1.png>]
+<diagrams/cobord_gen/base_3.png, id=4179, 391.96437pt x 499.8675pt>
 File: diagrams/cobord_gen/base_3.png Graphic file (type png)
 <use diagrams/cobord_gen/base_3.png>
 Package pdftex.def Info: diagrams/cobord_gen/base_3.png  used on input line 75.
 
 (pdftex.def)             Requested size: 372.36403pt x 474.87143pt.
- [537 <./diagrams/cobord_gen/base_2.png>] [538 <./diagrams/cobord_gen/base_3.pn
+ [533 <./diagrams/cobord_gen/base_2.png>] [534 <./diagrams/cobord_gen/base_3.pn
 g>]
-<diagrams/cobord_gen/base_4.png, id=4185, 393.47pt x 504.88625pt>
+<diagrams/cobord_gen/base_4.png, id=4195, 393.47pt x 504.88625pt>
 File: diagrams/cobord_gen/base_4.png Graphic file (type png)
 <use diagrams/cobord_gen/base_4.png>
 Package pdftex.def Info: diagrams/cobord_gen/base_4.png  used on input line 106
 .
 (pdftex.def)             Requested size: 373.79437pt x 479.63919pt.
- [539]
-<diagrams/cobord_gen/base_5.png, id=4192, 395.97937pt x 508.90125pt>
+ [535]
+<diagrams/cobord_gen/base_5.png, id=4203, 395.97937pt x 508.90125pt>
 File: diagrams/cobord_gen/base_5.png Graphic file (type png)
 <use diagrams/cobord_gen/base_5.png>
 Package pdftex.def Info: diagrams/cobord_gen/base_5.png  used on input line 120
 .
 (pdftex.def)             Requested size: 376.17827pt x 483.45345pt.
- [540 <./diagrams/cobord_gen/base_4.png>]
-<diagrams/cobord_gen/base_6.png, id=4203, 393.97188pt x 505.89pt>
+ [536 <./diagrams/cobord_gen/base_4.png>]
+<diagrams/cobord_gen/base_6.png, id=4213, 393.97188pt x 505.89pt>
 File: diagrams/cobord_gen/base_6.png Graphic file (type png)
 <use diagrams/cobord_gen/base_6.png>
 Package pdftex.def Info: diagrams/cobord_gen/base_6.png  used on input line 128
 .
 (pdftex.def)             Requested size: 374.27115pt x 480.59276pt.
- [541 <./diagrams/cobord_gen/base_5.png>] [542 <./diagrams/cobord_gen/base_6.pn
+ [537 <./diagrams/cobord_gen/base_5.png>] [538 <./diagrams/cobord_gen/base_6.pn
 g>]
-<diagrams/cobord_gen/base_7.png, id=4220, 394.47375pt x 507.39563pt>
+<diagrams/cobord_gen/base_7.png, id=4229, 394.47375pt x 507.39563pt>
 File: diagrams/cobord_gen/base_7.png Graphic file (type png)
 <use diagrams/cobord_gen/base_7.png>
 Package pdftex.def Info: diagrams/cobord_gen/base_7.png  used on input line 157
 .
 (pdftex.def)             Requested size: 374.74792pt x 482.02312pt.
- [543 <./diagrams/cobord_gen/base_7.png>]
-<diagrams/cobord_gen/2.png, id=4229, 395.97937pt x 507.8975pt>
+ [539 <./diagrams/cobord_gen/base_7.png>]
+<diagrams/cobord_gen/2.png, id=4238, 395.97937pt x 507.8975pt>
 File: diagrams/cobord_gen/2.png Graphic file (type png)
 <use diagrams/cobord_gen/2.png>
 Package pdftex.def Info: diagrams/cobord_gen/2.png  used on input line 195.
 (pdftex.def)             Requested size: 376.17827pt x 482.4999pt.
- [544]
-<diagrams/cobord_gen/3.png, id=4241, 403.00563pt x 514.42188pt>
+ [540]
+<diagrams/cobord_gen/3.png, id=4250, 403.00563pt x 514.42188pt>
 File: diagrams/cobord_gen/3.png Graphic file (type png)
 <use diagrams/cobord_gen/3.png>
 Package pdftex.def Info: diagrams/cobord_gen/3.png  used on input line 204.
 (pdftex.def)             Requested size: 382.85316pt x 488.698pt.
- [545 <./diagrams/cobord_gen/2.png>]
-<diagrams/cobord_gen/4.png, id=4248, 404.51125pt x 509.905pt>
+ [541 <./diagrams/cobord_gen/2.png>]
+<diagrams/cobord_gen/4.png, id=4258, 404.51125pt x 509.905pt>
 File: diagrams/cobord_gen/4.png Graphic file (type png)
 <use diagrams/cobord_gen/4.png>
 Package pdftex.def Info: diagrams/cobord_gen/4.png  used on input line 219.
 (pdftex.def)             Requested size: 384.2835pt x 484.407pt.
- [546 <./diagrams/cobord_gen/3.png>]
-<diagrams/cobord_gen/5.png, id=4259, 395.4775pt x 511.9125pt>
+ [542 <./diagrams/cobord_gen/3.png>]
+<diagrams/cobord_gen/5.png, id=4269, 395.4775pt x 511.9125pt>
 File: diagrams/cobord_gen/5.png Graphic file (type png)
 <use diagrams/cobord_gen/5.png>
 Package pdftex.def Info: diagrams/cobord_gen/5.png  used on input line 228.
 (pdftex.def)             Requested size: 375.70149pt x 486.31412pt.
- [547 <./diagrams/cobord_gen/4.png>] [548 <./diagrams/cobord_gen/5.png>]
-<diagrams/cobord_gen/6.png, id=4276, 394.47375pt x 510.90875pt>
+ [543 <./diagrams/cobord_gen/4.png>] [544 <./diagrams/cobord_gen/5.png>]
+<diagrams/cobord_gen/6.png, id=4285, 394.47375pt x 510.90875pt>
 File: diagrams/cobord_gen/6.png Graphic file (type png)
 <use diagrams/cobord_gen/6.png>
 Package pdftex.def Info: diagrams/cobord_gen/6.png  used on input line 249.
 (pdftex.def)             Requested size: 374.74792pt x 485.36057pt.
- [549 <./diagrams/cobord_gen/6.png>]
-<diagrams/cobord_gen/7.png, id=4285, 397.485pt x 509.905pt>
+ [545 <./diagrams/cobord_gen/6.png>]
+<diagrams/cobord_gen/7.png, id=4294, 397.485pt x 509.905pt>
 File: diagrams/cobord_gen/7.png Graphic file (type png)
 <use diagrams/cobord_gen/7.png>
 Package pdftex.def Info: diagrams/cobord_gen/7.png  used on input line 265.
 (pdftex.def)             Requested size: 377.6086pt x 484.407pt.
- [550]
-<diagrams/cobord_gen/8.png, id=4295, 397.485pt x 514.42188pt>
+ [546]
+<diagrams/cobord_gen/8.png, id=4304, 397.485pt x 514.42188pt>
 File: diagrams/cobord_gen/8.png Graphic file (type png)
 <use diagrams/cobord_gen/8.png>
 Package pdftex.def Info: diagrams/cobord_gen/8.png  used on input line 274.
 (pdftex.def)             Requested size: 377.6086pt x 488.698pt.
- [551 <./diagrams/cobord_gen/7.png>]
+ [547 <./diagrams/cobord_gen/7.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 286--287
 
  []
 
-[552 <./diagrams/cobord_gen/8.png>]
-<diagrams/cobord_gen/9.png, id=4311, 392.46625pt x 507.8975pt>
+[548 <./diagrams/cobord_gen/8.png>]
+<diagrams/cobord_gen/9.png, id=4321, 392.46625pt x 507.8975pt>
 File: diagrams/cobord_gen/9.png Graphic file (type png)
 <use diagrams/cobord_gen/9.png>
 Package pdftex.def Info: diagrams/cobord_gen/9.png  used on input line 292.
 (pdftex.def)             Requested size: 372.8408pt x 482.4999pt.
-<diagrams/cobord_gen/10.png, id=4312, 395.4775pt x 509.905pt>
+<diagrams/cobord_gen/10.png, id=4322, 395.4775pt x 509.905pt>
 File: diagrams/cobord_gen/10.png Graphic file (type png)
 <use diagrams/cobord_gen/10.png>
 Package pdftex.def Info: diagrams/cobord_gen/10.png  used on input line 301.
 (pdftex.def)             Requested size: 375.70149pt x 484.407pt.
- [553 <./diagrams/cobord_gen/9.png>]
-<diagrams/cobord_gen/11.png, id=4322, 395.4775pt x 511.9125pt>
+ [549 <./diagrams/cobord_gen/9.png>]
+<diagrams/cobord_gen/11.png, id=4331, 395.4775pt x 511.9125pt>
 File: diagrams/cobord_gen/11.png Graphic file (type png)
 <use diagrams/cobord_gen/11.png>
 Package pdftex.def Info: diagrams/cobord_gen/11.png  used on input line 316.
 (pdftex.def)             Requested size: 375.70149pt x 486.31412pt.
 
-[554 <./diagrams/cobord_gen/10.png>]
-<diagrams/cobord_gen/12.png, id=4333, 397.485pt x 507.8975pt>
+[550 <./diagrams/cobord_gen/10.png>]
+<diagrams/cobord_gen/12.png, id=4343, 397.485pt x 507.8975pt>
 File: diagrams/cobord_gen/12.png Graphic file (type png)
 <use diagrams/cobord_gen/12.png>
 Package pdftex.def Info: diagrams/cobord_gen/12.png  used on input line 325.
 (pdftex.def)             Requested size: 377.6086pt x 482.4999pt.
- [555 <./diagrams/cobord_gen/11.png>]
-[556 <./diagrams/cobord_gen/12.png>]
-<diagrams/cobord_gen/13.png, id=4351, 396.48125pt x 508.39937pt>
+ [551 <./diagrams/cobord_gen/11.png>]
+[552 <./diagrams/cobord_gen/12.png>]
+<diagrams/cobord_gen/13.png, id=4360, 396.48125pt x 508.39937pt>
 File: diagrams/cobord_gen/13.png Graphic file (type png)
 <use diagrams/cobord_gen/13.png>
 Package pdftex.def Info: diagrams/cobord_gen/13.png  used on input line 346.
 (pdftex.def)             Requested size: 376.65504pt x 482.97667pt.
- [557 <./diagrams/cobord_gen/13.png>]
-<diagrams/cobord_gen/14.png, id=4360, 396.48125pt x 507.8975pt>
+ [553 <./diagrams/cobord_gen/13.png>]
+<diagrams/cobord_gen/14.png, id=4370, 396.48125pt x 507.8975pt>
 File: diagrams/cobord_gen/14.png Graphic file (type png)
 <use diagrams/cobord_gen/14.png>
 Package pdftex.def Info: diagrams/cobord_gen/14.png  used on input line 362.
@@ -5168,148 +5100,148 @@ File: diagrams/cobord_gen/15.png Graphic file (type png)
 Package pdftex.def Info: diagrams/cobord_gen/15.png  used on input line 371.
 (pdftex.def)             Requested size: 378.08539pt x 482.4999pt.
 
-[558 <./diagrams/cobord_gen/14.png>]
-<diagrams/cobord_gen/16.png, id=4371, 397.98688pt x 514.92375pt>
+[554 <./diagrams/cobord_gen/14.png>]
+<diagrams/cobord_gen/16.png, id=4381, 397.98688pt x 514.92375pt>
 File: diagrams/cobord_gen/16.png Graphic file (type png)
 <use diagrams/cobord_gen/16.png>
 Package pdftex.def Info: diagrams/cobord_gen/16.png  used on input line 387.
 (pdftex.def)             Requested size: 378.08539pt x 489.17479pt.
- [559]
-<diagrams/cobord_gen/17.png, id=4382, 397.485pt x 507.8975pt>
+ [555]
+<diagrams/cobord_gen/17.png, id=4391, 397.485pt x 507.8975pt>
 File: diagrams/cobord_gen/17.png Graphic file (type png)
 <use diagrams/cobord_gen/17.png>
 Package pdftex.def Info: diagrams/cobord_gen/17.png  used on input line 396.
 (pdftex.def)             Requested size: 377.6086pt x 482.4999pt.
- [560 <./diagrams/cobord_gen/16.png>]
-<diagrams/cobord_gen/18.png, id=4390, 398.99063pt x 507.8975pt>
+ [556 <./diagrams/cobord_gen/16.png>]
+<diagrams/cobord_gen/18.png, id=4399, 398.99063pt x 507.8975pt>
 File: diagrams/cobord_gen/18.png Graphic file (type png)
 <use diagrams/cobord_gen/18.png>
 Package pdftex.def Info: diagrams/cobord_gen/18.png  used on input line 413.
 (pdftex.def)             Requested size: 379.03894pt x 482.4999pt.
-[561 <./diagrams/cobord_gen/17.png>]
-<diagrams/cobord_gen/19.png, id=4401, 399.4925pt x 507.8975pt>
+[557 <./diagrams/cobord_gen/17.png>]
+<diagrams/cobord_gen/19.png, id=4410, 399.4925pt x 507.8975pt>
 File: diagrams/cobord_gen/19.png Graphic file (type png)
 <use diagrams/cobord_gen/19.png>
 Package pdftex.def Info: diagrams/cobord_gen/19.png  used on input line 422.
 (pdftex.def)             Requested size: 379.51572pt x 482.4999pt.
- [562 <./diagrams/cobord_gen/18.png>])
-(./2nd part/14.cobord_inter.tex [563 <./diagrams/cobord_gen/19.png>]
+ [558 <./diagrams/cobord_gen/18.png>])
+(./2nd part/14.cobord_inter.tex [559 <./diagrams/cobord_gen/19.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
-<diagrams/cobord_inter/0.png, id=4418, 388.95313pt x 501.37312pt>
+<diagrams/cobord_inter/0.png, id=4428, 388.95313pt x 501.37312pt>
 File: diagrams/cobord_inter/0.png Graphic file (type png)
 <use diagrams/cobord_inter/0.png>
 Package pdftex.def Info: diagrams/cobord_inter/0.png  used on input line 24.
 (pdftex.def)             Requested size: 369.50336pt x 476.30176pt.
-[564]
-<diagrams/cobord_inter/1.png, id=4425, 400.49625pt x 514.42188pt>
+[560]
+<diagrams/cobord_inter/1.png, id=4435, 400.49625pt x 514.42188pt>
 File: diagrams/cobord_inter/1.png Graphic file (type png)
 <use diagrams/cobord_inter/1.png>
 Package pdftex.def Info: diagrams/cobord_inter/1.png  used on input line 33.
 (pdftex.def)             Requested size: 380.46928pt x 488.698pt.
- [565 <./diagrams/cobord_inter/0.png>]
-<diagrams/cobord_inter/7.png, id=4433, 395.4775pt x 508.39937pt>
+ [561 <./diagrams/cobord_inter/0.png>]
+<diagrams/cobord_inter/7.png, id=4442, 395.4775pt x 508.39937pt>
 File: diagrams/cobord_inter/7.png Graphic file (type png)
 <use diagrams/cobord_inter/7.png>
 Package pdftex.def Info: diagrams/cobord_inter/7.png  used on input line 41.
 (pdftex.def)             Requested size: 375.70149pt x 482.97667pt.
- [566 <./diagrams/cobord_inter/1.png>]
-<diagrams/cobord_inter/2.png, id=4440, 400.99812pt x 305.64188pt>
+ [562 <./diagrams/cobord_inter/1.png>]
+<diagrams/cobord_inter/2.png, id=4449, 400.99812pt x 305.64188pt>
 File: diagrams/cobord_inter/2.png Graphic file (type png)
 <use diagrams/cobord_inter/2.png>
 Package pdftex.def Info: diagrams/cobord_inter/2.png  used on input line 50.
 (pdftex.def)             Requested size: 380.94604pt x 290.35812pt.
- [567 <./diagrams/cobord_inter/7.png>]
-<diagrams/cobord_inter/3.png, id=4448, 398.48875pt x 306.14375pt>
+ [563 <./diagrams/cobord_inter/7.png>]
+<diagrams/cobord_inter/3.png, id=4457, 398.48875pt x 306.14375pt>
 File: diagrams/cobord_inter/3.png Graphic file (type png)
 <use diagrams/cobord_inter/3.png>
 Package pdftex.def Info: diagrams/cobord_inter/3.png  used on input line 57.
 (pdftex.def)             Requested size: 378.56216pt x 290.8349pt.
- [568 <./diagrams/cobord_inter/2.png>]
-<diagrams/cobord_inter/4.png, id=4455, 398.48875pt x 512.91624pt>
+ [564 <./diagrams/cobord_inter/2.png>]
+<diagrams/cobord_inter/4.png, id=4464, 398.48875pt x 512.91624pt>
 File: diagrams/cobord_inter/4.png Graphic file (type png)
 <use diagrams/cobord_inter/4.png>
 Package pdftex.def Info: diagrams/cobord_inter/4.png  used on input line 68.
 (pdftex.def)             Requested size: 378.56216pt x 487.26767pt.
 
-[569 <./diagrams/cobord_inter/3.png>]
-<diagrams/cobord_inter/5.png, id=4464, 399.99437pt x 512.91624pt>
+[565 <./diagrams/cobord_inter/3.png>]
+<diagrams/cobord_inter/5.png, id=4474, 399.99437pt x 512.91624pt>
 File: diagrams/cobord_inter/5.png Graphic file (type png)
 <use diagrams/cobord_inter/5.png>
 Package pdftex.def Info: diagrams/cobord_inter/5.png  used on input line 77.
 (pdftex.def)             Requested size: 379.9925pt x 487.26767pt.
- [570 <./diagrams/cobord_inter/4.png>]
-<diagrams/cobord_inter/6.png, id=4471, 398.48875pt x 510.90875pt>
+ [566 <./diagrams/cobord_inter/4.png>]
+<diagrams/cobord_inter/6.png, id=4481, 398.48875pt x 510.90875pt>
 File: diagrams/cobord_inter/6.png Graphic file (type png)
 <use diagrams/cobord_inter/6.png>
 Package pdftex.def Info: diagrams/cobord_inter/6.png  used on input line 86.
 (pdftex.def)             Requested size: 378.56216pt x 485.36057pt.
 
-[571 <./diagrams/cobord_inter/5.png>]
+[567 <./diagrams/cobord_inter/5.png>]
 File: diagrams/cobord_inter/7.png Graphic file (type png)
 <use diagrams/cobord_inter/7.png>
 Package pdftex.def Info: diagrams/cobord_inter/7.png  used on input line 95.
 (pdftex.def)             Requested size: 375.70149pt x 482.97667pt.
- [572 <./diagrams/cobord_inter/6.png>]
+ [568 <./diagrams/cobord_inter/6.png>]
 File: diagrams/cobord_inter/7.png Graphic file (type png)
 <use diagrams/cobord_inter/7.png>
 Package pdftex.def Info: diagrams/cobord_inter/7.png  used on input line 103.
 (pdftex.def)             Requested size: 375.70149pt x 482.97667pt.
 
-[573]
-<diagrams/cobord_inter/8.png, id=4491, 392.46625pt x 500.87125pt>
+[569]
+<diagrams/cobord_inter/8.png, id=4501, 392.46625pt x 500.87125pt>
 File: diagrams/cobord_inter/8.png Graphic file (type png)
 <use diagrams/cobord_inter/8.png>
 Package pdftex.def Info: diagrams/cobord_inter/8.png  used on input line 110.
 (pdftex.def)             Requested size: 372.8408pt x 475.82497pt.
- [574]) (./2nd part/15.cobord_full.tex
-<diagrams/cobord_full/1.png, id=4498, 399.99437pt x 508.90125pt>
+ [570]) (./2nd part/15.cobord_full.tex
+<diagrams/cobord_full/1.png, id=4507, 399.99437pt x 508.90125pt>
 File: diagrams/cobord_full/1.png Graphic file (type png)
 <use diagrams/cobord_full/1.png>
 Package pdftex.def Info: diagrams/cobord_full/1.png  used on input line 5.
 (pdftex.def)             Requested size: 379.9925pt x 483.45345pt.
- [575 <./diagrams/cobord_inter/8.png>]
-<diagrams/cobord_full/2.png, id=4506, 392.46625pt x 504.88625pt>
+ [571 <./diagrams/cobord_inter/8.png>]
+<diagrams/cobord_full/2.png, id=4516, 392.46625pt x 504.88625pt>
 File: diagrams/cobord_full/2.png Graphic file (type png)
 <use diagrams/cobord_full/2.png>
 Package pdftex.def Info: diagrams/cobord_full/2.png  used on input line 12.
 (pdftex.def)             Requested size: 372.8408pt x 479.63919pt.
- [576 <./diagrams/cobord_full/1.png>]
-<diagrams/cobord_full/3.png, id=4513, 397.485pt x 514.42188pt>
+ [572 <./diagrams/cobord_full/1.png>]
+<diagrams/cobord_full/3.png, id=4523, 397.485pt x 514.42188pt>
 File: diagrams/cobord_full/3.png Graphic file (type png)
 <use diagrams/cobord_full/3.png>
 Package pdftex.def Info: diagrams/cobord_full/3.png  used on input line 22.
 (pdftex.def)             Requested size: 377.6086pt x 488.698pt.
- [577 <./diagrams/cobord_full/2.png>]
-[578 <./diagrams/cobord_full/3.png>]
-<diagrams/cobord_full/4.png, id=4531, 388.95313pt x 501.37312pt>
+ [573 <./diagrams/cobord_full/2.png>]
+[574 <./diagrams/cobord_full/3.png>]
+<diagrams/cobord_full/4.png, id=4540, 388.95313pt x 501.37312pt>
 File: diagrams/cobord_full/4.png Graphic file (type png)
 <use diagrams/cobord_full/4.png>
 Package pdftex.def Info: diagrams/cobord_full/4.png  used on input line 43.
 (pdftex.def)             Requested size: 369.50336pt x 476.30176pt.
- [579]
-<diagrams/cobord_full/5.png, id=4536, 382.42876pt x 497.86pt>
+ [575]
+<diagrams/cobord_full/5.png, id=4545, 382.42876pt x 497.86pt>
 File: diagrams/cobord_full/5.png Graphic file (type png)
 <use diagrams/cobord_full/5.png>
 Package pdftex.def Info: diagrams/cobord_full/5.png  used on input line 50.
 (pdftex.def)             Requested size: 363.30525pt x 472.96431pt.
- [580 <./diagrams/cobord_full/4.png>]
-<diagrams/cobord_full/6.png, id=4544, 392.46625pt x 500.87125pt>
+ [576 <./diagrams/cobord_full/4.png>]
+<diagrams/cobord_full/6.png, id=4553, 392.46625pt x 500.87125pt>
 File: diagrams/cobord_full/6.png Graphic file (type png)
 <use diagrams/cobord_full/6.png>
 Package pdftex.def Info: diagrams/cobord_full/6.png  used on input line 63.
 (pdftex.def)             Requested size: 372.8408pt x 475.82497pt.
-[581 <./diagrams/cobord_full/5.png>]) (./main.bbl [582 <./diagrams/cobord_full/
-6.png>] [583
+[577 <./diagrams/cobord_full/5.png>]) (./main.bbl [578 <./diagrams/cobord_full/
+6.png>] [579
 
-] [584])
+] [580])
 
 Package caption Warning: Unused \captionsetup[subfigure] on input line 17.
 See the caption package documentation for explanation.
 
-[585] (./main.aux)
+[581] (./main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -5319,14 +5251,14 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 3BCE70DF93E7B39A2EF0B84976B7DA38;1067
-(rerunfilecheck)             After:  24497752FD94A857F7DFC94B0A1A6E96;9782.
+(rerunfilecheck)             Before: 4B846F1AF27C68158A5481CB636FFCF2;2180
+(rerunfilecheck)             After:  62D3605B14EAC880D82078C8E4FEEA70;9703.
  ) 
 Here is how much of TeX's memory you used:
- 44912 strings out of 478994
- 936573 string characters out of 5858184
- 1140211 words of memory out of 5000000
- 59831 multiletter control sequences out of 15000+600000
+ 44916 strings out of 478994
+ 936627 string characters out of 5858184
+ 1140355 words of memory out of 5000000
+ 59842 multiletter control sequences out of 15000+600000
  418556 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  127i,24n,130p,3236b,1437s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -5350,10 +5282,10 @@ ve/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive
 e/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/te
 xlive/2021/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/20
 21/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (591 pages, 41894392 bytes).
+Output written on main.pdf (587 pages, 41893083 bytes).
 PDF statistics:
- 5051 PDF objects out of 5155 (max. 8388607)
- 3751 compressed objects within 38 object streams
- 1928 named destinations out of 2073 (max. 500000)
- 1694 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 5059 PDF objects out of 5155 (max. 8388607)
+ 3763 compressed objects within 38 object streams
+ 1921 named destinations out of 2073 (max. 500000)
+ 1734 words of extra memory for PDF output out of 10000 (max. 10000000)
 
