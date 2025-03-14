@@ -1,9 +1,121 @@
 \section{2nd Sheaf Cobordism}
-In this section, we define $cobord_2$, a compactly supported sheaf cobordism.
-\subsection{Notations}
+In this section, we define $cobord_2$, a compactly supported sheaf cobordism between the following squiggly legible diagrams on the support of the cobordism:\\
+from
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/29.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\textbf{Generization maps:}
+\begin{enumerate}[label = (\arabic*)]
+\item \begin{tikzcd}
+\C \arrow[r]     & 0  \\
+0 \arrow[r]\arrow[u] & 0 \arrow[u]
+\end{tikzcd}
+
+\item \begin{tikzcd}
+\C \arrow[r, "\times 1"]     & \C  \\
+0 \arrow[r]\arrow[u] & \C \arrow[u,"\times a"]
+\end{tikzcd}
+
+\item \begin{tikzcd}
+\C \arrow[r, "\times 1"]     & \C  \\
+0 \arrow[r]\arrow[u] & \C \arrow[u,"\times b"]
+\end{tikzcd}
+
+\item \begin{tikzcd}
+\C \arrow[r]     & 0  \\
+0 \arrow[r]\arrow[u] & 0 \arrow[u]
+\end{tikzcd}
+
+\item \begin{tikzcd}
+0 \arrow[r]     & 0  \\
+0 \arrow[r]\arrow[u] & \C \arrow[u]
+\end{tikzcd}
+
+\item \begin{tikzcd}
+0 \arrow[r]     & 0  \\
+0 \arrow[r]\arrow[u] & \C \arrow[u]
+\end{tikzcd}
+
+\item \begin{tikzcd}
+\C \arrow[r]     & 0  \\
+\C \arrow[r]\arrow[u,"\times a"] & 0 \arrow[u]
+\end{tikzcd}
+
+
+\item \begin{tikzcd}
+\C \arrow[r]     & 0  \\
+\C \arrow[r, "\times 1"]\arrow[u,"\times a"] & \C \arrow[u]
+\end{tikzcd}
+
+\item \begin{tikzcd}
+\C \arrow[r]     & 0  \\
+\C \arrow[r]\arrow[u,"\times b"] & 0 \arrow[u]
+\end{tikzcd}
+
+
+\item \begin{tikzcd}
+\C \arrow[r]     & 0  \\
+\C \arrow[r, "\times 1"]\arrow[u,"\times b"] & \C \arrow[u]
+\end{tikzcd}
+\end{enumerate}
+to
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma2/47.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\textbf{Generization maps:}
+\begin{enumerate}[label = (\arabic*)]
+\item \begin{tikzcd}
+0 \arrow[r]     & 0  \\
+0 \arrow[r]\arrow[u] & \C \arrow[u]
+\end{tikzcd}
+
+\item \begin{tikzcd}
+0 \arrow[r]     & 0  \\
+0 \arrow[r]\arrow[u] & \C \arrow[u]
+\end{tikzcd}
+
+\item \begin{tikzcd}
+\C \arrow[r, "\times 1"]     & \C  \\
+\C \arrow[r, "\times ab^{-1}"]\arrow[u,"\times a"] & \C \arrow[u, "\times b"]
+\end{tikzcd}
+
+\item \begin{tikzcd}
+\C \arrow[r]     & 0  \\
+\C \arrow[r]\arrow[u,"\times a"] & 0 \arrow[u]
+\end{tikzcd}
+
+\item \begin{tikzcd}
+\C \arrow[r]     & 0  \\
+\C \arrow[r]\arrow[u,"\times b"] & 0 \arrow[u]
+\end{tikzcd}
+
+
+\item \begin{tikzcd}
+\C \arrow[r]     & 0  \\
+\C \arrow[r, "\times 1"]\arrow[u,"\times a"] & \C \arrow[u]
+\end{tikzcd}
+
+\item \begin{tikzcd}
+\C \arrow[r]     & 0  \\
+\C \arrow[r, "\times 1"]\arrow[u,"\times b"] & \C \arrow[u]
+\end{tikzcd}
+
+\item \begin{tikzcd}
+0 \arrow[r]     & 0  \\
+\C \arrow[r, "\times ab^{-1}"]\arrow[u] & \C \arrow[u]
+\end{tikzcd}
+\end{enumerate}
+
+\subsection*{Notations}
 %definition of a Riemann sphere with two punctures
 \begin{definition}
-$M$ denotes a Riemann sphere with two punctures at $0$ and $\infty$. Topologically, $M$ is homeomorphic to a cylinder.
+$M$ denotes a Riemann sphere with two punctures at $0$ and $\infty$. $M$ is diffeomorphic to a cylinder.
 \end{definition}
 %definition of \Phi_t^{symbol}, \Xi_t^{symbol}
 \begin{definition}
@@ -867,13 +979,7 @@ F_\bullet(sgn_1,sgn_2,sgn_3,sgn_4):=F_\bullet(s_\bullet(sgn_1,sgn_2,sgn_3,sgn_4)
 \end{enumerate}
 
 \subsubsection{C. Gluing Isomorphism}
-Lastly, I will define a gluing isomorphism $\gamma_\bullet : (f_*\mathscr{F}_{D_{r=2}\times [0,1]})|_{(U\cap V)\times [0,1]} \xrightarrow{\sim} \mathscr{F}_{V\times [0,1]}|_{(U\cap V)\times [0,1]}$ using the following fact.
-\begin{proposition}
-$(f_*\mathscr{F}_{D_{r=2}\times [0,1]})|_{(U\cap V)\times[0,1]}$ is isomorphic to $pr_1^*(\mathscr{F}_0|_{U\cap V})$ where $pr_1 : (U\cap V) \times [0,1] \rightarrow (U\cap V)$ is the projection onto the first argument.
-\end{proposition}
-\begin{proof}
-pass
-\end{proof}
+Lastly, I will define a gluing isomorphism $\gamma_\bullet : (f_*\mathscr{F}_{D_{r=2}\times [0,1]})|_{(U\cap V)\times [0,1]} \xrightarrow{\sim} \mathscr{F}_{V\times [0,1]}|_{(U\cap V)\times [0,1]}$ using the fact that $(f_*\mathscr{F}_{D_{r=2}\times [0,1]})|_{(U\cap V)\times[0,1]}$ is isomorphic to $pr_1^*(\mathscr{F}_0|_{U\cap V})$ where $pr_1 : (U\cap V) \times [0,1] \rightarrow (U\cap V)$ is the projection onto the first argument.
 \begin{definition}
 we define $\gamma_\bullet$ to be the composition 
 \[
@@ -1003,7 +1109,7 @@ s(+,-,-) \arrow[rr,"{(8)}"] \arrow[ur,"{(9)}"] & & s(+,-,+) \arrow[ur,"{(11)}"] 
 0 \arrow[u,]\arrow[r,] & 0\arrow[u,]
 \end{tikzcd}
 \end{enumerate}
-To prove that microlocal stalk vanishes everywhere, by lemma??, it is enough to show that the total complexes of $F^3$ restricted to the following squares and cubes are acyclic
+To prove that microlocal stalk vanishes everywhere, by Lemma \ref{morse}, it is enough to show that the total complexes of $F^3$ restricted to the following squares and cubes are acyclic
 
 \begin{enumerate}[label = (\roman*)]
 \item 
@@ -1087,7 +1193,8 @@ s(+,-,-) \arrow[rr,"{s(+,-,0)}"] \arrow[ur,"{s(+,0,-)}"] & & s(+,-,+) \arrow[ur,
 & 0 \arrow[rr,] & & 0  \\
 \C\xrightarrow{\times a}\C \arrow[rr,] \arrow[ur,] & & \C\xrightarrow{\times b}\C \arrow[ur,] &
 \end{tikzcd}
-\\Note that $\begin{tikzcd} \C \arrow[r,"\times 1"] & \C \\ 0 \arrow[u]\arrow[r] & 0\arrow[u] \end{tikzcd}$, $\begin{tikzcd} \C \arrow[r,"\times 1"] & \C \\ 0 \arrow[u]\arrow[r] & 0\arrow[u] \end{tikzcd}$, $\begin{tikzcd} \C \arrow[r,"\times 1"] & \C \\ \C \arrow[u, "\times a"]\arrow[r, "\times ab^{-1}"] & \C\arrow[u, "\times b"] \end{tikzcd}$, $\begin{tikzcd} 0 \arrow[r,] & 0 \\ 0 \arrow[u]\arrow[r] & 0\arrow[u] \end{tikzcd}$ are isomorphisms. Therefore, we can think of the cube diagram as isomorphism of two double complexes. Therefore, the total complex is acyclic.
+For \Rn{1}-\Rn{6}, horizontal cochain map in each degree are quasi-isomorphism. Therefore, the total complex is acyclic.\\
+For \Rn{7}, $\begin{tikzcd} \C \arrow[r,"\times 1"] & \C \\ 0 \arrow[u]\arrow[r] & 0\arrow[u] \end{tikzcd}$, $\begin{tikzcd} \C \arrow[r,"\times 1"] & \C \\ 0 \arrow[u]\arrow[r] & 0\arrow[u] \end{tikzcd}$, $\begin{tikzcd} \C \arrow[r,"\times 1"] & \C \\ \C \arrow[u, "\times a"]\arrow[r, "\times ab^{-1}"] & \C\arrow[u, "\times b"] \end{tikzcd}$, $\begin{tikzcd} 0 \arrow[r,] & 0 \\ 0 \arrow[u]\arrow[r] & 0\arrow[u] \end{tikzcd}$ are isomorphisms. Therefore, we can think of the cube diagram as isomorphism of two double complexes. Therefore, the total complex is acyclic.
 \end{enumerate}
 
 (2) Next, let's show that the microlocal stalks of $\mathscr{F}^\bullet|_{star(s_\bullet(0,0,-,0))}$ vanishes. Note that there is a diffeomorphism beteween $star(s_\bullet(0,0,-,0))$ and $\R^3$ that preserves there stratification i.e.
@@ -1190,7 +1297,7 @@ s(+,-,-) \arrow[rr,"{(8)}"] \arrow[ur,"{(9)}"] & & s(+,-,+) \arrow[ur,"{(11)}"] 
 0 \arrow[u,]\arrow[r,] & \C\arrow[u,]
 \end{tikzcd}
 \end{enumerate}
-To prove that microlocal stalk vanishes everywhere, by lemma??, it is enough to show that the total complexes of $F^3$ restricted to the following squares and cubes are acyclic
+To prove that microlocal stalk vanishes everywhere, by Lemma \ref{morse}, it is enough to show that the total complexes of $F^3$ restricted to the following squares and cubes are acyclic
 
 \begin{enumerate}[label = (\roman*)]
 \item 
@@ -1256,7 +1363,7 @@ F^3(+,+,-) \arrow[r] & F^3(+,+,+)
 \end{tikzcd}
 =
 \begin{tikzcd}
-\C\xrightarrow{\times a}\C \arrow[r,"{(\times 1, \times ab^{-1})}"]\arrow[d,] & \C\xrightarrow{\times b}\C\arrow[d] \\
+\C\xrightarrow{\times a}\C \arrow[r,"{(\times ab^{-1},\times 1)}"]\arrow[d,] & \C\xrightarrow{\times b}\C\arrow[d] \\
 \C \arrow[r] & \C
 \end{tikzcd}
 
@@ -1274,7 +1381,9 @@ s(+,-,-) \arrow[rr,"{s(+,-,0)}"] \arrow[ur,"{s(+,0,-)}"] & & s(+,-,+) \arrow[ur,
 & \C \arrow[rr,] & & \C  \\
 \C\xrightarrow{\times a}\C \arrow[rr,] \arrow[ur,] & & \C\xrightarrow{\times b}\C \arrow[ur,] &
 \end{tikzcd}
-\\Note that $\begin{tikzcd} \C \arrow[r,"\times 1"] & \C \\ 0 \arrow[u]\arrow[r] & 0\arrow[u] \end{tikzcd}$, $\begin{tikzcd} 0 \arrow[r,] & 0 \\ 0 \arrow[u]\arrow[r] & 0\arrow[u] \end{tikzcd}$, $\begin{tikzcd} \C \arrow[r,"\times 1"] & \C \\ \C \arrow[u, "\times a"]\arrow[r, "\times ab^{-1}"] & \C\arrow[u, "\times b"] \end{tikzcd}$, $\begin{tikzcd} 0 \arrow[r,"\times 1"] & 0 \\ \C \arrow[u,]\arrow[r, "\times ab^{-1}"] & \C\arrow[u,] \end{tikzcd}$ are isomorphisms. Therefore, we can think of the cube diagram as isomorphism of two double complexes. Therefore, the total complex is acyclic.
+For \Rn{3}-\Rn{6}, horizontal cochain map in each degree are quasi-isomorphism. Therefore, the total complex is acyclic.\\
+For \Rn{1} and \Rn{2}, straightforward calculation shows that the total complexes are acyclic.\\
+For \Rn{7}, $\begin{tikzcd} \C \arrow[r,"\times 1"] & \C \\ 0 \arrow[u]\arrow[r] & 0\arrow[u] \end{tikzcd}$, $\begin{tikzcd} 0 \arrow[r,] & 0 \\ 0 \arrow[u]\arrow[r] & 0\arrow[u] \end{tikzcd}$, $\begin{tikzcd} \C \arrow[r,"\times 1"] & \C \\ \C \arrow[u, "\times a"]\arrow[r, "\times ab^{-1}"] & \C\arrow[u, "\times b"] \end{tikzcd}$, $\begin{tikzcd} 0 \arrow[r,"\times 1"] & 0 \\ \C \arrow[u,]\arrow[r, "\times ab^{-1}"] & \C\arrow[u,] \end{tikzcd}$ are isomorphisms. Therefore, we can think of the cube diagram as isomorphism of two double complexes. Therefore, the total complex is acyclic.
 \end{enumerate}
 Therefore, the proof is complete.
 \end{proof}

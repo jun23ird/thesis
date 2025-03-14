@@ -1,6 +1,6 @@
 \section{Local Morse Group Computation}
-In this section, we compute the local Morse groups of a cochain complex of coordinate-constructible sheaves.
-\subsection{Definitions and Notations}
+In this section, we compute the local Morse groups of a cochain complex of sheaves whose cohomologies are constructible with respect to the coordinate stratifications-See Definition \ref{coordinate}.
+\subsection*{Definitions and Notations}
 %%
 %%
 %%
@@ -74,7 +74,7 @@ Let
 \[
 s^n(sgn_1,\cdots,sgn_n):= \{(x_1,\cdots,x_n)\in \R^n ~|~ \text{for }k=1,\cdots,n, sgn(x_k)=sgn_k\}
 \]
-To simplify the notation, we use $+$ instead o $+1$ and $-$ instead of $-1$. For example, $s^n(+,-,0):= s^n(1,-1,0)$.
+To simplify the notation, we use $+$ instead of $+1$ and $-$ instead of $-1$. For example, $s^n(+,-,0):= s^n(1,-1,0)$.
 \end{definition}
 %%
 %%
@@ -85,9 +85,9 @@ To simplify the notation, we use $+$ instead o $+1$ and $-$ instead of $-1$. For
 %%
 %%
 %definition of coordinate stratification on \R^n
-\begin{definition}
+\begin{definition}\label{coordinate}
 \begin{enumerate}
-\item We define a coordinate stratification $\mathcal{S}^n$ on $\R^n$ to be 
+\item We define a \emph{coordinate stratification} $\mathcal{S}^n$ on $\R^n$ to be 
 \[
 \{s^n(sgn_1,\cdots, sgn_n) ~|~ sgn_k \in \{-,0,+\}\text{ for }k=1,\cdots,n\}
 \]
@@ -119,7 +119,7 @@ $\mathscr{F}^\bullet$ a complex of constructible sheaves on $\R^n$ constructible
 %%
 %%
 %%
-(Fact) The singular support of $\mathscr{F}^\bullet$, $SS(\mathscr{F}^\bullet)$, is contained in the union of $2^n$ Lagrangian subspaces that are conormals of strata in $\mathcal{S}^n$ i.e. $\Lambda_{\mathcal{S}^n} = \underset{s\in \mathcal{S}^n}{\cup} N^*s \subset T^*\R^n$. These Lagrangians intersect with each other so union of them form a singular Lagrangian and it has smooth part in it, say $\Lambda_{\mathcal{S}^n}^{smooth}\subset \Lambda_{\mathcal{S}^n}$.
+Note that the singular support of $\mathscr{F}^\bullet$, $SS(\mathscr{F}^\bullet)$, is contained in the union of $2^n$ Lagrangian subspaces that are conormals of strata in $\mathcal{S}^n$ i.e. $\Lambda_{\mathcal{S}^n} = \underset{s\in \mathcal{S}^n}{\cup} N^*s \subset T^*\R^n$. These Lagrangians intersect with each other so union of them form a singular Lagrangian and it has smooth part in it, say $\Lambda_{\mathcal{S}^n}^{smooth}\subset \Lambda_{\mathcal{S}^n}$.
 %%
 %%
 %%
@@ -128,7 +128,6 @@ $\mathscr{F}^\bullet$ a complex of constructible sheaves on $\R^n$ constructible
 %%
 %%
 %%
-(Question) How do we know $\mu \mathscr{F}^{\bullet}$ vanishes on $\Lambda_{\mathcal{S}^n}^{singular}$ i.e. singlar locus of $\Lambda_{\mathcal{S}^n}$?
 %%
 %%
 %%
@@ -182,9 +181,9 @@ I will choose the representative of the $comp^n_{(I,J)}$ to be
 
 Also, we define $G_{(I,J)}(\mathscr{F}^\bullet)$ to be the local Morse group of $comp^n_{(I,J)}$ with coefficient $\mathscr{F}^\bullet$ i.e.
 \[
-H^*(N_x,N_x\cap \xi^{-1}((-\infty,c-\epsilon]);\mathscr{F}^\bullet)
+H^*(N_x,N_x\cap \xi^{-1}((-\infty,c-\epsilon));\mathscr{F}^\bullet)
 \]
-where $(x,\xi)\in comp^n_{(I,J)}$
+where $(x,\xi)\in comp^n_{(I,J)}$, $N_x$ a regular neighborhood of $x$, and $\epsilon$ a small positive number.
 %%
 %%
 %%
@@ -193,46 +192,23 @@ where $(x,\xi)\in comp^n_{(I,J)}$
 %%
 %%
 %%
-\begin{definition}
-$Q^n$:= the quiver associated to $\mathcal{S}^n$. We have one vertex for each $n$-dimensional stratum and one arrow for each $(n-1)$-dimensional stratum where the direction goes against the co-orientation.
+\begin{definition} 
+We define
+\begin{itemize}
+\item $Q^n$ to be the quiver associated to $\mathcal{S}^n$ i.e. we have one vertex for each $n$-dimensional stratum and one arrow for each $(n-1)$-dimensional stratum where the direction goes against the co-orientation.
+
+\item $F^\bullet$ to be the legible diagram of $\mathscr{F}^\bullet$ i.e. the quiver representation of $Q^n$ induced by $\mathscr{F}^\bullet$.
+
+\item $Q_s^n$ to be the full suquiver of $Q^n$ spanned by vertices whose corresponding strata are contained in the star of $s\in \mathcal{S}^n$.
+\end{itemize}
 \end{definition}
-%%
-%%
-%%
-%%
-%%
-%%
-%%
-%%
-\begin{definition}
-$F^\bullet$:= the quiver representation associated to $\mathscr{F}^\bullet$: describe the correspondence between $F^\bullet$ on $Q^n$, $F^\bullet$ on $\mathcal{S}^n$, $\mathscr{F}^\bullet$
-\end{definition}
-%%
-%%
-%%
-%%
-%%
-%%
-%%
-%%
-\begin{definition}
-$Q_s^n$:= full suquiver of $Q^n$ spanned by vertices whose corresponding strata are contained in the star of $s\in \mathcal{S}^n$.
-\end{definition}
-%%
-%%
-%%
-%%
-%%
-%%
-%%
-%%
-\begin{definition}
-\begin{enumerate}
+
+Also, we simplify the notation as follows:
+\begin{itemize}
 \item $s^n_{(I,J)}:= s^n_{x_{(I,J)}}$
 
 \item For $k\not\in I$, $s^n_{(I,J)}(k):= s^n_{(x_{(I,J)} - sgn_J(k)\cdot e^n_k)}$ 
-\end{enumerate}
-\end{definition}
+\end{itemize}
 %%
 %%
 %%
@@ -241,16 +217,15 @@ $Q_s^n$:= full suquiver of $Q^n$ spanned by vertices whose corresponding strata 
 %%
 %%
 %%
-\begin{lemma}
-Suppose we have a cochain complex of $\mathcal{S}^n$-constructible sheaf $\mathscr{F}^\bullet$ on $\R^n$ that could be described by a leggible diagram $F^\bullet$ on $Q^n$, then
+\begin{lemma}\label{morse}
+Suppose we have a cochain complex of $\mathcal{S}^n$-constructible sheaf $\mathscr{F}^\bullet$ on $\R^n$ that could be described by a legible diagram $F^\bullet$ on $Q^n$, then
 \[G_{(I,J)}(\mathscr{F}^\bullet)=\bigg\{
 \begin{array}{ll}
     0 & \text{if } I^c \not\in J \\
-	Tot(F^\bullet|_{Q^n_{s_{(I,J)}}}) & \text{if } k\in J \\
+	H^*(\operatorname{Tot}(F^\bullet|_{Q^n_{s_{(I,J)}}}))\text{ up to an overall shift in degree} & \text{if } k\in J \\
 \end{array}
 \bigg.
 \]
-(need more explanation on what the total complex of a quiver representation means)
 \end{lemma}
 %%
 %%
@@ -261,9 +236,8 @@ Suppose we have a cochain complex of $\mathcal{S}^n$-constructible sheaf $\maths
 %%
 %%
 \begin{proof}
-We prove the Lemma by induction on $n$.
-(skipped the proof of the base case)
-(i) suppose $I$ is not empty i.e. $x_{(I,J)} \neq 0$. We want to compute $G_{(I,J)}(\mathscr{F}^\bullet) = H^*(N_{x_{(I,J)}}, N_{x_{(I,J)}} \cap \xi_{(I,J)}^{-1}((-\infty,c-\epsilon]); \mathscr{F}^\bullet)$ where $N_{x_{(I,J)}}$ is a regular neighborhood of $x_{(I,J)}$, $c = \xi_{(I,J)}(x_{(I,J)})$(for this expression to make sense we need to fix an isomorphism $T^*\R^n \cong \R^n \times \R^n$), and $\epsilon$ a small positive real number. Once and for all fix $i\in I$, consider the following linear map
+We prove the Lemma by induction on $n$.\\
+(i) suppose $I$ is not empty i.e. $x_{(I,J)} \neq 0$. We want to compute $G_{(I,J)}(\mathscr{F}^\bullet) = H^*(N_{x_{(I,J)}}, N_{x_{(I,J)}} \cap \xi_{(I,J)}^{-1}((-\infty,c-\epsilon]); \mathscr{F}^\bullet)$ where $N_{x_{(I,J)}}$ is a regular neighborhood of $x_{(I,J)}$, $c = \xi_{(I,J)}(x_{(I,J)})$, and $\epsilon$ a small positive real number. Once and for all fix $i\in I$, consider the following linear map
 \[
 \operatorname{Lin}_i : \R^{n-1} \hookrightarrow \R^n
 \]
@@ -281,17 +255,17 @@ and let $\operatorname{Aff}_i := \operatorname{Lin}_i + e^n_i$ be the affine inc
 \item $J' = \{k\in J \mid k<i\} \cup \{k-1 \mid k>i, k\in J\}$
 \end{itemize}
 and $(x_{(I',J')}, \xi_{(I',J')}) = \iota^{n-1}_{(I',J')}((1,\cdots,1)^T)$, then $x_{(I,J)} \in Im(\operatorname{Aff}_i)$ and $\alpha_i^{-1}(x_{(I,J)})=x_{(I',J')} $ and $\xi_{(I,J)} \circ \operatorname{Aff}_i$. We let the regular neighborhood of $x_{(I,J)}$, $N_{x_{(I,J)}}$, to be $star(s^{n-1}_{(I,J)})$ and the regular neighborhood of $x_{(I',J')}$, $N_{x_{(I',J')}}$, to be $star(s^{n-1}_{(I',J')})$, $c = \xi_{(I,J)}(x_{(I,J)})$, and $c' = \xi_{(I',J')}(x_{(I',J')})$\\
-(claim) $H^*(N_{x_{(I,J)}}, N_{x_{(I,J)}}\cap \xi_{(I,J)}^{-1}((-\infty, c-\epsilon]); \mathscr{F}^\bullet) \cong H^*(N_{x_{(I',J')}}, N_{x_{(I',J')}}\cap \xi_{(I',J')}^{-1}((-\infty, c'-\epsilon]); \operatorname{Aff}_i^*\mathscr{F}^\bullet)$\\
-(proof) Note that when we have a stratified spaces $(M,\mathcal)$ and $N$, a subspace of $M$, we have an induced stratification $\mathcal{S}_N$ on $N$. Then we can identify poset $\mathcal{S}_N$ as the subposet of $\mathcal{S}_M$ via $(N\hookrightarrow M)_*$.\\
+(Claim) $H^*(N_{x_{(I,J)}}, N_{x_{(I,J)}}\cap \xi_{(I,J)}^{-1}((-\infty, c-\epsilon)); \mathscr{F}^\bullet) \cong H^*(N_{x_{(I',J')}}, N_{x_{(I',J')}}\cap \xi_{(I',J')}^{-1}((-\infty, c'-\epsilon)); \operatorname{Aff}_i^*\mathscr{F}^\bullet)$\\
+(proof) Note that when we have a stratified spaces $(M,\mathcal{S}_M)$ and $N$, a subspace of $M$, we have an induced stratification $\mathcal{S}_N$ on $N$. Then we can identify poset $\mathcal{S}_N$ as the subposet of $\mathcal{S}_M$ via $(N\hookrightarrow M)_*$.\\
 Now consider the following cartesian diagram of inclusion maps
 \[
 \begin{tikzcd}
-N_{x_{(I,J)}}   & N_{x_{(I,J)}} \cap \xi_{(I,J)}^{-1}((-\infty,c-\epsilon])\arrow[l, hook] \\
-N_{x_{(I',J')}} \arrow[u, hook, "\operatorname{Aff}_i"]& N_{x_{(I',J')}}\cap \xi_{(I',J')}^{-1}((-\infty,c'-\epsilon])\arrow[l, hook]\arrow[u, hook] 
+N_{x_{(I,J)}}   & N_{x_{(I,J)}} \cap \xi_{(I,J)}^{-1}((-\infty,c-\epsilon))\arrow[l, hook] \\
+N_{x_{(I',J')}} \arrow[u, hook, "\operatorname{Aff}_i"]& N_{x_{(I',J')}}\cap \xi_{(I',J')}^{-1}((-\infty,c'-\epsilon))\arrow[l, hook]\arrow[u, hook] 
 \end{tikzcd}
 \]
-Note that $\operatorname{Aff}_i$ induces a poset isomorphism from the poset $\mathcal{S}_{N_{x_{(I',J')}}}$ to the poset $\mathcal{S}_{N_{x_{(I,J)}}}$ where via this isomorphism the subposet $\mathcal{S}_{N_{x_{(I',J')}}\cap \xi_{(I',J')}^{-1}((-\infty,c'-\epsilon])}$ gets identified with $\mathcal{S}_{N_{x_{(I,J)}}\cap \xi_{(I,J)}^{-1}((-\infty,c-\epsilon])}$. Furthermore, the representation of the poset $\mathcal{S}_{N_{x_{(I',J')}}}$ that gives rise to the sheaf $\operatorname{Aff}_i^* \mathscr{F}^\bullet$ is exactly the representation of the poset $\mathcal{S}_{N_{x_{(I,J)}}}$ that gives rise to the sheaf $\mathscr{F}^\bullet$ under the poset isomorphism $(\operatorname{Aff}_i)_*$ and the relative cohomology is completely determined by the poset, subpost structures and their representations. Therefore, the claim is proved.\\
-Therefore, $G_{(I,J)}(\mathscr{F}^\bullet) \cong H^*(N_{x_{(I',J')}}, N_{x_{(I',J')}}\cap \xi_{(I',J')}^{-1}((-\infty, c'-\epsilon]); \operatorname{Aff}_i^*\mathscr{F}^\bullet)$. By the induction hypothesis if $I'^c \not\subset J'^c$, this is $0$ and if $I'^c \subset J'^c$, this is equal to $Tot(\operatorname{Aff}_i^*(F^\bullet |_{\mathcal{S}_{N_{x_{(I',J')}}}})) = Tot(F^\bullet |_{\mathcal{S}_{N_{x_{(I,J)}}}}) = Tot(F^\bullet |_{Q^n_{s_{(I,J)}}})$. Because $I^c\subset J^c$ if and only if $I'^c\subset J'^c$, we proved the case when $I\neq \phi$.\\
+Note that $\operatorname{Aff}_i$ induces a poset isomorphism from the poset $\mathcal{S}_{N_{x_{(I',J')}}}$ to the poset $\mathcal{S}_{N_{x_{(I,J)}}}$ where via this isomorphism the subposet $\mathcal{S}_{N_{x_{(I',J')}}\cap \xi_{(I',J')}^{-1}((-\infty,c'-\epsilon))}$ gets identified with $\mathcal{S}_{N_{x_{(I,J)}}\cap \xi_{(I,J)}^{-1}((-\infty,c-\epsilon))}$. Furthermore, the representation of the poset $\mathcal{S}_{N_{x_{(I',J')}}}$ that gives rise to the sheaf $\operatorname{Aff}_i^* \mathscr{F}^\bullet$ is exactly the representation of the poset $\mathcal{S}_{N_{x_{(I,J)}}}$ that gives rise to the sheaf $\mathscr{F}^\bullet$ under the poset isomorphism $(\operatorname{Aff}_i)_*$ and the relative cohomology is completely determined by the poset, subpost structures and their representations. Therefore, the claim is proved.\\
+Therefore, $G_{(I,J)}(\mathscr{F}^\bullet) \cong H^*(N_{x_{(I',J')}}, N_{x_{(I',J')}}\cap \xi_{(I',J')}^{-1}((-\infty, c'-\epsilon)); \operatorname{Aff}_i^*\mathscr{F}^\bullet)$. By the induction hypothesis if $I'^c \not\subset J'^c$, this is $0$ and if $I'^c \subset J'^c$, this is equal to $Tot(\operatorname{Aff}_i^*(F^\bullet |_{\mathcal{S}_{N_{x_{(I',J')}}}})) = Tot(F^\bullet |_{\mathcal{S}_{N_{x_{(I,J)}}}}) = Tot(F^\bullet |_{Q^n_{s_{(I,J)}}})$. Because $I^c\subset J^c$ if and only if $I'^c\subset J'^c$, we proved the case when $I\neq \phi$.\\
 %%
 %%
 %%
@@ -300,7 +274,7 @@ Therefore, $G_{(I,J)}(\mathscr{F}^\bullet) \cong H^*(N_{x_{(I',J')}}, N_{x_{(I',
 %%
 %%
 %%
-(ii)now consider the case where $I = \phi$.\\
+(ii) now consider the case where $I = \phi$.\\
 %%
 %%
 %%
@@ -309,9 +283,9 @@ Therefore, $G_{(I,J)}(\mathscr{F}^\bullet) \cong H^*(N_{x_{(I',J')}}, N_{x_{(I',
 %%
 %%
 %%
-(case1) $I^c \not\subset J^c$ i.e. $J = \phi$, then we want to prove that $G_{(I,J)}(\mathscr{F}^\bullet)=0$. Equivalently, we want to prove that the mapping cone of the following restriction map is acyclic.
+(Case1) $I^c \not\subset J^c$ i.e. $J = \phi$, then we want to prove that $G_{(I,J)}(\mathscr{F}^\bullet)=0$. Equivalently, we want to prove that the mapping cone of the following restriction map is acyclic.
 \[
-R\Gamma(N_{x_{(I,J)}};\mathscr{F}^\bullet) \rightarrow R\Gamma(N_{x_{(I,J)}} \cap \xi^{-1}((\infty,c-\epsilon]);\mathscr{F}^\bullet)
+R\Gamma(N_{x_{(I,J)}};\mathscr{F}^\bullet) \rightarrow R\Gamma(N_{x_{(I,J)}} \cap \xi^{-1}((\infty,c-\epsilon));\mathscr{F}^\bullet)
 \]
 First, let's compute $R\Gamma(N_{x_{(I,J)}};\mathscr{F}^\bullet)$. We can use a singleton \v{C}ech cover $\{N_{x_{(I,J)}} = star(s^n_{(I,J)})\}$. Therefore, $R\Gamma(N_{x_{(I,J)}};\mathscr{F}^\bullet) \cong Tot(F^\bullet(N_{x_{(I,J)}}))$.\\
 Next, let's compute $R\Gamma(N_{x_{(I,J)}} \cap \xi^{-1}((\infty,c-\epsilon]);\mathscr{F}^\bullet)$. We can use the following \v{C}ech cover
@@ -350,7 +324,7 @@ C^{p,q} = \underset{1\leq i_0<\cdots < i_p \leq n}{\oplus} F^q(U_{i_0\cdots i_p}
 \]
 where horizontal maps are \v{C}ech differentials($\delta$) and vertical maps are cochain differentials($d$).\\
 The mapping cone of 
-\[R\Gamma(N_{x_{(I,J)}};\mathscr{F}^\bullet) \rightarrow R\Gamma(N_{x_{(I,J)}} \cap \xi^{-1}((\infty,c-\epsilon]);\mathscr{F}^\bullet)
+\[R\Gamma(N_{x_{(I,J)}};\mathscr{F}^\bullet) \rightarrow R\Gamma(N_{x_{(I,J)}} \cap \xi^{-1}((\infty,c-\epsilon));\mathscr{F}^\bullet)
 \]
 is the total complex of the following double complex
 \[
@@ -403,7 +377,7 @@ Therefore, $hD_{Tot}+D_{Tot}h = h\delta + \delta h$ and
 (-1)^j (hc)_{i_0 \cdots \hat{i}_j \cdots i_p}\\
 &= c_{i_0 \cdots i_p}
 \end{align*}
-Therefore, $h$ is a homotopy between identity cochain map on $\operatorname{Tot}(C_{ext}^{\bullet,\bullet})$ and a zero map. Therefore, we conclude that $\operatorname{Tot}(C_{ext}^{\bullet,\bullet})$ is acyclic.
+Therefore, $h$ is a homotopy between identity cochain map on $\operatorname{Tot}(C_{ext}^{\bullet,\bullet})$ and a zero map. Therefore, we conclude that $\operatorname{Tot}(C_{ext}^{\bullet,\bullet})$ is acyclic.\\
 %%
 %%
 %%
@@ -412,8 +386,8 @@ Therefore, $h$ is a homotopy between identity cochain map on $\operatorname{Tot}
 %%
 %%
 %%
-(case2)$I^c \subset J^c$ i.e. $J=\phi$, then use the same \v{C}ech cover $\mathcal{U}$ as in (case1). Then again the mapping cone of
-\[R\Gamma(N_{x_{(I,J)}};\mathscr{F}^\bullet) \rightarrow R\Gamma(N_{x_{(I,J)}} \cap \xi^{-1}((\infty,c-\epsilon]);\mathscr{F}^\bullet)
+(Case2) $I^c \subset J^c$ i.e. $J=\phi$, then use the same \v{C}ech cover $\mathcal{U}$ as in (case1). Then again the mapping cone of
+\[R\Gamma(N_{x_{(I,J)}};\mathscr{F}^\bullet) \rightarrow R\Gamma(N_{x_{(I,J)}} \cap \xi^{-1}((\infty,c-\epsilon));\mathscr{F}^\bullet)
 \]
 is the total complex of the following double complex up to a shift
 \[

@@ -1,9 +1,68 @@
 \section{3rd Sheaf Cobordism}
-In this section, we define $cobord_3$, a compactly supported sheaf 	cobordism.
-\subsection{Notations}
+In this section, we define $cobord_3$, a compactly supported sheaf 	cobordism between the following squiggly legible diagrams on the support of the cobordism from
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma3/21.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\textbf{Generization maps:}
+\begin{enumerate}[label = (\arabic*)]
+\item $\C^{m+1} \xrightarrow{\mu} \C^{m+1}$
+
+\item $\C^{m+1} \xrightarrow{\nu} \C^{m+1}$
+
+\item $\C^{m} \xrightarrow{\theta} \C^{m}$
+
+\item $\C^{m+1} \overset{\iota_1}{\rightarrow} \C^{m+2}$
+
+\item $\C^{m+1} \overset{\iota_0}{\rightarrow} \C^{m+2}$
+
+\item $\C^{m} \overset{\iota_1}{\rightarrow} \C^{m+1}$
+
+\item $\C^{m} \overset{\iota_0}{\rightarrow} \C^{m+1}$
+
+\item $\C^{m+1} \overset{\mu'}{\rightarrow} \C^{m+2}$
+
+\item $\C^{m+1} \overset{\nu'}{\rightarrow} \C^{m+2}$
+
+\item $\C^{m} \overset{\theta'}{\rightarrow} \C^{m+1}$
+
+\item $\C^{m} \overset{\theta''}{\rightarrow} \C^{m+1}$
+\end{enumerate}
+to
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{diagrams/lemma3/33.png} 
+    \caption{}
+    \label{fig:your-label}
+\end{figure}
+\textbf{Generization maps:}
+\begin{enumerate}[label = (\arabic*)]
+\item $\C^{m+1} \xrightarrow{\mu} \C^{m+1}$
+
+\item $\C^{m+1} \xrightarrow{\nu} \C^{m+1}$
+
+\item $\C^{m+2} \overset{T}{\rightarrow} \C^{m+2}$
+
+\item $\C^{m+1} \overset{\iota_1}{\rightarrow} \C^{m+2}$
+
+\item $\C^{m+1} \overset{\iota_0}{\rightarrow} \C^{m+2}$
+
+\item $\C^{m+1} \overset{\iota_1}{\rightarrow} \C^{m+2}$
+
+\item $\C^{m+1} \overset{\iota_0}{\rightarrow} \C^{m+2}$
+\end{enumerate}
+where 
+\begin{itemize}
+\item $T(1,1,m+2,m+1) = \nu' \circ \nu$
+\item $T(1,2,m+2,m+2) = \mu' \circ \mu$
+\end{itemize}
+
+\subsection*{Notations}
 %definition of a Riemann sphere with two punctures
 \begin{definition}
-$M$ denotes a Riemann sphere with two punctures at $0$ and $\infty$. Topologically, $M$ is homeomorphic to a cylinder.
+$M$ denotes a Riemann sphere with two punctures at $0$ and $\infty$. $M$ is diffeomorphic to a cylinder.
 \end{definition}
 %definition of \Phi_t^{symbol}, \Xi_t^{symbol}
 \begin{definition}
@@ -527,7 +586,7 @@ F_0(sgn_1,sgn_2,sgn_3):= F_0(s_0(sgn_1,sgn_2,sgn_3))
 
 \item $\C^{m+1} \xrightarrow{\nu} \C^{m+1}$
 
-\item $\C^{m} \xrightarrow{T(\theta} \C^{m}$
+\item $\C^{m} \xrightarrow{\theta} \C^{m}$
 
 \item $\C^{m+1} \overset{\iota_1}{\rightarrow} \C^{m+2}$
 
@@ -550,7 +609,7 @@ F_0(sgn_1,sgn_2,sgn_3):= F_0(s_0(sgn_1,sgn_2,sgn_3))
 %%                   Legendrian Cobordism                        %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Legendrian Cobordism}
-Then define a Legendrian cobordism $\mathscr{F}_\bullet$ starting from $\mathscr{F}_0$, say $cobord_2$, that is supported on $\overline{U'}$ as follows:\\
+Then define a Legendrian cobordism $\mathscr{F}_\bullet$ starting from $\mathscr{F}_0$, say $cobord_3$, that is supported on $\overline{U'}$ as follows:\\
 
 By Mayer-Vietoris, this equivalent to the following data
 \begin{itemize}
@@ -669,13 +728,7 @@ where
 \end{itemize}
 
 \subsubsection{C. Gluing Isomorphism}
-Lastly, I will define a gluing isomorphism $\gamma_\bullet : (f_*\mathscr{F}_{D_{r=2}\times [0,1]})|_{(U\cap V)\times [0,1]} \xrightarrow{\sim} \mathscr{F}_{V\times [0,1]}|_{(U\cap V)\times [0,1]}$ using the following fact.
-\begin{proposition}
-$(f_*\mathscr{F}_{D_{r=2}\times [0,1]})|_{(U\cap V)\times[0,1]}$ is isomorphic to $pr_1^*(\mathscr{F}_0|_{U\cap V})$ where $pr_1 : (U\cap V) \times [0,1] \rightarrow (U\cap V)$ is the projection onto the first argument.
-\end{proposition}
-\begin{proof}
-pass
-\end{proof}
+Lastly, I will define a gluing isomorphism $\gamma_\bullet : (f_*\mathscr{F}_{D_{r=2}\times [0,1]})|_{(U\cap V)\times [0,1]} \xrightarrow{\sim} \mathscr{F}_{V\times [0,1]}|_{(U\cap V)\times [0,1]}$ using the fact that $(f_*\mathscr{F}_{D_{r=2}\times [0,1]})|_{(U\cap V)\times[0,1]}$ is isomorphic to $pr_1^*(\mathscr{F}_0|_{U\cap V})$ where $pr_1 : (U\cap V) \times [0,1] \rightarrow (U\cap V)$ is the projection onto the first argument.
 \begin{definition}
 we define $\gamma_\bullet$ to be the composition 
 \[
@@ -734,7 +787,7 @@ except $F^(-,-,+)\rightarrow F^3(-,+,+)$:=$\theta''$ and $F^(+,-,+)\rightarrow F
 \item $F^3(-,+,-)\rightarrow F^3(-,+,+)$ := $\mu$
 \item $F^3(+,+,-)\rightarrow F^3(+,+,+)$ := $T$
 \end{itemize}
-To prove that microlocal stalk vanishes everywhere, by lemma??, it is enough to show that the total complexes of $F^3$ restricted to the following squares and cubes are acyclic
+To prove that microlocal stalk vanishes everywhere, by Lemma \ref{morse}, it is enough to show that the total complexes of $F^3$ restricted to the following squares and cubes are acyclic
 
 \begin{enumerate}[label = (\roman*)]
 \item 
@@ -830,8 +883,8 @@ s(+,-,-) \arrow[rr,"{s(+,-,0)}"] \arrow[ur,"{s(+,0,-)}"] & & s(+,-,+) \arrow[ur,
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                       Terminal Sheaf                          %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Sheaf at the End}
-In this subsection, I will describe the sheaf $\mathscr{F}_1$ at the end of the $cobord_2$. By Mayer-Vietoris, $\mathscr{F}_1:= \mathscr{F}_\bullet|_{M\times\{1\}}$ on $M \cong M\times\{1\}$ is equivalent to the following data
+\subsection*{Sheaf at the End}
+In this subsection, I will describe the sheaf $\mathscr{F}_1$ at the end of the $cobord_3$. By Mayer-Vietoris, $\mathscr{F}_1:= \mathscr{F}_\bullet|_{M\times\{1\}}$ on $M \cong M\times\{1\}$ is equivalent to the following data
 \begin{itemize}
 \item a sheaf on $V$, say $\mathscr{F}_{V}$
 

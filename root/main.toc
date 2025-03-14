@@ -4,93 +4,73 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Background and context}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Summary of results}{19}{section.1.2}%
-\contentsline {chapter}{\numberline {2}Multivalent braids and wild character varieties of Sibuya type}{28}{chapter.2}%
+\contentsline {chapter}{\numberline {2}Multivalent Braids and Generalized Sibuya Spaces}{28}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Basic terminologies}{28}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Multivalent braid words}{33}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Bivalent braid words}{39}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Examples : generalized Sibuya spaces}{44}{section.2.4}%
+\contentsline {section}{\numberline {2.4}Examples : generalized Sibuya spaces}{45}{section.2.4}%
 \contentsline {chapter}{\numberline {3}Natural Cluster Coordinates on Braid Moduli Spaces}{73}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Local Morse Group Computation}{73}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Definitions and Notations}{73}{subsection.3.1.1}%
 \contentsline {section}{\numberline {3.2}natural alternating diagram}{82}{section.3.2}%
 \contentsline {section}{\numberline {3.3}local systems on natural alternating diagrams}{100}{section.3.3}%
-\contentsline {section}{\numberline {3.4}1st Sheaf Cobordism}{117}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Notations}{118}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Setting}{143}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Sheaf at the Beginning}{144}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}Legendrian Cobordism}{148}{subsection.3.4.4}%
-\contentsline {subsubsection}{A. Sheaf on $V\times [0,1]$}{148}{section*.79}%
-\contentsline {subsubsection}{B. Sheaf on $D_{r=2}\times [0,1]$}{148}{section*.80}%
-\contentsline {subsubsection}{C. Gluing Isomorphism}{158}{section*.90}%
-\contentsline {subsection}{\numberline {3.4.5}Sheaf at the End}{162}{subsection.3.4.5}%
-\contentsline {subsubsection}{A. Sheaf on $V$}{162}{section*.91}%
-\contentsline {subsubsection}{B. Sheaf on $D_{r=2}$}{163}{section*.92}%
-\contentsline {subsubsection}{C. Gluing Isomorphism}{168}{section*.96}%
-\contentsline {section}{\numberline {3.5}2nd Sheaf Cobordism}{169}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Notations}{169}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Setting}{203}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Sheaf at the Beginning}{204}{subsection.3.5.3}%
-\contentsline {subsection}{\numberline {3.5.4}Legendrian Cobordism}{209}{subsection.3.5.4}%
-\contentsline {subsubsection}{A. Sheaf on $V\times [0,1]$}{209}{section*.126}%
-\contentsline {subsubsection}{B. Sheaf on $D_{r=2}\times [0,1]$}{209}{section*.127}%
-\contentsline {subsubsection}{C. Gluing Isomorphism}{226}{section*.143}%
-\contentsline {subsection}{\numberline {3.5.5}Sheaf at the End}{236}{subsection.3.5.5}%
-\contentsline {subsubsection}{A. Sheaf on $V$}{236}{section*.144}%
-\contentsline {subsubsection}{B. Sheaf on $D_{r=2}$}{236}{section*.145}%
-\contentsline {subsubsection}{C. Gluing Isomorphism}{240}{section*.149}%
-\contentsline {section}{\numberline {3.6}2nd Sheaf Cobordism'}{241}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Notations}{241}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}Setting}{276}{subsection.3.6.2}%
-\contentsline {subsection}{\numberline {3.6.3}Sheaf at the Beginning}{277}{subsection.3.6.3}%
-\contentsline {subsection}{\numberline {3.6.4}Legendrian Cobordism}{283}{subsection.3.6.4}%
-\contentsline {subsubsection}{A. Sheaf on $V\times [0,1]$}{283}{section*.179}%
-\contentsline {subsubsection}{B. Sheaf on $D_{r=2}\times [0,1]$}{283}{section*.180}%
-\contentsline {subsubsection}{C. Gluing Isomorphism}{301}{section*.196}%
-\contentsline {subsection}{\numberline {3.6.5}Sheaf at the End}{311}{subsection.3.6.5}%
-\contentsline {subsubsection}{A. Sheaf on $V$}{312}{section*.197}%
-\contentsline {subsubsection}{B. Sheaf on $D_{r=2}$}{312}{section*.198}%
-\contentsline {subsubsection}{C. Gluing Isomorphism}{317}{section*.202}%
-\contentsline {section}{\numberline {3.7}3rd Sheaf Cobordism}{317}{section.3.7}%
-\contentsline {subsection}{\numberline {3.7.1}Notations}{317}{subsection.3.7.1}%
-\contentsline {subsection}{\numberline {3.7.2}Setting}{343}{subsection.3.7.2}%
-\contentsline {subsection}{\numberline {3.7.3}Sheaf at the Beginning}{344}{subsection.3.7.3}%
-\contentsline {subsection}{\numberline {3.7.4}Legendrian Cobordism}{348}{subsection.3.7.4}%
-\contentsline {subsubsection}{A. Sheaf on $V\times [0,1]$}{348}{section*.224}%
-\contentsline {subsubsection}{B. Sheaf on $D_{r=2}\times [0,1]$}{349}{section*.225}%
-\contentsline {subsubsection}{C. Gluing Isomorphism}{359}{section*.235}%
-\contentsline {subsection}{\numberline {3.7.5}Sheaf at the End}{363}{subsection.3.7.5}%
-\contentsline {subsubsection}{A. Sheaf on $V$}{363}{section*.236}%
-\contentsline {subsubsection}{B. Sheaf on $D_{r=2}$}{364}{section*.237}%
-\contentsline {subsubsection}{C. Gluing Isomorphism}{368}{section*.241}%
-\contentsline {section}{\numberline {3.8}4th Sheaf Cobordism}{369}{section.3.8}%
-\contentsline {subsection}{\numberline {3.8.1}Notations}{369}{subsection.3.8.1}%
-\contentsline {subsection}{\numberline {3.8.2}Setting}{394}{subsection.3.8.2}%
-\contentsline {subsection}{\numberline {3.8.3}Sheaf at the Beginning}{395}{subsection.3.8.3}%
-\contentsline {subsection}{\numberline {3.8.4}Legendrian Cobordism}{399}{subsection.3.8.4}%
-\contentsline {subsubsection}{A. Sheaf on $V\times [0,1]$}{400}{section*.263}%
-\contentsline {subsubsection}{B. Sheaf on $D_{r=2}\times [0,1]$}{400}{section*.264}%
-\contentsline {subsubsection}{C. Gluing Isomorphism}{411}{section*.274}%
-\contentsline {subsection}{\numberline {3.8.5}Sheaf at the End}{418}{subsection.3.8.5}%
-\contentsline {subsubsection}{A. Sheaf on $V$}{419}{section*.275}%
-\contentsline {subsubsection}{B. Sheaf on $D_{r=2}$}{419}{section*.276}%
-\contentsline {subsubsection}{C. Gluing Isomorphism}{424}{section*.280}%
-\contentsline {section}{\numberline {3.9}4th Sheaf Cobordism'}{424}{section.3.9}%
-\contentsline {subsection}{\numberline {3.9.1}Notations}{424}{subsection.3.9.1}%
-\contentsline {subsection}{\numberline {3.9.2}Setting}{450}{subsection.3.9.2}%
-\contentsline {subsection}{\numberline {3.9.3}Sheaf at the Beginning}{451}{subsection.3.9.3}%
-\contentsline {subsection}{\numberline {3.9.4}Legendrian Cobordism}{455}{subsection.3.9.4}%
-\contentsline {subsubsection}{A. Sheaf on $V\times [0,1]$}{455}{section*.302}%
-\contentsline {subsubsection}{B. Sheaf on $D_{r=2}\times [0,1]$}{456}{section*.303}%
-\contentsline {subsubsection}{C. Gluing Isomorphism}{466}{section*.313}%
-\contentsline {subsection}{\numberline {3.9.5}Sheaf at the End}{471}{subsection.3.9.5}%
-\contentsline {subsubsection}{A. Sheaf on $V$}{471}{section*.314}%
-\contentsline {subsubsection}{B. Sheaf on $D_{r=2}$}{471}{section*.315}%
-\contentsline {subsubsection}{C. Gluing Isomorphism}{475}{section*.319}%
-\contentsline {section}{\numberline {3.10}5th Sheaf Cobordism}{476}{section.3.10}%
-\contentsline {section}{\numberline {3.11}6th Sheaf Cobordism}{483}{section.3.11}%
-\contentsline {section}{\numberline {3.12}7th Sheaf Cobordism}{492}{section.3.12}%
-\contentsline {section}{\numberline {3.13}8th Sheaf Cobordism}{501}{section.3.13}%
-\contentsline {section}{\numberline {3.14}8th Sheaf Cobordism'}{517}{section.3.14}%
-\contentsline {section}{\numberline {3.15}Sheaf Cobordism on Generator Regions}{528}{section.3.15}%
-\contentsline {section}{\numberline {3.16}Sheaf Cobordism on Inter-generator Regions}{560}{section.3.16}%
-\contentsline {section}{\numberline {3.17}Full Sheaf Cobordism}{571}{section.3.17}%
+\contentsline {section}{\numberline {3.4}1st Sheaf Cobordism}{118}{section.3.4}%
+\contentsline {subsubsection}{B. Sheaf on $D_{r=2}\times [0,1]$}{151}{section*.87}%
+\contentsline {subsubsection}{C. Gluing Isomorphism}{161}{section*.97}%
+\contentsline {subsubsection}{A. Sheaf on $V$}{165}{section*.99}%
+\contentsline {subsubsection}{B. Sheaf on $D_{r=2}$}{166}{section*.100}%
+\contentsline {subsubsection}{C. Gluing Isomorphism}{171}{section*.104}%
+\contentsline {section}{\numberline {3.5}2nd Sheaf Cobordism}{172}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Setting}{210}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Sheaf at the Beginning}{211}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Legendrian Cobordism}{216}{subsection.3.5.3}%
+\contentsline {subsubsection}{A. Sheaf on $V\times [0,1]$}{216}{section*.137}%
+\contentsline {subsubsection}{B. Sheaf on $D_{r=2}\times [0,1]$}{216}{section*.138}%
+\contentsline {subsubsection}{C. Gluing Isomorphism}{233}{section*.154}%
+\contentsline {subsection}{\numberline {3.5.4}Sheaf at the End}{243}{subsection.3.5.4}%
+\contentsline {subsubsection}{A. Sheaf on $V$}{243}{section*.155}%
+\contentsline {subsubsection}{B. Sheaf on $D_{r=2}$}{243}{section*.156}%
+\contentsline {subsubsection}{C. Gluing Isomorphism}{247}{section*.160}%
+\contentsline {section}{\numberline {3.6}2nd Sheaf Cobordism'}{248}{section.3.6}%
+\contentsline {subsubsection}{A. Sheaf on $V\times [0,1]$}{295}{section*.196}%
+\contentsline {subsubsection}{B. Sheaf on $D_{r=2}\times [0,1]$}{295}{section*.197}%
+\contentsline {subsubsection}{C. Gluing Isomorphism}{313}{section*.213}%
+\contentsline {subsubsection}{A. Sheaf on $V$}{324}{section*.215}%
+\contentsline {subsubsection}{B. Sheaf on $D_{r=2}$}{324}{section*.216}%
+\contentsline {subsubsection}{C. Gluing Isomorphism}{329}{section*.220}%
+\contentsline {section}{\numberline {3.7}3rd Sheaf Cobordism}{329}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Setting}{358}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Sheaf at the Beginning}{359}{subsection.3.7.2}%
+\contentsline {subsection}{\numberline {3.7.3}Legendrian Cobordism}{363}{subsection.3.7.3}%
+\contentsline {subsubsection}{A. Sheaf on $V\times [0,1]$}{363}{section*.245}%
+\contentsline {subsubsection}{B. Sheaf on $D_{r=2}\times [0,1]$}{364}{section*.246}%
+\contentsline {subsubsection}{C. Gluing Isomorphism}{374}{section*.256}%
+\contentsline {subsubsection}{A. Sheaf on $V$}{378}{section*.258}%
+\contentsline {subsubsection}{B. Sheaf on $D_{r=2}$}{379}{section*.259}%
+\contentsline {subsubsection}{C. Gluing Isomorphism}{383}{section*.263}%
+\contentsline {section}{\numberline {3.8}4th Sheaf Cobordism}{384}{section.3.8}%
+\contentsline {subsubsection}{A. Sheaf on $V\times [0,1]$}{419}{section*.291}%
+\contentsline {subsubsection}{B. Sheaf on $D_{r=2}\times [0,1]$}{419}{section*.292}%
+\contentsline {subsubsection}{C. Gluing Isomorphism}{430}{section*.302}%
+\contentsline {subsubsection}{A. Sheaf on $V$}{438}{section*.304}%
+\contentsline {subsubsection}{B. Sheaf on $D_{r=2}$}{438}{section*.305}%
+\contentsline {subsubsection}{C. Gluing Isomorphism}{443}{section*.309}%
+\contentsline {section}{\numberline {3.9}4th Sheaf Cobordism'}{443}{section.3.9}%
+\contentsline {subsection}{\numberline {3.9.1}Notations}{447}{subsection.3.9.1}%
+\contentsline {subsection}{\numberline {3.9.2}Setting}{472}{subsection.3.9.2}%
+\contentsline {subsection}{\numberline {3.9.3}Sheaf at the Beginning}{473}{subsection.3.9.3}%
+\contentsline {subsection}{\numberline {3.9.4}Legendrian Cobordism}{477}{subsection.3.9.4}%
+\contentsline {subsubsection}{A. Sheaf on $V\times [0,1]$}{477}{section*.333}%
+\contentsline {subsubsection}{B. Sheaf on $D_{r=2}\times [0,1]$}{478}{section*.334}%
+\contentsline {subsubsection}{C. Gluing Isomorphism}{488}{section*.344}%
+\contentsline {subsection}{\numberline {3.9.5}Sheaf at the End}{493}{subsection.3.9.5}%
+\contentsline {subsubsection}{A. Sheaf on $V$}{493}{section*.345}%
+\contentsline {subsubsection}{B. Sheaf on $D_{r=2}$}{493}{section*.346}%
+\contentsline {subsubsection}{C. Gluing Isomorphism}{497}{section*.350}%
+\contentsline {section}{\numberline {3.10}5th Sheaf Cobordism}{498}{section.3.10}%
+\contentsline {section}{\numberline {3.11}6th Sheaf Cobordism}{505}{section.3.11}%
+\contentsline {section}{\numberline {3.12}7th Sheaf Cobordism}{514}{section.3.12}%
+\contentsline {section}{\numberline {3.13}8th Sheaf Cobordism}{523}{section.3.13}%
+\contentsline {section}{\numberline {3.14}8th Sheaf Cobordism'}{539}{section.3.14}%
+\contentsline {section}{\numberline {3.15}Sheaf Cobordism on Generator Regions}{550}{section.3.15}%
+\contentsline {section}{\numberline {3.16}Sheaf Cobordism on Inter-generator Regions}{582}{section.3.16}%
+\contentsline {section}{\numberline {3.17}Full Sheaf Cobordism}{593}{section.3.17}%

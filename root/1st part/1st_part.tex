@@ -1,4 +1,4 @@
-\chapter{Multivalent braids and wild character varieties of Sibuya type}
+\chapter{Multivalent Braids and Generalized Sibuya Spaces}
 \section{Basic terminologies} 
 \begin{definition}
 Let $\omega$ be a braid word, then we have an embedding of the braid diagram in $[0,1]_x \times \R_z$, co-oriented below, as an \emph{open front diagram} of $\omega$.
@@ -109,7 +109,7 @@ $\Upsilon^k_0$ is the set of all height $k$, signature zero vertices in $Q^{\inf
 \end{theorem}
 \begin{proof}
 It is enough to prove that once we specify vectorspaces to height $1$ vertices of $Q^o_\omega$ and $g\in \operatorname{GL}_n(\mathbb{C})$, the quiver representation of $Q^o_\omega$ extending the above datum is unique. Since $\mathcal{M}_\omega^{fr,\infty}\cong \mathcal{M}_\omega^{fr}$, it is enough to prove once we specify vectorspaces to signature 0 height 1 vertices of $Q_\omega^\infty$ and $g\in \operatorname{GL}_n(\mathbb{C})$, the quiver representation $F_\omega^\infty$ of $Q_\omega^\infty$ extending the above datum is unique. Since $(F_\omega^\infty,g)\in \mathcal{M}_\omega^{fr,\infty}$, for $v\in \operatorname{Vert}(Q_\omega^\infty)$, $F_\omega^\infty(v) = g^{\sigma(v)}\cdot F_\omega^\infty(v-\sigma(v))$. If $\operatorname{height}(v)=1$, then $v-\sigma(v)$ is height $1$ signature $0$ vertex. Therefore, $F_\omega^\infty(v)$ is uniquely determined. \\
-Now we prove the statement by induction on the heights of vertices. Assume $\forall v\in \operatorname{Vert}(Q_\omega^\infty)$ with $\operatorname{height}(v)<h$, $F_\omega^\infty(v)$ are determined. Suppose $v\in \operatorname{Vert}(Q_\omega^\infty)$ such that $\operatorname{height}(v)=h>1$, then there are at least two vertices of height $h-1$ that have arrows to $v$, say $v'$ and $v''$. Without loss of generality, $v'\leq v''$. Then by $\omega^\infty,Q_\omega^\infty$-analogue of \ref{quoted1}, there is a chain of crossings $c_1,\dots,c_k$ and $v'=v_0,\dots,v_k=v''$ where $v_{i-1},v_i$ are west and east of the crossing $c_i$. Therefore, if we choose any $c_i$ to be $c$, then $v=N_c$. By the induction hypothesis, $F_\omega^\infty(W_c)$, $F_\omega^\infty(E_c)$.and $F_\omega^\infty(S_c)$ have already been specified because heights of $W_c$,$E_c$,and $S_c$ are $h-1$, $h-1$,and $h-2$ respectively. By the crossing condition,
+Now we prove the statement by induction on the heights of vertices. Assume $\forall v\in \operatorname{Vert}(Q_\omega^\infty)$ with $\operatorname{height}(v)<h$, $F_\omega^\infty(v)$ are determined. Suppose $v\in \operatorname{Vert}(Q_\omega^\infty)$ such that $\operatorname{height}(v)=h>1$, then there are at least two vertices of height $h-1$ that have arrows to $v$, say $v'$ and $v''$. Without loss of generality, $v'\leq v''$. Then by $\omega^\infty,Q_\omega^\infty$-analogue of Theorem \ref{quoted1}, there is a chain of crossings $c_1,\dots,c_k$ and $v'=v_0,\dots,v_k=v''$ where $v_{i-1},v_i$ are west and east of the crossing $c_i$. Therefore, if we choose any $c_i$ to be $c$, then $v=N_c$. By the induction hypothesis, $F_\omega^\infty(W_c)$, $F_\omega^\infty(E_c)$.and $F_\omega^\infty(S_c)$ have already been specified because heights of $W_c$,$E_c$,and $S_c$ are $h-1$, $h-1$,and $h-2$ respectively. By the crossing condition,
 \[
 0\rightarrow F_\omega^\infty(S_c)\rightarrow F_\omega^\infty(E_c)\oplus F_\omega^\infty(W_c) \rightarrow F_\omega^\infty(N_c)\rightarrow 0
 \]
@@ -153,7 +153,7 @@ because of the condition $\forall u\in \operatorname{Vert}(Q_\omega^\infty),~\op
 \item $\sum_{v\in I_1(E_c)\cup I_1(W_c)} F_\omega^\infty(v)=F_\omega^\infty(N_c)$
 \end{enumerate}
 Proof of (\Rn{1}) : For each $v\in I_1(u)$, there is a path from $v$ to $u$, say $v=v_0 \rightarrow \cdots \rightarrow v_k = u$. Since $F_\omega^\infty(v_i)\subset F_\omega^\infty(v_{i+1})$, $F_\omega^\infty(v)\subset F_\omega^\infty(u)$. Therefore, $\sum_{v\in I_1(u)} F_\omega^\infty(v) \subset F_\omega^\infty(u)$. \\
-Conversely, we prove $F_\omega^\infty(u)\subset \sum_{v\in I_1(u)}F_\omega^\infty(v)$ by induction on the height of $u$. If $\operatorname{height}(u)=1$, the statement is trivial. Now suppose the statement holds for all $u\in \operatorname{Vert}(Q_\omega^\infty)$ of $\operatorname{height}(u) = h$. Since $\omega$ is multivalent, $u$ has at least two vertices of height $h-1$ that have arrows to $u$, say $v'$ and $v''$. Without loss of generality $v'\leq v''$. Then by $\omega^\infty, Q_\omega^\infty$-analogue of \ref{quoted1}, there is a chain of crossings $c_1,\dots,c_k$ and $v'=v_0,\dots,v_k=v''$ where $v_{i-1},v_i$ are west and east of the crossing $c_i$. Therefore, if we choose any $c_i$ to be $c$, then $u=N_c$ i.e. $v$ is the north of the crossing $c$. Then by the crossing condition of $M_\omega^{fr,\infty}$
+Conversely, we prove $F_\omega^\infty(u)\subset \sum_{v\in I_1(u)}F_\omega^\infty(v)$ by induction on the height of $u$. If $\operatorname{height}(u)=1$, the statement is trivial. Now suppose the statement holds for all $u\in \operatorname{Vert}(Q_\omega^\infty)$ of $\operatorname{height}(u) = h$. Since $\omega$ is multivalent, $u$ has at least two vertices of height $h-1$ that have arrows to $u$, say $v'$ and $v''$. Without loss of generality $v'\leq v''$. Then by $\omega^\infty, Q_\omega^\infty$-analogue of Theorem \ref{quoted1}, there is a chain of crossings $c_1,\dots,c_k$ and $v'=v_0,\dots,v_k=v''$ where $v_{i-1},v_i$ are west and east of the crossing $c_i$. Therefore, if we choose any $c_i$ to be $c$, then $u=N_c$ i.e. $v$ is the north of the crossing $c$. Then by the crossing condition of $M_\omega^{fr,\infty}$
 \[
 0\rightarrow F_\omega^\infty(S_c)\rightarrow F_\omega^\infty(E_c)\oplus F_\omega^\infty(W_c)\rightarrow F_\omega^\infty(N_c)\rightarrow 0
 \]
@@ -252,7 +252,7 @@ Since $\omega$ is bivalent,
 	I_1(N_c) &= I_1(E_c) \cup I_1(W_c) \\
 			 &= \{v_1, v_2\} \cup I_1(S_c)
 \end{align*}
-If $v_1 \neq v_2\Leftrightarrow I_1(E_c) \neq I_1(W_c)$, then $|I_1(N_c)| = 2 + (h-2) = h$. Therefore, it is enough to prove that $\forall c\in \operatorname{Cross}(\omega^\infty)$, $I_1(E_c) \neq I_1(W_c)$. This follows from \ref{quoted2} below.
+If $v_1 \neq v_2\Leftrightarrow I_1(E_c) \neq I_1(W_c)$, then $|I_1(N_c)| = 2 + (h-2) = h$. Therefore, it is enough to prove that $\forall c\in \operatorname{Cross}(\omega^\infty)$, $I_1(E_c) \neq I_1(W_c)$. This follows from Lemma \ref{quoted2} below.
 \end{proof}
 
 \begin{lemma}\label{quoted2}
@@ -295,7 +295,7 @@ X'_\omega =\{ &((z_v)_{v\in\Upsilon_0^1},g)\in \prod_{v\in \Upsilon_0^1} \mathbb
 \end{align*}
 \end{theorem}
 \begin{proof}
-Since bivalent braids are multivalent, by \ref{quoted3}, the image of $\iota_\omega$ is given by 
+Since bivalent braids are multivalent, by Theorem \ref{quoted3}, the image of $\iota_\omega$ is given by 
 \begin{align*}
 X_\omega~=~\{ &((z_v)_{v\in \Upsilon_0^1},g)\in \prod_{v\in\Upsilon_0^1}\mathbb{P}_v^{n-1}\times \operatorname{GL}_n(\mathbb{C})~|\\
 & \forall u\in \operatorname{Vert}(Q_\omega^\infty),~\operatorname{dim}_\mathbb{C}(\sum_{v\in I_1(u)} g^{\sigma(v)}\cdot z_{v-\sigma(v)}) = \operatorname{height}(u),\\
@@ -318,7 +318,7 @@ then it also satisfy\\
 \item $\forall u\in \operatorname{Vert}(Q_\omega^\infty),~\operatorname{dim}_\mathbb{C}(\sum_{v\in I_1(u)} g^{\sigma(v)}\cdot z_{v-\sigma(v)}) = \operatorname{height}(u)$
 \item $\forall c\in \operatorname{Cross}(\omega^\infty),~\operatorname{dim}_\mathbb{C}(\sum_{v\in I_1(E_c)\cup I_1(W_c)} g^{\sigma(v)}\cdot z_{v-\sigma(v)}) = \operatorname{height}(N_c)$
 \end{enumerate}
-Let $u\in \operatorname{Vert}(Q_\omega^\infty)$ and $c\in \operatorname{Cross}(\omega^\infty)$. First let's assume $\operatorname{height}(u)<n$. Since $\omega$ is bivalent, by \ref{quoted4}, $|I_1(u)|=\operatorname{height}(u)$ and by \ref{quoted4} and \ref{quoted5}, $|I_1(E_c)\cup I_1(W_c)| = |I_1(N_c)| = \operatorname{height}(N_c)$. Therefore, the condition (\Rn{1}) is equivalent to saying that 
+Let $u\in \operatorname{Vert}(Q_\omega^\infty)$ and $c\in \operatorname{Cross}(\omega^\infty)$. First let's assume $\operatorname{height}(u)<n$. Since $\omega$ is bivalent, by Lemma \ref{quoted4}, $|I_1(u)|=\operatorname{height}(u)$ and by Lemma \ref{quoted4} and Lemma \ref{quoted5}, $|I_1(E_c)\cup I_1(W_c)| = |I_1(N_c)| = \operatorname{height}(N_c)$. Therefore, the condition (\Rn{1}) is equivalent to saying that 
 \[
 \forall c\in \operatorname{Cross}(\omega) \text{ with } \operatorname{height}(N_c) = n, ~\{g^{\sigma(v)}\cdot z_{v-\sigma(v)}\}_{v\in I_1(E_c)\cup I_1(W_c)}
 \text{ are linearly independent}\] 
@@ -333,7 +333,7 @@ Let's prove (\Rn{1}) implies (\Rn{2}) and (\Rn{3}) using these paraphrased state
 &=~\{g^{\sigma(v')-\sigma(u)}\cdot z_{v'-\sigma(v')}\}_{v'\in I_1(u)} \\
 &=~g^{-\sigma(u)}\cdot\{g^{\sigma(v)}\cdot z_{v-\sigma(v)}\}_{v\in I_1(u)}
 \end{align*}
-are also linearly dependent. Therefore, without loss of generality, we can assume $\sigma(u) = 0$ i.e. $u\in \operatorname{Vert}(Q_\omega)\subset \operatorname{Vert}(Q_\omega^\infty)$. By \ref{quoted6}, there is a path from $u$ to a height $n-1$ vertex $p$. Thus, $I_1(u)\subset I_1(p)$. Since $\omega$ is bivalent, for some $c\in \operatorname{Cross}(\omega)$, $p=E_c\text{ or }W_c$. By the condition (\Rn{1}), $\{g^{\sigma(v)}\cdot z_{v-\sigma(v)}\}_{v\in I_1(E_c)\cup I_1(W_c)}$ are linearly independent, thus its subset $\{g^{\sigma(v)}\cdot z_{v-\sigma(v)}\}_{v\in I_1(u)}$ are linearly independent as well. Therefore, $((z_v)_{v\in\Upsilon_0^1},g)$ satisfy (\Rn{2}).\\
+are also linearly dependent. Therefore, without loss of generality, we can assume $\sigma(u) = 0$ i.e. $u\in \operatorname{Vert}(Q_\omega)\subset \operatorname{Vert}(Q_\omega^\infty)$. By Lemma \ref{quoted6}, there is a path from $u$ to a height $n-1$ vertex $p$. Thus, $I_1(u)\subset I_1(p)$. Since $\omega$ is bivalent, for some $c\in \operatorname{Cross}(\omega)$, $p=E_c\text{ or }W_c$. By the condition (\Rn{1}), $\{g^{\sigma(v)}\cdot z_{v-\sigma(v)}\}_{v\in I_1(E_c)\cup I_1(W_c)}$ are linearly independent, thus its subset $\{g^{\sigma(v)}\cdot z_{v-\sigma(v)}\}_{v\in I_1(u)}$ are linearly independent as well. Therefore, $((z_v)_{v\in\Upsilon_0^1},g)$ satisfy (\Rn{2}).\\
 Now let's show that $((z_v)_{v\in\Upsilon_0^1},g)$ satisfy (\Rn{3}). Suppose $c\in \operatorname{Cross}(\omega^\infty)$. If $\operatorname{height}(N_c)=n$, then the condition (\Rn{1}) is equal to the condition (\Rn{3}), there is nothing to prove. Suppose $\operatorname{height}(N_c)<n$, then $I_1(E_c)\cup I_1(W_c)=I_1(N_c)$. Thus, the condition (\Rn{3}) translates to $\{g^{\sigma(v)}\cdot z_{v-\sigma(v)}\}_{v\in I_1(N_c)}$ are linearly independent, which follows from (\Rn{2}) that we already proved.\\
 Now let's show that (\Rn{3}) holds when $\operatorname{height}(u)=n$ i.e. $u$ is the unique height $n$ point $U$. Since $\omega$ is bivalent, there is a crossing $c$ such that $u=N_c$. Therefore,
 \[
