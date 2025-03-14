@@ -311,7 +311,7 @@ In this section, we define the moduli spaces associated to positive braids follo
 
 \subsection*{Legendrian Isotopy and Sheaf Cobordism}
 Invariance of the category $\mathcal{C}_1(M,\Lambda, \{\sigma_1,\cdots,\sigma_k\};\C)$ under Legendrian isotopy follows from the main theorem of \cite{guillermou2012sheaf}.
-\begin{theorem}
+\begin{theorem}\label{GKS}
 \cite{guillermou2012sheaf}. Suppose $\Lambda_0 \subset T^{\infty}M$ is a Legendrian and $\Lambda_\bullet \subset T^{\infty} \times [0,1]$ a Legendrian isotopy where $\Lambda_\bullet|_{T^{\infty} \times \{0\}}$ is equal to $\Lambda_0$ under the natural identification $T^{\infty} \times \{0\} \cong T^{\infty}$, then the restriction functor 
 \[
 Sh^\bullet_{\Lambda_\bullet}(M\times [0,1];\C) \rightarrow Sh^\bullet_{\Lambda_0}(M;\C)
@@ -366,11 +366,33 @@ An \emph{alternating sheaf} is an object of $Sh^\bullet_\Lambda(M;\C)$ whose sup
 \begin{theorem}
 \cite[Thm.~4.16]{shende2019cluster}\cite[Cor.~4.17]{shende2019cluster}. The full subcategory of $Sh^\bullet_\Lambda(M;\C)$ consisting of alternating sheaves is equivalent to the category of locally constant sheaves on $L$. Under this correspondence, rank $1$ local systems of corresponds to rank $1$ alternating sheaves.
 \end{theorem}
+
+\subsection*{Cluster Coordinate}
+In this section, we review a special type of coordinate system of the moduli space $\mathcal{M}_1(S^1_x\times \R_z,\Lambda_\omega \coprod \Lambda_{\omega_\emptyset},\{\sigma_{z<<0},\sigma_{z>>0}\};\C)$ called cluster coordinate.\\
+Suppose we have an alternating Legendrian $\Lambda_{alt}$ that are Legendrian isotopic to $\Lambda_{\omega}\coprod \Lambda_{\omega_\emptyset}$ via a Legendrian isotopy $\Lambda_{\bullet}$ whose front projection does not touch $\{\sigma_{z<<0},\sigma_{z>>0}\}$, then , by Theorem \ref{GKS}, induces an isomorphism between moduli spaces
+\[
+\mathcal{M}_1(S^1_x\times \R_z,\Lambda_{alt},\{\sigma_{z<<0},\sigma_{z>>0}\};\C) \overset{~}{\rightarrow}\mathcal{M}_1(S^1_x\times \R_z,\Lambda_\omega \coprod \Lambda_{\omega_\emptyset},\{\sigma_{z<<0},\sigma_{z>>0}\};\C)
+\]
+Furthermore, once we have alternating Legendrian, we can construct its conjugate surface $L$ which deformation retracts to the bipartite graph $\Gamma_{\Lambda_{alt}}$ of alternating coloring on $\Lambda_{alt}$. Therefore, there is a sequence of isomorphisms
+\[
+H^1(L,\C^*) \cong H^1(\Gamma_{\Lambda_{alt}},\C^*) \cong (\C^*)^{b_1(\Gamma_{\Lambda_{alt}})}
+\]
+where $b_1(\Gamma_{\Lambda_{alt}})$ is the $1^{st}$ Betti number of $\Gamma_{\Lambda_{alt}}$.\\
+Also, local systems on $L$ corresponds to alternating sheaves in $M_1(S^1_x\times \R_z, \Lambda_{alt},\{\sigma_{z<<0},\sigma_{z>>0}\};\C)$ i.e. we have an inclusion
+\[
+H^1(L,\C^*)\hookrightarrow M_1(S^1_x\times \R_z, \Lambda_{alt},\{\sigma_{z<<0},\sigma_{z>>0}\};\C)
+\]
+In conclusion, we have an inclusion
+\[
+(\C^*)^{b_1(\Gamma_{\Lambda_{alt}})}\hookrightarrow M_1(S^1_x\times \R_z, \Lambda_{\omega}\coprod \Lambda_{\omega_{\emptyset}},\{\sigma_{z<<0},\sigma_{z>>0}\};\C)
+\]
+which is called a \emph{cluster coordinate} of the moduli space.\\
 \section{Summary of results}\label{sec_summary_of_results}
 
 \subsubsection*{Chapter 2}
 
-We define a class of braids whose associated moduli spaces $\mathcal{M}_\omega := \mathcal{M}_1(S^1_x \times \R_z, \Lambda_\omega, \{\sigma_{z<<0}\};\C)$ have simple descriptions, called Sibuya braids. In stead of providing definition, I will illustrate the concept with an example. Consider a braid word $\omega =(s_1 s_2)^2$ on $3$ strands, which is a power of the Coxeter braid. Then we have an embedding of $\omega$ into the fundamental domain of $S^1_x\times \R_z$ given in the below figure
+We define a class of braid words that we call \emph{Sibuya braid words}. Moduli spaces $\mathcal{M}_1(S^1_x \times \R_z, \Lambda_\omega, \{\sigma_{z<<0}\};\C)$ associated to Sibuya braid words $\omega$ could be thought of as parametrizing configurations of points on a Projective space subject to certain non-degeneracy conditions and could be thought of as a generalization of Sibuya space that Boalch studied in \cite{sibuya1975global}\cite{boalch2015wild}. Their definition and a simple combinatorial characterization could be found in  Definition \ref{Sibuya} and Theorem \ref{combinatorial}. In this introduction, I will illustrate the concept with an example.\\ 
+Consider a braid word $\omega =(s_1 s_2)^2$ on $3$ strands, which is a power of the Coxeter braid. Then we have an embedding of $\omega$ into the fundamental domain of $S^1_x\times \R_z$ given in the below figure
 \begin{figure}[H] 
     \centering
     \includegraphics[scale = 0.95]{diagrams/intro/7.png}
@@ -422,38 +444,13 @@ In summary, an object of $C_1(S^1_x\times \R_z,\Lambda,\{\sigma_{z<<0}\};\C)$ am
 \end{itemize}
 One thing to note in the above example is that once we assign the dimension $1$ subspaces to the height $1$ regions, all the other subspaces are determined by the crossing conditions. More precisely, we can construct subspaces that are assigned to the regions of heights greater than $1$ as follows: Suppose $R$ is a region, then the subspace we assign to $R$ is the subspace of $\C^3$ spanned by the $1$ dimensional subspaces assigned to the height $1$ regions that have paths to $R$. I will describe what this means in Chapter2. This fact(the sheaf is completely determined by its rank $1$ stalks) relies on the fact that the diagram induced by $\omega$ has the property that every region of height bigger than $1$ has more than or equal to $2$ different regions of height $1$ less adjacent to it. We call a braid word with the above property as Sibuya braid word and a braid with Sibuya braid word representatio as Sibuya braid.\\
 But also note that not all assignments of $1$ dimensional subspaces of $\C^3$ to height $1$ regions gives rise to legitimate sheaves. In Chapter2, I will show how to restate the crossing conditions using only rank $1$ stalks.\\
-Under this interpretation, the moduli space could be thought of as parametrizing configurations of points on a Projective space subject to certain non-degeneracy conditions and could be thought of as a generalization of Sibuya space that Boalch studied in \cite{sibuya1975global}\cite{boalch2015wild}.\\
-At the end of the Chapter2, we will explicitly compute examples of the generalized Sibuya space.
+At the end of the Chapter, we will explicitly compute examples of the generalized Sibuya space.
 \subsubsection*{Chapter 3}
-
-%Paper 2 \cite{Huber_2}\\
-We study a special type of coordinate system of the moduli space $\mathcal{M}_{\omega \coprod \omega_\emptyset} := \mathcal{M}_1(S^1_x\times \R_z,\Lambda_\omega \coprod \Lambda_{\omega_\emptyset},\{\sigma_{z<<0},\sigma_{z>>0}\};\C)$ called cluster coordinates.\\
-Let's review how cluster coordinates are constructed. Suppose we have a n alternating Legendrian $\Lambda_{alt}$ that are Legendrian isotopic to $\Lambda_{\omega}\coprod \Lambda_{\omega_\emptyset}$ via a Legendrian isotopy $\Lambda_{\bullet}$ whose front projection does not touch $\{\sigma_{z<<0},\sigma_{z>>0}\}$, then , by GKS thoerem, induces an isomorphism between moduli spaces
-\[
-\mathcal{M}_1(S^1_x\times \R_z,\Lambda_{alt},\{\sigma_{z<<0},\sigma_{z>>0}\};\C) \overset{~}{\rightarrow}\mathcal{M}_1(S^1_x\times \R_z,\Lambda_\omega \coprod \Lambda_{\omega_\emptyset},\{\sigma_{z<<0},\sigma_{z>>0}\};\C)
-\]
-Furthermore, once we have alternating Legendrian, we can construct its conjugate surface $L$ which deformation retracts to the bipartite graph $\Gamma_{\Lambda_{alt}}$ of alternating coloring on $\Lambda_{alt}$. Therefore, there is a sequence of isomorphisms
-\[
-H^1(L,\C^*) \cong H^1(\Gamma_{\Lambda_{alt}},\C^*) \cong (\C^*)^{b_1(\Gamma_{\Lambda_{alt}})}
-\]
-where $b_1(\Gamma_{\Lambda_{alt}})$ is the $1^{st}$ Betti number of $\Gamma_{\Lambda_{alt}}$.\\
-Also, local systems on $L$ corresponds to alternating sheaves in $M_1(S^1_x\times \R_z, \Lambda_{alt},\{\sigma_{z<<0},\sigma_{z>>0}\};\C)$ i.e. we have an inclusion
-\[
-H^1(L,\C^*)\hookrightarrow M_1(S^1_x\times \R_z, \Lambda_{alt},\{\sigma_{z<<0},\sigma_{z>>0}\};\C)
-\]
-In conclusion, we have an inclusion
-\[
-(\C^*)^{b_1(\Gamma_{\Lambda_{alt}})}\hookrightarrow M_1(S^1_x\times \R_z, \Lambda_{\omega}\coprod \Lambda_{\omega_{\emptyset}},\{\sigma_{z<<0},\sigma_{z>>0}\};\C)
-\]
-which is called a cluster coordinate of the moduli space.\\
-In Chapter3,
 \begin{enumerate}[label = (\roman*)]
-\item we will systematically construct a natural alternating Legendrian(equivalently, alternating strand diagram) that are Legendrian isotopic to the separated Legendrian $\Lambda_\omega \coprod \Lambda_{\omega_\emptyset}$.
+\item we will systematically construct a natural alternating Legendrian(equivalently, alternating strand diagram) that are Legendrian isotopic to the separated Legendrian $\Lambda_\omega \coprod \Lambda_{\omega_\emptyset} \subset T^\infty(S^1_x \times \R_z)$.
 
 \item we will construct a Legendrian isotopy between the alternating Legendrians and the separated Legendrians.
 
 \item we will explicitly describe the sheaf cobordism induced by the above isotopy.
 \end{enumerate}
 %\section*{Conventions and notation}\label{sec_conventions}
-
-Conventions and notation
