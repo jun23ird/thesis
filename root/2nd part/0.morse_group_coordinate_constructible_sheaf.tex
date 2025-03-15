@@ -11,9 +11,9 @@ In this section, we compute the local Morse groups of a cochain complex of sheav
 %%
 %definition of sgn function
 \begin{definition}
-We define $sgn : \R \rightarrow \{-1,0,1\}$ such that
+We define $\operatorname{sgn} : \R \rightarrow \{-1,0,1\}$ such that
 \[
-sgn(x)=
+\operatorname{sgn}(x)=
 \begin{cases}
     1 & \text{if } x>0\\
     0 & \text{if } x=0\\
@@ -72,7 +72,7 @@ We denote the $i^{th}$ standard basis of $\R^n$ to be $e^n_i$.
 \begin{definition}
 Let
 \[
-s^n(sgn_1,\cdots,sgn_n):= \{(x_1,\cdots,x_n)\in \R^n ~|~ \text{for }k=1,\cdots,n, sgn(x_k)=sgn_k\}
+s^n(sgn_1,\cdots,sgn_n):= \{(x_1,\cdots,x_n)\in \R^n ~|~ \text{for }k=1,\cdots,n, \operatorname{sgn}(x_k)=sgn_k\}
 \]
 To simplify the notation, we use $+$ instead of $+1$ and $-$ instead of $-1$. For example, $s^n(+,-,0):= s^n(1,-1,0)$.
 \end{definition}
@@ -92,7 +92,7 @@ To simplify the notation, we use $+$ instead of $+1$ and $-$ instead of $-1$. Fo
 \{s^n(sgn_1,\cdots, sgn_n) ~|~ sgn_k \in \{-,0,+\}\text{ for }k=1,\cdots,n\}
 \]
 
-\item There is a nautral poset structure of $\mathcal{S}^n$ such that $s^n(sgn_1,\cdots, sgn_n)\leq s^n(sgn'_1,\cdots, sgn'_n)$ if and only if $s^n(sgn'_1,\cdots, sgn'_n) \subset star(s^n(sgn_1,\cdots, sgn_n))$. This is equivalent to saying that $|sgn_i| \leq |sgn'_i|$ for all $i\in [n]$.
+\item There is a nautral poset structure of $\mathcal{S}^n$ such that $s^n(sgn_1,\cdots, sgn_n)\leq s^n(sgn'_1,\cdots, sgn'_n)$ if and only if $s^n(sgn'_1,\cdots, sgn'_n) \subset \operatorname{star}(s^n(sgn_1,\cdots, sgn_n))$. This is equivalent to saying that $|sgn_i| \leq |sgn'_i|$ for all $i\in [n]$.
 
 \item There is also a natural poset structure on $n$-dimensional strata of $\mathcal{S}^n$, where $s^n(sgn_1,\cdots, sgn_n)\leq s^n(sgn'_1,\cdots, sgn'_n)$ if and only if $sgn_i \leq sgn'_i$ for all $i\in [n]$. Note that this is not the poset structure that is inherited from the poset structure mentioned above.
 
@@ -151,7 +151,7 @@ Note that $\Lambda_{\mathcal{S}^n}^{smooth}$ has $2^{2n}$ components which are l
 \iota^n_{(I,J)}:\R^n_{>0} \hookrightarrow \R^n\times \R^n
 \]
 where $(x_1,\cdots,x_n)^T$ is mapped to 
-\[((\delta_I(1)sgn_J(1)x_1,\cdots,\delta_I(n)sgn_J(n)x_n)^T,((1-\delta_I(1))sgn_J(1)x_1,\cdots,(1-\delta_I(n))sgn_J(n)x_n)^T)
+\[((\delta_I(1)\operatorname{sgn}_J(1)x_1,\cdots,\delta_I(n)\operatorname{sgn}_J(n)x_n)^T,((1-\delta_I(1))\operatorname{sgn}_J(1)x_1,\cdots,(1-\delta_I(n))\operatorname{sgn}_J(n)x_n)^T)
 \]
 where
 \begin{itemize}
@@ -164,8 +164,8 @@ where
 \bigg.
 \]
 
-\item $sgn_J : [n] \rightarrow \{-1,1\}$
-\[sgn_J(k)=\bigg\{
+\item $\operatorname{sgn}_J : [n] \rightarrow \{-1,1\}$
+\[\operatorname{sgn}_J(k)=\bigg\{
 \begin{array}{ll}
     1 & \text{if } k\in J \\
     -1 & \text{if } k\not\in J
@@ -207,7 +207,7 @@ Also, we simplify the notation as follows:
 \begin{itemize}
 \item $s^n_{(I,J)}:= s^n_{x_{(I,J)}}$
 
-\item For $k\not\in I$, $s^n_{(I,J)}(k):= s^n_{(x_{(I,J)} - sgn_J(k)\cdot e^n_k)}$ 
+\item For $k\not\in I$, $s^n_{(I,J)}(k):= s^n_{(x_{(I,J)} - \operatorname{sgn}_J(k)\cdot e^n_k)}$ 
 \end{itemize}
 %%
 %%
@@ -254,7 +254,7 @@ and let $\operatorname{Aff}_i := \operatorname{Lin}_i + e^n_i$ be the affine inc
 \item $I' = \{k\in I \mid k<i\} \cup \{k-1 \mid k>i, k\in I\}$
 \item $J' = \{k\in J \mid k<i\} \cup \{k-1 \mid k>i, k\in J\}$
 \end{itemize}
-and $(x_{(I',J')}, \xi_{(I',J')}) = \iota^{n-1}_{(I',J')}((1,\cdots,1)^T)$, then $x_{(I,J)} \in Im(\operatorname{Aff}_i)$ and $\alpha_i^{-1}(x_{(I,J)})=x_{(I',J')} $ and $\xi_{(I,J)} \circ \operatorname{Aff}_i$. We let the regular neighborhood of $x_{(I,J)}$, $N_{x_{(I,J)}}$, to be $star(s^{n-1}_{(I,J)})$ and the regular neighborhood of $x_{(I',J')}$, $N_{x_{(I',J')}}$, to be $star(s^{n-1}_{(I',J')})$, $c = \xi_{(I,J)}(x_{(I,J)})$, and $c' = \xi_{(I',J')}(x_{(I',J')})$\\
+and $(x_{(I',J')}, \xi_{(I',J')}) = \iota^{n-1}_{(I',J')}((1,\cdots,1)^T)$, then $x_{(I,J)} \in \operatorname{Im}(\operatorname{Aff}_i)$ and $\alpha_i^{-1}(x_{(I,J)})=x_{(I',J')} $ and $\xi_{(I,J)} \circ \operatorname{Aff}_i$. We let the regular neighborhood of $x_{(I,J)}$, $N_{x_{(I,J)}}$, to be $\operatorname{star}(s^{n-1}_{(I,J)})$ and the regular neighborhood of $x_{(I',J')}$, $N_{x_{(I',J')}}$, to be $\operatorname{star}(s^{n-1}_{(I',J')})$, $c = \xi_{(I,J)}(x_{(I,J)})$, and $c' = \xi_{(I',J')}(x_{(I',J')})$\\
 (Claim) $H^*(N_{x_{(I,J)}}, N_{x_{(I,J)}}\cap \xi_{(I,J)}^{-1}((-\infty, c-\epsilon)); \mathscr{F}^\bullet) \cong H^*(N_{x_{(I',J')}}, N_{x_{(I',J')}}\cap \xi_{(I',J')}^{-1}((-\infty, c'-\epsilon)); \operatorname{Aff}_i^*\mathscr{F}^\bullet)$\\
 (proof) Note that when we have a stratified spaces $(M,\mathcal{S}_M)$ and $N$, a subspace of $M$, we have an induced stratification $\mathcal{S}_N$ on $N$. Then we can identify poset $\mathcal{S}_N$ as the subposet of $\mathcal{S}_M$ via $(N\hookrightarrow M)_*$.\\
 Now consider the following cartesian diagram of inclusion maps
@@ -265,7 +265,7 @@ N_{x_{(I',J')}} \arrow[u, hook, "\operatorname{Aff}_i"]& N_{x_{(I',J')}}\cap \xi
 \end{tikzcd}
 \]
 Note that $\operatorname{Aff}_i$ induces a poset isomorphism from the poset $\mathcal{S}_{N_{x_{(I',J')}}}$ to the poset $\mathcal{S}_{N_{x_{(I,J)}}}$ where via this isomorphism the subposet $\mathcal{S}_{N_{x_{(I',J')}}\cap \xi_{(I',J')}^{-1}((-\infty,c'-\epsilon))}$ gets identified with $\mathcal{S}_{N_{x_{(I,J)}}\cap \xi_{(I,J)}^{-1}((-\infty,c-\epsilon))}$. Furthermore, the representation of the poset $\mathcal{S}_{N_{x_{(I',J')}}}$ that gives rise to the sheaf $\operatorname{Aff}_i^* \mathscr{F}^\bullet$ is exactly the representation of the poset $\mathcal{S}_{N_{x_{(I,J)}}}$ that gives rise to the sheaf $\mathscr{F}^\bullet$ under the poset isomorphism $(\operatorname{Aff}_i)_*$ and the relative cohomology is completely determined by the poset, subpost structures and their representations. Therefore, the claim is proved.\\
-Therefore, $G_{(I,J)}(\mathscr{F}^\bullet) \cong H^*(N_{x_{(I',J')}}, N_{x_{(I',J')}}\cap \xi_{(I',J')}^{-1}((-\infty, c'-\epsilon)); \operatorname{Aff}_i^*\mathscr{F}^\bullet)$. By the induction hypothesis if $I'^c \not\subset J'^c$, this is $0$ and if $I'^c \subset J'^c$, this is equal to $Tot(\operatorname{Aff}_i^*(F^\bullet |_{\mathcal{S}_{N_{x_{(I',J')}}}})) = Tot(F^\bullet |_{\mathcal{S}_{N_{x_{(I,J)}}}}) = Tot(F^\bullet |_{Q^n_{s_{(I,J)}}})$. Because $I^c\subset J^c$ if and only if $I'^c\subset J'^c$, we proved the case when $I\neq \phi$.\\
+Therefore, $G_{(I,J)}(\mathscr{F}^\bullet) \cong H^*(N_{x_{(I',J')}}, N_{x_{(I',J')}}\cap \xi_{(I',J')}^{-1}((-\infty, c'-\epsilon)); \operatorname{Aff}_i^*\mathscr{F}^\bullet)$. By the induction hypothesis if $I'^c \not\subset J'^c$, this is $0$ and if $I'^c \subset J'^c$, this is equal to $\operatorname{Tot}(\operatorname{Aff}_i^*(F^\bullet |_{\mathcal{S}_{N_{x_{(I',J')}}}})) = \operatorname{Tot}(F^\bullet |_{\mathcal{S}_{N_{x_{(I,J)}}}}) = \operatorname{Tot}(F^\bullet |_{Q^n_{s_{(I,J)}}})$. Because $I^c\subset J^c$ if and only if $I'^c\subset J'^c$, we proved the case when $I\neq \phi$.\\
 %%
 %%
 %%
@@ -287,14 +287,14 @@ Therefore, $G_{(I,J)}(\mathscr{F}^\bullet) \cong H^*(N_{x_{(I',J')}}, N_{x_{(I',
 \[
 R\Gamma(N_{x_{(I,J)}};\mathscr{F}^\bullet) \rightarrow R\Gamma(N_{x_{(I,J)}} \cap \xi^{-1}((\infty,c-\epsilon));\mathscr{F}^\bullet)
 \]
-First, let's compute $R\Gamma(N_{x_{(I,J)}};\mathscr{F}^\bullet)$. We can use a singleton \v{C}ech cover $\{N_{x_{(I,J)}} = star(s^n_{(I,J)})\}$. Therefore, $R\Gamma(N_{x_{(I,J)}};\mathscr{F}^\bullet) \cong Tot(F^\bullet(N_{x_{(I,J)}}))$.\\
+First, let's compute $R\Gamma(N_{x_{(I,J)}};\mathscr{F}^\bullet)$. We can use a singleton \v{C}ech cover $\{N_{x_{(I,J)}} = \operatorname{star}(s^n_{(I,J)})\}$. Therefore, $R\Gamma(N_{x_{(I,J)}};\mathscr{F}^\bullet) \cong \operatorname{Tot}(F^\bullet(N_{x_{(I,J)}}))$.\\
 Next, let's compute $R\Gamma(N_{x_{(I,J)}} \cap \xi^{-1}((\infty,c-\epsilon]);\mathscr{F}^\bullet)$. We can use the following \v{C}ech cover
 \[
 \mathcal{U}=\{U_k\}_{k\in [n]}
 \]
 where 
 \[
-U_k := star(s^n_{x_{(I,J)}}(k)) = star(s^n(0,\cdots,0,\underset{k^{th}}{\underset{\uparrow}{(-1)^{\delta_J(k)}}},0,\cdots,0))
+U_k := \operatorname{star}(s^n_{x_{(I,J)}}(k)) = \operatorname{star}(s^n(0,\cdots,0,\underset{k^{th}}{\underset{\uparrow}{(-1)^{\delta_J(k)}}},0,\cdots,0))
 \]
 We define
 \[
@@ -304,7 +304,7 @@ Note that
 \begin{itemize}
 \item if the index set in the subscript is empty, then $U= N_{x_{I,J}} = \R^n$
 
-\item $U_{i_0\cdots i_p} = star(s^n(sgn_1,\cdots, sgn_n))$ where
+\item $U_{i_0\cdots i_p} = \operatorname{star}(s^n(sgn_1,\cdots, sgn_n))$ where
 \[
 sgn_k=
 \begin{cases}
@@ -346,11 +346,11 @@ Here we are using the fact that if $1 \not\in \{[i_0,\cdots,i_p\}$
 F^q(U_{i_0\cdots i_p}) = F^q(U_{1i_0\cdots i_p})
 \]
 Note that if one of $i_0,\cdots, i_p$ is $1$, then $(hc)_{i_0\cdots i_p}=0$. Also note that $h^{p,q-1} d^{p,q} = d^{p-1,q} h^{p,q}$.
-Now let's compute $h D_{Tot} + D_{Tot}h$ where $D_{Tot}$ is the total differential. Suppose $c\in C_{ext}^{-1,q}$, then
+Now let's compute $h D_{\operatorname{Tot}} + D_{\operatorname{Tot}}h$ where $D_{\operatorname{Tot}}$ is the total differential. Suppose $c\in C_{ext}^{-1,q}$, then
 \begin{itemize}
-\item $(hD_{Tot}c) = (h(-d+\delta)c) = -(hdc) + (h\delta c)$. Because $hdc$ lands on degree $p=-2$, $(hdc)=0$ and $(hD_{Tot}c)=(h\delta c) = c|_{U_1}=c$. Here, we use the identity map between $F^q(N_{x_{(I,J)}}) = F^q(U_1)$ and think of $c|_{U_1}$ as an element of $F^q(N_{x_{(I,J)}})$ that uniquely extends $c|_{U_1}$, which is $c$ itself.
+\item $(hD_{\operatorname{Tot}}c) = (h(-d+\delta)c) = -(hdc) + (h\delta c)$. Because $hdc$ lands on degree $p=-2$, $(hdc)=0$ and $(hD_{\operatorname{Tot}}c)=(h\delta c) = c|_{U_1}=c$. Here, we use the identity map between $F^q(N_{x_{(I,J)}}) = F^q(U_1)$ and think of $c|_{U_1}$ as an element of $F^q(N_{x_{(I,J)}})$ that uniquely extends $c|_{U_1}$, which is $c$ itself.
 
-\item $(D_{Tot}hc) = D_{Tot}0=0$ because $hc$ lands on degree $p=-2$.
+\item $(D_{\operatorname{Tot}}hc) = D_{\operatorname{Tot}}0=0$ because $hc$ lands on degree $p=-2$.
 \end{itemize}
 %%
 %%
@@ -363,11 +363,11 @@ Now let's compute $h D_{Tot} + D_{Tot}h$ where $D_{Tot}$ is the total differenti
 %%
 Suppose $c\in C_{ext}^{p,q}$ $(p\geq 0)$,
 \begin{itemize}
-\item $hD_{Tot} = h((-1)^p d+\delta) = (-1)^p hd + h\delta$
+\item $hD_{\operatorname{Tot}} = h((-1)^p d+\delta) = (-1)^p hd + h\delta$
 
-\item $D_{Tot}h = ((-1)^{p-1}d + \delta)h = (-1)^{p-1}dh + \delta h$
+\item $D_{\operatorname{Tot}}h = ((-1)^{p-1}d + \delta)h = (-1)^{p-1}dh + \delta h$
 \end{itemize}
-Therefore, $hD_{Tot}+D_{Tot}h = h\delta + \delta h$ and 
+Therefore, $hD_{\operatorname{Tot}}+D_{\operatorname{Tot}}h = h\delta + \delta h$ and 
 \begin{align*}
 (h\delta c + \delta hc)_{i_0 \cdots i_p} &= (h\delta c)_{i_0 \cdots i_p} + (\delta hc)_{i_0 \cdots i_p}\\
 &= (\delta c)_{1i_0 \cdots i_p} + \overset{p}{\underset{j=0}{\sum}}
@@ -377,7 +377,7 @@ Therefore, $hD_{Tot}+D_{Tot}h = h\delta + \delta h$ and
 (-1)^j (hc)_{i_0 \cdots \hat{i}_j \cdots i_p}\\
 &= c_{i_0 \cdots i_p}
 \end{align*}
-Therefore, $h$ is a homotopy between identity cochain map on $\operatorname{Tot}(C_{ext}^{\bullet,\bullet})$ and a zero map. Therefore, we conclude that $\operatorname{Tot}(C_{ext}^{\bullet,\bullet})$ is acyclic.\\
+Therefore, $h$ is a homotopy between identity cochain map on $\operatorname{\operatorname{Tot}}(C_{ext}^{\bullet,\bullet})$ and a zero map. Therefore, we conclude that $\operatorname{Tot}(C_{ext}^{\bullet,\bullet})$ is acyclic.\\
 %%
 %%
 %%
@@ -395,13 +395,13 @@ F^\bullet (N_{x_{(I,J)}})\rightarrow \oplus F^\bullet(U_{i_0}) \rightarrow \oplu
 \]
 which is equal to 
 \begin{align*}
-&F^\bullet (star(s^n(0,\cdots,0)))\rightarrow \oplus F^\bullet(star(s^n(sgn_{i_0} = +,\text{else }0))) \rightarrow \\
-&\oplus F^\bullet(star(s^n(sgn_{i_0}=sgn_{i_1} = +,\text{else }0))) \rightarrow \cdots
+&F^\bullet (\operatorname{star}(s^n(0,\cdots,0)))\rightarrow \oplus F^\bullet(\operatorname{star}(s^n(sgn_{i_0} = +,\text{else }0))) \rightarrow \\
+&\oplus F^\bullet(\operatorname{star}(s^n(sgn_{i_0}=sgn_{i_1} = +,\text{else }0))) \rightarrow \cdots
 \end{align*}
 which is equal to 
 \begin{align*}
-&F^\bullet (star(s^n(-,\cdots,-)))\rightarrow\oplus F^\bullet(star(s^n(sgn_{i_0} = +,\text{else }-))) \rightarrow \\
-&\oplus F^\bullet(star(s^n(sgn_{i_0}=sgn_{i_1} = +,\text{else }-))) \rightarrow \cdots
+&F^\bullet (\operatorname{star}(s^n(-,\cdots,-)))\rightarrow\oplus F^\bullet(\operatorname{star}(s^n(sgn_{i_0} = +,\text{else }-))) \rightarrow \\
+&\oplus F^\bullet(\operatorname{star}(s^n(sgn_{i_0}=sgn_{i_1} = +,\text{else }-))) \rightarrow \cdots
 \end{align*}
 whose total complex is the total complex of $F^\bullet$ restricted to $Q^n$. Because $Q^n = Q^n_{s^n(-,\cdots,-)}$ the proof is complete.
 \end{proof}

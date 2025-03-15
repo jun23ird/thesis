@@ -1,18 +1,4 @@
 \section{Sheaf Cobordism on Generator Regions}
-\begin{definition}
-Smooth transition function consider the function
-\[
-f(x) =
-\begin{cases}
-e^{-\frac{1}{x}}, & x > 0 \\
-0, & x \leq 0
-\end{cases}
-\]
-we define 
-\[
-\tau(x) = \frac{f(x)}{f(x)+f(1-x)}
-\]
-\end{definition}
 Suppose we have a punctured Riemann sphere $M$ and $\Lambda_0^0$, $\Lambda_0^\infty$, $\Lambda_0^{squig}$, a nested regions $U\subset U' \subset M$, and a chart $f : U \rightarrow \R^2$ such that $U'$ maps to $R:=(-1,1)_x \times (-n-1,n+1)_z$ under $f$
 \begin{itemize}
 \item $\Lambda_0^0$ gets mapped to the red strands in the figure below, co-oriented upward.
@@ -37,6 +23,7 @@ Then we define a cobordism starting from the above sheaf, say $cobord_{gen}(n)$ 
     \caption{}
     \label{fig:your-label}
 \end{figure}
+\pagebreak
 \textbf{Generization maps}
 \begin{enumerate}[label = (\arabic*)]
 \item $diag(d_n,\cdots,d_{i+1})$
@@ -51,6 +38,7 @@ where
 \item $e = -a_{i+1}b_i^{-1}c$
 \item $e' = d_{i+1}^{-1}e$
 \end{itemize}
+\pagebreak
 We define $cobord_{gen}(n)$ inductively as follows.
 \begin{enumerate}[label = (\roman*)]
 \item For $n=2$, we define $cobord_{gen}$ starting from the sheaf below
@@ -61,6 +49,7 @@ We define $cobord_{gen}(n)$ inductively as follows.
     \label{fig:your-label}
 \end{figure}
 as follows.
+\pagebreak
 \begin{enumerate}[label = (Step \arabic*)]
 \item we apply $cobord_1$ to the square regions surrounded by purple dotted lines.
 \begin{figure}[H]
@@ -69,6 +58,7 @@ as follows.
     \caption{}
     \label{fig:your-label}
 \end{figure}
+\pagebreak
 we get
 \begin{figure}[H]
     \centering
@@ -76,6 +66,7 @@ we get
     \caption{}
     \label{fig:your-label}
 \end{figure}
+\pagebreak
 \textbf{Generization maps}
 \begin{enumerate}[label = (\arabic*)]
 \item 
@@ -99,7 +90,7 @@ where
 \item $a_1 = a_{1,1}a_{1,2}^{-1}$
 \item $b_1 = b_{1,1}^{-1}b_{1,2}$
 \end{itemize}
-
+\pagebreak
 which is quasi-isomorphic to
 \begin{figure}[H]
     \centering
@@ -113,7 +104,7 @@ which is quasi-isomorphic to
 
 \item $\times b_1^{-1}$
 \end{enumerate}
-
+\pagebreak
 \item apply $cobord_8$ to the region surrounded by a purple dotted line
 \begin{figure}[H]
     \centering
@@ -121,7 +112,7 @@ which is quasi-isomorphic to
     \caption{}
     \label{fig:your-label}
 \end{figure}
-
+\pagebreak
 we get
 \begin{figure}[H]
     \centering
@@ -129,6 +120,7 @@ we get
     \caption{}
     \label{fig:your-label}
 \end{figure}
+\pagebreak
 \textbf{Generization maps}
 \begin{enumerate}[label = (\arabic*)]
 \item $\times a_1$
@@ -150,7 +142,7 @@ $\begin{pmatrix}
 \end{pmatrix}$
 \end{enumerate}
 
-
+\pagebreak
 which is quasi-isomorphic to
 \begin{figure}[H]
     \centering
@@ -158,6 +150,7 @@ which is quasi-isomorphic to
     \caption{}
     \label{fig:your-label}
 \end{figure}
+\pagebreak
 \textbf{Generization maps}
 \begin{enumerate}[label = (\arabic*)]
 \item $\times d_2$
@@ -183,7 +176,7 @@ where
 \item $e' = d_2^{-1}e$
 \end{itemize}
 \end{enumerate}
-
+\pagebreak
 \item For $n>2$,
 \begin{enumerate}[label = (Case \arabic*)]
 \item if the generator $s_i$ is $i\neq 1$,
@@ -196,7 +189,7 @@ where
     \caption{}
     \label{fig:your-label}
 \end{figure}
-
+\pagebreak
 by induction hypothesis, we get
 
 \begin{figure}[H]
@@ -211,7 +204,7 @@ by induction hypothesis, we get
 \item $\iota_0 \circ diag(1,\cdots,1) + e' I_{n-i+1,n-i}$
 \item $diag(d_n,\cdots,d_2) + e I_{n-i+1,n-i}$
 \end{enumerate}
-
+\pagebreak
 \item apply $cobord_2$ to the region surrounded by a purple dotted line.
 
 \begin{figure}[H]
@@ -220,7 +213,7 @@ by induction hypothesis, we get
     \caption{}
     \label{fig:your-label}
 \end{figure}
-
+\pagebreak
 we get
 
 \begin{figure}[H]
@@ -229,6 +222,7 @@ we get
     \caption{}
     \label{fig:your-label}
 \end{figure}
+\pagebreak
 \textbf{Generization maps}
 \begin{enumerate}[label = (\arabic*)]
 \item $diag(d_n,\cdots,d_{i+1})$
@@ -241,12 +235,12 @@ we get
 \end{tikzcd}
 \item $\times d_1$ 
 \end{enumerate}
-
+\pagebreak
 which is quasi-isomorphic to 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord_gen/6.png}
+    \includegraphics[scale = 0.85]{diagrams/cobord_gen/6.png}
     \caption{}
     \label{fig:your-label}
 \end{figure}
@@ -257,7 +251,7 @@ which is quasi-isomorphic to
 \item $diag(d_n,\cdots,d_2) + e I_{n-i+1,n-i}$
 \item $\times d_1$ 
 \end{enumerate}
-
+\pagebreak
 \item apply $cobord_6$ to the square region surrounded by purple dotted lines.
 
 \begin{figure}[H]
@@ -266,7 +260,7 @@ which is quasi-isomorphic to
     \caption{}
     \label{fig:your-label}
 \end{figure}
-
+\pagebreak
 we get the final sheaf
 
 \begin{figure}[H]
@@ -282,7 +276,7 @@ we get the final sheaf
 \item $diag(d_n,\cdots,d_1) + e I_{n-i+1,n-i}$
 \end{enumerate}
 \end{enumerate}
-
+\pagebreak
 \item If the generator $s_i$ is $i=1$,\\
 \begin{enumerate}[label = (Step \arabic*)]
 \item apply $cobord_{gen}(n-1)$ to the square region surrounded by purple dotted lines
@@ -293,7 +287,7 @@ we get the final sheaf
     \caption{}
     \label{fig:your-label}
 \end{figure}
-
+\pagebreak
 we get
 
 \begin{figure}[H]
@@ -308,7 +302,7 @@ we get
 \item $\iota_0 \circ diag(1,\cdots,1) + e' I_{n-1,n-2}$
 \item $diag(d_{n-1},\cdots,d_1) + e I_{n-1,n-2}$
 \end{enumerate}
-
+\pagebreak
 \item apply $cobord_2$ to the region surrounded by a purple dotted line
 
 \begin{figure}[H]
@@ -317,7 +311,7 @@ we get
     \caption{}
     \label{fig:your-label}
 \end{figure}
-
+\pagebreak
 we get
 
 \begin{figure}[H]
@@ -326,6 +320,7 @@ we get
     \caption{}
     \label{fig:your-label}
 \end{figure}
+\pagebreak
 \textbf{Generization maps}
 \begin{enumerate}[label = (\arabic*)]
 \item $diag(d_{n-1},\cdots,d_{2})$
@@ -338,12 +333,12 @@ we get
 \C \arrow[r, "\times d_n"]\arrow[u,"\times d_n"] &\C \arrow[u,"\times b_n"]
 \end{tikzcd}
 \end{enumerate}
-
+\pagebreak
 which is quasi-isomorphic to 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord_gen/13.png}
+    \includegraphics[scale = 0.85]{diagrams/cobord_gen/13.png}
     \caption{}
     \label{fig:your-label}
 \end{figure}
@@ -354,7 +349,7 @@ which is quasi-isomorphic to
 \item $diag(d_{n-1},\cdots,d_1) + e I_{n-1,n-2}$
 \item $\times d_n$
 \end{enumerate}
-
+\pagebreak
 \item apply $cobord_5$ to the square region surrounded by purple dotted lines
 
 \begin{figure}[H]
@@ -363,12 +358,12 @@ which is quasi-isomorphic to
     \caption{}
     \label{fig:your-label}
 \end{figure}
-
+\pagebreak
 we get
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord_gen/15.png}
+    \includegraphics[scale = 0.85]{diagrams/cobord_gen/15.png}
     \caption{}
     \label{fig:your-label}
 \end{figure}
@@ -379,7 +374,7 @@ we get
 \item $diag(d_{n-1},\cdots,d_1) + e I_{n-1,n-2}$
 \item $diag(d_{n},\cdots,d_{3})$
 \end{enumerate}
-
+\pagebreak
 \item apply $cobord_1$ to the regions surrounded by purple dotted lines
 
 \begin{figure}[H]
@@ -388,12 +383,12 @@ we get
     \caption{}
     \label{fig:your-label}
 \end{figure}
-
+\pagebreak
 we get
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord_gen/17.png}
+    \includegraphics[scale = 0.85]{diagrams/cobord_gen/17.png}
     \caption{}
     \label{fig:your-label}
 \end{figure}
@@ -405,7 +400,7 @@ we get
 \item $diag(d_{n},\cdots,d_{2})$
 \end{enumerate}
 
-
+\pagebreak
 \item apply $cobord'_8$ to the region surrounded by purple dotted lines
 
 \begin{figure}[H]
@@ -414,7 +409,7 @@ we get
     \caption{}
     \label{fig:your-label}
 \end{figure}
-
+\pagebreak
 we get the final sheaf
 
 \begin{figure}[H]
@@ -432,3 +427,4 @@ we get the final sheaf
 \end{enumerate}
 \end{enumerate}
 \end{enumerate}
+\pagebreak

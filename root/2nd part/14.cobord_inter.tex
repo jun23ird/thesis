@@ -1,14 +1,4 @@
 \section{Sheaf Cobordism on Inter-generator Regions}
-\begin{definition}
-a bump function about $x=x_0$ of radius $r_0$, with $z$ range from $z_{lo}$ to $z_{hi}$ is a bump function 
-\begin{itemize}
-\item supported on $[x_0 - r_0,x_0 + r_0]$
-\item peaks at $(x_0,z_{hi})$
-\item away from support, has value $z_{lo}$
-\end{itemize}
-We denote the bump function about $x=0$ of radius $1$ by $\Psi(z_{lo},z_{hi})$
-\end{definition}
-
 Suppose we have a punctured Riemann sphere $M$ and $\Lambda_0^0$, $\Lambda_0^\infty$, $\Lambda_0^{squig}$, a nested regions $U\subset U' \subset M$, and a chart $f : U \rightarrow \R^2$ such that $U'$ maps to $R:=(-1,1)_x \times (-n-1,n+1)_z$ under $f$
 \begin{itemize}
 \item $\Lambda_0^0$ gets mapped to $\overset{n}{\underset{k=1}{\cup}}\{(x,z)\in R \mid z=\Psi(-k,n-k+\frac{1}{2})(x)\}$, co-oriented upward.
@@ -25,7 +15,7 @@ and a sheaf defined by the following squiggly legible diagram. All the maps corr
     \caption{}
     \label{fig:your-label}
 \end{figure}
-
+\pagebreak
 which is quasi-isomorphic to
 
 \begin{figure}[H]
@@ -42,23 +32,24 @@ Then we define a cobordism starting from the above sheaf, say $cobord_{inter}(n)
     \caption{}
     \label{fig:your-label}
 \end{figure} 
+\pagebreak
 We define $cobord_{inter}(n)$ inductively as follows.
 \begin{enumerate}[label = (\roman*)]
 \item For $n=1$, we define $cobord_{inter}(1)$ to be the null cobordism from
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord_inter/2.png}
+    \includegraphics[scale = 0.75]{diagrams/cobord_inter/2.png}
     \caption{}
     \label{fig:your-label}
 \end{figure}
 to
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord_inter/3.png}
+    \includegraphics[scale = 0.75]{diagrams/cobord_inter/3.png}
     \caption{}
     \label{fig:your-label}
 \end{figure}
-
+\pagebreak
 \item For $n>1$,
 \begin{enumerate}[label = (Step \arabic*)]
 \item we first apply $cobord_{inter}(n-1)$ to the square region surrounded by purple dotted lines.
@@ -69,7 +60,7 @@ to
     \caption{}
     \label{fig:your-label}
 \end{figure}
-
+\pagebreak
 by induction hypothesis, we get
 
 \begin{figure}[H]
@@ -78,7 +69,7 @@ by induction hypothesis, we get
     \caption{}
     \label{fig:your-label}
 \end{figure}
-
+\pagebreak
 \item apply $cobord_7$ to the square region surrounded by purple dotted lines.
 
 \begin{figure}[H]
@@ -87,7 +78,7 @@ by induction hypothesis, we get
     \caption{}
     \label{fig:your-label}
 \end{figure}
-
+\pagebreak
 we get
 
 \begin{figure}[H]
@@ -96,15 +87,8 @@ we get
     \caption{}
     \label{fig:your-label}
 \end{figure}
-
+\pagebreak
 which is isomorphic to the final sheaf
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord_inter/7.png}
-    \caption{}
-    \label{fig:your-label}
-\end{figure}
-which is isomorphic to
 \begin{figure}[H]
     \centering
     \includegraphics[scale = 0.95]{diagrams/cobord_inter/8.png}
@@ -113,3 +97,4 @@ which is isomorphic to
 \end{figure}
 \end{enumerate}
 \end{enumerate}
+\pagebreak

@@ -2,7 +2,7 @@
 In this section, we define $cobord'_2$, a compactly supported sheaf cobordism between the following squiggly legible diagrams on the support of the cobordism from
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/29.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/29.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
@@ -88,7 +88,7 @@ In this section, we define $cobord'_2$, a compactly supported sheaf cobordism be
 to
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/47.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/47.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
@@ -161,7 +161,7 @@ For $t_0\in\{0,1\}$ and $symbol\in\{0,\infty, squig \}$
 
 \item we denote the pair $(\Phi_{t_0}^{symbol},\Xi_{t_0}^{symbol})$ as $\Lambda_{t_0}^{symbol}$. When $symbol \in \{0,\infty\}$, this could be thought as a front projection of a Legendrian living inside the cocircle bundle of $M$, so we will use $\Lambda_{t_0}^{symbol}$ to denote both
 
-\item we denote the triple $(\Lambda_{t_0}^{0},\Lambda_{t_0}^{\infty},\Lambda_{t_0}^{squig})$ as $\Lambda_{t_0}$ and call it the squiggly diagram at $t_0$. Later in the section, $\Lambda_0$ will be used to denote the squiggly diagram at the beginning of the isotopy underlying $cobord_2$ and $\Lambda_1$ will be used to denote the squiggly diagram at the end of the isotopy underlying $cobord_2$. 
+\item we denote the triple $(\Lambda_{t_0}^{0},\Lambda_{t_0}^{\infty},\Lambda_{t_0}^{squig})$ as $\Lambda_{t_0}$ and call it the squiggly diagram at $t_0$. Later in the section, $\Lambda_0$ will be used to denote the squiggly diagram at the beginning of the isotopy underlying $cobord'_2$ and $\Lambda_1$ will be used to denote the squiggly diagram at the end of the isotopy underlying $cobord'_2$. 
 \end{enumerate}
 \end{definition}
 
@@ -175,13 +175,13 @@ For $symbol\in\{0,\infty, squig \}$
 &\Phi_\bullet^\infty : (S^1)^m \times [0,1]_t \rightarrow M \times [0,1]_t \\
 &\Phi_\bullet^{squig} : \coprod_{1\leq i \leq k} ([0,1] \times [a_i,b_i]_t) \rightarrow M \times [0,1]_t
 \end{align*}
-where the maps are identity maps on the time coordinates. I added auxiliary subscript '$t$' to distinguish the time coordinates from the space coordinates.
+where the maps are identity maps on the time coordinates. I added auxiliary subscript `$t$' to distinguish the time coordinates from the space coordinates.
 
 \item we denote $\Xi_\bullet^{symbol}$ a co-orientation of $\Phi_\bullet^{symbol}$.
 
-\item we denote the pair $(\Phi_\bullet^{symbol},\Xi_\bullet^{symbol})$ as $\Lambda_\bullet^{symbol}$. Later in the section, $\Lambda_\bullet^{symbol}$ will be used to denote the an isotopy from $\Lambda_0^{symbol}$ to $\Lambda_1^{symbol}$ underlying $cobord_2$.
+\item we denote the pair $(\Phi_\bullet^{symbol},\Xi_\bullet^{symbol})$ as $\Lambda_\bullet^{symbol}$. Later in the section, $\Lambda_\bullet^{symbol}$ will be used to denote the an isotopy from $\Lambda_0^{symbol}$ to $\Lambda_1^{symbol}$ underlying $cobord'_2$.
 
-\item we denote the triple $(\Lambda_\bullet^{0},\Lambda_\bullet^{\infty},\Lambda_\bullet^{squig})$ as $\Lambda_\bullet$ and call it a squiggly isotopy from $\Lambda_0$ to $\Lambda_1$. Later in the section, $\Lambda_\bullet$ will be used to denote the isotopy between squiggly diagrams starting from $\Lambda_0$ ending at $\Lambda_1$ underlying $cobord_2$.
+\item we denote the triple $(\Lambda_\bullet^{0},\Lambda_\bullet^{\infty},\Lambda_\bullet^{squig})$ as $\Lambda_\bullet$ and call it a squiggly isotopy from $\Lambda_0$ to $\Lambda_1$. Later in the section, $\Lambda_\bullet$ will be used to denote the isotopy between squiggly diagrams starting from $\Lambda_0$ ending at $\Lambda_1$ underlying $cobord'_2$.
 \end{enumerate}
 \end{definition}
 
@@ -328,8 +328,8 @@ and with abuse of expression say that sheaves on $D_{r=r_0}\times \{t_0\}$ as sh
 Now let's list the strata of $\mathcal{S}_0$, $\mathcal{S}_1$, and $\mathcal{S}_\bullet$ using the following notations:
 %definition of sgn function
 \begin{definition}
-$sgn : \R \rightarrow \{-,0,+ \}$ is defined as 
-\[sgn(x)=\left\{
+$\operatorname{sgn} : \R \rightarrow \{-,0,+ \}$ is defined as 
+\[\operatorname{sgn}(x)=\left\{
 \begin{array}{ll}
     + & \text{if } x > 0 \\
     0 & \text{if } x = 0 \\
@@ -346,9 +346,9 @@ For $i = 1,2,3,4$ , $t_0 = 0,1$, and $sgn_i \in \{-,0,+\}$,
 \item we define
 \begin{align*}
 s_{t_0}(sgn_1,sgn_2,sgn_3,sgn_4):=~ &\{(x,z) \in D_{r=2}\cong D_{r=2}\times \{t_0\} ~| \\
-&sgn(z-\Psi_{t_0}(x))=sgn_1,~ sgn(-z)=sgn_2,\\ 
-&sgn(z-\frac{1}{2})=sgn_3,\\
-&sgn(-x)=sgn_4 \}
+&\operatorname{sgn}(z-\Psi_{t_0}(x))=sgn_1,~ \operatorname{sgn}(-z)=sgn_2,\\ 
+&\operatorname{sgn}(z-\frac{1}{2})=sgn_3,\\
+&\operatorname{sgn}(-x)=sgn_4 \}
 \end{align*}
 
 \item we use $*$ as a wild card sign i.e. 
@@ -370,9 +370,9 @@ For $i = 0,1,2,3,4$ and $sgn_i \in \{-,0,+\}$,
 \item we define
 \begin{align*}
 s_{\bullet}(sgn_1,sgn_2,sgn_3,sgn_4):=~ &\{(x,z,t) \in D_{r=2}\times [0,1] ~| \\
-&sgn(z-\Psi_{t}(x))=sgn_1,~ sgn(-z)=sgn_2,\\ 
-&sgn(z-\frac{1}{2})=sgn_3,\\
-&sgn(-x)=sgn_4 \}
+&\operatorname{sgn}(z-\Psi_{t}(x))=sgn_1,~ \operatorname{sgn}(-z)=sgn_2,\\ 
+&\operatorname{sgn}(z-\frac{1}{2})=sgn_3,\\
+&\operatorname{sgn}(-x)=sgn_4 \}
 \end{align*}
 
 \item we use $*$ as a wild card sign i.e. 
@@ -395,7 +395,7 @@ Now I will describe $\mathcal{S}_0$, $\mathcal{S}_1$, and $\mathcal{S}_\bullet$ 
 \begin{itemize}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/1.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/1.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
@@ -404,7 +404,7 @@ $s_0(-,-,*,-)$,$s_0(-,-,*,+)$, $s_0(+,-,-,-)$, $s_0(+,-,-,+)$, $s_0(+,-,+,-)$,$s
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/2.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/2.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
@@ -413,7 +413,7 @@ $s_0(0,+,*,-)$, $s_0(0,-,-,-)$, $s_0(0,-,+,-)$, $s_0(0,-,+,+)$, $s_0(0,-,-,+)$, 
 $s_0(-,-,*,0)$, $s_0(-,+,-,0)$
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/3.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/3.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
@@ -425,7 +425,7 @@ $s_0(0,0,-,-)$, $s_0(0,-,0,-)$, $s_0(0,-,0,+)$, $s_0(0,0,-,+)$, $s_0(0,-,+,-)$, 
 \begin{itemize}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/4.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/4.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
@@ -434,7 +434,7 @@ $s_1(-,+,*,-)$, $s_1(-,+,*,+)$, $s_1(+,-,-,-)$, $s_1(+,-,-,+)$, $s_1(+,-,+,-)$, 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/5.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/5.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
@@ -443,7 +443,7 @@ $s_1(0,+,*,-)$, $s_1(0,+,*,+)$, $s_1(+,0,*,-)$, $s_1(+,0,*,+)$, $s_1(+,*,0,-)$, 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/6.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/6.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
@@ -455,31 +455,31 @@ $s_1(+,-,0,0)$, $s_1(-,0,-,0)$, $s_1(0,+,-,0)$
 \begin{itemize}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/7.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/7.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/8.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/8.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/9.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/9.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/10.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/10.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/11.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/11.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
@@ -488,31 +488,31 @@ $s_\bullet(-,+,*,-)$, $s_\bullet(-,+,*,+)$, $s_\bullet(-,-,*,-)$, $s_\bullet(-,-
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/12.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/12.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/13.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/13.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/14.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/14.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/15.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/15.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/16.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/16.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
@@ -521,31 +521,31 @@ $s_\bullet(0,+,*,-)$, $s_\bullet(0,-,-,-)$, $s_\bullet(0,-,+)$, $s_\bullet(0,-,+
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/17.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/17.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/18.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/18.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/19.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/19.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/20.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/20.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/21.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/21.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
@@ -554,31 +554,31 @@ $s_\bullet(0,0,-,-)$, $s_\bullet(0,-,0,-)$, $s_\bullet(0,-,0,+)$, $s_\bullet(0,0
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/22.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/22.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/23.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/23.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/24.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/24.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/25.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/25.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/26.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/26.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
@@ -592,7 +592,7 @@ $s_\bullet(0,-,0,0)$, $s_\bullet(0,0,-,0)$
 \begin{definition}
 Suppose we have a manifold $R$ with stratification $\mathcal{S}$ such that
 \begin{itemize}
-\item for each codimension $1$ stratum $s\in \mathcal{S}$, there are exactly two regions(= codimension $0$ strata) contained in $star(s)$.
+\item for each codimension $1$ stratum $s\in \mathcal{S}$, there are exactly two regions(= codimension $0$ strata) contained in $\operatorname{star}(s)$.
 
 \item each codimension $1$ stratum is equipped with a co-orientation.
 \end{itemize}
@@ -602,7 +602,7 @@ then we define the quiver associated to $\mathcal{S}$, say $Q_{\mathcal{S}}$, to
 
 \item whose arrows corresponds to codimension $1$ strata of $\mathcal{S}$.
 
-\item the source of an arrow corresponding to $s\in \mathcal{S}$ is  vertex corresponding to the region where the hairs of $s$ are pointing at and the target is the other region contained in the $star(s)$.
+\item the source of an arrow corresponding to $s\in \mathcal{S}$ is  vertex corresponding to the region where the hairs of $s$ are pointing at and the target is the other region contained in the $\operatorname{star}(s)$.
 \end{itemize}
 \end{definition}
 
@@ -610,7 +610,7 @@ then we define the quiver associated to $\mathcal{S}$, say $Q_{\mathcal{S}}$, to
 \begin{definition}
 Suppose we have a manifold $R$ with stratification $\mathcal{S}$ such that
 \begin{itemize}
-\item for each codimension $1$ stratum $s\in \mathcal{S}$, there are exactly two regions(= codimension $0$ strata) contained in $star(s)$.
+\item for each codimension $1$ stratum $s\in \mathcal{S}$, there are exactly two regions(= codimension $0$ strata) contained in $\operatorname{star}(s)$.
 
 \item each codimension $1$ stratum is equipped with a co-orientation.
 \end{itemize}
@@ -621,7 +621,7 @@ then for each $s\in \mathcal{S}$, we define the subquiver of $Q_{\mathcal{S}}$ a
 \begin{definition}
 Suppose we have a manifold $R$ with stratification $\mathcal{S}$ such that
 \begin{itemize}
-\item for each codimension $1$ stratum $s\in \mathcal{S}$, there are exactly two regions(= codimension $0$ strata) contained in $star(s)$.
+\item for each codimension $1$ stratum $s\in \mathcal{S}$, there are exactly two regions(= codimension $0$ strata) contained in $\operatorname{star}(s)$.
 
 \item each codimension $1$ stratum is equipped with a co-orientation.
 \end{itemize}
@@ -632,7 +632,7 @@ then $\mathcal{S}$ is a legible stratification if for all $s\in\mathcal{S}$, $Q_
 \begin{definition}
 Suppose we have a manifold $R$ with stratification $\mathcal{S}$ such that
 \begin{itemize}
-\item for each codimension $1$ stratum $s\in \mathcal{S}$, there are exactly two regions(= codimension $0$ strata) contained in $star(s)$.
+\item for each codimension $1$ stratum $s\in \mathcal{S}$, there are exactly two regions(= codimension $0$ strata) contained in $\operatorname{star}(s)$.
 
 \item each codimension $1$ stratum is equipped with a co-orientation.
 \end{itemize}
@@ -648,11 +648,11 @@ then we say the quiver representation $F_{\mathcal{S}}$ of $Q_{\mathcal{S}}$ is 
 \begin{definition}
 Suppose we have a manifold $R$ with stratification $\mathcal{S}$ such that
 \begin{itemize}
-\item for each codimension $1$ stratum $s\in \mathcal{S}$, there are exactly two regions(= codimension $0$ strata) contained in $star(s)$.
+\item for each codimension $1$ stratum $s\in \mathcal{S}$, there are exactly two regions(= codimension $0$ strata) contained in $\operatorname{star}(s)$.
 
 \item each codimension $1$ stratum is equipped with a co-orientation.
 \end{itemize}
-Supoose $\mathcal{S}$ is legible, then we define $\rho:\mathcal{S}\rightarrow \{s\in \mathcal{S} ~|~ codim(s)=0 \}$ as
+Supoose $\mathcal{S}$ is legible, then we define $\rho:\mathcal{S}\rightarrow \{s\in \mathcal{S} ~|~ \operatorname{codim}(s)=0 \}$ as
 \[
 \rho(s):=\text{the codimension $0$ stratum corresponding to the initial vertex of $Q_{\mathcal{S},s}$}
 \]
@@ -662,7 +662,7 @@ Supoose $\mathcal{S}$ is legible, then we define $\rho:\mathcal{S}\rightarrow \{
 \begin{definition}
 Suppose we have a manifold $R$ with stratification $\mathcal{S}$ such that
 \begin{itemize}
-\item for each codimension $1$ stratum $s\in \mathcal{S}$, there are exactly two regions(= codimension $0$ strata) contained in $star(s)$.
+\item for each codimension $1$ stratum $s\in \mathcal{S}$, there are exactly two regions(= codimension $0$ strata) contained in $\operatorname{star}(s)$.
 
 \item each codimension $1$ stratum is equipped with a co-orientation.
 \end{itemize}
@@ -670,37 +670,12 @@ Suppose the quiver representation $F_\mathcal{S}$ of $Q_\mathcal{S}$ is legible,
 \begin{itemize}
 \item for $s\in \mathcal{S}$, $\overline{F_\mathcal{S}} := F_\mathcal{S}(\rho(s))$.
 
-\item for $s_1,s_2 \in \mathcal{S}$ where $s_2 \subset start(s_1)$, then $\overline{F_\mathcal{S}}(s_1 \rightarrow s_2)$ is defined as follows: choose a path from the vertex corresponding to $\rho(s_1)$ to $\rho(s_2)$ in $Q_\mathcal{S}$, say $(a_1,\cdots,a_k)$, then 
+\item for $s_1,s_2 \in \mathcal{S}$ where $s_2 \subset \operatorname{star}(s_1)$, then $\overline{F_\mathcal{S}}(s_1 \rightarrow s_2)$ is defined as follows: choose a path from the vertex corresponding to $\rho(s_1)$ to $\rho(s_2)$ in $Q_\mathcal{S}$, say $(a_1,\cdots,a_k)$, then 
 \[
 \overline{F_\mathcal{S}}(s_1 \rightarrow s_2) := F_\mathcal{S}(a_k)\circ\cdots F_\mathcal{S}(a_1)
 \] 
 This is well-defined because $F_\mathcal{S}$ is legible.
 \end{itemize}
-\end{definition}
-
-% definition of a co-chain supported in degree 0 and 1 and maps between them
-\begin{definition} 
-Let $(C^\bullet,\delta^\bullet)$ and $(C'^\bullet,\delta'^\bullet)$ be the cochain complexes $(C^\bullet,\delta^\bullet)$ supported on degree $0$ and $1$ and $\phi^\bullet$ a morphism between $(C^\bullet,\delta^\bullet)$ and $(C'^\bullet,\delta'^\bullet)$, then
-\begin{enumerate}
-\item we denote $(C^\bullet,\delta^\bullet)$ as either 
-\begin{itemize}
-\item $C^0 \xrightarrow{\delta^1} C^1$ \\
-or  
-\item \begin{tikzcd}
-C^1 \\
-C^0 \arrow[u, "\delta^1"]
-\end{tikzcd}
-\end{itemize}
-
-\item we denote $\phi^\bullet$ as 
-\begin{itemize}
-\item \begin{tikzcd}
-C^1 \arrow[r, "\phi^1"]     & C'^1  \\
-C^0 \arrow[r, "\phi^0"]\arrow[u, "\delta^1"] & C'^0 \arrow[u,"\delta'^1"]
-\end{tikzcd}
-\end{itemize}
-We omit coboundary maps or cochain maps if they are either zero map or identity map and could be inferred from the context.
-\end{enumerate}
 \end{definition}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -739,13 +714,13 @@ F_0(sgn_1,sgn_2,sgn_3,sgn_4):=F_0(s_0(sgn_1,sgn_2,sgn_3,sgn_4))
 \textbf{Stalks:}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/27.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/27.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/28.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/28.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
@@ -765,7 +740,7 @@ F_0(sgn_1,sgn_2,sgn_3,sgn_4):=F_0(s_0(sgn_1,sgn_2,sgn_3,sgn_4))
 \textbf{Generization maps:}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/29.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/29.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
@@ -874,61 +849,61 @@ F_\bullet(sgn_1,sgn_2,sgn_3,sgn_4):=F_\bullet(s_\bullet(sgn_1,sgn_2,sgn_3,sgn_4)
 \textbf{Stalks:}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/30.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/30.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/31.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/31.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/32.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/32.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/33.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/33.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/34.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/34.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/35.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/35.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/36.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/36.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/37.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/37.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/38.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/38.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/39.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/39.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
@@ -948,31 +923,31 @@ F_\bullet(sgn_1,sgn_2,sgn_3,sgn_4):=F_\bullet(s_\bullet(sgn_1,sgn_2,sgn_3,sgn_4)
 \textbf{Generization maps:}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/40.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/40.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/41.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/41.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/42.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/42.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/43.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/43.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/44.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/44.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
@@ -1094,9 +1069,9 @@ $\mathscr{F}_\bullet$ is a Legendrian cobordism i.e. $\mathscr{F}_\bullet \in Sh
 To prove the claim, I will show that the microlocal stalks of $\mathscr{F}_\bullet$ vanishes at every points on a contangent bundle of $M\times [0,1]$.\\
 Since $\mathscr{F}^\bullet$ is constant along the time coordinate on $U'^c \times [0,1]$, it is enough to check for the points of $U\times [0,1] \cong D_{r=2}\times [0,1]$. Now consider the following open cover of $D_{r=2}\times [0,1]$
 \[
-\{star(s_\bullet(0,-,0,0)),star(s_\bullet(0,0,-,0))\}
+\{\operatorname{star}(s_\bullet(0,-,0,0)),\operatorname{star}(s_\bullet(0,0,-,0))\}
 \] 
-(1) First, let's show that the microlocal stalks of $\mathscr{F}^\bullet|_{star(s_\bullet(0,-,0,0))}$ vanishes. Note that there is a diffeomorphism beteween $star(s_\bullet(0,-,0,0))$ and $\R^3$ that preserves there stratification i.e.
+(1) First, let's show that the microlocal stalks of $\mathscr{F}^\bullet|_{\operatorname{star}(s_\bullet(0,-,0,0))}$ vanishes. Note that there is a diffeomorphism beteween $\operatorname{star}(s_\bullet(0,-,0,0))$ and $\R^3$ that preserves there stratification i.e.
 \[
 s^3(sgn_1,sgn_2,sgn_3) \mapsto s_\bullet(sgn_1,-,sgn_2,sgn_3)
 \]
@@ -1284,7 +1259,7 @@ For \Rn{1}-\Rn{6}, horizontal cochain map in each degree are quasi-isomorphism. 
 For \Rn{7}, $\begin{tikzcd} \C \arrow[r,"\times 1"] & \C \\ 0 \arrow[u]\arrow[r] & 0\arrow[u] \end{tikzcd}$, $\begin{tikzcd} \C \arrow[r,"\times 1"] & \C \\ 0 \arrow[u]\arrow[r] & 0\arrow[u] \end{tikzcd}$, $\begin{tikzcd} \C \arrow[r,"\times 1"] & \C \\ \C \arrow[u, "\times b"]\arrow[r, "\times bc^{-1}"] & \C\arrow[u, "\times c"] \end{tikzcd}$, $\begin{tikzcd} 0 \arrow[r,] & 0 \\ 0 \arrow[u]\arrow[r] & 0\arrow[u] \end{tikzcd}$ are isomorphisms. Therefore, we can think of the cube diagram as isomorphism of two double complexes. Therefore, the total complex is acyclic.
 \end{enumerate}
 
-(2) Next, let's show that the microlocal stalks of $\mathscr{F}^\bullet|_{star(s_\bullet(0,0,-,0))}$ vanishes. Note that there is a diffeomorphism beteween $star(s_\bullet(0,0,-,0))$ and $\R^3$ that preserves there stratification i.e.
+(2) Next, let's show that the microlocal stalks of $\mathscr{F}^\bullet|_{\operatorname{star}(s_\bullet(0,0,-,0))}$ vanishes. Note that there is a diffeomorphism beteween $\operatorname{star}(s_\bullet(0,0,-,0))$ and $\R^3$ that preserves there stratification i.e.
 \[
 s^3(sgn_1,sgn_2,sgn_3) \mapsto s_\bullet(sgn_1,sgn_2,-,sgn_3)
 \]
@@ -1500,13 +1475,13 @@ F_1(sgn_1,sgn_2,sgn_3,sgn_4):= F_1(s_1(sgn_1,sgn_2,sgn_3,sgn_4))
 \textbf{Stalks:}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/45.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/45.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/46.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/46.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
@@ -1523,7 +1498,7 @@ F_1(sgn_1,sgn_2,sgn_3,sgn_4):= F_1(s_1(sgn_1,sgn_2,sgn_3,sgn_4))
 \textbf{Generization maps:}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.95]{diagrams/cobord'2/47.png} 
+    \includegraphics[scale = 0.45]{diagrams/cobord'2/47.png} 
     \caption{}
     \label{fig:your-label}
 \end{figure}
@@ -1593,3 +1568,4 @@ where
 \]
 \end{itemize}
 \end{definition}
+\pagebreak
