@@ -146,17 +146,13 @@ we get
 \C \arrow[u,"(b~a)"]\arrow[r, "(bc^{-1} ~ 0)"] & \C\arrow[u]
 \end{tikzcd}
 \end{enumerate}
-After identifying 
-\begin{itemize}
-\item $\C$ with $\C^2\xrightarrow{(b~a)} \C$ via
+After identifying $\C\xrightarrow{\times a}\C$, $\C\xrightarrow{\times b}\C$, $\C\xrightarrow{\times c}\C$ with $0$ and then identifying $\C$ with $\C^2\xrightarrow{(b~a)} \C$ via
 \begin{tikzcd}
-\C \arrow[r] & 0\\
-\C \arrow[u,"(b~a)"]\arrow[r, "(bc^{-1} ~ 0)"] & \C\arrow[u]
+0 \arrow[r] & \C\\
+\C \arrow[u]\arrow[r, "{\tiny{(1~ -a^{-1}b)^T}}"] & \C^2\arrow[u,"(b~a)"]
 \end{tikzcd}
-
-\item $\C\xrightarrow{\times a}\C$, $\C\xrightarrow{\times b}\C$, $\C\xrightarrow{\times c}\C$ with $0$
-\end{itemize}
 \pagebreak
+
 the above sheaf is quasi-isomorphic to
 \begin{figure}[H]
     \centering
