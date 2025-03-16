@@ -555,29 +555,43 @@ then
 
 \item $D_{r=r_0}$ denotes the standard disk in $\mathbb{R}^2$ of radius $r_0$ centered at the origin.
 
-\item Let $(C^\bullet,\delta^\bullet)$ and $(C'^\bullet,\delta'^\bullet)$ be the cochain complexes $(C^\bullet,\delta^\bullet)$ supported on degree $0$ and $1$ and $\phi^\bullet$ a morphism between $(C^\bullet,\delta^\bullet)$ and $(C'^\bullet,\delta'^\bullet)$, then
+\item Let $(C^\bullet,\delta^\bullet)$ and $(C'^\bullet,\delta'^\bullet)$ be cochain complexes supported in degrees $0$ and $1$, and let $\phi^\bullet$ be a morphism between $(C^\bullet,\delta^\bullet)$ and $(C'^\bullet,\delta'^\bullet)$. Then:
+\begin{itemize}[label = $\circ$]
+\item We denote $(C^\bullet,\delta^\bullet)$ as either:
+\begin{itemize}
+\item $C^0 \xrightarrow{\delta^1} C^1$
+    
+    or
+    
+\item $\begin{array}{c}
+      C^1 \\
+      \uparrow^{\delta^1} \\
+      C^0
+      \end{array}$
+\end{itemize}
+\item We denote $\phi^\bullet$ as either:
+\begin{itemize}
+\item ($\phi^0$, $\phi^1$)
+    
+    or
+    
+\item $\begin{array}{ccc}
+      C^1 & \xrightarrow{\phi^1} & C'^1 \\
+      \uparrow^{\delta^1} & & \uparrow^{\delta'^1} \\
+      C^0 & \xrightarrow{\phi^0} & C'^0
+      \end{array}$
+\end{itemize}
+\item We omit coboundary maps ($\delta^1$) or cochain maps ($\phi^i$ for $i=0,1$) when either the source or the target is $0$, in which case the map is obviously a zero map.
+    
+\item When the source and target vector spaces of coboundary maps ($\delta^1$) or cochain maps ($\phi^i$ for $i=0,1$) are identical and the map between them is omitted, it is understood to be an identity map.
+
+\end{itemize}
+\item When drawing a squiggly legible diagram, we follow these conventions:
 \begin{itemize}[label=$\circ$]
-\item we denote $(C^\bullet,\delta^\bullet)$ as either 
-\begin{itemize}
-\item $C^0 \xrightarrow{\delta^1} C^1$ \\
-or  
-\item \begin{tikzcd}
-C^1 \\
-C^0 \arrow[u, "\delta^1"]
-\end{tikzcd}
+\item All maps corresponding to red arcs are $\iota_0$ unless otherwise specified.
+  
+\item All maps corresponding to blue arcs are $\iota_1$ unless otherwise specified.
+  
+\item Stalks and generization maps are omitted when they can be inferred from the context.
 \end{itemize}
-
-\item we denote $\phi^\bullet$ as either
-\begin{itemize}
-\item ($\phi^0$,$\phi^1$)\\
-or
-\item \begin{tikzcd}
-C^1 \arrow[r, "\phi^1"]     & C'^1  \\
-C^0 \arrow[r, "\phi^0"]\arrow[u, "\delta^1"] & C'^0 \arrow[u,"\delta'^1"]
-\end{tikzcd}
-\end{itemize}
-We omit coboundary maps or cochain maps if they are either zero map or identity map and could be inferred from the context.
-\end{itemize}
-
-\item diagram convention
 \end{itemize}
